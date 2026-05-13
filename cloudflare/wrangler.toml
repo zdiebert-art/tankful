@@ -1,0 +1,32 @@
+# Cloudflare Workers config for the Tankful push backend.
+# After installing wrangler (`npm i -g wrangler`), deploy with:
+#   cd cloudflare && wrangler deploy
+# See cloudflare/SETUP.md for the full one-time setup walkthrough.
+
+name = "tankful-push"
+main = "push-worker.js"
+compatibility_date = "2026-05-13"
+
+# Cron trigger — every 4 hours at minute 15 (offset from the scraper which
+# runs at minute 0) so we read freshly-committed prices.
+[triggers]
+crons = ["15 */4 * * *"]
+
+# Workers KV namespace — holds subscriptions + the last-alert timestamp.
+# Replace the id below with the namespace ID printed by:
+#   wrangler kv namespace create SUBS
+[[kv_namespaces]]
+binding = "SUBS"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[vars]
+# Non-secret config. CORS origin must match where the app is hosted.
+ALLOWED_ORIGIN = "https://tankful.ca"
+PRICES_URL = "https://tankful.ca/data/lake-country-prices.json"
+SCORE_THRESHOLD = "70"
+
+# Secrets — set via `wrangler secret put <name>` so they don't sit in the toml:
+#   wrangler secret put VAPID_PUBLIC_KEY
+#   wrangler secret put VAPID_PRIVATE_KEY
+#   wrangler secret put VAPID_SUBJECT
+#   wrangler secret put ADMIN_SECRET     # optional; only needed if you want /trigger

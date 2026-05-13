@@ -1104,6 +1104,14 @@ body[data-state="wait"] {
   display: none;
 }
 
+/* Active state for the push subscribe button — same pill, accent fill */
+.push-btn.active {
+  background: var(--accent);
+  color: var(--c-4, #fff);
+  border-color: var(--c-2);
+}
+.push-btn.active svg { color: var(--c-4, #fff); }
+
 .where-title {
   display: flex;
   align-items: center;

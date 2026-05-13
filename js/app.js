@@ -1091,10 +1091,53 @@
     setupChartObserver();
     setupLocation();
     setupRefineryAlert();
+    setupPushButton();
 
     // Fire live data fetches after the initial mock render is on screen.
     // Patches in once they resolve; mock stays put if anything fails.
     kickoffLiveData();
+  }
+
+  // ---------- Push notifications subscribe / unsubscribe ----------
+  function setupPushButton() {
+    const btn = document.getElementById('pushBtn');
+    if (!btn || typeof TANKFUL_Push === 'undefined' || !TANKFUL_Push.supported()) return;
+
+    const label = btn.querySelector('.push-btn-label');
+
+    function setLabel(text, active) {
+      label.textContent = text;
+      btn.classList.toggle('active', !!active);
+    }
+
+    btn.hidden = false;
+
+    // Reflect existing subscription state if there is one.
+    TANKFUL_Push.isActive().then((on) => {
+      if (on) setLabel('Alerts on', true);
+      else setLabel('Get alerts', false);
+    });
+
+    btn.addEventListener('click', async () => {
+      btn.disabled = true;
+      try {
+        const on = await TANKFUL_Push.isActive();
+        if (on) {
+          await TANKFUL_Push.unsubscribe();
+          setLabel('Get alerts', false);
+        } else {
+          setLabel('Subscribing…', false);
+          await TANKFUL_Push.subscribe();
+          setLabel('Alerts on', true);
+        }
+      } catch (err) {
+        console.warn('[push] toggle failed:', err.message);
+        setLabel('Try again', false);
+        setTimeout(() => setLabel('Get alerts', false), 2500);
+      } finally {
+        btn.disabled = false;
+      }
+    });
   }
 
   // ---------- Refinery / supply-outage toggle ----------

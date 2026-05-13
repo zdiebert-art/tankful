@@ -112,3 +112,57 @@ self.addEventListener('fetch', (event) => {
 self.addEventListener('message', (event) => {
   if (event.data === 'skipWaiting') self.skipWaiting();
 });
+
+// ---------- push: fetch fresh data + show notification ----------
+// The Worker sends empty pushes (no encrypted payload) — we pull the
+// current prices JSON here so the notification text reflects whatever
+// the cron just committed, not whatever was scored when the push fired.
+self.addEventListener('push', (event) => {
+  event.waitUntil((async () => {
+    let title = 'Tankful';
+    let body = 'Time to fill up — check the dashboard for details.';
+    try {
+      const res = await fetch('/data/lake-country-prices.json?t=' + Date.now(), { cache: 'no-store' });
+      if (res.ok) {
+        const data = await res.json();
+        if (Array.isArray(data.stations) && data.stations.length) {
+          // Find the absolute cheapest pump-posted price (we don't have card
+          // overlays in the JSON, just posted prices).
+          const sorted = data.stations.slice().sort((a, b) => a.price - b.price);
+          const top = sorted[0];
+          const market = data.marketAverage;
+          if (top && typeof market === 'number') {
+            const spread = (market - top.price).toFixed(1);
+            title = 'Tankful — Fill Up Now';
+            body = `${top.name}: ${top.price.toFixed(1)}¢/L (${spread}¢ below market). Tap to open.`;
+          } else if (top) {
+            title = 'Tankful — Fill Up Now';
+            body = `${top.name}: ${top.price.toFixed(1)}¢/L. Tap to open.`;
+          }
+        }
+      }
+    } catch (e) {
+      // Fall through to generic message.
+    }
+    await self.registration.showNotification(title, {
+      body,
+      icon: '/assets/icons/icon-192.png',
+      badge: '/assets/icons/icon-192.png',
+      tag: 'tankful-fill-alert',
+      renotify: true,
+      data: { url: '/' }
+    });
+  })());
+});
+
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+  const target = (event.notification.data && event.notification.data.url) || '/';
+  event.waitUntil((async () => {
+    const all = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+    for (const c of all) {
+      if ('focus' in c) { await c.focus(); return; }
+    }
+    await self.clients.openWindow(target);
+  })());
+});

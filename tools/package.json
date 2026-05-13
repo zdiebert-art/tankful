@@ -5,9 +5,11 @@
   "description": "One-off build tools for Tankful. Not deployed; not on the runtime path.",
   "type": "module",
   "scripts": {
-    "icons": "node generate-icons.mjs"
+    "icons": "node generate-icons.mjs",
+    "vapid": "node generate-vapid.mjs"
   },
   "dependencies": {
-    "sharp": "^0.33.0"
+    "sharp": "^0.33.0",
+    "web-push": "^3.6.7"
   }
 }

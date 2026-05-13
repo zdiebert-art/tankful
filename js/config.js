@@ -22,6 +22,13 @@ const TANKFUL_CONFIG = {
   // URL if the app is hosted separately from the data.
   // stationsUrl: 'https://raw.githubusercontent.com/zdiebert-art/tankful/main/data/lake-country-prices.json',
 
+  // ---------- Push notifications ----------
+  // URL of the Cloudflare Worker that stores subscriptions and fans out
+  // pushes when the score crosses the fill-up threshold. Empty string =
+  // "feature not yet provisioned" — the bell button stays hidden so
+  // users don't see a half-wired prompt. See cloudflare/SETUP.md.
+  pushWorkerUrl: '',
+
   // ---------- Debug ----------
   // Set true to log every fetch attempt + result to the browser console.
   debug: false

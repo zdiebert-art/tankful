@@ -9,3 +9,6 @@ node_modules/
 
 # Tooling artifacts (icon generation, push key generation, etc.)
 tools/node_modules/
+
+# Adobe Illustrator lock / temp files
+~ai-*.tmp
