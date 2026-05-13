@@ -26,14 +26,16 @@ const USER_AGENT =
   "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
 
 // Known Lake Country stations — match by street number + first significant word of street.
+// lat/lng are approximate (≤ 500m). Refine here if any "X.X km away" reading looks off
+// on the live site; they are mirrored into the rendered station JSON.
 const STATIONS = [
-  { id: "canco",     name: "Canco Woodsdale",        number: "11470", streetKey: "BOTTOM",  address: "11470 Bottom Wood Lake Rd" },
-  { id: "petrocan",  name: "Petro-Canada · 7-Eleven", number: "9724",  streetKey: "97",      address: "9724 BC-97" },
-  { id: "husky",     name: "Husky Hwy 97",           number: "10550", streetKey: "97",      address: "10550 BC-97" },
-  { id: "supersave", name: "Super Save Lake Country", number: "11751", streetKey: "97",      address: "11751 BC-97" },
-  { id: "parkway",   name: "Parkway (Shell)",        number: "11891", streetKey: "97",      address: "11891 BC-97" },
-  { id: "shell-lc",  name: "Shell Lake Country",     number: "9531",  streetKey: "97",      address: "9531 BC-97" },
-  { id: "chevron",   name: "Chevron Lake Country",   number: "9450",  streetKey: "97",      address: "9450 BC-97" },
+  { id: "canco",     name: "Canco Woodsdale",        number: "11470", streetKey: "BOTTOM",  address: "11470 Bottom Wood Lake Rd", lat: 50.0760, lng: -119.3995 },
+  { id: "petrocan",  name: "Petro-Canada · 7-Eleven", number: "9724",  streetKey: "97",      address: "9724 BC-97",                 lat: 50.0432, lng: -119.4093 },
+  { id: "husky",     name: "Husky Hwy 97",           number: "10550", streetKey: "97",      address: "10550 BC-97",                lat: 50.0599, lng: -119.4007 },
+  { id: "supersave", name: "Super Save Lake Country", number: "11751", streetKey: "97",      address: "11751 BC-97",                lat: 50.0918, lng: -119.3850 },
+  { id: "parkway",   name: "Parkway (Shell)",        number: "11891", streetKey: "97",      address: "11891 BC-97",                lat: 50.0930, lng: -119.3835 },
+  { id: "shell-lc",  name: "Shell Lake Country",     number: "9531",  streetKey: "97",      address: "9531 BC-97",                 lat: 50.0407, lng: -119.4108 },
+  { id: "chevron",   name: "Chevron Lake Country",   number: "9450",  streetKey: "97",      address: "9450 BC-97",                 lat: 50.0395, lng: -119.4115 },
 ];
 
 function log(...args) { console.log("[scrape]", ...args); }
@@ -172,6 +174,8 @@ function matchStations(parsed) {
         id: known.id,
         name: known.name,
         address: known.address,
+        lat: known.lat,
+        lng: known.lng,
         price: candidate.price,
         reportedBy: candidate.reportedBy,
         reportedAgo: candidate.reportedAgo,

@@ -41,8 +41,14 @@
     stationList: $('#stationList'),
     scoreLegend: $('#scoreLegend'),
     chartCard: $('.chart-card'),
-    liveStatus: $('#liveStatus')
+    liveStatus: $('#liveStatus'),
+    locationBtn: $('#locationBtn')
   };
+
+  // Module-level user location — shared across renders. Populated by either
+  // the silent restore on boot (if permission already granted) or the
+  // Show-Distance button.
+  let userLocation = null;
 
   // ---------- Apply state theme ----------
   function applyState(state) {
@@ -203,6 +209,12 @@
         brand: overlay.brand || s.name,
         area: 'Lake Country',
         address: formatStationAddress(s.address),
+        // Raw address (no "Highway 97" rewrite) for Maps deep-links — Apple
+        // and Google both prefer the literal address string the postal
+        // service knows.
+        addressForMaps: s.address,
+        lat: s.lat,
+        lng: s.lng,
         price: s.price,
         effectivePrice,
         discount,
@@ -749,24 +761,51 @@
         ? `<div class="station-address">${s.address}</div>`
         : '';
 
+      // Distance — only shown when the user has granted location AND the
+      // station carries coords. Format is delegated to TANKFUL_Location so
+      // sub-1km values read as "650m" rather than "0.7 km".
+      let distanceLine = '';
+      if (userLocation && typeof s.lat === 'number' && typeof s.lng === 'number') {
+        const km = TANKFUL_Location.distanceKm(userLocation.lat, userLocation.lng, s.lat, s.lng);
+        const label = TANKFUL_Location.formatDistance(km);
+        if (label) {
+          distanceLine =
+            `<span class="station-distance" aria-label="${label} away">` +
+            `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">` +
+            `<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>` +
+            `<circle cx="12" cy="10" r="3"/></svg>` +
+            `${label}</span>`;
+        }
+      }
+
+      const href = TANKFUL_Location && typeof TANKFUL_Location.directionsUrl === 'function'
+        ? TANKFUL_Location.directionsUrl({
+            address: s.addressForMaps || s.address,
+            lat: s.lat,
+            lng: s.lng
+          })
+        : '#';
+
       return `
         <li class="station">
-          <div class="station-info">
-            <div class="station-name-row">
-              <span class="station-name">${s.name}</span>
-              ${badgeHtml}
+          <a class="station-link" href="${href}" target="_blank" rel="noopener" aria-label="Get directions to ${s.name}">
+            <div class="station-info">
+              <div class="station-name-row">
+                <span class="station-name">${s.name}</span>
+                ${badgeHtml}
+              </div>
+              ${addressLine}
+              <div class="station-meta">
+                ${s.area}${distanceLine ? ' · ' + distanceLine : ''}${discountTag ? ' · ' + discountTag : ''}
+              </div>
             </div>
-            ${addressLine}
-            <div class="station-meta">
-              ${s.area}${discountTag ? ' · ' + discountTag : ''}
+            <div class="station-prices">
+              <div class="station-price">
+                ${s.price.toFixed(1)}<span class="station-price-unit">¢/L</span>
+              </div>
+              <div class="station-savings ${savingsCls}">${savingsText}</div>
             </div>
-          </div>
-          <div class="station-prices">
-            <div class="station-price">
-              ${s.price.toFixed(1)}<span class="station-price-unit">¢/L</span>
-            </div>
-            <div class="station-savings ${savingsCls}">${savingsText}</div>
-          </div>
+          </a>
         </li>
       `;
     }).join('');
@@ -877,10 +916,52 @@
     setupTabs();
     setupRegionPicker();
     setupChartObserver();
+    setupLocation();
 
     // Fire live data fetches after the initial mock render is on screen.
     // Patches in once they resolve; mock stays put if anything fails.
     kickoffLiveData();
+  }
+
+  // ---------- Location button + silent restore ----------
+  function setupLocation() {
+    if (typeof TANKFUL_Location === 'undefined' || !els.locationBtn) return;
+    if (!('geolocation' in navigator)) {
+      els.locationBtn.hidden = true;
+      return;
+    }
+
+    // 1. Silent restore — if the user already granted location previously,
+    //    populate userLocation without prompting and just re-render.
+    TANKFUL_Location.getCachedOrSilent().then((pos) => {
+      if (pos) {
+        userLocation = pos;
+        renderStations(TANKFUL_MOCK);
+        els.locationBtn.hidden = true;
+      } else {
+        els.locationBtn.hidden = false;
+      }
+    });
+
+    // 2. Button — explicit user gesture to trigger the permission prompt
+    //    on first use. Hide once we have a position.
+    els.locationBtn.addEventListener('click', () => {
+      els.locationBtn.disabled = true;
+      els.locationBtn.querySelector('.location-btn-label').textContent = 'Locating…';
+      TANKFUL_Location.request().then((pos) => {
+        els.locationBtn.disabled = false;
+        if (pos) {
+          userLocation = pos;
+          renderStations(TANKFUL_MOCK);
+          els.locationBtn.hidden = true;
+        } else {
+          els.locationBtn.querySelector('.location-btn-label').textContent = 'Location unavailable';
+          setTimeout(() => {
+            els.locationBtn.querySelector('.location-btn-label').textContent = 'Show distance';
+          }, 2500);
+        }
+      });
+    });
   }
 
   if (document.readyState === 'loading') {
