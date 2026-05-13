@@ -14,39 +14,48 @@ A friendly weather-app-style dashboard that predicts when Kelowna / Lake Country
 
 ```
 Gas Watch/
-├── index.html              Main dashboard
-├── cheatsheet.html         Printable one-pager
+├── index.html                   Main dashboard
+├── cheatsheet.html              Printable one-pager
 ├── README.md
+├── BUILD-NOTES.md               Handoff notes for Claude Code
 ├── css/
-│   ├── styles.css          Main styles + three state themes
-│   └── print.css           Cheat sheet screen + print
+│   ├── styles.css               Main styles + three state themes
+│   └── print.css                Cheat sheet screen + print
 ├── js/
-│   ├── mock-data.js        Mock Kelowna state (replaced in Session 2)
-│   ├── score.js            Pure scoring functions
-│   ├── chart-config.js     ApexCharts setup
-│   └── app.js              UI hydration & event wiring
-├── assets/
-│   └── favicon.svg
-└── data/                   (reserved for Session 3 historical JSON)
+│   ├── config.js                API keys + tunables (user-editable)
+│   ├── mock-data.js             Fallback state, shape mirrors live
+│   ├── live-data.js             BoC FX, EIA oil, scraped stations
+│   ├── holidays.js              BC stat holiday + long-weekend calendar
+│   ├── score.js                 Pure scoring functions
+│   ├── chart-config.js          ApexCharts setup
+│   └── app.js                   UI hydration & event wiring
+├── scrape/
+│   ├── fetch-prices.js          Node scraper (cheerio + Playwright fallback)
+│   ├── package.json
+│   └── package-lock.json
+├── data/
+│   └── lake-country-prices.json Output of the cron scraper
+├── .github/workflows/
+│   └── refresh-prices.yml       Cron + workflow_dispatch
+└── assets/
+    └── favicon.svg
 ```
 
 ## Running it locally
 
-It's pure static HTML/CSS/JS. Just open `index.html` in any modern browser.
-
-For the cleanest dev experience (live reload, proper URL handling), spin up any static server:
+It's pure static HTML/CSS/JS — but **must be served over HTTP**, not opened as a `file://` URL, because `js/live-data.js` fetches `./data/lake-country-prices.json` (and `fetch()` is blocked on `file://`).
 
 ```bash
 # Option 1: VS Code Live Server extension — right-click index.html → "Open with Live Server"
 
-# Option 2: Python (if installed)
-python -m http.server 8000
+# Option 2: Node
+npx serve -l 8765 .
 
-# Option 3: Node
-npx serve .
+# Option 3: Python (if installed)
+python -m http.server 8765
 ```
 
-Then visit `http://localhost:8000`.
+Then visit http://localhost:8765/.
 
 ## Demo modes (mock data only)
 
@@ -73,30 +82,82 @@ Drop the folder anywhere your web server can serve static files. No build step, 
 
 If you want zero CDN reliance (fully offline-capable), you can later download `apexcharts.min.js` locally and self-host Poppins. Not needed for now.
 
+## Live data layer
+
+The dashboard hydrates from three sources, each independent and each safe to fail:
+
+| Source | What it provides | Where it's wired |
+|---|---|---|
+| **Bank of Canada Valet** | USD/CAD daily fixing (no API key) | `js/live-data.js` → `fetchFX()` |
+| **EIA Open Data v2** | WTI Cushing + NY Harbor RBOB spot (free key required) | `js/live-data.js` → `fetchWTI()` / `fetchRBOB()` |
+| **GasBuddy via GitHub Actions** | Lake Country station prices, every 4h | `scrape/fetch-prices.js` → commits `data/lake-country-prices.json` |
+
+`js/holidays.js` produces the upcoming BC statutory days and long weekends — computed from real today, no API.
+
+### Adding the EIA key
+
+Free signup (~30 seconds): https://www.eia.gov/opendata/register.php. Drop the key into `js/config.js`:
+
+```js
+const GW_CONFIG = { eiaApiKey: 'paste-here', ... };
+```
+
+Without a key, WTI/RBOB chips stay on mock; FX and stations still work.
+
+## How the price scraper works
+
+[`.github/workflows/refresh-prices.yml`](.github/workflows/refresh-prices.yml) runs `scrape/fetch-prices.js` on a `0 */4 * * *` cron (every 4 hours, UTC). It can also be triggered manually:
+
+```bash
+gh workflow run "Refresh Lake Country prices"
+```
+
+The scraper:
+
+1. Tries a plain `fetch()` against `gasbuddy.com/home?search=V4V+1W2&fuel=1` — Cloudflare returns 403, expected.
+2. Falls back to Playwright + Chromium (downloaded fresh per run in CI), waits for the station-card DOM to mount.
+3. Parses station entries by CSS-module class prefix (e.g. `[class*="GenericStationListItem-module__stationListItem"]`).
+4. Matches by street number + first significant street keyword against the seven known Lake Country stations.
+5. Writes `data/lake-country-prices.json` and auto-commits with `gas-watch-bot` if it changed.
+
+### Running the scraper locally
+
+```bash
+cd scrape
+npm ci
+npx playwright install chromium     # one-time
+node fetch-prices.js                # writes ../data/lake-country-prices.json
+```
+
+### Adding / changing stations
+
+Edit the `STATIONS` array near the top of [`scrape/fetch-prices.js`](scrape/fetch-prices.js) (id, address, street keyword), then mirror the new id into `STATION_OVERLAY` inside [`js/app.js`](js/app.js) so the UI knows the brand label and whether to apply a card discount. Mock fallback entries live in [`js/mock-data.js`](js/mock-data.js).
+
+### When GasBuddy changes its markup
+
+The CSS-module hash suffixes (`___3rARL`) can rotate on any GasBuddy build. We match on the prefix so hash rotation is safe, but a full class rename will break parsing. Symptom: `data/lake-country-prices.json` will have `stationCount: 0` and the workflow exits 1. Re-run the scraper with the `debug-dump` helper to capture fresh HTML and update the selectors.
+
+GasBuddy's ToS technically prohibits automated agents. This is an informed personal-use call — 6 requests/day for a 4-station family-use app. The repo is private. If GasBuddy ever sends a complaint, fold and switch to a manual one-tap report form.
+
 ## Roadmap
 
-### ✅ Session 1 — Visual prototype (you are here)
-- Full UI with realistic mock data
-- All three state themes working
+### ✅ Visual prototype (shipped)
+- Full UI with realistic mock data + three state themes
 - Chart with 7/30/365 day tabs
 - Printable cheat sheet
 - Demo URL params for family show-and-tell
 
-### Session 2 — Live data
-- Bank of Canada Valet API → USD/CAD
-- EIA Open Data v2 → WTI, Brent, NY Harbor RBOB spot (weekly proxy for futures)
-- Either accept weekly RBOB lag, or stand up a tiny Cloudflare Worker proxy for `RB=F`
-- Long-weekend calendar built-in (Canadian stat holidays through 2027)
+### ✅ Live data layer (shipped)
+- Bank of Canada FX
+- EIA WTI + NYH RBOB (with optional free key)
+- GasBuddy scraper via GitHub Actions
+- BC stat holidays + long weekends, computed live
 
-### Session 3 — Historical Kelowna baseline
-- Scrape NRCan by-city tool (https://www2.nrcan-rncan.gc.ca/eneene/sources/pripri/prices_bycity_e.cfm) for 2016–2026 daily Kelowna history
-- Save as `data/kelowna-history.json` in the repo
-- Optional: GitHub Action to refresh nightly
-
-### Session 4 — Polish & ship
-- Refinery outage manual override toggle (no free API exists)
+### Next up
+- Wire the score number to recompute from live indicators (currently reads from mock)
 - Mobile/PWA polish (add to home screen, web app manifest)
-- Email/text alert hook if a "Fill Up Now" trigger fires
+- Email/text alert hook when a "Fill Up Now" trigger fires
+- Refinery outage manual override toggle
 
 ## Key data context (baked into the formula)
 
