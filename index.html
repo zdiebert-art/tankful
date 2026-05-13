@@ -27,32 +27,6 @@
     <div class="bg-noise"></div>
   </div>
 
-  <!-- Floating score legend (desktop only) -->
-  <aside class="score-legend" id="scoreLegend" aria-label="Score legend">
-    <div class="legend-title">Score</div>
-    <div class="legend-item" data-state="wait">
-      <span class="legend-dot"></span>
-      <div class="legend-text">
-        <span class="legend-label">Wait</span>
-        <span class="legend-range">0–29</span>
-      </div>
-    </div>
-    <div class="legend-item" data-state="neutral">
-      <span class="legend-dot"></span>
-      <div class="legend-text">
-        <span class="legend-label">Maybe</span>
-        <span class="legend-range">30–69</span>
-      </div>
-    </div>
-    <div class="legend-item" data-state="fill-up">
-      <span class="legend-dot"></span>
-      <div class="legend-text">
-        <span class="legend-label">Fill Up</span>
-        <span class="legend-range">70–100</span>
-      </div>
-    </div>
-  </aside>
-
   <div class="app">
 
     <!-- Header -->
@@ -201,6 +175,34 @@
       </ul>
     </section>
 
+    <!-- Score legend
+         Desktop: position:fixed, floats on the left margin.
+         Mobile (≤1024px): compact horizontal bar above the footer. -->
+    <aside class="score-legend" id="scoreLegend" aria-label="Score legend">
+      <div class="legend-title">Score</div>
+      <div class="legend-item" data-state="wait">
+        <span class="legend-dot"></span>
+        <div class="legend-text">
+          <span class="legend-label">Wait</span>
+          <span class="legend-range">0–29</span>
+        </div>
+      </div>
+      <div class="legend-item" data-state="neutral">
+        <span class="legend-dot"></span>
+        <div class="legend-text">
+          <span class="legend-label">Maybe</span>
+          <span class="legend-range">30–69</span>
+        </div>
+      </div>
+      <div class="legend-item" data-state="fill-up">
+        <span class="legend-dot"></span>
+        <div class="legend-text">
+          <span class="legend-label">Fill Up</span>
+          <span class="legend-range">70–100</span>
+        </div>
+      </div>
+    </aside>
+
     <!-- Footer / cheat sheet link -->
     <footer class="app-footer">
       <a class="cheatsheet-btn" href="cheatsheet.html">
@@ -227,6 +229,8 @@
   <script src="js/score.js"></script>
   <script src="js/chart-config.js"></script>
   <script src="js/app.js"></script>
-  <script src="js/card-reorder.js"></script>
+  <!-- card reorder feature parked for now; keeping data-card-id attrs + js/card-reorder.js
+       in the repo so we can revive it later with a different UI. -->
+  <!-- <script src="js/card-reorder.js"></script> -->
 </body>
 </html>

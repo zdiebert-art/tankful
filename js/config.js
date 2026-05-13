@@ -9,7 +9,7 @@ const TANKFUL_CONFIG = {
   // Paste your key below — without it, WTI and RBOB stay on mock values.
   // Note: this key is exposed in the browser. That's fine for a personal-use app;
   // for a public site we'd wrap it in a serverless proxy.
-  eiaApiKey: '',
+  eiaApiKey: 'G3mmrnNw4ioCIVWXV4Xyy6MGX8SnuinaTTuWdNYb',
 
   // ---------- Refresh policy ----------
   // How long to keep a successful fetch in localStorage before re-fetching.
