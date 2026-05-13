@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gas Watch — Cheat Sheet</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/print.css" />
+</head>
+<body data-state="neutral" class="cheatsheet-body">
+
+  <div class="bg-stage" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="bg-noise"></div>
+  </div>
+
+  <div class="sheet">
+
+    <!-- Header -->
+    <header class="sheet-header">
+      <div class="sheet-brand">
+        <span class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="2" width="11" height="19" rx="1.5"/>
+            <line x1="2" y1="21" x2="15" y2="21"/>
+            <path d="M14 7h2a1 1 0 0 1 1 1v5a1 1 0 0 0 1 1"/>
+            <path d="M18 14V7l-2-2"/>
+            <circle cx="8.5" cy="8" r="3.5"/>
+            <line x1="8.5" y1="8" x2="8.5" y2="5.5"/>
+            <line x1="8.5" y1="8" x2="10" y2="8"/>
+            <line x1="5" y1="15" x2="12" y2="15"/>
+            <line x1="5" y1="17.5" x2="12" y2="17.5"/>
+          </svg>
+        </span>
+        <div>
+          <h1>The Kelowna Gas-Buying Cheat Sheet</h1>
+          <p class="sheet-sub">Lake Country &amp; Okanagan · Stick this on the fridge</p>
+        </div>
+      </div>
+
+      <div class="sheet-actions no-print">
+        <a href="index.html" class="ghost-btn">← Back to dashboard</a>
+        <button onclick="window.print()" class="solid-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 9V2h12v7"/>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+            <rect x="6" y="14" width="12" height="8" rx="1"/>
+          </svg>
+          Print
+        </button>
+      </div>
+    </header>
+
+    <!-- Rules grid -->
+    <div class="rules">
+
+      <article class="rule">
+        <div class="rule-num">1</div>
+        <div class="rule-body">
+          <h3>Fill up Monday or Tuesday morning</h3>
+          <p>Never Friday afternoon. Most BC price restorations land Mon–Wed; stations jump Thursday into the weekend.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">2</div>
+        <div class="rule-body">
+          <h3>Long weekends — fill the Wednesday before</h3>
+          <p>Documented pre-holiday hikes of 3–10¢/L for Victoria Day, Canada Day, BC Day, Labour Day, Thanksgiving.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">3</div>
+        <div class="rule-body">
+          <h3>Spring blend bump: late Feb–May</h3>
+          <p>Refineries switch to summer-grade gas; expect 5–10¢/L of seasonal increase. Top up if tank's half on March 1.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">4</div>
+        <div class="rule-body">
+          <h3>The RBOB rule</h3>
+          <p>When U.S. RBOB gasoline futures move, the pump follows 5–10 days later. A 10¢/gal RBOB move ≈ 2.6¢/L wholesale.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">5</div>
+        <div class="rule-body">
+          <h3>The loonie rule</h3>
+          <p>Every 1¢ stronger CAD ≈ 0.4–0.5¢/L cheaper at the pump within a week. If the loonie drops a full cent, fill up.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">6</div>
+        <div class="rule-body">
+          <h3>The crude rule</h3>
+          <p>Every US$10/bbl move in WTI ≈ 7–9¢/L at the pump. Slower — 2–4 weeks to feed through fully.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">7</div>
+        <div class="rule-body">
+          <h3>Watch the Gulf in hurricane season</h3>
+          <p>Aug–Oct, ~45% of U.S. refining is Gulf-Coast. Major storms spill over to BC via Pacific NW in 1–3 weeks. Fill <em>before</em> landfall.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">8</div>
+        <div class="rule-body">
+          <h3>March–April is BC's most painful month</h3>
+          <p>Refinery turnarounds + RVP switch + spring demand. Don't try to hold out — fill up.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">9</div>
+        <div class="rule-body">
+          <h3>Tax math shortcut (2026)</h3>
+          <p>Subtract ~25¢/L from any Kelowna pump price to see the real supply-side number. Below ~$1.10/L raw is a great deal.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">10</div>
+        <div class="rule-body">
+          <h3>Where to fill up</h3>
+          <p><strong>Costco Hwy 97</strong> 4–8¢ below market (members). <strong>Super Save Lake Country</strong> often cheapest non-member. <strong>Petro-Can &amp; Husky on 97</strong> competitive at cycle bottoms.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">11</div>
+        <div class="rule-body">
+          <h3>Don't panic-fill on the jump</h3>
+          <p>Once you see a 5+¢/L market-wide jump, drive on what's in your tank. Refill at the next cycle bottom in 7–14 days.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">12</div>
+        <div class="rule-body">
+          <h3>Price-leader watch</h3>
+          <p>When Petro-Canada or Chevron jump, everyone follows in 24h. Fill at the independent that hasn't moved yet.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">13</div>
+        <div class="rule-body">
+          <h3>Driving habits beat timing</h3>
+          <p>Smooth acceleration, cruise on the highway, monthly tire pressure, drop the dead weight. ~10% savings — beats a 3–5% timing win.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">14</div>
+        <div class="rule-body">
+          <h3>Don't drive south just for gas</h3>
+          <p>With CAD ~$0.73 USD, US gas converted is only marginally cheaper than BC interior. Piggyback on planned crossings.</p>
+        </div>
+      </article>
+
+      <article class="rule">
+        <div class="rule-num">15</div>
+        <div class="rule-body">
+          <h3>Follow the locals</h3>
+          <p>Castanet · GasBuddy Kelowna · GasWizard.ca · BCUC's gaspricesbc.ca. If two of three predict an increase tomorrow, fill tonight.</p>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Big bottom callout -->
+    <div class="big-callout">
+      <div class="callout-icon">⚡</div>
+      <div class="callout-text">
+        <strong>Remember:</strong> Prices rise like a rocket, fall like a feather. When uncertain, lean toward filling up — being early costs cents; being late before a summer long weekend costs $3–9 on a 60L tank.
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="sheet-footer">
+      <span>Gas Watch · Lake Country, BC</span>
+      <span class="dot">•</span>
+      <span>Based on BCUC, NRCan, EIA &amp; Kalibrate data</span>
+    </footer>
+
+  </div>
+
+</body>
+</html>

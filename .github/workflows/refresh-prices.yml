@@ -1,0 +1,53 @@
+name: Refresh Lake Country prices
+
+on:
+  schedule:
+    # Every 4 hours, on the hour (UTC). GitHub Actions cron can drift 5-15 min.
+    - cron: "0 */4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-prices
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: scrape/package-lock.json
+
+      - name: Install scraper deps
+        working-directory: scrape
+        run: npm ci --no-audit --no-fund
+
+      - name: Install Chromium for Playwright
+        working-directory: scrape
+        run: npx playwright install --with-deps chromium
+
+      - name: Fetch prices
+        run: node scrape/fetch-prices.js
+
+      - name: Commit updated JSON
+        run: |
+          git config user.name  "gas-watch-bot"
+          git config user.email "gas-watch-bot@users.noreply.github.com"
+
+          if git diff --quiet -- data/lake-country-prices.json; then
+            echo "No price changes — skipping commit."
+            exit 0
+          fi
+
+          git add data/lake-country-prices.json
+          git commit -m "chore(data): refresh Lake Country prices ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git push

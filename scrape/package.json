@@ -1,0 +1,16 @@
+{
+  "name": "gas-watch-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scrapes Lake Country pump prices from GasBuddy for the Gas Watch dashboard.",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch-prices.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.49.0"
+  }
+}
