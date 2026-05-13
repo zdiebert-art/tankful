@@ -180,10 +180,10 @@ const GW_LIVE = (() => {
   // Reads the committed JSON next to the app so the same path works locally
   // (over `python -m http.server` or similar) and once deployed.
   // ============================================
+  // No localStorage cache for stations — the JSON is small, same-origin, and
+  // we want every page load to reflect what the cron last committed (otherwise
+  // a 4h scraper run hides behind a 60-min client cache).
   async function fetchStations() {
-    const cached = getCached('stations');
-    if (cached) return cached;
-
     try {
       const url = (GW_CONFIG.stationsUrl || './data/lake-country-prices.json')
         + (GW_CONFIG.cacheBust === false ? '' : `?t=${Date.now()}`);
@@ -196,15 +196,13 @@ const GW_LIVE = (() => {
         throw new Error('No stations in JSON');
       }
 
-      const result = {
+      return {
         success: true,
         source: 'gasbuddy.com',
         fetchedAt: data.fetchedAt,
         marketAverage: data.marketAverage,
         stations: data.stations
       };
-      setCached('stations', result);
-      return result;
     } catch (err) {
       if (GW_CONFIG.debug) console.warn('[live-data] stations failed:', err.message);
       return { success: false, error: err.message };

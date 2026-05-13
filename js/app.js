@@ -181,11 +181,11 @@
   };
 
   // Pretty-print a scraped GasBuddy address line for display under the station
-  // name. "9724 BC-97" → "9724 Highway 97, Lake Country".
-  function formatStationAddress(raw, locality) {
+  // name. "9724 BC-97" → "9724 Highway 97". The locality already appears on
+  // the meta line directly below, so we don't repeat it here.
+  function formatStationAddress(raw) {
     if (!raw) return null;
-    const cleaned = String(raw).replace(/\bBC-(\d+)\b/gi, 'Highway $1').trim();
-    return locality ? `${cleaned}, ${locality}` : cleaned;
+    return String(raw).replace(/\bBC-(\d+)\b/gi, 'Highway $1').trim();
   }
 
   function applyLiveStations(state, liveStations) {
@@ -205,7 +205,7 @@
         name: s.name,
         brand: overlay.brand || s.name,
         area: 'Lake Country',
-        address: formatStationAddress(s.address, 'Lake Country'),
+        address: formatStationAddress(s.address),
         price: s.price,
         effectivePrice,
         discount,
