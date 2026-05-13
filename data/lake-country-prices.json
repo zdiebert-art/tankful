@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-13T16:37:13.362Z",
+  "fetchedAt": "2026-05-13T18:47:55.322Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 200.3,
+  "marketAverage": 199.5,
   "stationCount": 7,
   "stations": [
     {
@@ -11,7 +11,7 @@
       "address": "11470 Bottom Wood Lake Rd",
       "price": 197.9,
       "reportedBy": "Owner",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "2 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -19,26 +19,26 @@
       "name": "Petro-Canada · 7-Eleven",
       "address": "9724 BC-97",
       "price": 203.9,
-      "reportedBy": "rachealironside",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
       "name": "Husky Hwy 97",
       "address": "10550 BC-97",
-      "price": 203.9,
-      "reportedBy": "trickyd1972",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
+      "price": 197.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
       "name": "Super Save Lake Country",
       "address": "11751 BC-97",
       "price": 199.9,
-      "reportedBy": "Buddy_be4y5qgg",
-      "reportedAgo": "13 Minutes Ago",
+      "reportedBy": "LNKinEnd",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -47,7 +47,7 @@
       "address": "11891 BC-97",
       "price": 188.9,
       "reportedBy": "torino17",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -55,18 +55,18 @@
       "name": "Shell Lake Country",
       "address": "9531 BC-97",
       "price": 203.9,
-      "reportedBy": "Mariano_R",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
       "name": "Chevron Lake Country",
       "address": "9450 BC-97",
       "price": 203.9,
-      "reportedBy": "bdandurand58",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {

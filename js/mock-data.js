@@ -146,20 +146,22 @@ const TANKFUL_MOCK = (() => {
     cycleAge: {
       name: 'Days Since Reset',
       icon: 'cycle',
-      value: 25,
+      value: 50,
       weight: 0.20,
-      trend: '2 days ago',
-      detail: 'Fresh jump — drift down expected',
-      impact: 5.0
+      trend: 'Needs history',
+      detail: 'Lights up once the scraper has 7+ days of pricing accumulated.',
+      impact: 0,
+      pending: true
     },
     range: {
       name: '30-Day Position',
       icon: 'range',
-      value: 78,
+      value: 50,
       weight: 0.10,
-      trend: 'At top',
-      detail: '203¢ vs range 157–203¢',
-      impact: 7.8
+      trend: 'Needs history',
+      detail: 'Lights up once the scraper has 30+ days of pricing accumulated.',
+      impact: 0,
+      pending: true
     }
   };
 

@@ -2,7 +2,7 @@
 // Scrape Lake Country pump prices from GasBuddy and write data/lake-country-prices.json.
 // Tries a plain fetch+cheerio pass first; if no prices parse out, falls back to Playwright.
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { writeFile, readFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
@@ -10,7 +10,13 @@ import * as cheerio from "cheerio";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const REPO_ROOT = resolve(__dirname, "..");
-const OUTPUT_PATH = resolve(REPO_ROOT, "data", "lake-country-prices.json");
+const OUTPUT_PATH  = resolve(REPO_ROOT, "data", "lake-country-prices.json");
+const HISTORY_PATH = resolve(REPO_ROOT, "data", "lake-country-history.json");
+
+// Rolling-history retention: ~4 months at the current 4-runs/day cadence.
+// Enough to drive the 7-day / 30-day / 1-year chart (the 1y view downsamples
+// to weekly averages so coverage doesn't need to be 365 days perfect).
+const HISTORY_MAX_SAMPLES = 400;
 
 const TARGET_URL =
   "https://www.gasbuddy.com/home?search=V4V+1W2&fuel=1&method=all&maxAge=0";
@@ -205,6 +211,51 @@ async function writeOutput(payload) {
   log(`wrote ${OUTPUT_PATH}`);
 }
 
+// Append today's snapshot to the rolling history file, prune to the most
+// recent HISTORY_MAX_SAMPLES, and write back. Skips entirely if the run
+// produced no usable market average (so a broken scrape doesn't pollute
+// the history with null gaps).
+async function appendHistory(payload) {
+  if (typeof payload.marketAverage !== "number" || !payload.stationCount) {
+    log("skipping history append — no usable market average this run");
+    return;
+  }
+
+  let history = { region: payload.region, updatedAt: null, samples: [] };
+  try {
+    const raw = await readFile(HISTORY_PATH, "utf8");
+    const parsed = JSON.parse(raw);
+    if (parsed && Array.isArray(parsed.samples)) history = parsed;
+  } catch {
+    // File doesn't exist yet — start fresh.
+  }
+
+  const sample = {
+    at: payload.fetchedAt,
+    marketAverage: payload.marketAverage,
+    stationCount: payload.stationCount
+  };
+
+  // Dedupe: if the most recent sample shares this exact timestamp (re-run of
+  // the same scheduled tick), replace it; otherwise append.
+  const last = history.samples[history.samples.length - 1];
+  if (last && last.at === sample.at) {
+    history.samples[history.samples.length - 1] = sample;
+  } else {
+    history.samples.push(sample);
+  }
+
+  // Keep only the most recent HISTORY_MAX_SAMPLES.
+  if (history.samples.length > HISTORY_MAX_SAMPLES) {
+    history.samples = history.samples.slice(-HISTORY_MAX_SAMPLES);
+  }
+  history.region = payload.region;
+  history.updatedAt = payload.fetchedAt;
+
+  await writeFile(HISTORY_PATH, JSON.stringify(history, null, 2) + "\n", "utf8");
+  log(`appended sample (${sample.marketAverage}¢) — history now has ${history.samples.length} entries`);
+}
+
 async function main() {
   log("fetching", TARGET_URL);
 
@@ -251,6 +302,7 @@ async function main() {
   };
 
   await writeOutput(payload);
+  await appendHistory(payload);
 
   if (matched.length === 0) {
     warn("no stations matched — leaving stub JSON for the app to fall back from");

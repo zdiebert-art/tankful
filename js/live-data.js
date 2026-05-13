@@ -210,21 +210,47 @@ const TANKFUL_LIVE = (() => {
   }
 
   // ============================================
+  // Rolling Lake Country price history — produced by the same cron run
+  // that updates the prices JSON, growing by one sample every 4 hours.
+  // ============================================
+  async function fetchHistory() {
+    try {
+      const url = (TANKFUL_CONFIG.historyUrl || './data/lake-country-history.json')
+        + (TANKFUL_CONFIG.cacheBust === false ? '' : `?t=${Date.now()}`);
+      if (TANKFUL_CONFIG.debug) console.log('[live-data] fetching history from', url);
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      if (!data || !Array.isArray(data.samples)) throw new Error('No samples in history JSON');
+      return {
+        success: true,
+        updatedAt: data.updatedAt,
+        samples: data.samples
+      };
+    } catch (err) {
+      if (TANKFUL_CONFIG.debug) console.warn('[live-data] history failed:', err.message);
+      return { success: false, error: err.message };
+    }
+  }
+
+  // ============================================
   // Fetch everything in parallel
-  // Resolves once all four settle (success or failure).
+  // Resolves once all five settle (success or failure).
   // ============================================
   async function fetchAll() {
-    const [fx, wti, rbob, stations] = await Promise.all([
+    const [fx, wti, rbob, stations, history] = await Promise.all([
       fetchFX(),
       fetchWTI(),
       fetchRBOB(),
-      fetchStations()
+      fetchStations(),
+      fetchHistory()
     ]);
     return {
       fx,
       wti,
       rbob,
       stations,
+      history,
       fetchedAt: new Date().toISOString(),
       anySuccess: fx.success || wti.success || rbob.success || stations.success
     };
@@ -239,5 +265,5 @@ const TANKFUL_LIVE = (() => {
     return (rbobUsdPerGal * usdCadRate) / 3.78541;
   }
 
-  return { fetchFX, fetchWTI, fetchRBOB, fetchStations, fetchAll, clearCache, rbobToCadPerLitre };
+  return { fetchFX, fetchWTI, fetchRBOB, fetchStations, fetchHistory, fetchAll, clearCache, rbobToCadPerLitre };
 })();

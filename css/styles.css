@@ -627,6 +627,18 @@ body[data-state="wait"] {
   line-height: 1.2;
 }
 
+/* "Pending" indicators (e.g. those that need historical scraping before
+   they can be real) render in a dimmed style with no impact badge so they
+   read as work-in-progress rather than fake data. */
+.indicator.indicator-pending {
+  opacity: 0.55;
+  background: rgba(255, 255, 255, 0.35);
+  border-style: dashed;
+}
+.indicator.indicator-pending .indicator-trend {
+  font-style: italic;
+}
+
 /* ============================================
    MODIFIERS / HOLIDAYS CARD
    Now lives in a glass card; chips are richer & less faded
@@ -728,6 +740,21 @@ body[data-state="wait"] {
   margin-bottom: 16px;
   flex-wrap: wrap;
   gap: 12px;
+}
+
+/* Badge that appears on the chart card while real price history is still
+   accumulating from the scraper. Removed once we have enough coverage. */
+.chart-sample-badge {
+  flex-basis: 100%;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-soft);
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px dashed rgba(0, 0, 0, 0.15);
+  border-radius: 100px;
+  padding: 4px 12px;
+  align-self: flex-start;
 }
 
 .chart-title {

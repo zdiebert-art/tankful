@@ -85,8 +85,33 @@
     els.verdictSub.textContent = state.verdictSub;
   }
 
+  // Price-delta snapshot — we don't have historical pump data yet, so we
+  // store the market average at view-time and use snapshots that are 18-36h
+  // old as the "yesterday" baseline. Anything younger or older than that
+  // window is ignored and the delta line is hidden rather than showing a
+  // fake number.
+  const PRICE_SNAPSHOT_KEY = 'tankful_price_snapshot_v1';
+  const HOUR_MS = 3600 * 1000;
+
+  function readPriceSnapshot() {
+    try {
+      const raw = localStorage.getItem(PRICE_SNAPSHOT_KEY);
+      if (!raw) return null;
+      const obj = JSON.parse(raw);
+      if (!obj || typeof obj.price !== 'number' || typeof obj.at !== 'number') return null;
+      return obj;
+    } catch (e) { return null; }
+  }
+  function writePriceSnapshot(price) {
+    try {
+      localStorage.setItem(
+        PRICE_SNAPSHOT_KEY,
+        JSON.stringify({ price, at: Date.now() })
+      );
+    } catch (e) { /* ignore */ }
+  }
+
   function renderPrice(state) {
-    // Pull the active region's display name for the label
     const activeRegion = state.regions.find(r => r.id === state.region);
     const regionName = activeRegion ? activeRegion.name : 'your area';
     if (els.priceLabel) {
@@ -94,18 +119,53 @@
     }
 
     els.currentPrice.textContent = state.currentPrice.toFixed(1);
-    const delta = state.currentPrice - state.priceYesterday;
-    if (Math.abs(delta) < 0.05) {
-      els.priceDelta.innerHTML = `<span>unchanged from yesterday</span>`;
+
+    // Pick a yesterday baseline. Priority:
+    //   1. A localStorage snapshot 18-36h old → genuine day-over-day delta
+    //   2. Otherwise hide the delta line (don't lie about it)
+    const snap = readPriceSnapshot();
+    const ageH = snap ? (Date.now() - snap.at) / HOUR_MS : null;
+
+    if (snap && ageH >= 18 && ageH <= 36) {
+      const delta = state.currentPrice - snap.price;
+      if (Math.abs(delta) < 0.05) {
+        els.priceDelta.innerHTML = `<span>unchanged from yesterday</span>`;
+      } else {
+        const arrow = delta > 0 ? '▲' : '▼';
+        const sign  = delta > 0 ? '+' : '';
+        els.priceDelta.innerHTML =
+          `<span>${arrow} ${sign}${delta.toFixed(1)}¢ from yesterday</span>`;
+      }
+      els.priceDelta.style.display = '';
     } else {
-      const arrow = delta > 0 ? '▲' : '▼';
-      const sign = delta > 0 ? '+' : '';
-      els.priceDelta.innerHTML = `<span>${arrow} ${sign}${delta.toFixed(1)}¢ from yesterday</span>`;
+      // Either no snapshot yet, or it's too fresh / too stale to be honest.
+      els.priceDelta.innerHTML = '';
+      els.priceDelta.style.display = 'none';
+    }
+
+    // Update the snapshot if it's old enough that we'd accept it next time
+    // (≥18h). Skip otherwise so the baseline is genuinely day-old.
+    if (!snap || ageH >= 18) {
+      writePriceSnapshot(state.currentPrice);
     }
   }
 
   function renderIndicators(components) {
     const html = Object.entries(components).map(([key, c]) => {
+      // Indicators that need a history pipeline render in a dimmed
+      // "pending" state with no impact badge — they don't pretend to
+      // be live data.
+      if (c.pending) {
+        return `
+          <div class="indicator indicator-pending" title="${c.detail}">
+            <div class="indicator-top">
+              <div class="indicator-icon">${ICONS[c.icon] || ICONS.fuel}</div>
+            </div>
+            <div class="indicator-name">${c.name}</div>
+            <div class="indicator-trend">${c.trend}</div>
+          </div>
+        `;
+      }
       const impactCls = c.impact < (c.weight * 50) ? 'neg' : '';
       const impactDisplay = `+${c.impact.toFixed(1)}`;
       return `
@@ -230,6 +290,48 @@
     if (liveStations.fetchedAt) state.lastUpdated = liveStations.fetchedAt;
   }
 
+  // Map a -1.0..+1.0 normalized signal to a 0..100 indicator value where 50
+  // is neutral. Used to turn trend percentages into the score-style scale
+  // the existing visuals expect.
+  function signalToValue(normalized) {
+    const clamped = Math.max(-1, Math.min(1, normalized));
+    return Math.round(50 + clamped * 50);
+  }
+
+  // The day-of-week pattern in BC: prices typically jump Wed-Fri before the
+  // weekend, settle Sun-Tue. Early-week is a "fill bias" (it's about to
+  // climb), Fri afternoon onwards is "wait" (you've already been priced).
+  function dayOfWeekIndicator() {
+    const now = new Date();
+    const dow = now.getDay(); // 0 Sun ... 6 Sat
+    const names = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+    // Score = how favorable filling up TODAY is (high = good time)
+    const scoreByDow = {
+      0: 35, // Sun — usually post-weekend, prices still firm
+      1: 70, // Mon — early week, often best
+      2: 75, // Tue — typically the trough
+      3: 55, // Wed — pre-jump
+      4: 25, // Thu — pre-weekend jump common
+      5: 30, // Fri — already firmed
+      6: 30  // Sat — long-weekend pressure if any
+    };
+    const detailByDow = {
+      0: 'Sunday — weekend pricing still in effect',
+      1: 'Monday — early-week, prices often soften',
+      2: 'Tuesday — typically the cheapest day of the week',
+      3: 'Wednesday — last day before the Thu/Fri jump',
+      4: 'Thursday — pre-weekend jump is common',
+      5: 'Friday — weekend pricing likely already set',
+      6: 'Saturday — weekend pricing in effect'
+    };
+    return {
+      value: scoreByDow[dow],
+      trend: names[dow],
+      detail: detailByDow[dow]
+    };
+  }
+
   // ---------- Live-data patching ----------
   // Takes the result of TANKFUL_LIVE.fetchAll() and overlays it onto the mock state.
   // Mock fields stay intact for any source that failed.
@@ -237,24 +339,44 @@
     if (!live) return;
 
     if (live.fx && live.fx.success) {
+      // Loonie weakening (FXUSDCAD up) = bad for pump → low score
+      const v = signalToValue(-live.fx.trendPct / 5);
       state.components.fx.detail = `Loonie at ${live.fx.usdPerCad.toFixed(4)} USD`;
       state.components.fx.trend = live.fx.trendLabel;
+      state.components.fx.value = v;
+      state.components.fx.impact = +(v * state.components.fx.weight).toFixed(1);
     }
 
     if (live.wti && live.wti.success) {
+      // Crude up = future pump pressure → low score (fill bias)
+      const v = signalToValue(-live.wti.trendPct / 10);
       state.components.wti.detail = 'USD ' + live.wti.latest.toFixed(2) + '/bbl';
       state.components.wti.trend = live.wti.trendLabel;
+      state.components.wti.value = v;
+      state.components.wti.impact = +(v * state.components.wti.weight).toFixed(1);
     }
 
     if (live.rbob && live.rbob.success) {
       let detail = 'USD ' + live.rbob.latest.toFixed(3) + '/gal NYH spot';
-      // If FX is also live, translate to approximate Canadian wholesale ¢/L
       if (live.fx && live.fx.success) {
         const cadPerL = TANKFUL_LIVE.rbobToCadPerLitre(live.rbob.latest, live.fx.latest);
         if (cadPerL) detail += ' (~' + (cadPerL * 100).toFixed(1) + '¢/L wholesale)';
       }
+      // RBOB up = wholesale pressure on pumps → low score (fill bias)
+      const v = signalToValue(-live.rbob.trendPct / 8);
       state.components.rbob.detail = detail;
       state.components.rbob.trend = live.rbob.trendLabel;
+      state.components.rbob.value = v;
+      state.components.rbob.impact = +(v * state.components.rbob.weight).toFixed(1);
+    }
+
+    // Day-of-Week is fully derivable from `new Date()` — no API needed.
+    if (state.components.dow) {
+      const dow = dayOfWeekIndicator();
+      state.components.dow.value = dow.value;
+      state.components.dow.trend = dow.trend;
+      state.components.dow.detail = dow.detail;
+      state.components.dow.impact = +(dow.value * state.components.dow.weight).toFixed(1);
     }
 
     if (live.stations && live.stations.success) {
@@ -264,6 +386,185 @@
     if (live.anySuccess) {
       state.lastUpdated = live.fetchedAt;
     }
+  }
+
+  // ---------- Live price history → chart series ----------
+  // Bucket the scraper's rolling samples into the daily / weekly shape the
+  // chart card consumes. Samples are { at: ISO, marketAverage }. We don't
+  // try to fill gaps — days with no scrape simply don't appear in the series.
+  function bucketDaily(samples, days) {
+    const now = new Date();
+    const cutoff = now.getTime() - (days * 86400000);
+    const buckets = new Map(); // "YYYY-MM-DD" → [prices]
+
+    for (const s of samples) {
+      const t = Date.parse(s.at);
+      if (!Number.isFinite(t) || t < cutoff) continue;
+      const d = new Date(t);
+      const key = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+      const arr = buckets.get(key) || [];
+      arr.push(s.marketAverage);
+      buckets.set(key, arr);
+    }
+    return Array.from(buckets.entries())
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([date, prices]) => ({
+        date,
+        price: Math.round((prices.reduce((a,b)=>a+b,0) / prices.length) * 10) / 10
+      }));
+  }
+
+  function bucketWeekly(samples, weeks) {
+    const now = new Date();
+    const cutoff = now.getTime() - (weeks * 7 * 86400000);
+    const buckets = new Map(); // ISO-week key → [prices]
+
+    function weekKey(d) {
+      // Monday-of-week as YYYY-MM-DD, treated as the bucket label.
+      const day = d.getDay();
+      const diffToMonday = (day === 0 ? -6 : 1 - day);
+      const monday = new Date(d.getFullYear(), d.getMonth(), d.getDate() + diffToMonday);
+      return `${monday.getFullYear()}-${String(monday.getMonth()+1).padStart(2,'0')}-${String(monday.getDate()).padStart(2,'0')}`;
+    }
+
+    for (const s of samples) {
+      const t = Date.parse(s.at);
+      if (!Number.isFinite(t) || t < cutoff) continue;
+      const k = weekKey(new Date(t));
+      const arr = buckets.get(k) || [];
+      arr.push(s.marketAverage);
+      buckets.set(k, arr);
+    }
+    return Array.from(buckets.entries())
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([date, prices]) => ({
+        date,
+        price: Math.round((prices.reduce((a,b)=>a+b,0) / prices.length) * 10) / 10
+      }));
+  }
+
+  // Returns a new history object { 7, 30, 365 } if we have enough live samples
+  // to be useful (≥3 days of coverage in 30-day view), otherwise null and the
+  // caller keeps the mock arrays + shows a "building history" notice.
+  function maybeBuildLiveHistory(rawSamples) {
+    if (!Array.isArray(rawSamples) || rawSamples.length === 0) return null;
+    const thirty = bucketDaily(rawSamples, 30);
+    if (thirty.length < 3) return null;
+    return {
+      7:   bucketDaily(rawSamples, 7),
+      30:  thirty,
+      365: bucketWeekly(rawSamples, 52)
+    };
+  }
+
+  // Flag the chart card visually when the chart is showing illustrative
+  // sample data (i.e. before the scraper history has enough coverage).
+  function setChartSampleBadge(isSample) {
+    const card = document.querySelector('.chart-card');
+    if (!card) return;
+    let badge = card.querySelector('.chart-sample-badge');
+    if (isSample) {
+      if (!badge) {
+        badge = document.createElement('span');
+        badge.className = 'chart-sample-badge';
+        badge.textContent = 'Sample data — real history is accumulating';
+        card.querySelector('.chart-header').appendChild(badge);
+      }
+    } else if (badge) {
+      badge.remove();
+    }
+  }
+
+  // ---------- Live verdict / score / state ----------
+  // Replaces the mock score/verdict/verdictSub by combining live indicators,
+  // upcoming holidays, and station spread. Returns the new score block plus
+  // the strongest signal that drove it (used for verdictSub).
+  function computeLiveVerdict(state) {
+    let score = 50; // neutral baseline
+    const signals = [];
+
+    // SIGNAL 1: Active long weekend / stat ahead → fill bias
+    const activeMod = (state.modifiers || []).find(m => m.active);
+    if (activeMod) {
+      score += activeMod.impact;
+      signals.push({
+        strength: activeMod.impact,
+        text: `${activeMod.name} ahead — pre-weekend pump firming is the usual play.`
+      });
+    }
+
+    // SIGNAL 2: Best-deal spread vs market
+    if (state.stations && state.stations.length && state.marketPrice) {
+      const sorted = [...state.stations].sort((a, b) => a.effectivePrice - b.effectivePrice);
+      const top = sorted[0];
+      const spread = state.marketPrice - top.effectivePrice;
+      if (spread >= 8) {
+        score += 8;
+        signals.push({
+          strength: 9,
+          text: `${top.name} is ${spread.toFixed(1)}¢/L below average — grab that price now.`
+        });
+      } else if (spread >= 4) {
+        score += 4;
+        signals.push({
+          strength: 5,
+          text: `${top.name} is ${spread.toFixed(1)}¢/L below average — moderate edge available.`
+        });
+      }
+    }
+
+    // SIGNAL 3: RBOB wholesale trend
+    const rbob = state.components.rbob;
+    if (rbob && typeof rbob.value === 'number' && rbob.trend && !rbob.trend.includes('5d')) {
+      // 'value' was patched live (signalToValue mapping). Translate back to a +/- score contribution.
+      const contrib = Math.round((rbob.value - 50) * 0.3); // up to ±15 from RBOB
+      score += contrib;
+      if (Math.abs(contrib) >= 6) {
+        signals.push({
+          strength: Math.abs(contrib),
+          text: contrib > 0
+            ? `Wholesale gas easing — relief could reach the pump this week.`
+            : `Wholesale gas firming — pump pressure ahead.`
+        });
+      }
+    }
+
+    // SIGNAL 4: Day-of-week (cheaper days = lean fill, since it'll climb later)
+    const dow = state.components.dow;
+    if (dow && typeof dow.value === 'number') {
+      const contrib = Math.round((dow.value - 50) * 0.15); // up to ±7.5
+      score += contrib;
+      if (Math.abs(contrib) >= 4) {
+        signals.push({
+          strength: Math.abs(contrib),
+          text: contrib > 0
+            ? `It's a ${dow.trend} — typically a softer-price day.`
+            : `It's a ${dow.trend} — weekend pricing usually firm by now.`
+        });
+      }
+    }
+
+    // SIGNAL 5: FX (CAD weakness costs us)
+    const fx = state.components.fx;
+    if (fx && typeof fx.value === 'number') {
+      const contrib = Math.round((fx.value - 50) * 0.1); // up to ±5
+      score += contrib;
+    }
+
+    // Clamp + bucket
+    score = Math.max(0, Math.min(100, Math.round(score)));
+    let bucketState, verdict;
+    if (score >= 70) { bucketState = 'fill-up'; verdict = 'Fill Up Now'; }
+    else if (score >= 30) { bucketState = 'neutral'; verdict = 'Maybe Today'; }
+    else { bucketState = 'wait'; verdict = 'Wait a Bit'; }
+
+    // Pick the strongest signal for the sub-line
+    const top = signals.sort((a, b) => b.strength - a.strength)[0];
+    const verdictSub = top
+      ? top.text
+      : 'Mixed signals — no strong push either way today.';
+
+    return { score, state: bucketState, verdict, verdictSub };
   }
 
   function updateLiveStatus(live) {
@@ -384,15 +685,50 @@
     if (typeof TANKFUL_LIVE === 'undefined') return;
     TANKFUL_LIVE.fetchAll().then(live => {
       if (TANKFUL_CONFIG && TANKFUL_CONFIG.debug) console.log('[live-data] result:', live);
+
       applyLiveData(TANKFUL_MOCK, live);
       renderIndicators(TANKFUL_MOCK.components);
+
       if (live.stations && live.stations.success) {
         renderStations(TANKFUL_MOCK);
         renderPrice(TANKFUL_MOCK);
       }
-      // Recompute tips from the patched live state.
+
+      // Replace the mock chart history with real cron-derived samples
+      // when there's enough coverage; otherwise leave mock + flag it.
+      const liveHistory = live.history && live.history.success
+        ? maybeBuildLiveHistory(live.history.samples)
+        : null;
+      if (liveHistory) {
+        TANKFUL_MOCK.history = liveHistory;
+        setChartSampleBadge(false);
+        // Re-render whichever range is currently selected.
+        const activeTab = document.querySelector('.tab.active');
+        const range = activeTab ? parseInt(activeTab.dataset.range, 10) : 7;
+        if (TANKFUL_MOCK.history[range] && TANKFUL_MOCK.history[range].length) {
+          TANKFUL_Chart.render(TANKFUL_MOCK.history[range], range);
+        }
+      } else {
+        setChartSampleBadge(true);
+      }
+
+      // Recompute the live verdict / score / state from the patched data.
+      const verdict = computeLiveVerdict(TANKFUL_MOCK);
+      TANKFUL_MOCK.score = verdict.score;
+      TANKFUL_MOCK.state = verdict.state;
+      TANKFUL_MOCK.verdict = verdict.verdict;
+      TANKFUL_MOCK.verdictSub = verdict.verdictSub;
+
+      applyState(verdict.state);
+      animateScore(verdict.score);
+      animateRing(verdict.score);
+      renderVerdict(TANKFUL_MOCK);
+      renderLegend(verdict.state);
+
+      // Tips depend on the patched state too.
       TANKFUL_MOCK.tips = computeLiveTips(TANKFUL_MOCK, live);
       renderTips(TANKFUL_MOCK.tips);
+
       renderLastUpdated(TANKFUL_MOCK.lastUpdated);
       updateLiveStatus(live);
     }).catch(err => {
