@@ -93,6 +93,12 @@
   // wasn't actionable. Station-level prices live in the "Where to fill up"
   // card, which is the useful surface.)
 
+  // Pretty-format a signed score contribution: "+5", "−3", or "" for zero.
+  function fmtContrib(n) {
+    if (!Number.isFinite(n) || n === 0) return '';
+    return n > 0 ? `+${Math.round(n)}` : `−${Math.abs(Math.round(n))}`;
+  }
+
   function renderIndicators(components) {
     const html = Object.entries(components).map(([key, c]) => {
       // Indicators that need a history pipeline render in a dimmed
@@ -109,13 +115,18 @@
           </div>
         `;
       }
-      const impactCls = c.impact < (c.weight * 50) ? 'neg' : '';
-      const impactDisplay = `+${c.impact.toFixed(1)}`;
+      const contrib = typeof c.impact === 'number' ? c.impact : 0;
+      const label = fmtContrib(contrib);
+      let badgeHtml = '';
+      if (label) {
+        const cls = contrib > 0 ? 'indicator-impact pos' : 'indicator-impact neg';
+        badgeHtml = `<div class="${cls}">${label}</div>`;
+      }
       return `
         <div class="indicator" title="${c.detail}">
           <div class="indicator-top">
             <div class="indicator-icon">${ICONS[c.icon] || ICONS.fuel}</div>
-            <div class="indicator-impact ${impactCls}">${impactDisplay}</div>
+            ${badgeHtml}
           </div>
           <div class="indicator-name">${c.name}</div>
           <div class="indicator-trend">${c.trend}</div>
@@ -125,20 +136,70 @@
     els.indicators.innerHTML = html;
   }
 
+  // ---------- Score breakdown panel ----------
+  // Lists every signed contribution that produced the current score.
+  // Lives in a <details> element under the verdict so it can be tap-expanded.
+  function renderBreakdown(breakdown) {
+    const host = document.getElementById('breakdownList');
+    const summary = document.getElementById('breakdownSummary');
+    if (!host) return;
+
+    if (!Array.isArray(breakdown) || breakdown.length === 0) {
+      host.innerHTML = '<li class="breakdown-empty">No signals strong enough to move the score off neutral.</li>';
+      if (summary) summary.textContent = "What's driving this score?";
+      return;
+    }
+
+    if (summary) {
+      const n = breakdown.length;
+      summary.textContent = `What's driving this score? (${n} signal${n === 1 ? '' : 's'})`;
+    }
+
+    host.innerHTML = breakdown.map(b => {
+      const icon = ICONS[b.icon] || ICONS.target;
+      const label = fmtContrib(b.contrib);
+      const sign = b.contrib > 0 ? 'pos' : (b.contrib < 0 ? 'neg' : 'zero');
+      return `
+        <li class="breakdown-item ${sign}">
+          <span class="breakdown-icon">${icon}</span>
+          <div class="breakdown-text">
+            <span class="breakdown-name">${b.name}</span>
+            ${b.detail ? `<span class="breakdown-detail">${b.detail}</span>` : ''}
+          </div>
+          <span class="breakdown-contrib">${label}</span>
+        </li>
+      `;
+    }).join('');
+  }
+
+  // Merge the user's manual refinery-outage alert into the modifiers list
+  // (if active). Render-time helper so we don't mutate state.modifiers.
+  function modifiersWithAlerts(modifiers) {
+    const list = Array.isArray(modifiers) ? modifiers.slice() : [];
+    if (typeof TANKFUL_RefineryAlert !== 'undefined') {
+      const alert = TANKFUL_RefineryAlert.asModifier();
+      if (alert) list.unshift(alert);
+    }
+    return list;
+  }
+
   function renderModifiers(modifiers) {
-    if (!modifiers || modifiers.length === 0) {
+    const list = modifiersWithAlerts(modifiers);
+    if (!list.length) {
       els.modifiersRow.innerHTML = '';
       return;
     }
-    const html = modifiers.map(m => {
+    const html = list.map(m => {
       const icon = ICONS[m.icon] || ICONS.flag;
       const isActive = m.active === true;
       const impactBadge = m.impact > 0
         ? `<span class="impact">+${m.impact}</span>`
         : '';
-      const cls = isActive ? 'modifier-chip active' : 'modifier-chip';
+      const extraCls = m._kind === 'refinery' ? ' clearable' : '';
+      const dataAttr = m._kind ? ` data-kind="${m._kind}"` : '';
+      const cls = (isActive ? 'modifier-chip active' : 'modifier-chip') + extraCls;
       return `
-        <div class="${cls}">
+        <div class="${cls}"${dataAttr}>
           <span class="modifier-icon">${icon}</span>
           <div class="modifier-text">
             <span class="modifier-name">${m.name}</span>
@@ -149,6 +210,52 @@
       `;
     }).join('');
     els.modifiersRow.innerHTML = html;
+
+    // Click on a refinery chip → clear the alert.
+    const refineryChip = els.modifiersRow.querySelector('[data-kind="refinery"]');
+    if (refineryChip) {
+      refineryChip.style.cursor = 'pointer';
+      refineryChip.addEventListener('click', () => {
+        if (typeof TANKFUL_RefineryAlert !== 'undefined') {
+          TANKFUL_RefineryAlert.clear();
+          refreshAfterAlertChange();
+        }
+      });
+    }
+  }
+
+  // Triggered when the refinery alert flips. Re-renders the modifiers chip,
+  // recomputes the verdict (so the score updates), and repaints the header
+  // button state.
+  function refreshAfterAlertChange() {
+    renderModifiers(TANKFUL_MOCK.modifiers);
+    updateRefineryButton();
+    const verdict = computeLiveVerdict(TANKFUL_MOCK);
+    TANKFUL_MOCK.score = verdict.score;
+    TANKFUL_MOCK.state = verdict.state;
+    TANKFUL_MOCK.verdict = verdict.verdict;
+    TANKFUL_MOCK.verdictSub = verdict.verdictSub;
+    TANKFUL_MOCK.breakdown = verdict.breakdown;
+    syncIndicatorImpacts(TANKFUL_MOCK, verdict.breakdown);
+    renderIndicators(TANKFUL_MOCK.components);
+    applyState(verdict.state);
+    animateScore(verdict.score);
+    animateRing(verdict.score);
+    renderVerdict(TANKFUL_MOCK);
+    renderBreakdown(verdict.breakdown);
+    renderLegend(verdict.state);
+    // Tips refer to active modifiers, so refresh those too.
+    TANKFUL_MOCK.tips = computeLiveTips(TANKFUL_MOCK, null);
+    renderTips(TANKFUL_MOCK.tips);
+  }
+
+  function updateRefineryButton() {
+    const btn = document.getElementById('refineryAlertBtn');
+    if (!btn || typeof TANKFUL_RefineryAlert === 'undefined') return;
+    const active = TANKFUL_RefineryAlert.active();
+    btn.classList.toggle('active', active);
+    btn.querySelector('.alert-toggle-label').textContent =
+      active ? 'Outage active' : 'Supply alert';
   }
 
   function renderTips(tips) {
@@ -287,22 +394,25 @@
   function applyLiveData(state, live) {
     if (!live) return;
 
+    // Score sign convention: score is "% chance you should fill up NOW"
+    // (high → Fill Up Now, low → Wait). So things that signal pump pressure
+    // ahead (wholesale rising, loonie weakening) push the indicator's value
+    // UP, which contributes positively to the score in computeLiveVerdict.
     if (live.fx && live.fx.success) {
-      // Loonie weakening (FXUSDCAD up) = bad for pump → low score
-      const v = signalToValue(-live.fx.trendPct / 5);
+      // FXUSDCAD up = USD strengthening = loonie weakening = imports cost
+      // more = pump pressure → fill bias → HIGH value
+      const v = signalToValue(live.fx.trendPct / 5);
       state.components.fx.detail = `Loonie at ${live.fx.usdPerCad.toFixed(4)} USD`;
       state.components.fx.trend = live.fx.trendLabel;
       state.components.fx.value = v;
-      state.components.fx.impact = +(v * state.components.fx.weight).toFixed(1);
     }
 
     if (live.wti && live.wti.success) {
-      // Crude up = future pump pressure → low score (fill bias)
-      const v = signalToValue(-live.wti.trendPct / 10);
+      // Crude rising = upstream pressure ahead → fill bias → HIGH value
+      const v = signalToValue(live.wti.trendPct / 10);
       state.components.wti.detail = 'USD ' + live.wti.latest.toFixed(2) + '/bbl';
       state.components.wti.trend = live.wti.trendLabel;
       state.components.wti.value = v;
-      state.components.wti.impact = +(v * state.components.wti.weight).toFixed(1);
     }
 
     if (live.rbob && live.rbob.success) {
@@ -311,12 +421,11 @@
         const cadPerL = TANKFUL_LIVE.rbobToCadPerLitre(live.rbob.latest, live.fx.latest);
         if (cadPerL) detail += ' (~' + (cadPerL * 100).toFixed(1) + '¢/L wholesale)';
       }
-      // RBOB up = wholesale pressure on pumps → low score (fill bias)
-      const v = signalToValue(-live.rbob.trendPct / 8);
+      // RBOB rising = wholesale pressure → fill bias → HIGH value
+      const v = signalToValue(live.rbob.trendPct / 8);
       state.components.rbob.detail = detail;
       state.components.rbob.trend = live.rbob.trendLabel;
       state.components.rbob.value = v;
-      state.components.rbob.impact = +(v * state.components.rbob.weight).toFixed(1);
     }
 
     // Day-of-Week is fully derivable from `new Date()` — no API needed.
@@ -325,7 +434,8 @@
       state.components.dow.value = dow.value;
       state.components.dow.trend = dow.trend;
       state.components.dow.detail = dow.detail;
-      state.components.dow.impact = +(dow.value * state.components.dow.weight).toFixed(1);
+      // Impact is filled in by syncIndicatorImpacts() once computeLiveVerdict
+      // has run, so it matches the actual score contribution exactly.
     }
 
     if (live.stations && live.stations.success) {
@@ -430,16 +540,38 @@
   // the strongest signal that drove it (used for verdictSub).
   function computeLiveVerdict(state) {
     let score = 50; // neutral baseline
-    const signals = [];
+    const signals = [];        // for picking the verdict subline
+    const breakdown = [];      // every contribution, signed, for the "what's driving" panel
+
+    function push(key, name, contrib, detail, opts) {
+      score += contrib;
+      breakdown.push({ key, name, contrib, detail, icon: opts && opts.icon });
+      if (opts && opts.subline) {
+        signals.push({
+          strength: opts.strength != null ? opts.strength : Math.abs(contrib),
+          text: opts.subline
+        });
+      }
+    }
+
+    // SIGNAL 0: Manual refinery / supply outage — strong fill bias.
+    if (typeof TANKFUL_RefineryAlert !== 'undefined') {
+      const ref = TANKFUL_RefineryAlert.current();
+      if (ref) {
+        push('refinery', 'Refinery / supply alert', +12,
+          `Manual flag active${ref.daysActive ? ' for ' + ref.daysActive + 'd' : ''}`,
+          { icon: 'refinery', strength: 14,
+            subline: 'Refinery / supply alert is active — fill before the wholesale shock reaches the pump.' });
+      }
+    }
 
     // SIGNAL 1: Active long weekend / stat ahead → fill bias
     const activeMod = (state.modifiers || []).find(m => m.active);
     if (activeMod) {
-      score += activeMod.impact;
-      signals.push({
-        strength: activeMod.impact,
-        text: `${activeMod.name} ahead — pre-weekend pump firming is the usual play.`
-      });
+      push('holiday', activeMod.name, +Math.round(activeMod.impact),
+        activeMod.detail,
+        { icon: activeMod.icon || 'calendar-days',
+          subline: `${activeMod.name} ahead — pre-weekend pump firming is the usual play.` });
     }
 
     // SIGNAL 2: Best-deal spread vs market
@@ -447,57 +579,75 @@
       const sorted = [...state.stations].sort((a, b) => a.effectivePrice - b.effectivePrice);
       const top = sorted[0];
       const spread = state.marketPrice - top.effectivePrice;
-      if (spread >= 8) {
-        score += 8;
-        signals.push({
-          strength: 9,
-          text: `${top.name} is ${spread.toFixed(1)}¢/L below average — grab that price now.`
-        });
-      } else if (spread >= 4) {
-        score += 4;
-        signals.push({
-          strength: 5,
-          text: `${top.name} is ${spread.toFixed(1)}¢/L below average — moderate edge available.`
-        });
+      let contrib = 0;
+      if (spread >= 8) contrib = +8;
+      else if (spread >= 4) contrib = +4;
+      else if (spread >= 1) contrib = +2;
+      if (contrib > 0) {
+        push('spread', 'Best deal spread', contrib,
+          `${top.name} ${spread.toFixed(1)}¢/L cheaper`,
+          { icon: 'target',
+            subline: contrib >= 8
+              ? `${top.name} is ${spread.toFixed(1)}¢/L cheaper than the rest — grab that price now.`
+              : `${top.name} is ${spread.toFixed(1)}¢/L cheaper than the rest.`
+          });
       }
     }
 
-    // SIGNAL 3: RBOB wholesale trend
+    // SIGNAL 3: RBOB wholesale trend (the most direct pump-pressure signal)
     const rbob = state.components.rbob;
-    if (rbob && typeof rbob.value === 'number' && rbob.trend && !rbob.trend.includes('5d')) {
-      // 'value' was patched live (signalToValue mapping). Translate back to a +/- score contribution.
-      const contrib = Math.round((rbob.value - 50) * 0.3); // up to ±15 from RBOB
-      score += contrib;
-      if (Math.abs(contrib) >= 6) {
-        signals.push({
-          strength: Math.abs(contrib),
-          text: contrib > 0
-            ? `Wholesale gas easing — relief could reach the pump this week.`
-            : `Wholesale gas firming — pump pressure ahead.`
-        });
+    if (rbob && typeof rbob.value === 'number') {
+      const contrib = Math.round((rbob.value - 50) * 0.3); // up to ±15
+      if (contrib !== 0) {
+        push('rbob', 'Wholesale gas (RBOB)', contrib,
+          rbob.trend || '',
+          { icon: 'fuel',
+            subline: Math.abs(contrib) >= 6
+              ? (contrib > 0
+                  ? 'Wholesale gas easing — relief could reach the pump this week.'
+                  : 'Wholesale gas firming — pump pressure ahead.')
+              : undefined
+          });
       }
     }
 
-    // SIGNAL 4: Day-of-week (cheaper days = lean fill, since it'll climb later)
+    // SIGNAL 4: WTI crude — feeds RBOB but earlier in the chain.
+    const wti = state.components.wti;
+    if (wti && typeof wti.value === 'number') {
+      const contrib = Math.round((wti.value - 50) * 0.1); // up to ±5, gentler than RBOB
+      if (contrib !== 0) {
+        push('wti', 'WTI crude', contrib,
+          wti.trend || '',
+          { icon: 'barrel' });
+      }
+    }
+
+    // SIGNAL 5: Day-of-week
     const dow = state.components.dow;
     if (dow && typeof dow.value === 'number') {
-      const contrib = Math.round((dow.value - 50) * 0.15); // up to ±7.5
-      score += contrib;
-      if (Math.abs(contrib) >= 4) {
-        signals.push({
-          strength: Math.abs(contrib),
-          text: contrib > 0
-            ? `It's a ${dow.trend} — typically a softer-price day.`
-            : `It's a ${dow.trend} — weekend pricing usually firm by now.`
-        });
+      const contrib = Math.round((dow.value - 50) * 0.16); // up to ±8
+      if (contrib !== 0) {
+        push('dow', dow.trend || 'Day of week', contrib,
+          dow.detail || '',
+          { icon: 'calendar-day',
+            subline: Math.abs(contrib) >= 4
+              ? (contrib > 0
+                  ? `It's ${dow.trend} — typically a softer-price day.`
+                  : `It's ${dow.trend} — weekend pricing usually firm by now.`)
+              : undefined
+          });
       }
     }
 
-    // SIGNAL 5: FX (CAD weakness costs us)
+    // SIGNAL 6: FX (CAD weakness costs us)
     const fx = state.components.fx;
     if (fx && typeof fx.value === 'number') {
       const contrib = Math.round((fx.value - 50) * 0.1); // up to ±5
-      score += contrib;
+      if (contrib !== 0) {
+        push('fx', 'CAD vs USD', contrib,
+          fx.trend || '',
+          { icon: 'currency' });
+      }
     }
 
     // Clamp + bucket
@@ -513,7 +663,24 @@
       ? top.text
       : 'Mixed signals — no strong push either way today.';
 
-    return { score, state: bucketState, verdict, verdictSub };
+    // Sort breakdown by absolute contribution so the dominant signals lead.
+    breakdown.sort((a, b) => Math.abs(b.contrib) - Math.abs(a.contrib));
+
+    return { score, state: bucketState, verdict, verdictSub, breakdown };
+  }
+
+  // Sync the live score breakdown back into the indicator component impacts
+  // so each chip's "+X" badge reflects what it actually contributed, not the
+  // legacy mock value * weight calculation.
+  function syncIndicatorImpacts(state, breakdown) {
+    const keyMap = { rbob: 'rbob', wti: 'wti', fx: 'fx', dow: 'dow' };
+    const byKey = {};
+    breakdown.forEach((b) => { byKey[b.key] = b.contrib; });
+    Object.entries(keyMap).forEach(([compKey, breakKey]) => {
+      const c = state.components[compKey];
+      if (!c || c.pending) return;
+      c.impact = byKey[breakKey] != null ? byKey[breakKey] : 0;
+    });
   }
 
   function updateLiveStatus(live) {
@@ -636,7 +803,6 @@
       if (TANKFUL_CONFIG && TANKFUL_CONFIG.debug) console.log('[live-data] result:', live);
 
       applyLiveData(TANKFUL_MOCK, live);
-      renderIndicators(TANKFUL_MOCK.components);
 
       if (live.stations && live.stations.success) {
         renderStations(TANKFUL_MOCK);
@@ -666,11 +832,18 @@
       TANKFUL_MOCK.state = verdict.state;
       TANKFUL_MOCK.verdict = verdict.verdict;
       TANKFUL_MOCK.verdictSub = verdict.verdictSub;
+      TANKFUL_MOCK.breakdown = verdict.breakdown;
+
+      // Sync indicator badges to the real score contributions so the +X
+      // numbers in the indicators card match the breakdown.
+      syncIndicatorImpacts(TANKFUL_MOCK, verdict.breakdown);
+      renderIndicators(TANKFUL_MOCK.components);
 
       applyState(verdict.state);
       animateScore(verdict.score);
       animateRing(verdict.score);
       renderVerdict(TANKFUL_MOCK);
+      renderBreakdown(verdict.breakdown);
       renderLegend(verdict.state);
 
       // Tips depend on the patched state too.
@@ -917,10 +1090,22 @@
     setupRegionPicker();
     setupChartObserver();
     setupLocation();
+    setupRefineryAlert();
 
     // Fire live data fetches after the initial mock render is on screen.
     // Patches in once they resolve; mock stays put if anything fails.
     kickoffLiveData();
+  }
+
+  // ---------- Refinery / supply-outage toggle ----------
+  function setupRefineryAlert() {
+    const btn = document.getElementById('refineryAlertBtn');
+    if (!btn || typeof TANKFUL_RefineryAlert === 'undefined') return;
+    updateRefineryButton();
+    btn.addEventListener('click', () => {
+      TANKFUL_RefineryAlert.toggle();
+      refreshAfterAlertChange();
+    });
   }
 
   // ---------- Location button + silent restore ----------

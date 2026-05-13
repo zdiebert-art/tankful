@@ -7,7 +7,16 @@
   <meta name="description" content="Should you fill up today? Tankful is a friendly gas-price predictor for Lake Country and the Okanagan." />
   <meta name="theme-color" content="#FFB05A" id="theme-color-meta" />
 
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <!-- PWA / install -->
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png" />
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Tankful" />
+  <meta name="mobile-web-app-capable" content="yes" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -78,6 +87,12 @@
       <div class="verdict-block">
         <div class="verdict" id="verdict">Loading…</div>
         <div class="verdict-sub" id="verdictSub">Crunching numbers</div>
+        <details class="score-breakdown">
+          <summary id="breakdownSummary">What's driving this score?</summary>
+          <ul class="breakdown-list" id="breakdownList">
+            <!-- populated by app.js -->
+          </ul>
+        </details>
       </div>
     </section>
 
@@ -151,6 +166,12 @@
           <path d="M16 3v4"/><path d="M8 3v4"/><path d="M3 11h18"/>
         </svg>
         <span>Holidays &amp; Long Weekends</span>
+        <button type="button" class="alert-toggle" id="refineryAlertBtn" title="Heard about a refinery outage? Toggle on to factor it into the score.">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 21V9l4 3V9l4 3V9l4 3V6l4 3v12"/><path d="M3 21h18"/>
+          </svg>
+          <span class="alert-toggle-label">Supply alert</span>
+        </button>
       </div>
       <div class="modifiers-row" id="modifiersRow">
         <!-- populated by app.js -->
@@ -224,11 +245,13 @@
   <script src="js/config.js"></script>
   <script src="js/holidays.js"></script>
   <script src="js/location.js"></script>
+  <script src="js/refinery-alert.js"></script>
   <script src="js/mock-data.js"></script>
   <script src="js/live-data.js"></script>
   <script src="js/score.js"></script>
   <script src="js/chart-config.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/pwa.js"></script>
   <!-- card reorder feature parked for now; keeping data-card-id attrs + js/card-reorder.js
        in the repo so we can revive it later with a different UI. -->
   <!-- <script src="js/card-reorder.js"></script> -->

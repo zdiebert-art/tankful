@@ -6,3 +6,6 @@ node_modules/
 
 # Local Claude Code session state
 .claude/
+
+# Tooling artifacts (icon generation, push key generation, etc.)
+tools/node_modules/

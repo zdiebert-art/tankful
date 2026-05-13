@@ -1,0 +1,13 @@
+{
+  "name": "tankful-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One-off build tools for Tankful. Not deployed; not on the runtime path.",
+  "type": "module",
+  "scripts": {
+    "icons": "node generate-icons.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0"
+  }
+}
