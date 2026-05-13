@@ -6,9 +6,11 @@
   "type": "module",
   "scripts": {
     "icons": "node generate-icons.mjs",
-    "vapid": "node generate-vapid.mjs"
+    "vapid": "node generate-vapid.mjs",
+    "brand": "node generate-brand-pngs.mjs"
   },
   "dependencies": {
+    "playwright": "^1.60.0",
     "sharp": "^0.33.0",
     "web-push": "^3.6.7"
   }

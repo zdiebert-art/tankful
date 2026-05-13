@@ -1,24 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FF9A7B"/>
-      <stop offset="100%" stop-color="#E94560"/>
+    <!-- Deep indigo → violet brand gradient. Tuned for contrast against
+         the light home-screen shelves of iOS/Android. -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#1E3A8A"/>
+      <stop offset="55%"  stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7E22CE"/>
     </linearGradient>
   </defs>
-  <!-- Full-bleed coral background. No internal corner radius — the OS rounds
-       the corners for us when the icon is installed. -->
-  <rect width="64" height="64" fill="url(#g)"/>
-  <!-- Gas pump + clock dial. Geometry matches the favicon; the pump sits
-       inside the maskable safe-zone (≈80% of canvas, centered). -->
-  <g fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="12" y="10" width="28" height="44" rx="3"/>
-    <line x1="10" y1="54" x2="42" y2="54"/>
-    <path d="M40 20h4a2 2 0 0 1 2 2v12a2 2 0 0 0 2 2"/>
-    <path d="M48 36V20l-4-4"/>
-    <circle cx="26" cy="22" r="8"/>
-    <line x1="26" y1="22" x2="26" y2="17"/>
-    <line x1="26" y1="22" x2="30" y2="22"/>
-    <line x1="16" y1="38" x2="36" y2="38"/>
-    <line x1="16" y1="44" x2="36" y2="44"/>
+  <!-- Full-bleed gradient backdrop; the OS rounds the corners for us. -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- White brand mark, scaled to ~72% of canvas (centered within the
+       maskable safe zone). Geometry pulled verbatim from the supplied
+       Illustrator export — same path data as assets/brand/mark.svg.
+       Eye fill is `none` so the gradient shows through the iris. -->
+  <g transform="translate(3 95) scale(0.85)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M471.12,209.85s-15.02,131.54-147.22,151.52c-102.71,15.52-184.81-54.5-198.46-144.83-13.65-90.33,44.67-184.01,146.45-199.39,131.37-19.85,185.29,103.72,185.29,103.72" stroke-width="30"/>
+    <path d="M196.19,273.26s30.74,51.08,102.92,51.08,103.41-51.08,103.41-51.08" stroke-width="19"/>
+    <line x1="465.47" y1="163.95" x2="362.71" y2="179.47" stroke-width="33"/>
+    <circle cx="269.95" cy="191.65" r="46.81" stroke-width="27" fill="none"/>
   </g>
 </svg>

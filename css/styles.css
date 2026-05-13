@@ -342,12 +342,13 @@ body[data-state="wait"] {
   height: 50px;
   display: grid;
   place-items: center;
-  background: var(--accent);
-  border-radius: 8px;
-  color: #696969;
+  background: linear-gradient(135deg, #1E3A8A 0%, #4F46E5 55%, #7E22CE 100%);
+  border-radius: 12px;
+  color: #ffffff;
+  box-shadow: 0 6px 16px -6px rgba(30, 58, 138, 0.5);
 }
 
-.brand-icon svg { width: 40px; height: 40px; }
+.brand-icon svg { width: 38px; height: 38px; }
 .brand-text { font-weight: 800; }
 
 .location {

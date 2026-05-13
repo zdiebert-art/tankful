@@ -1,18 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 -10 400 400" role="img" aria-label="TankFul mark in brand gradient">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%"   stop-color="#1E3A8A"/>
       <stop offset="55%"  stop-color="#4F46E5"/>
       <stop offset="100%" stop-color="#7E22CE"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="12" fill="url(#g)"/>
-  <!-- Same mark geometry as the app icon, scaled down to 64×64.
-       Scale 0.108 + translate centers the mark exactly. -->
-  <g transform="translate(-0.1 12) scale(0.108)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+  <g fill="none" stroke="url(#grad)" stroke-linecap="round" stroke-linejoin="round">
     <path d="M471.12,209.85s-15.02,131.54-147.22,151.52c-102.71,15.52-184.81-54.5-198.46-144.83-13.65-90.33,44.67-184.01,146.45-199.39,131.37-19.85,185.29,103.72,185.29,103.72" stroke-width="30"/>
     <path d="M196.19,273.26s30.74,51.08,102.92,51.08,103.41-51.08,103.41-51.08" stroke-width="19"/>
     <line x1="465.47" y1="163.95" x2="362.71" y2="179.47" stroke-width="33"/>
-    <circle cx="269.95" cy="191.65" r="46.81" stroke-width="27" fill="none"/>
+    <circle cx="269.95" cy="191.65" r="46.81" stroke-width="27" fill="#ffffff"/>
   </g>
 </svg>
