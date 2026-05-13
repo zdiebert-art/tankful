@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-13T19:45:44.931Z",
+  "fetchedAt": "2026-05-13T21:27:12.180Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 199.5,
+  "marketAverage": 198.3,
   "stationCount": 7,
   "stations": [
     {
@@ -11,9 +11,9 @@
       "address": "11470 Bottom Wood Lake Rd",
       "lat": 50.076,
       "lng": -119.3995,
-      "price": 197.9,
+      "price": 195.9,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "26 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -24,7 +24,7 @@
       "lng": -119.4093,
       "price": 203.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -35,7 +35,7 @@
       "lng": -119.4007,
       "price": 197.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -44,9 +44,9 @@
       "address": "11751 BC-97",
       "lat": 50.0918,
       "lng": -119.385,
-      "price": 199.9,
-      "reportedBy": "LNKinEnd",
-      "reportedAgo": "1 Hour Ago",
+      "price": 193.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "12 Minutes Ago",
       "trust": "user"
     },
     {
@@ -57,7 +57,7 @@
       "lng": -119.3835,
       "price": 188.9,
       "reportedBy": "torino17",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -68,7 +68,7 @@
       "lng": -119.4108,
       "price": 203.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -79,7 +79,7 @@
       "lng": -119.4115,
       "price": 203.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
