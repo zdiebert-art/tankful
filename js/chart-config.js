@@ -1,9 +1,9 @@
 /* ============================================
-   GAS WATCH — Chart Configuration
+   TANKFUL — Chart Configuration
    ApexCharts gradient area chart
    ============================================ */
 
-const GW_Chart = (() => {
+const TANKFUL_Chart = (() => {
 
   let chartInstance = null;
 
@@ -165,7 +165,7 @@ const GW_Chart = (() => {
     if (!chartInstance) return;
     const activeTab = document.querySelector('.tab.active');
     const rangeDays = activeTab ? parseInt(activeTab.dataset.range, 10) : 7;
-    render(GW_MOCK.history[rangeDays], rangeDays);
+    render(TANKFUL_MOCK.history[rangeDays], rangeDays);
   }
 
   return { render, refreshTheme };

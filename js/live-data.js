@@ -1,5 +1,5 @@
 /* ============================================
-   GAS WATCH — Live Data Fetchers
+   TANKFUL — Live Data Fetchers
    Free, legal, CORS-friendly sources only.
 
    Sources:
@@ -12,9 +12,9 @@
    - Fall back silently on failure (caller stays on mock data)
    ============================================ */
 
-const GW_LIVE = (() => {
+const TANKFUL_LIVE = (() => {
 
-  const STORAGE_KEY = 'gw_live_cache_v1';
+  const STORAGE_KEY = 'tankful_cache_v1';
 
   // ---------- localStorage cache helpers ----------
   function getCached(key) {
@@ -24,9 +24,9 @@ const GW_LIVE = (() => {
       const all = JSON.parse(raw);
       const entry = all[key];
       if (!entry) return null;
-      const ttlMs = (GW_CONFIG.cacheTtlMin || 60) * 60 * 1000;
+      const ttlMs = (TANKFUL_CONFIG.cacheTtlMin || 60) * 60 * 1000;
       if (Date.now() - entry.fetchedAt > ttlMs) return null;
-      if (GW_CONFIG.debug) console.log(`[live-data] cache HIT for ${key}`);
+      if (TANKFUL_CONFIG.debug) console.log(`[live-data] cache HIT for ${key}`);
       return entry.value;
     } catch (e) {
       return null;
@@ -70,7 +70,7 @@ const GW_LIVE = (() => {
 
     try {
       const url = 'https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?recent=30';
-      if (GW_CONFIG.debug) console.log('[live-data] fetching FX from Bank of Canada');
+      if (TANKFUL_CONFIG.debug) console.log('[live-data] fetching FX from Bank of Canada');
       const res = await fetch(url);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
@@ -98,7 +98,7 @@ const GW_LIVE = (() => {
       setCached('fx', result);
       return result;
     } catch (err) {
-      if (GW_CONFIG.debug) console.warn('[live-data] FX failed:', err.message);
+      if (TANKFUL_CONFIG.debug) console.warn('[live-data] FX failed:', err.message);
       return { success: false, error: err.message };
     }
   }
@@ -110,7 +110,7 @@ const GW_LIVE = (() => {
   // Requires a free API key.
   // ============================================
   async function fetchEIASeries(seriesId, cacheKey, valueUnit) {
-    const apiKey = GW_CONFIG.eiaApiKey;
+    const apiKey = TANKFUL_CONFIG.eiaApiKey;
     if (!apiKey || apiKey.length < 10) {
       return { success: false, error: 'No EIA API key configured' };
     }
@@ -130,7 +130,7 @@ const GW_LIVE = (() => {
         length: '30'
       });
       const url = `https://api.eia.gov/v2/petroleum/pri/spt/data/?${params.toString()}`;
-      if (GW_CONFIG.debug) console.log(`[live-data] fetching ${seriesId} from EIA`);
+      if (TANKFUL_CONFIG.debug) console.log(`[live-data] fetching ${seriesId} from EIA`);
       const res = await fetch(url);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
@@ -160,7 +160,7 @@ const GW_LIVE = (() => {
       setCached(cacheKey, result);
       return result;
     } catch (err) {
-      if (GW_CONFIG.debug) console.warn(`[live-data] ${seriesId} failed:`, err.message);
+      if (TANKFUL_CONFIG.debug) console.warn(`[live-data] ${seriesId} failed:`, err.message);
       return { success: false, error: err.message };
     }
   }
@@ -185,9 +185,9 @@ const GW_LIVE = (() => {
   // a 4h scraper run hides behind a 60-min client cache).
   async function fetchStations() {
     try {
-      const url = (GW_CONFIG.stationsUrl || './data/lake-country-prices.json')
-        + (GW_CONFIG.cacheBust === false ? '' : `?t=${Date.now()}`);
-      if (GW_CONFIG.debug) console.log('[live-data] fetching stations from', url);
+      const url = (TANKFUL_CONFIG.stationsUrl || './data/lake-country-prices.json')
+        + (TANKFUL_CONFIG.cacheBust === false ? '' : `?t=${Date.now()}`);
+      if (TANKFUL_CONFIG.debug) console.log('[live-data] fetching stations from', url);
       const res = await fetch(url, { cache: 'no-store' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
@@ -204,7 +204,7 @@ const GW_LIVE = (() => {
         stations: data.stations
       };
     } catch (err) {
-      if (GW_CONFIG.debug) console.warn('[live-data] stations failed:', err.message);
+      if (TANKFUL_CONFIG.debug) console.warn('[live-data] stations failed:', err.message);
       return { success: false, error: err.message };
     }
   }

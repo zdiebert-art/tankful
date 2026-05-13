@@ -1,8 +1,8 @@
 {
-  "name": "gas-watch-scraper",
+  "name": "tankful-scraper",
   "version": "1.0.0",
   "private": true,
-  "description": "Scrapes Lake Country pump prices from GasBuddy for the Gas Watch dashboard.",
+  "description": "Scrapes Lake Country pump prices from GasBuddy for the Tankful dashboard.",
   "type": "module",
   "scripts": {
     "fetch": "node fetch-prices.js"

@@ -1,9 +1,9 @@
 /* ============================================
-   GAS WATCH — Fill-Up Score Logic
+   TANKFUL — Fill-Up Score Logic
    Pure functions, no DOM access.
    ============================================ */
 
-const GW_Score = {
+const TANKFUL_Score = {
 
   /**
    * RBOB trend sub-score

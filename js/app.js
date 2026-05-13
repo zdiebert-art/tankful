@@ -1,6 +1,6 @@
 /* ============================================
-   GAS WATCH — Main App
-   Hydrates the UI from GW_MOCK state
+   TANKFUL — Main App
+   Hydrates the UI from TANKFUL_MOCK state
    ============================================ */
 
 (function () {
@@ -231,7 +231,7 @@
   }
 
   // ---------- Live-data patching ----------
-  // Takes the result of GW_LIVE.fetchAll() and overlays it onto the mock state.
+  // Takes the result of TANKFUL_LIVE.fetchAll() and overlays it onto the mock state.
   // Mock fields stay intact for any source that failed.
   function applyLiveData(state, live) {
     if (!live) return;
@@ -250,7 +250,7 @@
       let detail = 'USD ' + live.rbob.latest.toFixed(3) + '/gal NYH spot';
       // If FX is also live, translate to approximate Canadian wholesale ¢/L
       if (live.fx && live.fx.success) {
-        const cadPerL = GW_LIVE.rbobToCadPerLitre(live.rbob.latest, live.fx.latest);
+        const cadPerL = TANKFUL_LIVE.rbobToCadPerLitre(live.rbob.latest, live.fx.latest);
         if (cadPerL) detail += ' (~' + (cadPerL * 100).toFixed(1) + '¢/L wholesale)';
       }
       state.components.rbob.detail = detail;
@@ -272,7 +272,7 @@
     const wtiOk = live.wti && live.wti.success;
     const rbobOk = live.rbob && live.rbob.success;
     const stationsOk = live.stations && live.stations.success;
-    const noKey = !GW_CONFIG.eiaApiKey || GW_CONFIG.eiaApiKey.length < 10;
+    const noKey = !TANKFUL_CONFIG.eiaApiKey || TANKFUL_CONFIG.eiaApiKey.length < 10;
 
     const parts = [];
     if (stationsOk) {
@@ -295,16 +295,16 @@
   }
 
   function kickoffLiveData() {
-    if (typeof GW_LIVE === 'undefined') return;
-    GW_LIVE.fetchAll().then(live => {
-      if (GW_CONFIG && GW_CONFIG.debug) console.log('[live-data] result:', live);
-      applyLiveData(GW_MOCK, live);
-      renderIndicators(GW_MOCK.components);
+    if (typeof TANKFUL_LIVE === 'undefined') return;
+    TANKFUL_LIVE.fetchAll().then(live => {
+      if (TANKFUL_CONFIG && TANKFUL_CONFIG.debug) console.log('[live-data] result:', live);
+      applyLiveData(TANKFUL_MOCK, live);
+      renderIndicators(TANKFUL_MOCK.components);
       if (live.stations && live.stations.success) {
-        renderStations(GW_MOCK);
-        renderPrice(GW_MOCK);
+        renderStations(TANKFUL_MOCK);
+        renderPrice(TANKFUL_MOCK);
       }
-      renderLastUpdated(GW_MOCK.lastUpdated);
+      renderLastUpdated(TANKFUL_MOCK.lastUpdated);
       updateLiveStatus(live);
     }).catch(err => {
       console.warn('[live-data] unexpected error:', err);
@@ -337,7 +337,7 @@
 
     // ----- Deal hero (top / cheapest station) -----
     const top = enriched[0];
-    const baseCentsOff = GW_Score.stationSavings(top.price, marketPrice);
+    const baseCentsOff = TANKFUL_Score.stationSavings(top.price, marketPrice);
     const cardSavings = top.discount ? top.discount.amount : 0;
 
     const dealHtml = `
@@ -362,7 +362,7 @@
 
     // ----- Full station list -----
     const listHtml = enriched.map(s => {
-      const centsOff = GW_Score.stationSavings(s.price, marketPrice);
+      const centsOff = TANKFUL_Score.stationSavings(s.price, marketPrice);
       const isMarket = s.price >= marketPrice - 0.5;
       const savingsCls = isMarket
         ? 'neutral'
@@ -434,10 +434,10 @@
         return;
       }
       const region = btn.dataset.region;
-      if (region === GW_MOCK.region) return;
-      GW_MOCK.region = region;
-      renderRegions(GW_MOCK.regions, region);
-      renderPrice(GW_MOCK);
+      if (region === TANKFUL_MOCK.region) return;
+      TANKFUL_MOCK.region = region;
+      renderRegions(TANKFUL_MOCK.regions, region);
+      renderPrice(TANKFUL_MOCK);
     });
   }
 
@@ -452,7 +452,7 @@
         tab.classList.add('active');
         tab.setAttribute('aria-selected', 'true');
         const range = parseInt(tab.dataset.range, 10);
-        GW_Chart.render(GW_MOCK.history[range], range);
+        TANKFUL_Chart.render(TANKFUL_MOCK.history[range], range);
       });
     });
   }
@@ -466,7 +466,7 @@
     const renderChart = () => {
       if (hasRendered) return;
       hasRendered = true;
-      GW_Chart.render(GW_MOCK.history[7], 7);
+      TANKFUL_Chart.render(TANKFUL_MOCK.history[7], 7);
     };
 
     if ('IntersectionObserver' in window) {
@@ -496,7 +496,7 @@
 
   // ---------- Initial render ----------
   function init() {
-    const data = GW_MOCK;
+    const data = TANKFUL_MOCK;
 
     applyState(data.state);
 

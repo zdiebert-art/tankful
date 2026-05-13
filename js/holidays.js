@@ -1,5 +1,5 @@
 /* ============================================
-   GAS WATCH — BC Holidays & Long Weekends
+   TANKFUL — BC Holidays & Long Weekends
    Returns the upcoming statutory holidays and long weekends in
    British Columbia, with a gas-price impact weighting.
 
@@ -16,7 +16,7 @@
      Remembrance Day          ... +2  (higher when it forms a long weekend)
    ============================================ */
 
-const GW_Holidays = (() => {
+const TANKFUL_Holidays = (() => {
 
   const DAY_MS = 86400000;
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',

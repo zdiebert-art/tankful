@@ -1,6 +1,8 @@
-# Gas Watch
+# Tankful
 
 A friendly weather-app-style dashboard that predicts when Kelowna / Lake Country pump prices are about to rise or fall. Built for personal use — share with the family, stick the cheat sheet on the fridge.
+
+Live at **https://tankful.ca**.
 
 ## What it does
 
@@ -13,7 +15,7 @@ A friendly weather-app-style dashboard that predicts when Kelowna / Lake Country
 ## Project structure
 
 ```
-Gas Watch/
+Tankful/
 ├── index.html                   Main dashboard
 ├── cheatsheet.html              Printable one-pager
 ├── README.md
@@ -67,14 +69,11 @@ While we're still on mock data, you can preview each of the three states by addi
 
 Useful for showing the wife and family the different looks.
 
-## Deploying to GitHub Pages
+## Deployment
 
-1. Create a new GitHub repo (e.g., `gas-watch`).
-2. Push everything in this folder to the `main` branch.
-3. Repo → Settings → Pages → set Source to "Deploy from a branch", branch `main`, folder `/ (root)`.
-4. It'll publish at `https://<your-username>.github.io/gas-watch/` within ~1 minute.
+Tankful is live at **https://tankful.ca**, hosted on GitHub Pages from this repo's `main` branch. The repo root contains a `CNAME` file pointing at `tankful.ca`; DNS A-records at Namecheap point at GitHub Pages' four IPs.
 
-For a custom domain (e.g., `gas.voyagerrv.ca`), add a `CNAME` file with that hostname and configure DNS.
+To deploy a fork: enable Pages on `main` (Settings → Pages), drop your own domain in the CNAME file, and configure DNS the same way.
 
 ## Hosting on your own server
 
@@ -99,7 +98,7 @@ The dashboard hydrates from three sources, each independent and each safe to fai
 Free signup (~30 seconds): https://www.eia.gov/opendata/register.php. Drop the key into `js/config.js`:
 
 ```js
-const GW_CONFIG = { eiaApiKey: 'paste-here', ... };
+const TANKFUL_CONFIG = { eiaApiKey: 'paste-here', ... };
 ```
 
 Without a key, WTI/RBOB chips stay on mock; FX and stations still work.
@@ -118,7 +117,7 @@ The scraper:
 2. Falls back to Playwright + Chromium (downloaded fresh per run in CI), waits for the station-card DOM to mount.
 3. Parses station entries by CSS-module class prefix (e.g. `[class*="GenericStationListItem-module__stationListItem"]`).
 4. Matches by street number + first significant street keyword against the seven known Lake Country stations.
-5. Writes `data/lake-country-prices.json` and auto-commits with `gas-watch-bot` if it changed.
+5. Writes `data/lake-country-prices.json` and auto-commits with `tankful-bot` if it changed.
 
 ### Running the scraper locally
 

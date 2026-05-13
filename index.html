@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Gas Watch — Lake Country, BC</title>
-  <meta name="description" content="Should you fill up today? A friendly gas-price predictor for Lake Country and the Okanagan." />
+  <title>Tankful — Lake Country, BC</title>
+  <meta name="description" content="Should you fill up today? Tankful is a friendly gas-price predictor for Lake Country and the Okanagan." />
   <meta name="theme-color" content="#FFB05A" id="theme-color-meta" />
 
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
@@ -71,7 +71,7 @@
             <line x1="5" y1="17.5" x2="12" y2="17.5"/>
           </svg>
         </span>
-        <span class="brand-text">Gas&nbsp;Watch</span>
+        <span class="brand-text">Tankful</span>
       </div>
       <div class="location">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -83,7 +83,7 @@
     </header>
 
     <!-- HERO: Fill-Up Score -->
-    <section class="hero">
+    <section class="hero" data-card-id="hero" data-card-label="Score">
       <div class="score-ring-wrap">
         <svg class="score-ring" viewBox="0 0 200 200" aria-hidden="true">
           <defs>
@@ -116,7 +116,7 @@
     </section>
 
     <!-- WHERE TO FILL UP — stations + spread savings -->
-    <section class="where-card glass-card">
+    <section class="where-card glass-card" data-card-id="where" data-card-label="Where to fill up">
       <div class="where-header">
         <div class="where-title">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -142,7 +142,7 @@
     </section>
 
     <!-- Chart -->
-    <section class="chart-card glass-card">
+    <section class="chart-card glass-card" data-card-id="chart" data-card-label="Price history">
       <div class="chart-header">
         <h2 class="chart-title">Price history</h2>
         <div class="tabs" role="tablist">
@@ -156,7 +156,7 @@
     </section>
 
     <!-- Why panel -->
-    <section class="why-card glass-card">
+    <section class="why-card glass-card" data-card-id="why" data-card-label="Why this score">
       <div class="why-header">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <circle cx="12" cy="12" r="9"/>
@@ -171,7 +171,7 @@
     </section>
 
     <!-- Holidays & long weekends -->
-    <section class="modifiers-card glass-card">
+    <section class="modifiers-card glass-card" data-card-id="modifiers" data-card-label="Holidays">
       <div class="why-header">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <rect x="3" y="5" width="18" height="16" rx="2"/>
@@ -185,7 +185,7 @@
     </section>
 
     <!-- Quick tips -->
-    <section class="tips-card glass-card">
+    <section class="tips-card glass-card" data-card-id="tips" data-card-label="Tips">
       <h2 class="tips-title">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M12 2v2"/><path d="M12 20v2"/>
@@ -227,5 +227,6 @@
   <script src="js/score.js"></script>
   <script src="js/chart-config.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/card-reorder.js"></script>
 </body>
 </html>

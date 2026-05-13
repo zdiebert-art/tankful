@@ -1,11 +1,11 @@
 /* ============================================
-   GAS WATCH — Mock Data
+   TANKFUL — Mock Data
    Real-feeling Kelowna / Lake Country scenario
    May 12, 2026 — Tuesday, 6 days before
    Victoria Day weekend, post-Iran/Hormuz spike
    ============================================ */
 
-const GW_MOCK = (() => {
+const TANKFUL_MOCK = (() => {
 
   // ---------- Helpers ----------
   const today = new Date('2026-05-12T08:00:00-07:00');
@@ -166,8 +166,8 @@ const GW_MOCK = (() => {
   // Holidays & long weekends are computed live from real "today" so the list
   // always reflects what's actually coming up in British Columbia.
   // (See js/holidays.js for the BC catalogue + impact weighting.)
-  const modifiers = (typeof GW_Holidays !== 'undefined')
-    ? GW_Holidays.upcoming(new Date(), { limit: 4, lookaheadDays: 180 })
+  const modifiers = (typeof TANKFUL_Holidays !== 'undefined')
+    ? TANKFUL_Holidays.upcoming(new Date(), { limit: 4, lookaheadDays: 180 })
     : [];
 
   const baseScore = Object.values(components).reduce((s, c) => s + c.impact, 0);
@@ -238,21 +238,21 @@ const GW_MOCK = (() => {
   const demo = params.get('demo');
   if (!demo) return;
   if (demo === 'wait') {
-    GW_MOCK.score = 22;
-    GW_MOCK.state = 'wait';
-    GW_MOCK.verdict = 'Wait a Bit';
-    GW_MOCK.verdictSub = 'Prices look likely to drift down';
-    GW_MOCK.modifiers = [];
+    TANKFUL_MOCK.score = 22;
+    TANKFUL_MOCK.state = 'wait';
+    TANKFUL_MOCK.verdict = 'Wait a Bit';
+    TANKFUL_MOCK.verdictSub = 'Prices look likely to drift down';
+    TANKFUL_MOCK.modifiers = [];
   } else if (demo === 'neutral') {
-    GW_MOCK.score = 48;
-    GW_MOCK.state = 'neutral';
-    GW_MOCK.verdict = 'Maybe Today';
-    GW_MOCK.verdictSub = 'Mixed signals — no strong push either way';
-    GW_MOCK.modifiers = [];
+    TANKFUL_MOCK.score = 48;
+    TANKFUL_MOCK.state = 'neutral';
+    TANKFUL_MOCK.verdict = 'Maybe Today';
+    TANKFUL_MOCK.verdictSub = 'Mixed signals — no strong push either way';
+    TANKFUL_MOCK.modifiers = [];
   } else if (demo === 'fill-up') {
-    GW_MOCK.score = 78;
-    GW_MOCK.state = 'fill-up';
-    GW_MOCK.verdict = 'Fill Up Now';
-    GW_MOCK.verdictSub = 'Conditions favor a further increase soon';
+    TANKFUL_MOCK.score = 78;
+    TANKFUL_MOCK.state = 'fill-up';
+    TANKFUL_MOCK.verdict = 'Fill Up Now';
+    TANKFUL_MOCK.verdictSub = 'Conditions favor a further increase soon';
   }
 })();

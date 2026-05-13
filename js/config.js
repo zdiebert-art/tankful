@@ -1,9 +1,9 @@
 /* ============================================
-   GAS WATCH — User Configuration
+   TANKFUL — User Configuration
    Edit these values to wire up live data sources.
    ============================================ */
 
-const GW_CONFIG = {
+const TANKFUL_CONFIG = {
   // ---------- EIA Open Data API key ----------
   // Free signup (takes 30 seconds): https://www.eia.gov/opendata/register.php
   // Paste your key below — without it, WTI and RBOB stay on mock values.
@@ -20,7 +20,7 @@ const GW_CONFIG = {
   // Where to read scraped Lake Country prices. Defaults to a sibling JSON file
   // produced by the GitHub Actions scraper; override with a raw.githubusercontent
   // URL if the app is hosted separately from the data.
-  // stationsUrl: 'https://raw.githubusercontent.com/<user>/gas-watch/main/data/lake-country-prices.json',
+  // stationsUrl: 'https://raw.githubusercontent.com/zdiebert-art/tankful/main/data/lake-country-prices.json',
 
   // ---------- Debug ----------
   // Set true to log every fetch attempt + result to the browser console.
