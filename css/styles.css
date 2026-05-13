@@ -468,56 +468,9 @@ body[data-state="wait"] {
   margin: 0 auto;
 }
 
-.current-price-pill {
-  background: var(--glass-bg);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  border: 1px solid var(--glass-border);
-  border-radius: 32px;
-  padding: 22px 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  box-shadow: var(--glass-shadow);
-}
-
-.price-label {
-  font-size: 0.875rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-soft);
-}
-
-.price-value {
-  font-size: 2.25rem;
-  font-weight: 800;
-  color: var(--text);
-  letter-spacing: -0.01em;
-  font-feature-settings: "tnum";
-  line-height: 1.1;
-}
-
-@media (min-width: 768px) {
-  .price-value { font-size: 2.625rem; }
-}
-
-.price-unit {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--text-soft);
-  margin-left: 3px;
-}
-
-.price-delta {
-  font-size: 0.9375rem;
-  font-weight: 600;
-  color: var(--text-soft);
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
+/* (The hero "Today in Lake Country" price pill was removed — the market
+   average wasn't an actionable signal. Station-level prices live in the
+   "Where to fill up" card.) */
 
 /* ============================================
    GLASS CARDS — shared

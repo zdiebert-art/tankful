@@ -30,8 +30,6 @@
     ringFill: document.querySelector('.ring-fill'),
     verdict: $('#verdict'),
     verdictSub: $('#verdictSub'),
-    currentPrice: $('#currentPrice'),
-    priceDelta: $('#priceDelta'),
     indicators: $('#indicators'),
     modifiersRow: $('#modifiersRow'),
     tipsList: $('#tipsList'),
@@ -43,7 +41,6 @@
     stationList: $('#stationList'),
     scoreLegend: $('#scoreLegend'),
     chartCard: $('.chart-card'),
-    priceLabel: $('#priceLabel'),
     liveStatus: $('#liveStatus')
   };
 
@@ -85,70 +82,10 @@
     els.verdictSub.textContent = state.verdictSub;
   }
 
-  // Price-delta snapshot — we don't have historical pump data yet, so we
-  // store the market average at view-time and use snapshots that are 18-36h
-  // old as the "yesterday" baseline. Anything younger or older than that
-  // window is ignored and the delta line is hidden rather than showing a
-  // fake number.
-  const PRICE_SNAPSHOT_KEY = 'tankful_price_snapshot_v1';
-  const HOUR_MS = 3600 * 1000;
-
-  function readPriceSnapshot() {
-    try {
-      const raw = localStorage.getItem(PRICE_SNAPSHOT_KEY);
-      if (!raw) return null;
-      const obj = JSON.parse(raw);
-      if (!obj || typeof obj.price !== 'number' || typeof obj.at !== 'number') return null;
-      return obj;
-    } catch (e) { return null; }
-  }
-  function writePriceSnapshot(price) {
-    try {
-      localStorage.setItem(
-        PRICE_SNAPSHOT_KEY,
-        JSON.stringify({ price, at: Date.now() })
-      );
-    } catch (e) { /* ignore */ }
-  }
-
-  function renderPrice(state) {
-    const activeRegion = state.regions.find(r => r.id === state.region);
-    const regionName = activeRegion ? activeRegion.name : 'your area';
-    if (els.priceLabel) {
-      els.priceLabel.textContent = `Today in ${regionName}`;
-    }
-
-    els.currentPrice.textContent = state.currentPrice.toFixed(1);
-
-    // Pick a yesterday baseline. Priority:
-    //   1. A localStorage snapshot 18-36h old → genuine day-over-day delta
-    //   2. Otherwise hide the delta line (don't lie about it)
-    const snap = readPriceSnapshot();
-    const ageH = snap ? (Date.now() - snap.at) / HOUR_MS : null;
-
-    if (snap && ageH >= 18 && ageH <= 36) {
-      const delta = state.currentPrice - snap.price;
-      if (Math.abs(delta) < 0.05) {
-        els.priceDelta.innerHTML = `<span>unchanged from yesterday</span>`;
-      } else {
-        const arrow = delta > 0 ? '▲' : '▼';
-        const sign  = delta > 0 ? '+' : '';
-        els.priceDelta.innerHTML =
-          `<span>${arrow} ${sign}${delta.toFixed(1)}¢ from yesterday</span>`;
-      }
-      els.priceDelta.style.display = '';
-    } else {
-      // Either no snapshot yet, or it's too fresh / too stale to be honest.
-      els.priceDelta.innerHTML = '';
-      els.priceDelta.style.display = 'none';
-    }
-
-    // Update the snapshot if it's old enough that we'd accept it next time
-    // (≥18h). Skip otherwise so the baseline is genuinely day-old.
-    if (!snap || ageH >= 18) {
-      writePriceSnapshot(state.currentPrice);
-    }
-  }
+  // (Hero used to display a "Today in Lake Country — 199.5¢/L" market-average
+  // pill. Removed because the number was an average without saying so and
+  // wasn't actionable. Station-level prices live in the "Where to fill up"
+  // card, which is the useful surface.)
 
   function renderIndicators(components) {
     const html = Object.entries(components).map(([key, c]) => {
@@ -691,7 +628,6 @@
 
       if (live.stations && live.stations.success) {
         renderStations(TANKFUL_MOCK);
-        renderPrice(TANKFUL_MOCK);
       }
 
       // Replace the mock chart history with real cron-derived samples
@@ -862,7 +798,6 @@
       if (region === TANKFUL_MOCK.region) return;
       TANKFUL_MOCK.region = region;
       renderRegions(TANKFUL_MOCK.regions, region);
-      renderPrice(TANKFUL_MOCK);
     });
   }
 
@@ -931,7 +866,6 @@
     }, 100);
 
     renderVerdict(data);
-    renderPrice(data);
     renderRegions(data.regions, data.region);
     renderStations(data);
     renderIndicators(data.components);
