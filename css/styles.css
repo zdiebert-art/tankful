@@ -145,24 +145,28 @@ body[data-state="wait"] {
 }
 
 /* ============================================
-   FLOATING SCORE LEGEND (desktop only)
+   SCORE LEGEND
+   Desktop (>1024px): generous floating panel pinned to the
+                      left margin, vertically centered.
+   Mobile / tablet:   white sticky footer pinned to the
+                      bottom of the viewport.
    ============================================ */
 .score-legend {
   position: fixed;
-  left: 20px;
+  left: 24px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 50;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  background: rgba(255, 255, 255, 0.55);
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.62);
   backdrop-filter: blur(24px) saturate(1.1);
   -webkit-backdrop-filter: blur(24px) saturate(1.1);
-  border: 1px solid rgba(255, 255, 255, 0.65);
-  border-radius: 22px;
-  padding: 14px 16px;
-  box-shadow: 0 14px 40px -12px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 26px;
+  padding: 20px 24px;
+  box-shadow: 0 18px 48px -14px rgba(0, 0, 0, 0.22);
   animation: legendIn 0.7s 0.4s ease backwards;
 }
 
@@ -172,79 +176,88 @@ body[data-state="wait"] {
 }
 
 .legend-title {
-  font-size: 0.65rem;
+  font-size: 0.78rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--text-soft);
-  padding-bottom: 6px;
+  padding-bottom: 8px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 4px 2px;
+  gap: 12px;
+  padding: 6px 2px;
   opacity: 0.55;
   transition: opacity 0.35s ease, transform 0.35s ease;
 }
 
 .legend-item.active {
   opacity: 1;
-  transform: scale(1.02);
+  transform: scale(1.03);
 }
 
 .legend-dot {
-  width: 14px;
-  height: 14px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   flex-shrink: 0;
   box-shadow: 0 0 0 2px rgba(255,255,255,0.6), 0 4px 10px -2px rgba(0,0,0,0.15);
 }
 
 .legend-item.active .legend-dot {
-  box-shadow: 0 0 0 3px rgba(255,255,255,0.85), 0 6px 16px -2px rgba(0,0,0,0.25);
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.9), 0 6px 16px -2px rgba(0,0,0,0.25);
 }
 
-.legend-item[data-state="wait"] .legend-dot { background: #E94560; }
+.legend-item[data-state="wait"]    .legend-dot { background: #E94560; }
 .legend-item[data-state="neutral"] .legend-dot { background: #F58A2F; }
 .legend-item[data-state="fill-up"] .legend-dot { background: #2BB587; }
 
 .legend-text {
   display: flex;
   flex-direction: column;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 
 .legend-label {
-  font-size: 0.8125rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--text);
 }
 
 .legend-range {
-  font-size: 0.6875rem;
+  font-size: 0.78rem;
   font-weight: 500;
   color: var(--text-soft);
   font-feature-settings: "tnum";
 }
 
-/* Mobile / tablet: drop the floating sidebar, render the legend as a
-   compact horizontal bar above the footer instead. */
+/* Mobile / tablet: white sticky footer at the bottom of the viewport. */
 @media (max-width: 1024px) {
   .score-legend {
-    position: static;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
     transform: none;
-    display: flex;
+    z-index: 100;
+    background: #ffffff;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 0;
+    box-shadow: 0 -6px 24px -8px rgba(0, 0, 0, 0.18);
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     gap: 8px;
-    padding: 10px 12px;
-    margin: 6px 0 12px;
-    border-radius: 16px;
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+    margin: 0;
     animation: none;
   }
   .score-legend .legend-title {
@@ -253,21 +266,29 @@ body[data-state="wait"] {
   .score-legend .legend-item {
     flex: 1 1 0;
     min-width: 0;
-    gap: 6px;
+    gap: 8px;
     padding: 2px 0;
+    justify-content: center;
   }
   .score-legend .legend-item.active {
     transform: none;
   }
   .score-legend .legend-dot {
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
   }
   .score-legend .legend-label {
-    font-size: 0.78rem;
+    font-size: 0.88rem;
   }
   .score-legend .legend-range {
-    font-size: 0.65rem;
+    font-size: 0.72rem;
+  }
+
+  /* Reserve room at the page bottom so the sticky bar doesn't cover
+     the cheat-sheet link / status line in the footer. ~80px is enough
+     for the legend + the safe-area inset on iPhones. */
+  body {
+    padding-bottom: calc(80px + env(safe-area-inset-bottom));
   }
 }
 

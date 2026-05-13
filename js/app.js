@@ -294,6 +294,92 @@
     }
   }
 
+  // ---------- Live "Quick tips for today" ----------
+  // Built from real state (scraped stations, upcoming holidays, RBOB trend)
+  // rather than the mock-data scenario blurbs. Returns up to 4 tips in
+  // priority order: best-deal spread → active holiday → card stack →
+  // RBOB pressure. Falls back to a generic refresh note if fewer than 2
+  // tips land.
+  function computeLiveTips(state, live) {
+    const out = [];
+
+    // -- 1. Best deal vs market --
+    if (state.stations && state.stations.length > 0 && state.marketPrice) {
+      const sorted = [...state.stations].sort((a, b) => a.effectivePrice - b.effectivePrice);
+      const top = sorted[0];
+      const spread = state.marketPrice - top.effectivePrice;
+
+      if (spread >= 1.0) {
+        const cardSuffix = top.discount
+          ? ` ${top.discount.label}`
+          : '';
+        out.push({
+          icon: 'target',
+          html: `<strong>Where matters today.</strong> Market average is ${state.marketPrice.toFixed(1)}¢/L but ${top.name} is at ${top.effectivePrice.toFixed(1)}¢/L${cardSuffix} — ${spread.toFixed(1)}¢/L below the rest.`
+        });
+      }
+    }
+
+    // -- 2. Active or upcoming holiday / long weekend --
+    if (state.modifiers && state.modifiers.length) {
+      const active = state.modifiers.find(m => m.active);
+      if (active) {
+        out.push({
+          icon: 'calendar-days',
+          html: `<strong>${active.name} ahead.</strong> ${active.detail}. Pump prices typically firm 2-3 days before a long weekend — fill before Friday if you can.`
+        });
+      } else {
+        const next = state.modifiers[0];
+        if (next) {
+          out.push({
+            icon: 'calendar-day',
+            html: `<strong>Next stat: ${next.name}.</strong> ${next.detail}. No pre-weekend price firming pressure yet.`
+          });
+        }
+      }
+    }
+
+    // -- 3. Card-discount reminder (only when a card actually wins) --
+    if (state.stations) {
+      const cardDeals = state.stations.filter(s => s.discount && s.discount.amount > 0);
+      if (cardDeals.length) {
+        const best = cardDeals.slice().sort((a, b) => a.effectivePrice - b.effectivePrice)[0];
+        out.push({
+          icon: 'credit-card',
+          html: `<strong>Don't forget the ${best.discount.label.replace(/^with\s+/i, '')}.</strong> Pumps at ${best.name} show ${best.price.toFixed(1)}¢, but with the ${best.discount.amount}¢/L card discount you pay ${best.effectivePrice.toFixed(1)}¢.`
+        });
+      }
+    }
+
+    // -- 4. RBOB / FX pressure signal --
+    if (live && live.rbob && live.rbob.success && Math.abs(live.rbob.trendPct) >= 2) {
+      const trend = live.rbob.trendPct;
+      const dir = trend > 0 ? 'up' : 'down';
+      const verb = trend > 0 ? 'pressure' : 'relief';
+      out.push({
+        icon: 'refinery',
+        html: `<strong>Wholesale gas (RBOB) is ${dir} ${Math.abs(trend).toFixed(1)}% over 30 days.</strong> Wholesale ${verb} usually shows up at the pump within a week.`
+      });
+    } else if (live && live.fx && live.fx.success && Math.abs(live.fx.trendPct) >= 1.5) {
+      const trend = live.fx.trendPct;
+      const dir = trend > 0 ? 'weakening' : 'strengthening';
+      out.push({
+        icon: 'currency',
+        html: `<strong>Loonie ${dir}.</strong> CAD has moved ${Math.abs(trend).toFixed(1)}% over 30 days against the USD — Canadian wholesale costs follow.`
+      });
+    }
+
+    // -- Fallback so the card never feels empty --
+    if (out.length < 2) {
+      out.push({
+        icon: 'target',
+        html: '<strong>Tankful refreshes itself.</strong> Station prices update every 4 hours from GasBuddy; FX and oil indicators refresh hourly. Hard-refresh anytime.'
+      });
+    }
+
+    return out.slice(0, 4);
+  }
+
   function kickoffLiveData() {
     if (typeof TANKFUL_LIVE === 'undefined') return;
     TANKFUL_LIVE.fetchAll().then(live => {
@@ -304,6 +390,9 @@
         renderStations(TANKFUL_MOCK);
         renderPrice(TANKFUL_MOCK);
       }
+      // Recompute tips from the patched live state.
+      TANKFUL_MOCK.tips = computeLiveTips(TANKFUL_MOCK, live);
+      renderTips(TANKFUL_MOCK.tips);
       renderLastUpdated(TANKFUL_MOCK.lastUpdated);
       updateLiveStatus(live);
     }).catch(err => {
