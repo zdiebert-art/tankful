@@ -22,7 +22,7 @@ const TANKFUL_ADMIN_CONFIG = {
   // APIs & Services → Credentials → "OAuth 2.0 Client IDs" →
   // create a new Web application client with `https://tankful.ca` and
   // `http://localhost:8765` as authorized origins.
-  googleClientId: "REPLACE_WITH_GOOGLE_OAUTH_CLIENT_ID",
+  googleClientId: "281080467284-u9tlf7tb89jggf9v72isodgv7qki5t79.apps.googleusercontent.com",
 
   // GitHub repo the admin operates on. Used to build API URLs for reads
   // and writes. owner/repo format.
