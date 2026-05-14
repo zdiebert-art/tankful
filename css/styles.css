@@ -497,7 +497,7 @@ body[data-state="wait"] {
   max-width: 420px;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
+  text-align: center;
 }
 .score-breakdown summary {
   cursor: pointer;

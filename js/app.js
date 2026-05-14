@@ -306,9 +306,26 @@
     }
     el.hidden = false;
     el.textContent = '· Updated ' + rel;
+
+    // Tooltip: last refresh (absolute) + countdown to the next one.
+    // The cron runs at minute 0 every 4h, so next fetch ≈ last + 4h.
     const d = new Date(fetchedAt);
     const opts = { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' };
-    el.title = 'Last price refresh: ' + d.toLocaleString('en-CA', opts);
+    const last = d.toLocaleString('en-CA', opts);
+
+    const nextMs = d.getTime() + 4 * 60 * 60 * 1000;
+    const untilSec = Math.max(0, (nextMs - Date.now()) / 1000);
+    let nextRel;
+    if (untilSec < 60) {
+      nextRel = 'any minute now';
+    } else if (untilSec < 3600) {
+      nextRel = 'in ~' + Math.round(untilSec / 60) + 'm';
+    } else {
+      const h = Math.floor(untilSec / 3600);
+      const m = Math.round((untilSec - h * 3600) / 60);
+      nextRel = 'in ~' + h + 'h' + (m ? ' ' + m + 'm' : '');
+    }
+    el.title = 'Last refresh: ' + last + '\nNext refresh: ' + nextRel;
   }
 
   function renderLastUpdated(iso) {
