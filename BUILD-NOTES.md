@@ -196,10 +196,6 @@ mood.
   bump the `manifest.webmanifest` `start_url` query (`?v=2`), rename the
   icon filenames, or just accept that users have to uninstall + reinstall
   once. Worth testing on a real device which approach actually works.
-- **Lockup SVGs are stale** — `assets/brand/lockup-vertical.svg`,
-  `lockup-horizontal.svg` and their `-white.svg` + PNG variants still use
-  the *previous* mark geometry. Should be regenerated with the new
-  `tankFul-icon.svg` paths.
 - **"below the market average" wording** — the verdict-sub and the
   Best-Deal hero card still use the "below market average" phrasing.
   User previously said they don't care about averages; should rephrase

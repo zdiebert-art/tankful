@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // Render every SVG in assets/brand/ to PNG at a usable high-res size.
 //
-// We use Playwright (a real browser) rather than sharp+libvips so the
-// Poppins webfont actually loads — the lockups' wordmark + tagline rely
-// on Poppins 900 / 500 weights from Google Fonts, which libvips can't
-// fetch.
+// We use Playwright (a real browser) rather than sharp+libvips so any
+// webfont (Poppins) loads cleanly — though every text element in this
+// package is currently shipped as outlined paths, so this is mostly
+// belt-and-suspenders.
 //
 //   node tools/generate-brand-pngs.mjs
 
