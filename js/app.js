@@ -28,31 +28,38 @@
   // We render via <img> so the SVG renders as authored without inlining
   // the brand artwork into the script.
   const STATION_LOGOS = {
-    petrocanada: 'assets/station-logos/petro-canada.svg',
-    chevron:     'assets/station-logos/chevron-gas.svg',
-    shell:       'assets/station-logos/shell-gas.svg',
-    husky:       'assets/station-logos/husky-energy.svg',
-    canco:       'assets/station-logos/canco.svg',
-    supersave:   'assets/station-logos/super-save-gas.svg',
-    // Co-store / chains carried for future use (Kelowna + Vernon expansion):
-    esso:        'assets/station-logos/esso.svg',
-    coop:        'assets/station-logos/co-op.svg',
-    costco:      'assets/station-logos/costco.svg',
-    fasgas:      'assets/station-logos/fas-gas.svg',
-    tempo:       'assets/station-logos/tempo-gas.svg',
-    sevenEleven: 'assets/station-logos/7-eleven.svg',
-    ontheRun:    'assets/station-logos/on-the-run.svg',
-    onestop:     'assets/station-logos/one-stop.svg',
-    circlek:     'assets/station-logos/circle-k.svg'
+    // Fuel brands
+    petrocanada:   'assets/station-logos/petro-canada.svg',
+    chevron:       'assets/station-logos/chevron-gas.svg',
+    shell:         'assets/station-logos/shell-gas.svg',
+    husky:         'assets/station-logos/husky-energy.svg',
+    canco:         'assets/station-logos/canco.svg',
+    supersave:     'assets/station-logos/super-save-gas.svg',
+    esso:          'assets/station-logos/esso.svg',
+    coop:          'assets/station-logos/co-op.svg',
+    costco:        'assets/station-logos/costco.svg',
+    fasgas:        'assets/station-logos/fas-gas.svg',
+    tempo:         'assets/station-logos/tempo-gas.svg',
+    mobil:         'assets/station-logos/mobil.svg',
+    centex:        'assets/station-logos/centex.svg',
+    canadiantire:  'assets/station-logos/canadian-tire.svg',
+    // C-store brands
+    sevenEleven:   'assets/station-logos/7-eleven.svg',
+    ontheRun:      'assets/station-logos/on-the-run.svg',
+    onestop:       'assets/station-logos/one-stop.svg',
+    circlek:       'assets/station-logos/circle-k.svg'
   };
 
   // Brand string → logo file URL. Strips spaces, hyphens, and punctuation
-  // before looking up so "Petro-Canada", "Super Save", "Shell" all resolve.
-  // Returns null if no logo is known for the brand (e.g. Parkway).
+  // before looking up so "Petro-Canada", "Super Save", "Canadian Tire" all
+  // resolve. Returns null if no logo is known for the brand (e.g. Parkway,
+  // Smart Stop, Superstore, GOmarket — the last three are c-stores without
+  // dedicated SVGs yet).
   function stationLogoFor(brand) {
     if (!brand) return null;
     const key = brand.toLowerCase().replace(/[^a-z]/g, '');
-    // 7-Eleven and On the Run need explicit aliases since "7" gets stripped.
+    // 7-Eleven and On the Run need explicit aliases since "7" gets stripped
+    // and "on the run" collapses to "ontherun".
     const aliases = { eleven: 'sevenEleven', '7eleven': 'sevenEleven', ontherun: 'ontheRun' };
     return STATION_LOGOS[aliases[key] || key] || null;
   }
@@ -72,6 +79,7 @@
     themeMeta: $('#theme-color-meta'),
     tabs: document.querySelectorAll('.tab'),
     regionPicker: $('#regionPicker'),
+    zonePicker: $('#zonePicker'),
     dealHero: $('#dealHero'),
     stationList: $('#stationList'),
     scoreLegend: $('#scoreLegend'),
@@ -369,24 +377,6 @@
     els.lastUpdated.textContent = d.toLocaleString('en-CA', opts);
   }
 
-  // Mock station entries keep useful UI metadata (Canco card discount, brand
-  // labels) that the scraper doesn't produce. Map by scraper ID → mock ID so
-  // we can carry that metadata across when we overlay live prices.
-  // brand = the fuel brand line (bold). cstore = the convenience-store
-  // co-brand if the station has one ("& 7-Eleven" / "& CO-OP" / etc.).
-  // Pattern mirrors how the source listing pairs a fuel brand with an
-  // optional in-store co-brand.
-  const STATION_OVERLAY = {
-    'canco':     { mockId: 'canco-woodsdale', brand: 'Canco',        cstore: 'One Stop', discount: { type: 'card', amount: 2.0, label: 'with Canco card' } },
-    'petrocan':  { mockId: 'petro-711',       brand: 'Petro-Canada', cstore: '7-Eleven', discount: null },
-    'petrocan-n':{ mockId: null,              brand: 'Petro-Canada', cstore: null,       discount: null },
-    'supersave': { mockId: 'supersave-lc',    brand: 'Super Save',   cstore: null,       discount: null },
-    'husky':     { mockId: 'husky-97',        brand: 'Husky',        cstore: 'CO-OP',    discount: null },
-    'parkway':   { mockId: null,              brand: 'Parkway',      cstore: null,         discount: null, logoBrand: 'Shell' },
-    'shell-lc':  { mockId: null,              brand: 'Shell',        cstore: null,         discount: null },
-    'chevron':   { mockId: null,              brand: 'Chevron',      cstore: 'On the Run', discount: null }
-  };
-
   // Pretty-print a scraped GasBuddy address line for display under the station
   // name. "9724 BC-97" → "9724 Highway 97". The locality already appears on
   // the meta line directly below, so we don't repeat it here.
@@ -395,25 +385,32 @@
     return String(raw).replace(/\bBC-(\d+)\b/gi, 'Highway $1').trim();
   }
 
-  function applyLiveStations(state, liveStations) {
+  // Map each scraper-supplied station into the shape renderStations()
+  // expects. Brand, c-store, discount, logo-override, and zone all come
+  // straight from the prices JSON — the scraper's region config is the
+  // single source of truth now.
+  function applyLiveStations(state, liveStations, regionMeta) {
     if (!liveStations || !liveStations.success) return;
 
-    const mockById = Object.fromEntries((state.stations || []).map(s => [s.id, s]));
     const market = liveStations.marketAverage || state.marketPrice;
+    const areaLabel = (regionMeta && regionMeta.name) || 'Lake Country';
 
     const merged = liveStations.stations.map(s => {
-      const overlay = STATION_OVERLAY[s.id] || {};
-      const fromMock = overlay.mockId ? mockById[overlay.mockId] : null;
-      const discount = overlay.discount || (fromMock && fromMock.discount) || null;
+      const discount = s.discount || null;
       const effectivePrice = discount ? s.price - discount.amount : s.price;
 
+      const brand   = s.fuelBrand || s.name || 'Gas station';
+      const cstore  = s.cstoreBrand || null;
+      const displayName = cstore ? `${brand} · ${cstore}` : brand;
+
       return {
-        id: overlay.mockId || s.id,
-        name: s.name,
-        brand: overlay.brand || s.name,
-        cstore: overlay.cstore || null,
-        logoBrand: overlay.logoBrand || null,
-        area: 'Lake Country',
+        id: s.id,
+        name: displayName,
+        brand,
+        cstore,
+        logoBrand: s.logoBrand || null,
+        zone: s.zone || null,
+        area: areaLabel,
         address: formatStationAddress(s.address),
         // Raw address (no "Highway 97" rewrite) for Maps deep-links — Apple
         // and Google both prefer the literal address string the postal
@@ -489,8 +486,10 @@
 
   // ---------- Live-data patching ----------
   // Takes the result of TANKFUL_LIVE.fetchAll() and overlays it onto the mock state.
-  // Mock fields stay intact for any source that failed.
-  function applyLiveData(state, live) {
+  // Mock fields stay intact for any source that failed. regionMeta is the
+  // currently-active region's manifest entry (used to label stations with
+  // the right city name).
+  function applyLiveData(state, live, regionMeta) {
     if (!live) return;
 
     // Score sign convention: score is "% chance you should fill up NOW"
@@ -538,7 +537,7 @@
     }
 
     if (live.stations && live.stations.success) {
-      applyLiveStations(state, live.stations);
+      applyLiveStations(state, live.stations, regionMeta);
     }
 
     if (live.anySuccess) {
@@ -896,12 +895,17 @@
     return out.slice(0, 4);
   }
 
+  // Fetch + apply live data for the currently-active region. Safe to call
+  // again whenever the region (or zone) changes — re-fetches the right
+  // prices/history JSON, re-runs the verdict, and re-renders everything
+  // that depends on station data.
   function kickoffLiveData() {
-    if (typeof TANKFUL_LIVE === 'undefined') return;
-    TANKFUL_LIVE.fetchAll().then(live => {
+    if (typeof TANKFUL_LIVE === 'undefined') return Promise.resolve();
+    const regionMeta = TANKFUL_MOCK.regionMeta || null;
+    return TANKFUL_LIVE.fetchAll(regionMeta).then(live => {
       if (TANKFUL_CONFIG && TANKFUL_CONFIG.debug) console.log('[live-data] result:', live);
 
-      applyLiveData(TANKFUL_MOCK, live);
+      applyLiveData(TANKFUL_MOCK, live, regionMeta);
 
       if (live.stations && live.stations.success) {
         renderStations(TANKFUL_MOCK);
@@ -975,8 +979,22 @@
   // ---------- Render stations ----------
   // Stations display their BASE price; card discounts shown as a separate badge.
   // Ranking still uses effectivePrice so card-holders win ties.
+  // When the active region has zones and a zone other than 'all' is selected,
+  // the list is filtered to that zone. The Best Deal hero always reflects
+  // the filtered list, so picking "Mission" shows the best deal in Mission.
   function renderStations(state) {
-    const { stations, marketPrice } = state;
+    const { marketPrice } = state;
+    const zone = state.zone || 'all';
+    const stations = (state.stations || []).filter(s => {
+      if (zone === 'all') return true;
+      return s.zone === zone;
+    });
+
+    if (stations.length === 0) {
+      if (els.dealHero) els.dealHero.innerHTML = '<div class="deal-hero-label">No stations in this zone</div>';
+      if (els.stationList) els.stationList.innerHTML = '';
+      return;
+    }
 
     // Sort by effectivePrice (this is the ranking signal)
     const enriched = [...stations].sort((a, b) => a.effectivePrice - b.effectivePrice);
@@ -1102,7 +1120,7 @@
     });
   }
 
-  // ---------- Region picker handler ----------
+  // ---------- Region + zone picker handlers ----------
   function setupRegionPicker() {
     els.regionPicker.addEventListener('click', (e) => {
       const btn = e.target.closest('.region-pill');
@@ -1116,9 +1134,112 @@
       }
       const region = btn.dataset.region;
       if (region === TANKFUL_MOCK.region) return;
-      TANKFUL_MOCK.region = region;
-      renderRegions(TANKFUL_MOCK.regions, region);
+      switchRegion(region);
     });
+  }
+
+  function setupZonePicker() {
+    if (!els.zonePicker) return;
+    els.zonePicker.addEventListener('click', (e) => {
+      const btn = e.target.closest('.zone-pill');
+      if (!btn) return;
+      const zone = btn.dataset.zone;
+      if (zone === TANKFUL_MOCK.zone) return;
+      TANKFUL_MOCK.zone = zone;
+      renderZones(TANKFUL_MOCK.regionMeta, zone);
+      renderStations(TANKFUL_MOCK);
+    });
+  }
+
+  // ---------- Switch active region ----------
+  // Re-target every region-dependent piece: location label, zone filter,
+  // prices fetch, history fetch, score recompute, station list.
+  function switchRegion(regionId) {
+    const meta = (TANKFUL_MOCK.regions || []).find(r => r.id === regionId);
+    if (!meta) return;
+    TANKFUL_MOCK.region = regionId;
+    TANKFUL_MOCK.regionMeta = meta;
+    TANKFUL_MOCK.zone = 'all';
+    updateLocationLabel(meta.name);
+    renderRegions(TANKFUL_MOCK.regions, regionId);
+    renderZones(meta, 'all');
+    // Hide the stale station list while the new region's data is in flight.
+    if (els.stationList) els.stationList.innerHTML = '<div class="station-loading">Loading prices…</div>';
+    kickoffLiveData();
+  }
+
+  // ---------- Location label in header ----------
+  function updateLocationLabel(regionName) {
+    const el = document.getElementById('locationLabel');
+    if (el) el.textContent = `${regionName}, BC`;
+    if (TANKFUL_MOCK) TANKFUL_MOCK.location = `${regionName}, BC`;
+  }
+
+  // ---------- Zone picker rendering ----------
+  // Renders the secondary pill row under the region picker. Hidden when
+  // the active region has no zones defined.
+  function renderZones(regionMeta, activeZone) {
+    if (!els.zonePicker) return;
+    const zones = regionMeta && regionMeta.zones;
+    if (!Array.isArray(zones) || zones.length === 0) {
+      els.zonePicker.hidden = true;
+      els.zonePicker.innerHTML = '';
+      return;
+    }
+    const items = [{ id: 'all', name: 'All' }, ...zones];
+    const html = items.map(z => {
+      const isActive = z.id === (activeZone || 'all');
+      return `<button class="zone-pill${isActive ? ' active' : ''}" data-zone="${z.id}">${z.name}</button>`;
+    }).join('');
+    els.zonePicker.innerHTML = html;
+    els.zonePicker.hidden = false;
+  }
+
+  // ---------- Load the regions manifest + bootstrap the picker ----------
+  // Merges the manifest with the fallback list in mock-data.js so any
+  // region the scraper doesn't yet produce (e.g. Vernon) stays visible as
+  // "Soon". Returns the active region's manifest entry, or null.
+  async function loadRegionsManifest() {
+    if (typeof TANKFUL_LIVE === 'undefined') return null;
+    const result = await TANKFUL_LIVE.fetchManifest();
+    if (!result || !result.success) return null;
+
+    const manifestById = Object.fromEntries(result.regions.map(r => [r.id, r]));
+    const mockRegions = TANKFUL_MOCK.regions || [];
+
+    // Start from the manifest order so the scraper drives the picker
+    // ordering, then append any mock-only regions ("Soon") at the end.
+    const merged = result.regions.map(r => ({
+      id: r.id,
+      name: r.name,
+      zones: r.zones || null,
+      pricesUrl: r.pricesUrl,
+      historyUrl: r.historyUrl,
+      enabled: true,
+      comingSoon: false,
+    }));
+    for (const m of mockRegions) {
+      if (manifestById[m.id]) continue;
+      merged.push({
+        id: m.id,
+        name: m.name,
+        zones: null,
+        pricesUrl: null,
+        historyUrl: null,
+        enabled: false,
+        comingSoon: true,
+      });
+    }
+    TANKFUL_MOCK.regions = merged;
+
+    // Pick the active region: prefer the current one if it's still in the
+    // manifest, otherwise fall back to the first enabled entry.
+    const current = TANKFUL_MOCK.region;
+    const active = manifestById[current] || result.regions[0];
+    if (!active) return null;
+    TANKFUL_MOCK.region = active.id;
+    TANKFUL_MOCK.regionMeta = merged.find(r => r.id === active.id) || null;
+    return TANKFUL_MOCK.regionMeta;
   }
 
   // ---------- Tab handling ----------
@@ -1177,6 +1298,7 @@
   // ---------- Initial render ----------
   function init() {
     const data = TANKFUL_MOCK;
+    if (!data.zone) data.zone = 'all';
 
     applyState(data.state);
 
@@ -1187,6 +1309,7 @@
 
     renderVerdict(data);
     renderRegions(data.regions, data.region);
+    renderZones(data.regionMeta, data.zone);
     renderStations(data);
     renderIndicators(data.components);
     renderModifiers(data.modifiers);
@@ -1196,14 +1319,23 @@
 
     setupTabs();
     setupRegionPicker();
+    setupZonePicker();
     setupChartObserver();
     setupLocation();
     setupRefineryAlert();
     setupPushButton();
 
-    // Fire live data fetches after the initial mock render is on screen.
-    // Patches in once they resolve; mock stays put if anything fails.
-    kickoffLiveData();
+    // Fetch the regions manifest first, then kick off live data for the
+    // currently-active region. If the manifest fails we fall through with
+    // the mock region list — Lake Country only — so the app still loads.
+    loadRegionsManifest().then((regionMeta) => {
+      if (regionMeta) {
+        renderRegions(TANKFUL_MOCK.regions, TANKFUL_MOCK.region);
+        renderZones(regionMeta, TANKFUL_MOCK.zone);
+        updateLocationLabel(regionMeta.name);
+      }
+      kickoffLiveData();
+    });
   }
 
   // ---------- Push notifications subscribe / unsubscribe ----------

@@ -1,4 +1,4 @@
-name: Refresh Lake Country prices
+name: Refresh region prices
 
 on:
   schedule:
@@ -54,11 +54,15 @@ jobs:
           git config user.name  "tankful-bot"
           git config user.email "tankful-bot@users.noreply.github.com"
 
-          if git diff --quiet -- data/lake-country-prices.json; then
+          # Stage every prices/history file plus the manifest. The scraper
+          # always rewrites the manifest, but the prices/history files only
+          # change when something was actually scraped.
+          git add data/*-prices.json data/regions.json 2>/dev/null || true
+
+          if git diff --cached --quiet; then
             echo "No price changes — skipping commit."
             exit 0
           fi
 
-          git add data/lake-country-prices.json
-          git commit -m "chore(data): refresh Lake Country prices ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git commit -m "chore(data): refresh region prices ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push

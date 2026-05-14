@@ -1,0 +1,40 @@
+{
+  "updatedAt": "2026-05-14T22:41:14.430Z",
+  "regions": [
+    {
+      "id": "lake-country",
+      "name": "Lake Country",
+      "zones": null,
+      "pricesUrl": "data/lake-country-prices.json",
+      "historyUrl": "data/lake-country-history.json"
+    },
+    {
+      "id": "kelowna",
+      "name": "Kelowna",
+      "zones": [
+        {
+          "id": "downtown",
+          "name": "Downtown / Capri"
+        },
+        {
+          "id": "mission",
+          "name": "Mission / South"
+        },
+        {
+          "id": "glenmore",
+          "name": "Glenmore / UBCO"
+        },
+        {
+          "id": "rutland",
+          "name": "Rutland"
+        },
+        {
+          "id": "rutland-north",
+          "name": "Rutland N / Airport"
+        }
+      ],
+      "pricesUrl": "data/kelowna-prices.json",
+      "historyUrl": "data/kelowna-history.json"
+    }
+  ]
+}

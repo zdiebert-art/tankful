@@ -29,8 +29,9 @@ less money.*
 | Custom domain | tankful.ca via Namecheap A-records (185.199.108-111.153) + CNAME file |
 | HTTPS | Enforced (GitHub-issued cert, auto-renew) |
 | PWA | Installable on iOS 16.4+ / Android Chrome / Edge desktop |
-| Data scraper | GitHub Actions cron hourly 6am-8pm PT (BC has no DST → fixed UTC-7) with 0-15 min random jitter; commits `data/lake-country-prices.json` |
-| History | `data/lake-country-history.json` — tiered retention: hourly for the last 30 days, daily averages for up to 5 years, then dropped. Steady-state ~2,300 samples (~200 KB). |
+| Data scraper | GitHub Actions cron hourly 6am-8pm PT (BC has no DST → fixed UTC-7) with 0-15 min random jitter; sweeps every region in `scrape/regions/*.js` and commits `data/{region-id}-prices.json` + `data/regions.json` manifest |
+| Regions | Lake Country (8 stations), Kelowna (37 stations split across 5 zones). Vernon planned. |
+| History | `data/{region-id}-history.json` per region — tiered retention: hourly for the last 30 days, daily averages for up to 5 years, then dropped. Steady-state ~2,300 samples (~200 KB) per region. |
 | Service worker | Network-first for shell, cache-first for binary assets; CI auto-bumps cache version on every shell-touching push |
 | EIA API key | Live in `js/config.js` (free tier, public exposure acceptable) |
 | Cloudflare Push Worker | **Code shipped, not yet deployed** — see `cloudflare/SETUP.md` |
@@ -112,7 +113,12 @@ js/
   card-reorder.js                  # PARKED — script tag commented out in index.html
 
 scrape/
-  fetch-prices.js                  # the scraper (run locally with `node scrape/fetch-prices.js`)
+  fetch-prices.js                  # the scraper — sweeps every region in regions/ and writes data/*-prices.json + data/regions.json
+  discover-stations.js             # one-off discovery helper: sweeps postal codes and prints station candidates (used to seed kelowna.js, reusable for Vernon)
+  regions/                         # per-region config — single source of truth for postal codes + station list + zones + brand metadata
+    index.js                       #   exports the REGIONS array (order = picker order)
+    lake-country.js                #   8 stations, no zones
+    kelowna.js                     #   37 stations, 5 zones (Downtown / Mission / Glenmore / Rutland / Rutland N)
   package.json                     # cheerio + playwright
 
 tools/
@@ -217,11 +223,18 @@ mood.
   for May Long, ±15 from RBOB, ±8 from day-of-week, ±5 from FX).
 
 ### Region expansion
-- **Kelowna + Vernon** marked "Soon" in the region picker but not
-  implemented. Adding requires: (a) Kelowna/Vernon stations in
-  `scrape/fetch-prices.js` STATIONS array, (b) `STATION_OVERLAY` entries
-  in `app.js`, (c) the region-picker click handler to actually filter,
-  (d) probably a per-region history file in `data/`.
+- **Vernon** still marked "Soon" in the picker — needs a `scrape/regions/vernon.js`
+  config the same way Kelowna got built. Use `node scrape/discover-stations.js V1B V1H V1T`
+  to sweep postal codes and seed the station list, then group into zones.
+- **Kelowna lat/lng** are intentionally null on initial ship — the
+  distance feature ("X.X km away") won't work for Kelowna stations
+  until they're geocoded. Either run a Nominatim pass (1 req/sec, free)
+  or hand-set them like Lake Country's were. Everything else (zone
+  filter, price ranking, score, tips) works without lat/lng.
+- **Missing logos for Kelowna c-stores**: Smart Stop 24/7, Superstore,
+  GOmarket — stations using these brands fall through to no-logo display
+  (same as the existing Parkway case). Drop SVGs into `assets/station-logos/`
+  with the matching slug to fix.
 
 ### Push notifications (deployment)
 - **Cloudflare Worker not yet deployed.** Frontend code ready (`js/push.js`,

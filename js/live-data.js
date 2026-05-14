@@ -176,16 +176,34 @@ const TANKFUL_LIVE = (() => {
   }
 
   // ============================================
-  // Lake Country station prices — produced by the GitHub Actions scraper.
-  // Reads the committed JSON next to the app so the same path works locally
-  // (over `python -m http.server` or similar) and once deployed.
+  // Regions manifest — produced by the scraper. Lists every region the
+  // scraper knows about, its zone definitions (if any), and the URLs
+  // for its prices + history JSON. Frontend has no hardcoded region info.
   // ============================================
-  // No localStorage cache for stations — the JSON is small, same-origin, and
-  // we want every page load to reflect what the cron last committed (otherwise
-  // a 4h scraper run hides behind a 60-min client cache).
-  async function fetchStations() {
+  async function fetchManifest() {
     try {
-      const url = (TANKFUL_CONFIG.stationsUrl || './data/lake-country-prices.json')
+      const url = './data/regions.json'
+        + (TANKFUL_CONFIG.cacheBust === false ? '' : `?t=${Date.now()}`);
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      if (!data || !Array.isArray(data.regions)) throw new Error('No regions in manifest');
+      return { success: true, regions: data.regions, updatedAt: data.updatedAt };
+    } catch (err) {
+      if (TANKFUL_CONFIG.debug) console.warn('[live-data] manifest failed:', err.message);
+      return { success: false, error: err.message };
+    }
+  }
+
+  // ============================================
+  // Region station prices — committed JSON file written by the GitHub
+  // Actions scraper. No localStorage cache: the JSON is small, same-origin,
+  // and a fresh fetch every page load means scraper updates show up
+  // immediately instead of hiding behind a client TTL.
+  // ============================================
+  async function fetchStations(pricesUrl) {
+    try {
+      const url = (pricesUrl || './data/lake-country-prices.json')
         + (TANKFUL_CONFIG.cacheBust === false ? '' : `?t=${Date.now()}`);
       if (TANKFUL_CONFIG.debug) console.log('[live-data] fetching stations from', url);
       const res = await fetch(url, { cache: 'no-store' });
@@ -200,6 +218,7 @@ const TANKFUL_LIVE = (() => {
         success: true,
         source: 'gasbuddy.com',
         fetchedAt: data.fetchedAt,
+        region: data.region,
         marketAverage: data.marketAverage,
         stations: data.stations
       };
@@ -210,12 +229,12 @@ const TANKFUL_LIVE = (() => {
   }
 
   // ============================================
-  // Rolling Lake Country price history — produced by the same cron run
-  // that updates the prices JSON, growing by one sample every 4 hours.
+  // Region rolling price history — produced by the same cron run that
+  // updates the prices JSON, growing by one sample per scrape.
   // ============================================
-  async function fetchHistory() {
+  async function fetchHistory(historyUrl) {
     try {
-      const url = (TANKFUL_CONFIG.historyUrl || './data/lake-country-history.json')
+      const url = (historyUrl || './data/lake-country-history.json')
         + (TANKFUL_CONFIG.cacheBust === false ? '' : `?t=${Date.now()}`);
       if (TANKFUL_CONFIG.debug) console.log('[live-data] fetching history from', url);
       const res = await fetch(url, { cache: 'no-store' });
@@ -234,16 +253,21 @@ const TANKFUL_LIVE = (() => {
   }
 
   // ============================================
-  // Fetch everything in parallel
-  // Resolves once all five settle (success or failure).
+  // Fetch everything in parallel.
+  //
+  // Pass a region object ({ pricesUrl, historyUrl }) to fetch its data;
+  // omit to default to the legacy Lake Country paths (covers first-load
+  // races where the manifest hasn't returned yet).
   // ============================================
-  async function fetchAll() {
+  async function fetchAll(region) {
+    const pricesUrl  = region && region.pricesUrl;
+    const historyUrl = region && region.historyUrl;
     const [fx, wti, rbob, stations, history] = await Promise.all([
       fetchFX(),
       fetchWTI(),
       fetchRBOB(),
-      fetchStations(),
-      fetchHistory()
+      fetchStations(pricesUrl),
+      fetchHistory(historyUrl)
     ]);
     return {
       fx,
@@ -265,5 +289,5 @@ const TANKFUL_LIVE = (() => {
     return (rbobUsdPerGal * usdCadRate) / 3.78541;
   }
 
-  return { fetchFX, fetchWTI, fetchRBOB, fetchStations, fetchHistory, fetchAll, clearCache, rbobToCadPerLitre };
+  return { fetchFX, fetchWTI, fetchRBOB, fetchStations, fetchHistory, fetchManifest, fetchAll, clearCache, rbobToCadPerLitre };
 })();
