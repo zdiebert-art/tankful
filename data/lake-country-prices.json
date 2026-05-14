@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-14T14:14:11.235Z",
+  "fetchedAt": "2026-05-14T17:51:28.097Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 198,
+  "marketAverage": 195.5,
   "stationCount": 7,
   "stations": [
     {
@@ -11,9 +11,9 @@
       "address": "11470 Bottom Wood Lake Rd",
       "lat": 50.076,
       "lng": -119.3995,
-      "price": 195.9,
+      "price": 191.9,
       "reportedBy": "Owner",
-      "reportedAgo": "58 Minutes Ago",
+      "reportedAgo": "4 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -22,10 +22,10 @@
       "address": "9724 BC-97",
       "lat": 50.0432,
       "lng": -119.4093,
-      "price": 203.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "price": 197.9,
+      "reportedBy": "pooterm",
+      "reportedAgo": "56 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -34,9 +34,9 @@
       "lat": 50.0599,
       "lng": -119.4007,
       "price": 197.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "pooterm",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -44,9 +44,9 @@
       "address": "11751 BC-97",
       "lat": 50.0918,
       "lng": -119.385,
-      "price": 191.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "12 Hours Ago",
+      "price": 189.9,
+      "reportedBy": "Buddy_3vh90fkw",
+      "reportedAgo": "39 Minutes Ago",
       "trust": "user"
     },
     {
@@ -66,9 +66,9 @@
       "address": "9531 BC-97",
       "lat": 50.0407,
       "lng": -119.4108,
-      "price": 203.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "2 Hours Ago",
+      "price": 197.9,
+      "reportedBy": "pooterm",
+      "reportedAgo": "55 Minutes Ago",
       "trust": "user"
     },
     {
@@ -79,7 +79,7 @@
       "lng": -119.4115,
       "price": 203.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     }
   ],
@@ -89,7 +89,7 @@
       {
         "number": "9855",
         "street": "BC-97 N",
-        "price": 203.9
+        "price": 197.9
       },
       {
         "number": "350",
