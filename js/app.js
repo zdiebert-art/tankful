@@ -22,6 +22,44 @@
     storm: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"/><path d="m13 12-3 5h4l-3 5"/></svg>`
   };
 
+  // ---------- Station brand glyphs ----------
+  // Monochrome mini-marks (uses currentColor so it inherits the surrounding
+  // text color). Sized as small inline icons next to the brand name —
+  // distinctively different from the source-listing treatment which puts
+  // colored logos in prominent circles. Keep silhouettes simple enough to
+  // read at ~20-22px.
+  const STATION_LOGOS = {
+    // Petro-Canada — Canadian maple leaf (11-point silhouette with stem)
+    petrocanada: `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l-1.2 3.6-2.6-.8.8 2.7-3.5-.2 1.7 3-3.3 1.5 3.6 1 -.7 1.7 4 .2-.2 2 2.8-.6.6 5.4h1.6l.6-5.4 2.8.6-.2-2 4-.2-.7-1.7 3.6-1-3.3-1.5 1.7-3-3.5.2.8-2.7-2.6.8z"/></svg>`,
+
+    // Chevron — two stacked chevron arrows
+    chevron: `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 11.5L12 5l9 6.5-2 1.6L12 8l-7 5.1zm0 6L12 11l9 6.5-2 1.6L12 14l-7 5.1z"/></svg>`,
+
+    // Shell — scallop / fan silhouette with ribs
+    shell: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 19c-.6-9 3-15 9-15s9.6 6 9 15z"/><path d="M12 4v15M7.5 4.6L9 19M16.5 4.6L15 19M4.5 7L6.5 19M19.5 7L17.5 19"/></svg>`,
+
+    // Husky — bold "H" (the actual husky+mountains mark is too detailed
+    // for a 22px icon — letter monogram is the clean fallback)
+    husky: `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 4v16h3v-7h8v7h3V4h-3v6H8V4z"/></svg>`,
+
+    // Canco — bold "C"
+    canco: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M19 7.5a7 7 0 1 0 0 9"/></svg>`,
+
+    // Super Save — "$"
+    supersave: `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 3v2.2c2.4.4 3.8 1.5 4.3 3.4l-2 .55c-.4-1.3-1.5-1.95-3.3-1.95-1.7 0-2.7.7-2.7 1.85 0 1.2 1 1.5 3 2 2.6.6 5 1.4 5 4 0 2-1.5 3.4-4.3 3.7V21h-2v-2.25c-2.6-.3-4.1-1.5-4.6-3.6l2-.5c.4 1.4 1.5 2.1 3.7 2.1 1.95 0 3-.7 3-1.85 0-1.2-1-1.5-3.1-2-2.6-.6-4.9-1.4-4.9-3.9 0-1.9 1.4-3.3 4.2-3.6V3z"/></svg>`,
+
+    // Parkway — bold "P"
+    parkway: `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 4v16h3v-6h3.5a5 5 0 0 0 0-10zm3 3h3.5a2 2 0 0 1 0 4H9z"/></svg>`
+  };
+
+  // Map a brand string ("Petro-Canada", "Super Save", "Shell") to a logo
+  // key — strip non-letters, lowercase, then look up.
+  function stationLogoFor(brand) {
+    if (!brand) return null;
+    const key = brand.toLowerCase().replace(/[^a-z]/g, '');
+    return STATION_LOGOS[key] || null;
+  }
+
   // ---------- DOM refs ----------
   const $ = (sel) => document.querySelector(sel);
   const els = {
@@ -1032,6 +1070,7 @@
           <a class="station-link" href="${href}" target="_blank" rel="noopener" aria-label="Get directions to ${s.name}">
             <div class="station-info">
               <div class="station-name-row">
+                ${stationLogoFor(s.brand) ? `<span class="station-logo" aria-hidden="true">${stationLogoFor(s.brand)}</span>` : ''}
                 <span class="station-name">
                   <span class="station-brand">${s.brand || s.name}</span>${s.cstore ? `<span class="station-cstore"> &amp; ${s.cstore}</span>` : ''}
                 </span>
