@@ -29,8 +29,8 @@ less money.*
 | Custom domain | tankful.ca via Namecheap A-records (185.199.108-111.153) + CNAME file |
 | HTTPS | Enforced (GitHub-issued cert, auto-renew) |
 | PWA | Installable on iOS 16.4+ / Android Chrome / Edge desktop |
-| Data scraper | GitHub Actions cron `0 */4 * * *`, commits `data/lake-country-prices.json` |
-| History | `data/lake-country-history.json` appended each scrape (4 samples/day, capped at 400) |
+| Data scraper | GitHub Actions cron hourly 6am-8pm PT (BC has no DST → fixed UTC-7) with 0-15 min random jitter; commits `data/lake-country-prices.json` |
+| History | `data/lake-country-history.json` — tiered retention: hourly for the last 30 days, daily averages for up to 5 years, then dropped. Steady-state ~2,300 samples (~200 KB). |
 | Service worker | Network-first for shell, cache-first for binary assets; CI auto-bumps cache version on every shell-touching push |
 | EIA API key | Live in `js/config.js` (free tier, public exposure acceptable) |
 | Cloudflare Push Worker | **Code shipped, not yet deployed** — see `cloudflare/SETUP.md` |
@@ -281,7 +281,8 @@ npx serve -l 8765 .
   workflow exits 1. The scraper logs unmatched parsed entries so it's
   easy to spot what changed.
 - **GasBuddy ToS** — technically prohibits automated agents. We send a
-  real User-Agent, keep volume to 6 req/day, don't republish the source
+  real User-Agent, keep volume to 15 req/day (hourly 6am-8pm PT with
+  random jitter, no overnight pulls), don't republish the source
   identity, and would fold if served a complaint. Repo + tooltips
   intentionally avoid naming GasBuddy as the source.
 - **Card-lock stations** (AFD Petroleum etc.) are deliberately excluded

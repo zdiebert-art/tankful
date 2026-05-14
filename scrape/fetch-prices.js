@@ -13,10 +13,14 @@ const REPO_ROOT = resolve(__dirname, "..");
 const OUTPUT_PATH  = resolve(REPO_ROOT, "data", "lake-country-prices.json");
 const HISTORY_PATH = resolve(REPO_ROOT, "data", "lake-country-history.json");
 
-// Rolling-history retention: ~4 months at the current 4-runs/day cadence.
-// Enough to drive the 7-day / 30-day / 1-year chart (the 1y view downsamples
-// to weekly averages so coverage doesn't need to be 365 days perfect).
-const HISTORY_MAX_SAMPLES = 400;
+// Rolling-history retention: tiered to keep the file small forever.
+//   - Last HOURLY_DAYS days: every scrape sample (hourly detail).
+//   - Older than that, up to MAX_DAYS days: one average sample per day.
+//   - Older than MAX_DAYS days: dropped.
+// At 15 scrapes/day + 5 years of daily backfill, the steady-state file holds
+// ~2,300 samples (~200 KB) — tiny, but enough resolution for any chart view.
+const HOURLY_DAYS = 30;
+const MAX_DAYS    = 365 * 5;
 
 const TARGET_URL =
   "https://www.gasbuddy.com/home?search=V4V+1W2&fuel=1&method=all&maxAge=0";
@@ -255,15 +259,56 @@ async function appendHistory(payload) {
     history.samples.push(sample);
   }
 
-  // Keep only the most recent HISTORY_MAX_SAMPLES.
-  if (history.samples.length > HISTORY_MAX_SAMPLES) {
-    history.samples = history.samples.slice(-HISTORY_MAX_SAMPLES);
-  }
+  history.samples = compactHistory(history.samples);
   history.region = payload.region;
   history.updatedAt = payload.fetchedAt;
 
   await writeFile(HISTORY_PATH, JSON.stringify(history, null, 2) + "\n", "utf8");
   log(`appended sample (${sample.marketAverage}¢) — history now has ${history.samples.length} entries`);
+}
+
+// Tiered retention. Samples within the last HOURLY_DAYS are kept verbatim.
+// Older samples are grouped by UTC day and replaced with one averaged entry
+// per day. Anything older than MAX_DAYS is dropped. Idempotent: running
+// this on already-compacted data leaves it unchanged (one sample in a day
+// averages to itself).
+function compactHistory(samples) {
+  const now = Date.now();
+  const hourlyCutoff = now - (HOURLY_DAYS * 86400000);
+  const maxCutoff    = now - (MAX_DAYS * 86400000);
+
+  const recent = [];
+  const olderByDay = new Map(); // "YYYY-MM-DD" → [samples]
+
+  for (const s of samples) {
+    const t = Date.parse(s.at);
+    if (!Number.isFinite(t) || t < maxCutoff) continue;
+
+    if (t >= hourlyCutoff) {
+      recent.push(s);
+    } else {
+      const dayKey = new Date(t).toISOString().slice(0, 10);
+      if (!olderByDay.has(dayKey)) olderByDay.set(dayKey, []);
+      olderByDay.get(dayKey).push(s);
+    }
+  }
+
+  const compactedOld = [];
+  for (const [dayKey, group] of olderByDay) {
+    const avgPrice = group.reduce((a, s) => a + s.marketAverage, 0) / group.length;
+    const avgStations = Math.round(
+      group.reduce((a, s) => a + (s.stationCount || 0), 0) / group.length
+    );
+    compactedOld.push({
+      at: `${dayKey}T12:00:00.000Z`,
+      marketAverage: Math.round(avgPrice * 10) / 10,
+      stationCount: avgStations,
+    });
+  }
+
+  return [...compactedOld, ...recent].sort(
+    (a, b) => Date.parse(a.at) - Date.parse(b.at)
+  );
 }
 
 async function main() {

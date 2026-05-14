@@ -2,8 +2,10 @@ name: Refresh Lake Country prices
 
 on:
   schedule:
-    # Every 4 hours, on the hour (UTC). GitHub Actions cron can drift 5-15 min.
-    - cron: "0 */4 * * *"
+    # Hourly between 6am and 8pm Pacific Time. BC no longer observes DST, so
+    # Pacific Time is a stable UTC-7 year-round: 6am PT = 13:00 UTC, 8pm PT
+    # = 03:00 UTC next day. That's 15 pulls per day.
+    - cron: "0 13-23,0-3 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -16,9 +18,18 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
+      # Jitter the start time by 0-15 minutes so we don't always hit GasBuddy
+      # at the exact same minute past the hour. GitHub Actions cron drifts
+      # 5-15 min on its own — this just adds a bit more spread.
+      - name: Random delay (0-15 min)
+        run: |
+          DELAY=$((RANDOM % 900))
+          echo "Sleeping ${DELAY}s before starting (jitter)."
+          sleep $DELAY
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
