@@ -1,374 +1,313 @@
-# Tankful — Build Notes (Handoff to Claude Code)
+# TankFul — Handoff Notes
 
-> **You're picking up from a Claude Chat session.** Read this entire doc before starting work. It contains everything that's been built so far, everything Zach has done outside the codebase, and an ordered task list for what's left.
+> Read this before doing anything. It's the canonical "what's built / how it
+> hangs together / what to be careful about" doc. Refresh it after large
+> chunks of work.
+>
+> **Local path:** `F:\Voyager RV\19. APPS\gas-watch\`
+> **GitHub:** https://github.com/zdiebert-art/tankful (public)
+> **Live:** https://tankful.ca (GitHub Pages, HTTPS enforced)
+> **Owner:** Zach Diebert · zdiebert@gmail.com · Lake Country, BC
 
 ---
 
 ## What this app is
 
-A static HTML/JS dashboard predicting Lake Country / Kelowna pump prices. Tells the user when to fill up based on FX, WTI, RBOB futures, day-of-week patterns, price cycles, and Canadian stat holidays.
-
-- **Name:** Tankful (recently renamed from "Gas Watch" — codebase still says Gas Watch in most places; rename is a pending task)
-- **Domain:** `tankful.ca` (purchased on Namecheap)
-- **Hosting plan:** GitHub Pages with custom domain `tankful.ca` (Namecheap hosting kept for future email use only)
-- **User:** Zach Diebert (Lake Country, BC) — personal/family use
-- **GitHub username:** `zdiebert-art`
-- **Local path:** `F:\Voyager RV\19. APPS\gas-watch\`
+A static HTML/JS dashboard that predicts when Lake Country / Kelowna pump
+prices are about to rise or fall. Personal/family use, but engineered to
+scale to acquaintances. Wordmark is **TankFul** (camel case — "T" + "F"
+capitalized to lean on the "thankful" wordplay). Tagline: *more miles —
+less money.*
 
 ---
 
-## Stack
+## Live state at a glance
 
-- Vanilla HTML / CSS / JS, no build step, no framework
-- Global state objects (`GW_MOCK`, `GW_LIVE`, `GW_CONFIG`) hydrated into the DOM by `js/app.js`
-- CSS custom properties for theming — `body[data-state]` switches palettes
-- ApexCharts CDN for the price history chart
-- Static file deployment via GitHub Pages
+| | |
+|---|---|
+| Hosting | GitHub Pages, deploys from `main` |
+| Custom domain | tankful.ca via Namecheap A-records (185.199.108-111.153) + CNAME file |
+| HTTPS | Enforced (GitHub-issued cert, auto-renew) |
+| PWA | Installable on iOS 16.4+ / Android Chrome / Edge desktop |
+| Data scraper | GitHub Actions cron `0 */4 * * *`, commits `data/lake-country-prices.json` |
+| History | `data/lake-country-history.json` appended each scrape (4 samples/day, capped at 400) |
+| Service worker | Network-first for shell, cache-first for binary assets; CI auto-bumps cache version on every shell-touching push |
+| EIA API key | Live in `js/config.js` (free tier, public exposure acceptable) |
+| Cloudflare Push Worker | **Code shipped, not yet deployed** — see `cloudflare/SETUP.md` |
 
 ---
 
-## What's been built (current state of the code)
-
-### File tree
+## Architecture (data flow)
 
 ```
-index.html              # Dashboard (currently says "GAS WATCH" — rename pending)
-cheatsheet.html         # Printable cheatsheet (also says "GAS WATCH")
-css/
-  styles.css            # All app styles, theme system, glass-morphism, gooey blob bg
-  print.css             # Cheatsheet print styles
-js/
-  config.js             # User-editable config (EIA API key goes here)
-  mock-data.js          # Fallback data — May 12 2026 Lake Country scenario
-  live-data.js          # Bank of Canada FX + EIA WTI/RBOB fetchers
-  score.js              # Pure scoring functions
-  chart-config.js       # ApexCharts setup with manual date formatter
-  app.js                # DOM hydration, event wiring, live data orchestration
+                              ┌──────────────────────────────┐
+                              │   GitHub Actions cron (4h)   │
+                              │   scrape/fetch-prices.js     │
+                              │   (cheerio + Playwright)     │
+                              └────────────┬─────────────────┘
+                                           │ commits
+                                           ▼
+        ┌──────────────────────────────────────────────────────────┐
+        │   data/lake-country-prices.json + history.json (in repo) │
+        └──────────────────────────────────────────────────────────┘
+                                           │
+                                           │ HTTPS fetch
+                                           ▼
+        ┌──────────────────────────────────────────────────────────┐
+        │   tankful.ca (GitHub Pages, static)                      │
+        │   index.html + css/styles.css + js/*.js                  │
+        │   ┌──────────────────────────────────────────────────┐   │
+        │   │ js/app.js orchestrates:                          │   │
+        │   │  - applyLiveData()     (FX, WTI, RBOB, stations) │   │
+        │   │  - computeLiveVerdict()  → score + breakdown     │   │
+        │   │  - renderStations() / renderTips() / etc.        │   │
+        │   └──────────────────────────────────────────────────┘   │
+        │   sw.js: shell + offline cache + push handler            │
+        └──────────────────────────────────────────────────────────┘
+                                           ▲
+                                           │ Web Push (planned)
+        ┌──────────────────────────────────┴────────────────────┐
+        │  Cloudflare Worker (cloudflare/push-worker.js)        │
+        │  KV: subscriptions; cron checks score; sends pushes   │
+        │  NOT YET DEPLOYED — see cloudflare/SETUP.md           │
+        └───────────────────────────────────────────────────────┘
+```
+
+---
+
+## Repo layout
+
+```
+index.html, cheatsheet.html        # the two pages
+manifest.webmanifest, sw.js        # PWA shell
+CNAME                              # tankful.ca for GitHub Pages
+tankFul-icon.svg                   # AUTHORITATIVE source for the brand mark
+tankFul-full-logo.svg              # AUTHORITATIVE source (mark + wordmark + tagline)
+tankFul-logo.ai / .pdf             # Illustrator working files
+
 assets/
-  favicon.svg           # Outline gas pump w/ clock dial inset (Icon "A")
-BUILD-NOTES.md          # This file
-README.md               # If present, may need updating
-```
+  favicon.svg                      # gradient + white mark
+  icon-source.svg                  # source for the PNG app icon set
+  icons/                           # generated app icon PNGs (don't edit by hand)
+  brand/                           # full brand package — see brand/README.md
+  station-logos/                   # user-supplied brand SVGs for stations
+  fonts/                           # (placeholder if Europa Grotesk gets licensed)
 
-### Theme system (don't touch unless asked)
+css/
+  styles.css                       # main styles, theme system on body[data-state]
+  print.css                        # cheatsheet print + screen
 
-- `body[data-state="fill-up"]` → green mint/emerald palette → "go fill up"
-- `body[data-state="neutral"]`  → amber palette → "maybe today"
-- `body[data-state="wait"]`     → red/coral palette → "don't fill"
-- HTML default `body[data-state="neutral"]` to avoid theme-flash on load
-- Color semantics were specifically chosen: green = go, red = stop (traffic light intuition)
+js/
+  config.js                        # EIA key, pushWorkerUrl, debug flag
+  mock-data.js                     # fallback data (Lake Country, May 12 2026 scenario)
+  live-data.js                     # FX (BoC), WTI/RBOB (EIA), stations + history JSON
+  score.js                         # legacy scoring helpers (stationSavings etc.)
+  holidays.js                      # BC stat-holiday + long-weekend calendar
+  location.js                      # geolocation + haversine + iOS/Google Maps URL
+  refinery-alert.js                # manual supply-outage toggle (14-day auto-expiry)
+  chart-config.js                  # ApexCharts setup
+  push.js                          # subscribe/unsubscribe + service-worker plumbing
+  pwa.js                           # SW registration + install prompts + auto-reload
+  app.js                           # the orchestrator — DOM hydration + render
+  card-reorder.js                  # PARKED — script tag commented out in index.html
 
-### Icon
-
-The brand icon is an outline gas pump with a small clock dial inset in the upper body. Same SVG appears in:
-- `index.html` header brand-icon
-- `cheatsheet.html` header brand-icon
-- `assets/favicon.svg` (white strokes on coral gradient)
-
-**Don't redesign the icon.** It was chosen out of four concepts and approved.
-
-### Live data layer (wired but not yet score-driving)
-
-`js/live-data.js` exposes `GW_LIVE` with:
-- `fetchFX()` → Bank of Canada Valet (USD/CAD), no key, CORS-friendly
-- `fetchWTI()` → EIA WTI Cushing spot, requires free key
-- `fetchRBOB()` → EIA NYH RBOB Regular Gasoline spot, requires free key
-- `fetchAll()` → parallel fetch all three, returns `{ fx, wti, rbob, fetchedAt, anySuccess }`
-- localStorage cache with TTL (default 60 min, configurable in `js/config.js`)
-
-`js/app.js` `kickoffLiveData()` runs after the initial mock render. `applyLiveData()` patches `state.components` with live values for display. Footer `#liveStatus` shows current fetch state.
-
-**Important: the score number itself is still hardcoded from mock.** Building the formula that turns live indicators into a moving 0–100 score is Phase C — don't tackle it as part of this work unless explicitly asked.
-
----
-
-## What Zach has done outside the codebase
-
-### Domain purchased
-`tankful.ca` on Namecheap. Auto-renew on. Hosting plan (Stellar Plus) also active but kept only for future email use.
-
-### DNS records configured (confirmed via screenshot)
-At Namecheap → Domain List → tankful.ca → Advanced DNS:
-
-| Type | Host | Value | TTL |
-|------|------|-------|-----|
-| A Record | @ | 185.199.108.153 | Automatic |
-| A Record | @ | 185.199.109.153 | Automatic |
-| A Record | @ | 185.199.110.153 | Automatic |
-| A Record | @ | 185.199.111.153 | Automatic |
-| CNAME Record | www | `zdiebert-art.github.io.` | Automatic |
-
-These point at GitHub Pages. DNS was changed recently; propagation may take 5 min to a few hours. Don't expect GitHub Pages to verify the custom domain immediately.
-
-### GitHub
-- Account exists: `zdiebert-art`
-- Repo: **not yet created** — Task 1 below
-- Pages: **not yet enabled** — Task 4 below
-
----
-
-## Pending tasks (in order)
-
-### Task 1 — Initialize git repo and push to GitHub
-
-```bash
-cd "F:/Voyager RV/19. APPS/gas-watch"
-git init
-git branch -M main
-```
-
-Create `.gitignore`:
-```
-node_modules/
-.DS_Store
-Thumbs.db
-*.log
-.env
-.vscode/
-```
-
-Then:
-```bash
-gh repo create tankful --public --source=. --remote=origin
-git add .
-git commit -m "Initial commit — Tankful dashboard with mock + live FX data"
-git push -u origin main
-```
-
-**Use a public repo.** GitHub Pages on a private repo costs $4/mo (Pro). The code isn't sensitive; the EIA key (once added to `js/config.js`) is already exposed in the deployed site anyway. Private just hides it from GitHub search, not from anyone visiting tankful.ca.
-
-### Task 2 — Rename "Gas Watch" → "Tankful" throughout
-
-**Ask Zach first about brand styling before making decisions.** The existing CSS has `text-transform: uppercase` on `.brand`, which would render "Tankful" as "TANKFUL". The name was specifically picked for the "thankful" homophone, which arguably reads better lowercase. Confirm with Zach: **TANKFUL (uppercase, matches current) or tankful (lowercase, preserves wordplay)?**
-
-Touch points to update:
-
-- `index.html` → `<title>`, `.brand-text` content, footer copy, meta description
-- `cheatsheet.html` → same
-- `BUILD-NOTES.md` → already updated, but verify
-- `README.md` → if present
-- Comment headers in:
-  - `js/config.js`
-  - `js/mock-data.js`
-  - `js/live-data.js`
-  - `js/app.js`
-  - `js/score.js`
-- `assets/favicon.svg` → no change needed (no text in the SVG)
-
-**Also rename the global state objects** for consistency:
-- `GW_MOCK` → `TANKFUL_MOCK` (or just `STATE`)
-- `GW_LIVE` → `TANKFUL_LIVE` (or `LIVE`)
-- `GW_CONFIG` → `TANKFUL_CONFIG` (or `CONFIG`)
-- localStorage cache key `gw_live_cache_v1` → leave as-is OR bump to `tankful_cache_v1` and accept one-time cache miss
-
-If Zach picks lowercase styling, in `css/styles.css` `.brand`:
-```css
-.brand {
-  /* remove or comment out */
-  /* text-transform: uppercase; */
-  /* tighten letter-spacing for lowercase */
-  letter-spacing: -0.01em;
-}
-```
-
-### Task 3 — Add CNAME file for GitHub Pages
-
-Create `CNAME` at the repo root (no extension, single line):
-```
-tankful.ca
-```
-
-Commit and push.
-
-### Task 4 — Enable GitHub Pages
-
-Via CLI:
-```bash
-gh api repos/zdiebert-art/tankful/pages \
-  --method POST \
-  -f source[branch]=main \
-  -f source[path]=/
-```
-
-Then set the custom domain:
-```bash
-gh api repos/zdiebert-art/tankful/pages \
-  --method PUT \
-  -f cname=tankful.ca \
-  -f https_enforced=false
-```
-
-(Or do this via UI: repo Settings → Pages → Source "Deploy from branch" → main / root → Custom domain `tankful.ca`.)
-
-**Don't enable "Enforce HTTPS" yet.** Wait for DNS to verify (GitHub shows a green checkmark in the Pages settings when ready). Could take anywhere from 5 minutes to several hours since DNS was just changed. Once the checkmark appears, flip HTTPS on:
-
-```bash
-gh api repos/zdiebert-art/tankful/pages \
-  --method PUT \
-  -f https_enforced=true
-```
-
-Verify: `https://tankful.ca` should load the app.
-
-### Task 5 — Build the price scraper
-
-Now build the GitHub Actions cron scraper that was the original Phase B work.
-
-#### Target URL
-`https://www.gasbuddy.com/home?search=V4V+1W2&fuel=1&method=all&maxAge=0`
-
-#### Stations to extract (match by street address — names vary)
-
-| App ID | Address | Display name |
-|--------|---------|--------------|
-| `canco` | 11470 Bottom Wood Lake Rd | Canco Woodsdale |
-| `petrocan` | 9724 BC-97 | Petro-Canada · 7-Eleven |
-| `husky` | 10550 BC-97 | Husky Hwy 97 |
-| `supersave` | 11751 BC-97 | Super Save Lake Country |
-
-Also capture if present (bonus, not in current app station list):
-- `parkway` at 11891 BC-97 (Shell-branded, often a deal)
-- `shell-lc` at 9531 BC-97
-- `chevron` at 9450 BC-97
-
-#### Output: `data/lake-country-prices.json`
-
-```json
-{
-  "fetchedAt": "2026-05-12T19:30:00Z",
-  "region": "lake-country",
-  "marketAverage": 201.5,
-  "stations": [
-    {
-      "id": "canco",
-      "name": "Canco Woodsdale",
-      "address": "11470 Bottom Wood Lake Rd",
-      "price": 203.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "27 Minutes Ago",
-      "trust": "owner"
-    }
-  ]
-}
-```
-
-`trust` values:
-- `owner` — GasBuddy "Owner" badge (dealer-reported, highest reliability)
-- `user` — community-reported (username shown)
-- `stale` — older than 12 hours
-
-#### Approach
-
-1. `fetch()` the URL with a real User-Agent header
-2. Parse HTML with `cheerio`
-3. **Test if server-rendered first.** If `cheerio` finds no `\d+\.\d+¢` in the HTML, fall back to Playwright (`npx playwright install --with-deps chromium` in the workflow, ~30 sec extra per run, still free in Actions)
-4. Match results to known station IDs using street-number + first-significant-word prefix matching
-5. Log any unmatched stations to a separate file so we can catch new GasBuddy address-format variants
-6. Write JSON, `git add data/lake-country-prices.json`, `git commit`, `git push`
-
-**Test locally first** with `node scrape/fetch-prices.js` before setting up the cron.
-
-#### Files to create
-
-```
 scrape/
-  package.json              # cheerio (native fetch on modern Node 18+)
-  fetch-prices.js           # the scraper script
+  fetch-prices.js                  # the scraper (run locally with `node scrape/fetch-prices.js`)
+  package.json                     # cheerio + playwright
+
+tools/
+  generate-icons.mjs               # PWA icon set from icon-source.svg (sharp)
+  generate-brand-pngs.mjs          # brand PNG exports from assets/brand/*.svg (Playwright)
+  generate-vapid.mjs               # one-shot VAPID keypair for push
+  package.json                     # tooling deps (sharp, playwright, web-push)
+
+cloudflare/
+  push-worker.js                   # Cloudflare Worker (VAPID JWT, KV subs, cron broadcast)
+  wrangler.toml                    # deploy config
+  SETUP.md                         # paste-by-paste deployment walkthrough
+
 .github/workflows/
-  refresh-prices.yml        # cron + workflow_dispatch
-data/
-  lake-country-prices.json  # commit a valid empty stub initially
+  refresh-prices.yml               # 4h cron scraper
+  bump-sw-version.yml              # auto-stamps sw.js with commit SHA on shell-touching pushes
 ```
 
-#### Workflow file
+---
 
-`cron: '0 */4 * * *'` — every 4 hours at minute 0
-Include `workflow_dispatch:` for manual triggers during testing.
-Use `actions/checkout@v4`, `actions/setup-node@v4` with Node 20.
-Configure `permissions: contents: write` so the workflow can commit back.
-Use `git config user.email "github-actions[bot]@users.noreply.github.com"` etc. for the commit author.
+## Theme system
 
-### Task 6 — Wire scraper JSON into the app
+Three states drive everything via `body[data-state]`:
 
-In `js/live-data.js`, add `fetchStations()`:
-- URL: `/data/lake-country-prices.json` (same-origin since app and data are both at `tankful.ca`)
-- Same localStorage cache pattern as `fetchFX()`
-- Add to `fetchAll()` return object as `stations`
+| state | Meaning | Page bg (`--bg-base`) | Hero text (`--hero-text`) | Verdict text (`--text`) |
+|---|---|---|---|---|
+| `fill-up` | Score ≥ 70 — "Fill Up Now" | very dark green `#08221A` | light green `#DDFBEC` | dark green (same as bg) |
+| `neutral` | Score 30–69 — "Maybe Today" | very dark brown `#2A1D08` | light cream `#FFF3D6` | dark brown |
+| `wait` | Score < 30 — "Wait a Bit" | very dark wine `#2D1B1B` | light coral `#FFE0B2` | dark wine |
 
-In `js/app.js` `applyLiveData()`:
-- When `live.stations.success`, overwrite `state.stations` (map by ID, preserve any UI-only fields)
-- Update `state.marketPrice` ← `live.stations.marketAverage`
-- Re-render via `renderStations(state)` after patching
-- Update `#liveStatus` to include station refresh in success message
+Page background = verdict text color (`var(--text)`). Brand-icon chip + SVG
+wordmark in the header also use `var(--text)` so they shift together when
+the score state changes. Cards keep light-glass backgrounds → internal card
+text reads dark.
 
-In `js/app.js` `updateLiveStatus()`:
-- Add station status to the message hierarchy (e.g. "Live • Bank of Canada + EIA + stations")
-
-### Task 7 — Get EIA API key (Zach does this manually)
-
-Tell Zach: go to https://www.eia.gov/opendata/register.php, register with email, key arrives instantly, paste into `js/config.js` `eiaApiKey` field, commit.
-
-Once added, WTI + RBOB indicators go live and footer status upgrades.
+App icon stays on its own deep-indigo → violet gradient (`#1E3A8A → #4F46E5
+→ #7E22CE`) regardless of state — that's the brand identity, not the in-app
+mood.
 
 ---
 
-## Definition of done
+## Brand decisions (locked in)
 
-- [ ] Repo public at `github.com/zdiebert-art/tankful`
-- [ ] App live at `https://tankful.ca` with HTTPS enforced
-- [ ] All "Gas Watch" references renamed to "Tankful"
-- [ ] Brand styling decision confirmed with Zach (TANKFUL vs tankful)
-- [ ] Scraper running every 4 hours, JSON populated with ≥4 stations every run
-- [ ] App displays live station prices on refresh
-- [ ] EIA key added → WTI + RBOB also live
-- [ ] Footer `#liveStatus` shows "Live • Bank of Canada + EIA + stations" on full success
-- [ ] Fallback to mock works if any fetch fails (don't break the UI)
+- **Wordmark:** Europa Grotesk SH Bold (commercial; shipped as outlined
+  paths so no font license is needed in-product). Tagline: Myriad Pro
+  Regular w/ 200 tracking — also outlined.
+- **Mark = TankFul winking-gauge** (latest geometry: `tankFul-icon.svg`,
+  viewBox `0 0 388.37 420.73`). Eye fill is white on light surfaces,
+  transparent on dark/gradient surfaces so the bg shows through the iris.
+- **App icon BG** = brand gradient (deep indigo → violet). Mark = white.
+- **Logos on station rows** = real brand SVGs (in `assets/station-logos/`).
+  Treatment is deliberately distinct from the source listing: 26px,
+  no white circle container, inline left of brand name. Parkway uses
+  Shell's logo via `logoBrand: 'Shell'` override (it pumps Shell fuel).
 
 ---
 
-## User context (Zach)
+## What's wired up (Definition-of-done checklist)
 
-- Direct, outputs-focused, skip preamble and platitudes
-- Doesn't write code himself — needs complete, working, ready-to-use files
-- Multi-file projects preferred over single-file
-- Mobile-first PWA mindset (this app should eventually be installable)
-- Typography enthusiast — Poppins on this app, round-O preferred
-- Hard-refresh (Ctrl+Shift+R) is the in-browser iteration loop
-- Personal/family use case — ToS gray areas (e.g. GasBuddy scraping at 6 req/day) are an informed personal call he's made; don't re-litigate
+- [x] Scraper running every 4h, JSON populated with 8 stations
+- [x] Live FX (BoC), WTI/RBOB (EIA) feeding indicator chips
+- [x] BC holidays / long-weekend calendar driving modifiers + tips
+- [x] Geolocation → "X.X km away" + tap-to-Maps directions (iOS → Apple Maps, else Google)
+- [x] Live verdict + score + breakdown (heuristic — see `computeLiveVerdict` in `app.js`)
+- [x] Mobile sticky-footer score legend (Fill Up · Maybe · Wait, top to bottom)
+- [x] Refinery / supply-alert manual toggle in modifiers card
+- [x] "Updated Xm ago" chip in where-card with last+next refresh tooltip
+- [x] PWA installable; persistent footer "Install Tankful" button for re-install
+- [x] Service worker network-first for shell with auto-reload on update
+- [x] CI auto-bumps SW cache version on shell-touching pushes
+- [x] Web Push code shipped on both sides (worker + frontend) — **not deployed**
+
+---
+
+## Open Ideas / hanging items
+
+### Visual & assets
+- **PWA app icon doesn't show new logo on installed devices** — icon PNGs
+  in `assets/icons/` were regenerated with the new geometry, but iOS/Android
+  cache install-time icons aggressively. Need a strategy to force-refresh:
+  bump the `manifest.webmanifest` `start_url` query (`?v=2`), rename the
+  icon filenames, or just accept that users have to uninstall + reinstall
+  once. Worth testing on a real device which approach actually works.
+- **Lockup SVGs are stale** — `assets/brand/lockup-vertical.svg`,
+  `lockup-horizontal.svg` and their `-white.svg` + PNG variants still use
+  the *previous* mark geometry. Should be regenerated with the new
+  `tankFul-icon.svg` paths.
+- **"below the market average" wording** — the verdict-sub and the
+  Best-Deal hero card still use the "below market average" phrasing.
+  User previously said they don't care about averages; should rephrase
+  to lead with absolute price + "X¢ cheaper than the rest."
+
+### Data accuracy
+- **Chart still showing mock data** — the history pipeline (`bucketDaily` /
+  `bucketWeekly` in `app.js`) only kicks in once we have ≥3 distinct days
+  of cron-committed samples. Until then the chart shows the mock arrays
+  with a "Sample data — real history accumulating" badge. After ~3 days
+  it auto-switches to real data with no code change needed.
+- **`cycleAge` + `30-Day Position` indicators are "pending"** — they need
+  the history pipeline to mature (~7 days for cycle, ~30 days for range).
+  Currently rendered dim with "Needs history" label. Once data exists,
+  wire them into `applyLiveData()`.
+- **Score formula is heuristic** — tuned with general BC market intuition,
+  not real Lake Country historical data. Worth revisiting after a few
+  months of real history to validate the weights (currently: holiday +8
+  for May Long, ±15 from RBOB, ±8 from day-of-week, ±5 from FX).
+
+### Region expansion
+- **Kelowna + Vernon** marked "Soon" in the region picker but not
+  implemented. Adding requires: (a) Kelowna/Vernon stations in
+  `scrape/fetch-prices.js` STATIONS array, (b) `STATION_OVERLAY` entries
+  in `app.js`, (c) the region-picker click handler to actually filter,
+  (d) probably a per-region history file in `data/`.
+
+### Push notifications (deployment)
+- **Cloudflare Worker not yet deployed.** Frontend code ready (`js/push.js`,
+  `sw.js` push handler, the "Get alerts" pill in the where-card header).
+  Worker code lives in `cloudflare/push-worker.js` with the deployment
+  walkthrough in `cloudflare/SETUP.md`. Until `pushWorkerUrl` in
+  `js/config.js` is set, the bell button stays hidden so users don't see
+  a half-wired prompt.
+- **Decide notification frequency cap** — currently the worker's cron
+  enforces "max one push per 12h" and "only when score ≥ 70". Tune once
+  there's real-user feedback.
+
+### Brand / typography
+- **Europa Grotesk SH Bold for live HTML text** — currently the header
+  wordmark uses outlined SVG paths (no font license needed). If we
+  eventually want HTML text rendered in Europa Grotesk (e.g., for the
+  cheatsheet headings), the font would need to be licensed and dropped
+  into `assets/fonts/` with an `@font-face` rule.
+
+### Refinery alert
+- **Auto-detect refinery outages** — currently the supply-alert toggle is
+  manual ("I heard about it on the radio, flip the switch"). Could
+  potentially scrape BCUC announcements or a refining-news RSS feed.
+  Low-priority but tempting.
+
+---
+
+## Reproducing common tasks
+
+```bash
+# Run the scraper locally (uses Playwright; one-time `npx playwright install chromium`)
+node scrape/fetch-prices.js
+
+# Regenerate the PWA app-icon PNG set from assets/icon-source.svg
+cd tools && npm run icons
+
+# Regenerate the brand-package PNGs from assets/brand/*.svg
+cd tools && npm run brand
+
+# Generate VAPID keys (one-time, for push worker setup)
+cd tools && npm run vapid
+
+# Serve the site locally (a real HTTP server is required — Geolocation
+# and SW won't work on file://)
+npx serve -l 8765 .
+```
 
 ---
 
 ## Risks & gotchas
 
-**GasBuddy may JS-render prices.** Plan A is cheerio; fall back to Playwright if `cheerio` returns no price text from the initial HTML.
-
-**GasBuddy ToS prohibits automated agents.** Mitigations: send a real User-Agent, keep volume ≤ 6 requests/day, never republish data publicly, fold if served a cease-and-desist.
-
-**Address-matching fragility.** GasBuddy may normalize addresses differently than expected ("11470 Bottom Wood Lake Rd" vs "11470 Bottom Wood Lake Road"). Use street-number + first-word prefix match; log unmatched stations to catch variants.
-
-**GitHub Actions cron timing.** Can be delayed 5–15 minutes from the scheduled time. Acceptable for gas prices; don't promise minute-level freshness in the UI.
-
-**DNS propagation.** Just changed at Namecheap. GitHub Pages custom-domain verification will fail until propagation completes. That's expected; check back periodically.
-
-**EIA key exposure.** Once committed to a public repo, key is readable by anyone viewing the deployed site too. EIA's free tier has generous limits (5000 req/hour) and keys are easy to rotate. Acceptable for this use case.
-
-**HTTPS enforcement timing.** Don't enable "Enforce HTTPS" in GitHub Pages settings until the custom-domain verification check is green, or you'll lock the site behind a broken cert briefly.
+- **GasBuddy CSS-module hash rotation** — selectors in
+  `scrape/fetch-prices.js parseStations()` use class-name *prefixes*
+  (`[class*="GenericStationListItem-module__stationListItem"]`) so hash
+  rotations don't break us, but a full class rename will. Symptom:
+  `data/lake-country-prices.json` ends up with `stationCount: 0` and the
+  workflow exits 1. The scraper logs unmatched parsed entries so it's
+  easy to spot what changed.
+- **GasBuddy ToS** — technically prohibits automated agents. We send a
+  real User-Agent, keep volume to 6 req/day, don't republish the source
+  identity, and would fold if served a complaint. Repo + tooltips
+  intentionally avoid naming GasBuddy as the source.
+- **Card-lock stations** (AFD Petroleum etc.) are deliberately excluded
+  from STATIONS — they require fleet cards and aren't useful to public
+  drivers. They'll keep showing up as "unmatched" in scraper logs;
+  that's correct.
+- **Service worker stale cache** was the cause of multiple "I uninstalled
+  the PWA to see the update" episodes. Now fixed via network-first +
+  auto-reload + CI auto-bump. If updates appear stuck again, check the
+  Actions tab for failed `Bump SW cache version` runs.
+- **GitHub Pages varnish** caches at the edge for ~10 minutes. New
+  deploys reach all users within ~10 min of build completion. Hard
+  refresh forces an edge revalidate immediately.
 
 ---
 
-## Open questions for Zach (ask before assuming)
+## How to bootstrap a fresh Claude session
 
-1. **Brand styling:** TANKFUL (uppercase, matches current CSS) or tankful (lowercase, preserves "thankful" wordplay)?
-2. **Tagline preference** for hero/footer? Options floated in chat: "Be tankful you waited." / "Stay tankful." / "Know when to fill. Be tankful."
-3. **Favicon refresh** now that the brand is Tankful? Current favicon is fine but the coral palette could shift if visual identity evolves with the rename. Probably defer.
+```
+Read BUILD-NOTES.md and the last 5 git commits, then ask me what I want to
+work on.
+```
 
-None of these block the deploy or the scraper. Just ask before making decisions on Zach's behalf.
-
----
-
-## What NOT to touch
-
-- The theme color semantics (green = fill, red = wait) — explicitly chosen
-- The icon (gas pump + clock dial) — explicitly chosen out of 4 concepts
-- The mock data scenario — keep as-is for fallback
-- The chart date formatter (manual months array) — bypasses a Windows en-CA locale quirk on purpose
+That's enough to get oriented. If a question requires more context, ask —
+don't guess.
