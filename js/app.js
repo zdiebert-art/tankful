@@ -329,9 +329,9 @@
     'petrocan':  { mockId: 'petro-711',       brand: 'Petro-Canada', cstore: '7-Eleven', discount: null },
     'supersave': { mockId: 'supersave-lc',    brand: 'Super Save',   cstore: null,       discount: null },
     'husky':     { mockId: 'husky-97',        brand: 'Husky',        cstore: 'CO-OP',    discount: null },
-    'parkway':   { mockId: null,              brand: 'Parkway',      cstore: 'Shell',    discount: null },
-    'shell-lc':  { mockId: null,              brand: 'Shell',        cstore: null,       discount: null },
-    'chevron':   { mockId: null,              brand: 'Chevron',      cstore: null,       discount: null }
+    'parkway':   { mockId: null,              brand: 'Parkway',      cstore: null,         discount: null },
+    'shell-lc':  { mockId: null,              brand: 'Shell',        cstore: null,         discount: null },
+    'chevron':   { mockId: null,              brand: 'Chevron',      cstore: 'On the Run', discount: null }
   };
 
   // Pretty-print a scraped GasBuddy address line for display under the station
