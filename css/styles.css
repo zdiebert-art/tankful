@@ -24,7 +24,10 @@ body {
   font-family: 'Poppins', system-ui, -apple-system, sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: var(--text);
+  /* Default body color is the light hero text since the page bg is now the
+     dark verdict color. Cards override with var(--text) (dark) on their
+     own light translucent backgrounds. */
+  color: var(--hero-text);
   background: var(--bg-base);
   min-height: 100vh;
   min-height: 100dvh;
@@ -60,10 +63,16 @@ body[data-state="fill-up"] {
   --glass-bg: rgba(255, 255, 255, 0.45);
   --glass-border: rgba(255, 255, 255, 0.6);
   --glass-shadow: 0 24px 60px -20px rgba(43, 181, 135, 0.4);
-  --ring-track: rgba(255, 255, 255, 0.34);
+  --ring-track: rgba(255, 255, 255, 0.18);
   --ring-glow: rgba(255, 255, 255, 0.7);
-  --bg-base: linear-gradient(160deg, var(--c-1) 0%, var(--c-2) 45%, var(--c-3) 100%);
-  --theme-meta: #4FD1A6;
+  /* Page bg is the dark verdict color, not the old light gradient. */
+  --bg-base: #08221A;
+  /* Hero/page text that sits directly on the dark bg gets the light
+     palette color so it reads cleanly. Card-internal text keeps using
+     --text (dark) over the still-light glass cards. */
+  --hero-text: #DDFBEC;
+  --hero-text-soft: rgba(221, 251, 236, 0.75);
+  --theme-meta: #08221A;
 }
 
 body[data-state="neutral"] {
@@ -78,10 +87,12 @@ body[data-state="neutral"] {
   --glass-bg: rgba(255, 255, 255, 0.45);
   --glass-border: rgba(255, 255, 255, 0.6);
   --glass-shadow: 0 24px 60px -20px rgba(245, 138, 47, 0.4);
-  --ring-track: rgba(255, 255, 255, 0.34);
+  --ring-track: rgba(255, 255, 255, 0.18);
   --ring-glow: rgba(255, 255, 255, 0.65);
-  --bg-base: linear-gradient(160deg, var(--c-1) 0%, var(--c-2) 45%, var(--c-3) 100%);
-  --theme-meta: #FFB05A;
+  --bg-base: #2A1D08;
+  --hero-text: #FFF3D6;
+  --hero-text-soft: rgba(255, 243, 214, 0.75);
+  --theme-meta: #2A1D08;
 }
 
 body[data-state="wait"] {
@@ -96,10 +107,12 @@ body[data-state="wait"] {
   --glass-bg: rgba(255, 255, 255, 0.42);
   --glass-border: rgba(255, 255, 255, 0.55);
   --glass-shadow: 0 24px 60px -20px rgba(233, 69, 96, 0.45);
-  --ring-track: rgba(255, 255, 255, 0.32);
+  --ring-track: rgba(255, 255, 255, 0.18);
   --ring-glow: rgba(255, 255, 255, 0.6);
-  --bg-base: linear-gradient(160deg, var(--c-1) 0%, var(--c-2) 40%, var(--c-3) 100%);
-  --theme-meta: #FF7A59;
+  --bg-base: #2D1B1B;
+  --hero-text: #FFE0B2;
+  --hero-text-soft: rgba(255, 224, 178, 0.75);
+  --theme-meta: #2D1B1B;
 }
 
 /* ============================================
@@ -349,6 +362,19 @@ body[data-state="wait"] {
 }
 
 .brand-icon svg { width: 38px; height: 38px; }
+
+/* Inline SVG wordmark (replaces the old Poppins "TankFul" text). Same
+   brand gradient as the app icon so the header reads as a unit with the
+   mark beside it. Height is locked, width auto-scales from the SVG
+   aspect ratio. */
+.brand-text {
+  height: 30px;
+  width: auto;
+  display: block;
+}
+@media (min-width: 600px) {
+  .brand-text { height: 34px; }
+}
 .brand-text { font-weight: 800; }
 
 .location {
@@ -428,7 +454,7 @@ body[data-state="wait"] {
   font-weight: 900;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: var(--text);
+  color: var(--hero-text);
   font-feature-settings: "tnum";
 }
 
@@ -439,7 +465,7 @@ body[data-state="wait"] {
 .score-of {
   font-size: 0.875rem;
   font-weight: 600;
-  color: var(--text-soft);
+  color: var(--hero-text-soft);
   letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-top: 4px;
@@ -451,7 +477,7 @@ body[data-state="wait"] {
   font-size: 2.25rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-  color: var(--text);
+  color: var(--hero-text);
   line-height: 1.05;
   margin-bottom: 6px;
 }
@@ -463,7 +489,7 @@ body[data-state="wait"] {
 .verdict-sub {
   font-size: 1rem;
   font-weight: 500;
-  color: var(--text-soft);
+  color: var(--hero-text-soft);
   line-height: 1.35;
   max-width: 360px;
   margin: 0 auto;
@@ -1016,7 +1042,7 @@ body[data-state="wait"] {
 
 .footer-meta {
   font-size: 0.75rem;
-  color: var(--text-faint);
+  color: var(--hero-text-soft);
   display: flex;
   align-items: center;
   gap: 8px;
