@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="theme-color" content="#000000" />
+  <title>Tankful Admin</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=2" />
+  <link rel="stylesheet" href="css/admin.css" />
+  <!-- Google Identity Services for the sign-in button + ID-token flow. -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+
+  <!-- =========================================
+       Login screen — shown until Google SSO returns
+       a verified email on the allowlist.
+       ========================================= -->
+  <div class="admin-gate" id="adminGate">
+    <div class="gate-card">
+      <div class="gate-mark">
+        <svg viewBox="0 0 388.37 420.73" aria-hidden="true">
+          <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M367.7,231.92s-15.02,131.54-147.22,151.52c-102.71,15.52-184.81-54.5-198.46-144.83C8.38,148.28,66.69,54.6,168.47,39.23c131.37-19.85,185.29,103.72,185.29,103.72" stroke-width="30"/>
+            <path d="M104.54,309.97s38.46,45.55,109.73,34.1c71.27-11.46,93.99-66.85,93.99-66.85" stroke-width="19"/>
+            <line x1="314.33" y1="195.51" x2="235.69" y2="207.39" stroke-width="40"/>
+            <circle cx="143.99" cy="222.79" r="46.81" stroke-width="34" fill="none"/>
+          </g>
+        </svg>
+      </div>
+      <h1>Tankful Admin</h1>
+      <p class="gate-sub">Sign in with the account on the allowlist to continue.</p>
+      <div id="googleSignInBtn" class="google-btn-wrap"></div>
+      <p class="gate-error" id="gateError" hidden></p>
+      <p class="gate-meta">
+        Need to set this up first?
+        <a href="admin.html#setup" id="gateSetupLink">Read the setup guide</a>.
+      </p>
+    </div>
+  </div>
+
+  <!-- =========================================
+       Dashboard — hidden until login succeeds.
+       ========================================= -->
+  <div class="admin-shell" id="adminShell" hidden>
+    <header class="admin-header">
+      <div class="admin-brand">
+        <span class="admin-brand-mark">T</span>
+        <span class="admin-brand-name">Tankful <span class="admin-brand-sub">Admin</span></span>
+      </div>
+      <nav class="admin-tabs" id="adminTabs">
+        <button class="admin-tab active" data-tab="overview">Overview</button>
+        <button class="admin-tab" data-tab="crawls">Crawls</button>
+        <button class="admin-tab" data-tab="regions">Regions</button>
+        <button class="admin-tab" data-tab="stations">Stations</button>
+        <button class="admin-tab" data-tab="history">History</button>
+        <button class="admin-tab" data-tab="settings">Settings</button>
+        <button class="admin-tab" data-tab="traffic">Traffic</button>
+        <button class="admin-tab" data-tab="setup">Setup</button>
+      </nav>
+      <div class="admin-user">
+        <span id="adminEmail"></span>
+        <button class="admin-signout" id="adminSignoutBtn">Sign out</button>
+      </div>
+    </header>
+
+    <main class="admin-main">
+      <!-- Each view renders into the panel matching its tab id. -->
+      <section class="admin-panel active" id="panel-overview"></section>
+      <section class="admin-panel" id="panel-crawls"></section>
+      <section class="admin-panel" id="panel-regions"></section>
+      <section class="admin-panel" id="panel-stations"></section>
+      <section class="admin-panel" id="panel-history"></section>
+      <section class="admin-panel" id="panel-settings"></section>
+      <section class="admin-panel" id="panel-traffic"></section>
+      <section class="admin-panel" id="panel-setup"></section>
+    </main>
+
+    <footer class="admin-footer">
+      <span id="adminStatus">Ready</span>
+      <a href="index.html">← Back to app</a>
+    </footer>
+  </div>
+
+  <!-- Toast for save / error feedback. -->
+  <div class="admin-toast" id="adminToast" hidden></div>
+
+  <!-- ApexCharts (already used by the main app) — for history charts. -->
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.45.1/dist/apexcharts.min.js"></script>
+
+  <!-- Admin scripts. Order matters: config, then auth, then API wrappers,
+       then views, then the main entry that wires everything up. -->
+  <script src="js/admin-config.js"></script>
+  <script src="js/admin-auth.js"></script>
+  <script src="js/admin-github.js"></script>
+  <script src="js/admin-cloudflare.js"></script>
+  <script src="js/admin-views.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

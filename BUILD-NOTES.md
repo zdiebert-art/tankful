@@ -35,6 +35,7 @@ less money.*
 | Service worker | Network-first for shell, cache-first for binary assets; CI auto-bumps cache version on every shell-touching push |
 | EIA API key | Live in `js/config.js` (free tier, public exposure acceptable) |
 | Cloudflare Push Worker | **Code shipped, not yet deployed** — see `cloudflare/SETUP.md` |
+| Admin dashboard | `/admin.html` — Google SSO + email allowlist, GitHub-PAT-backed reads + writes (edit stations, change cron/retention, trigger manual scrapes), Cloudflare Web Analytics for traffic. Setup walkthrough in `ADMIN-SETUP.md`. |
 
 ---
 

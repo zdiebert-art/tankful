@@ -1264,6 +1264,16 @@ body[data-state="wait"] {
   opacity: 0.7;
 }
 
+/* Footer admin link — intentionally low-key. Same color + size as the
+   other footer-meta text, just underlined on hover. Non-admins won't
+   really notice it; allowlist gate handles access on the other side. */
+.admin-link {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.7;
+}
+.admin-link:hover { text-decoration: underline; opacity: 1; }
+
 /* Deal hero card — the headline */
 .deal-hero {
   background: var(--accent);

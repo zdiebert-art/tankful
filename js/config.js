@@ -29,6 +29,13 @@ const TANKFUL_CONFIG = {
   // users don't see a half-wired prompt. See cloudflare/SETUP.md.
   pushWorkerUrl: '',
 
+  // ---------- Cloudflare Web Analytics ----------
+  // Beacon site-tag for privacy-preserving traffic measurement. Enable
+  // Cloudflare Web Analytics in the Cloudflare dashboard, copy the
+  // generated site tag, paste it here. Empty = beacon stays disabled.
+  // The beacon is public by design — safe to ship in client code.
+  cloudflareAnalyticsTag: '',
+
   // ---------- Debug ----------
   // Set true to log every fetch attempt + result to the browser console.
   debug: false

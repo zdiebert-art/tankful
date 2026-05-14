@@ -259,6 +259,8 @@
         <span>Updated <span id="lastUpdated">just now</span></span>
         <span class="dot">•</span>
         <span id="liveStatus">Fetching live data…</span>
+        <span class="dot">•</span>
+        <a class="admin-link" href="admin.html" rel="noopener">admin</a>
       </p>
     </footer>
 
@@ -278,5 +280,19 @@
   <!-- card reorder feature parked for now; keeping data-card-id attrs + js/card-reorder.js
        in the repo so we can revive it later with a different UI. -->
   <!-- <script src="js/card-reorder.js"></script> -->
+
+  <!-- Cloudflare Web Analytics beacon — privacy-preserving, no cookies.
+       Only loads when TANKFUL_CONFIG.cloudflareAnalyticsTag is set. -->
+  <script>
+    (function () {
+      var tag = window.TANKFUL_CONFIG && window.TANKFUL_CONFIG.cloudflareAnalyticsTag;
+      if (!tag) return;
+      var s = document.createElement('script');
+      s.defer = true;
+      s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+      s.setAttribute('data-cf-beacon', JSON.stringify({ token: tag }));
+      document.head.appendChild(s);
+    })();
+  </script>
 </body>
 </html>
