@@ -1144,6 +1144,21 @@ body[data-state="wait"] {
 
 .where-title svg { width: 18px; height: 18px; color: var(--text-soft); }
 
+/* "Updated 12m ago" — small label next to the where-title showing when
+   the GasBuddy scrape was last committed. Title attribute carries the
+   exact timestamp for hover (desktop). On mobile it's just always
+   visible since hover isn't a thing on touch. */
+.where-freshness {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-soft);
+  opacity: 0.7;
+  cursor: help;
+  font-feature-settings: "tnum";
+  white-space: nowrap;
+}
+.where-freshness[hidden] { display: none; }
+
 .region-picker {
   display: flex;
   gap: 4px;

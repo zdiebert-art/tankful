@@ -42,7 +42,8 @@
     scoreLegend: $('#scoreLegend'),
     chartCard: $('.chart-card'),
     liveStatus: $('#liveStatus'),
-    locationBtn: $('#locationBtn')
+    locationBtn: $('#locationBtn'),
+    whereFreshness: $('#whereFreshness')
   };
 
   // Module-level user location — shared across renders. Populated by either
@@ -269,6 +270,45 @@
       `;
     }).join('');
     els.tipsList.innerHTML = html;
+  }
+
+  // Friendly relative time: "just now" / "12m ago" / "3h ago" / "2d ago".
+  // Falls back to null for invalid input so callers can hide the line.
+  function formatRelativeTime(iso) {
+    if (!iso) return null;
+    const then = Date.parse(iso);
+    if (!Number.isFinite(then)) return null;
+    const diffSec = Math.max(0, (Date.now() - then) / 1000);
+    if (diffSec < 60) return 'just now';
+    const min = Math.round(diffSec / 60);
+    if (min < 60) return min + 'm ago';
+    const hr = Math.round(min / 60);
+    if (hr < 24) return hr + 'h ago';
+    const days = Math.round(hr / 24);
+    return days + 'd ago';
+  }
+
+  // Show how long ago the GasBuddy scrape was committed. The cron commits to
+  // data/lake-country-prices.json every 4h; we pull `fetchedAt` from the JSON
+  // and surface it in the where-card title. Tooltip carries the exact local
+  // timestamp for desktop hover; the visible text is short enough for mobile.
+  function renderWhereFreshness(live) {
+    const el = els.whereFreshness;
+    if (!el) return;
+    const fetchedAt = live && live.stations && live.stations.success
+      ? live.stations.fetchedAt
+      : null;
+    const rel = formatRelativeTime(fetchedAt);
+    if (!rel) {
+      el.hidden = true;
+      el.removeAttribute('title');
+      return;
+    }
+    el.hidden = false;
+    el.textContent = '· Updated ' + rel;
+    const d = new Date(fetchedAt);
+    const opts = { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' };
+    el.title = 'GasBuddy prices fetched ' + d.toLocaleString('en-CA', opts);
   }
 
   function renderLastUpdated(iso) {
@@ -851,6 +891,7 @@
       renderTips(TANKFUL_MOCK.tips);
 
       renderLastUpdated(TANKFUL_MOCK.lastUpdated);
+      renderWhereFreshness(live);
       updateLiveStatus(live);
     }).catch(err => {
       console.warn('[live-data] unexpected error:', err);
