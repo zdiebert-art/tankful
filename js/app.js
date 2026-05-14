@@ -308,7 +308,7 @@
     el.textContent = '· Updated ' + rel;
     const d = new Date(fetchedAt);
     const opts = { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' };
-    el.title = 'GasBuddy prices fetched ' + d.toLocaleString('en-CA', opts);
+    el.title = 'Last price refresh: ' + d.toLocaleString('en-CA', opts);
   }
 
   function renderLastUpdated(iso) {
