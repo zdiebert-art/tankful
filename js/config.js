@@ -34,7 +34,7 @@ const TANKFUL_CONFIG = {
   // Cloudflare Web Analytics in the Cloudflare dashboard, copy the
   // generated site tag, paste it here. Empty = beacon stays disabled.
   // The beacon is public by design — safe to ship in client code.
-  cloudflareAnalyticsTag: '',
+  cloudflareAnalyticsTag: 'a1f0f3dc281b40798a05c72982c95ea9',
 
   // ---------- Debug ----------
   // Set true to log every fetch attempt + result to the browser console.

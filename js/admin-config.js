@@ -30,7 +30,7 @@ const TANKFUL_ADMIN_CONFIG = {
 
   // Cloudflare Web Analytics site tag — set after enabling Analytics in
   // the Cloudflare dashboard. The traffic tab fetches stats for this tag.
-  cloudflareSiteTag: "REPLACE_WITH_CF_SITE_TAG",
+  cloudflareSiteTag: "a1f0f3dc281b40798a05c72982c95ea9",
 
   // Cloudflare Account ID (find in Cloudflare dashboard right sidebar).
   // Needed alongside the API token to call the Analytics GraphQL API.
