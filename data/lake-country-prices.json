@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-14T03:31:57.561Z",
+  "fetchedAt": "2026-05-14T06:47:41.959Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 198,
@@ -13,7 +13,7 @@
       "lng": -119.3995,
       "price": 195.9,
       "reportedBy": "Owner",
-      "reportedAgo": "8 Minutes Ago",
+      "reportedAgo": "57 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -24,8 +24,8 @@
       "lng": -119.4093,
       "price": 203.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -35,8 +35,8 @@
       "lng": -119.4007,
       "price": 197.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -46,7 +46,7 @@
       "lng": -119.385,
       "price": 191.9,
       "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,8 +68,8 @@
       "lng": -119.4108,
       "price": 203.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -79,8 +79,8 @@
       "lng": -119.4115,
       "price": 203.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
