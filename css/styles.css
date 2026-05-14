@@ -1366,23 +1366,16 @@ body[data-state="wait"] {
   flex-wrap: wrap;
 }
 
-/* Small monochrome brand glyph that sits inline to the left of the
-   station name. Deliberately tiny + container-less so it reads as a
-   subtle visual cue rather than a prominent badge — distinct treatment
-   from the source-listing's prominent colored logo circles. */
+/* Brand artwork sourced from assets/station-logos/ — rendered as <img>
+   so the SVGs keep their authored colors. Sized small + container-less
+   to stay visually distinct from the source-listing's prominent logo
+   circle treatment. object-fit: contain so artwork with different
+   aspect ratios doesn't squish. */
 .station-logo {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
   flex-shrink: 0;
-  color: var(--text);
-  opacity: 0.85;
-}
-.station-logo svg {
-  width: 100%;
-  height: 100%;
+  object-fit: contain;
   display: block;
 }
 
