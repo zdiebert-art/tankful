@@ -342,10 +342,14 @@ body[data-state="wait"] {
   height: 50px;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #1E3A8A 0%, #4F46E5 55%, #7E22CE 100%);
+  /* Background tracks the verdict color so the chip shifts with the
+     score state (dark green for Fill Up, dark brown for Maybe, dark
+     wine for Wait). The mark inside stays white. */
+  background: var(--text);
   border-radius: 12px;
   color: #ffffff;
-  box-shadow: 0 6px 16px -6px rgba(30, 58, 138, 0.5);
+  box-shadow: 0 6px 16px -6px rgba(0, 0, 0, 0.25);
+  transition: background 0.4s ease;
 }
 
 .brand-icon svg { width: 38px; height: 38px; }
