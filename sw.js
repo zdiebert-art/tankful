@@ -16,7 +16,7 @@
 // Auto-bumped by .github/workflows/bump-sw-version.yml on every push that
 // touches the shell. The string between the markers is replaced with the
 // short commit SHA; manual edits there will be overwritten by CI.
-const VERSION = 'v2-1ebf2e1';
+const VERSION = 'v2-ffc9c32';
 const CACHE_NAME = `tankful-${VERSION}`;
 
 // Files we want to pre-warm on install so the dashboard's first frame is
