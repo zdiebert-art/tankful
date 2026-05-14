@@ -320,14 +320,18 @@
   // Mock station entries keep useful UI metadata (Canco card discount, brand
   // labels) that the scraper doesn't produce. Map by scraper ID → mock ID so
   // we can carry that metadata across when we overlay live prices.
+  // brand = the fuel brand line (bold). cstore = the convenience-store
+  // co-brand if the station has one ("& 7-Eleven" / "& CO-OP" / etc.).
+  // Pattern mirrors how the source listing pairs a fuel brand with an
+  // optional in-store co-brand.
   const STATION_OVERLAY = {
-    'canco':     { mockId: 'canco-woodsdale', brand: 'Canco',         discount: { type: 'card', amount: 2.0, label: 'with Canco card' } },
-    'petrocan':  { mockId: 'petro-711',       brand: 'Petro-Canada',  discount: null },
-    'supersave': { mockId: 'supersave-lc',    brand: 'Super Save',    discount: null },
-    'husky':     { mockId: 'husky-97',        brand: 'Husky',         discount: null },
-    'parkway':   { mockId: null,              brand: 'Shell (Parkway)', discount: null },
-    'shell-lc':  { mockId: null,              brand: 'Shell',           discount: null },
-    'chevron':   { mockId: null,              brand: 'Chevron',         discount: null }
+    'canco':     { mockId: 'canco-woodsdale', brand: 'Canco',        cstore: 'One Stop', discount: { type: 'card', amount: 2.0, label: 'with Canco card' } },
+    'petrocan':  { mockId: 'petro-711',       brand: 'Petro-Canada', cstore: '7-Eleven', discount: null },
+    'supersave': { mockId: 'supersave-lc',    brand: 'Super Save',   cstore: null,       discount: null },
+    'husky':     { mockId: 'husky-97',        brand: 'Husky',        cstore: 'CO-OP',    discount: null },
+    'parkway':   { mockId: null,              brand: 'Parkway',      cstore: 'Shell',    discount: null },
+    'shell-lc':  { mockId: null,              brand: 'Shell',        cstore: null,       discount: null },
+    'chevron':   { mockId: null,              brand: 'Chevron',      cstore: null,       discount: null }
   };
 
   // Pretty-print a scraped GasBuddy address line for display under the station
@@ -354,6 +358,7 @@
         id: overlay.mockId || s.id,
         name: s.name,
         brand: overlay.brand || s.name,
+        cstore: overlay.cstore || null,
         area: 'Lake Country',
         address: formatStationAddress(s.address),
         // Raw address (no "Highway 97" rewrite) for Maps deep-links — Apple
@@ -935,7 +940,9 @@
       <div class="deal-savings-sub">
         <strong>${baseCentsOff.toFixed(1)}¢/L</strong> below the market average
       </div>
-      <div class="deal-station-name">${top.name}</div>
+      <div class="deal-station-name">
+        <span class="station-brand">${top.brand || top.name}</span>${top.cstore ? `<span class="station-cstore"> &amp; ${top.cstore}</span>` : ''}
+      </div>
       ${cardSavings > 0
         ? `<div class="deal-station-meta">
             <span class="deal-discount-tag">
@@ -977,7 +984,10 @@
 
       // Distance — only shown when the user has granted location AND the
       // station carries coords. Format is delegated to TANKFUL_Location so
-      // sub-1km values read as "650m" rather than "0.7 km".
+      // sub-1km values read as "650m" rather than "0.7 km". The pin icon
+      // viewBox is tight to the pin shape (no internal padding) so the
+      // visual gap between the pin and the "X.X km" text matches the
+      // intended 4px CSS gap.
       let distanceLine = '';
       if (userLocation && typeof s.lat === 'number' && typeof s.lng === 'number') {
         const km = TANKFUL_Location.distanceKm(userLocation.lat, userLocation.lng, s.lat, s.lng);
@@ -985,7 +995,7 @@
         if (label) {
           distanceLine =
             `<span class="station-distance" aria-label="${label} away">` +
-            `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">` +
+            `<svg viewBox="4 2 16 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">` +
             `<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>` +
             `<circle cx="12" cy="10" r="3"/></svg>` +
             `${label}</span>`;
@@ -1005,7 +1015,9 @@
           <a class="station-link" href="${href}" target="_blank" rel="noopener" aria-label="Get directions to ${s.name}">
             <div class="station-info">
               <div class="station-name-row">
-                <span class="station-name">${s.name}</span>
+                <span class="station-name">
+                  <span class="station-brand">${s.brand || s.name}</span>${s.cstore ? `<span class="station-cstore"> &amp; ${s.cstore}</span>` : ''}
+                </span>
                 ${badgeHtml}
               </div>
               ${addressLine}

@@ -1374,6 +1374,19 @@ body[data-state="wait"] {
   line-height: 1.2;
 }
 
+/* "Petro-Canada" stays bold; "& 7-Eleven" reads lighter so the inline
+   pairing visually echoes the source listing style. */
+.station-brand { font-weight: 700; }
+.station-cstore {
+  font-weight: 500;
+  color: var(--text-soft);
+}
+/* Same pattern on the larger "Best deal" hero card. */
+.deal-station-name .station-cstore {
+  font-weight: 500;
+  opacity: 0.72;
+}
+
 .station-badge {
   font-size: 0.6rem;
   font-weight: 700;

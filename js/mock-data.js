@@ -60,8 +60,9 @@ const TANKFUL_MOCK = (() => {
   const stations = [
     {
       id: 'canco-woodsdale',
-      name: 'Canco Woodsdale',
+      name: 'Canco',
       brand: 'Canco',
+      cstore: 'One Stop',
       area: 'Lake Country',
       address: '11470 Bottom Wood Lake Rd',
       lat: 50.0760, lng: -119.3995,
@@ -73,8 +74,9 @@ const TANKFUL_MOCK = (() => {
     },
     {
       id: 'petro-711',
-      name: 'Petro-Canada · 7-Eleven',
+      name: 'Petro-Canada',
       brand: 'Petro-Canada',
+      cstore: '7-Eleven',
       area: 'Lake Country',
       address: '9724 Highway 97',
       lat: 50.0432, lng: -119.4093,
@@ -85,8 +87,9 @@ const TANKFUL_MOCK = (() => {
     },
     {
       id: 'supersave-lc',
-      name: 'Super Save Lake Country',
+      name: 'Super Save',
       brand: 'Super Save',
+      cstore: null,
       area: 'Lake Country',
       address: '11751 Highway 97',
       lat: 50.0918, lng: -119.3850,
@@ -97,8 +100,9 @@ const TANKFUL_MOCK = (() => {
     },
     {
       id: 'husky-97',
-      name: 'Husky Highway 97',
+      name: 'Husky',
       brand: 'Husky',
+      cstore: 'CO-OP',
       area: 'Lake Country',
       address: '10550 Highway 97',
       lat: 50.0599, lng: -119.4007,
