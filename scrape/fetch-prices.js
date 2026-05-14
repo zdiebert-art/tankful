@@ -28,6 +28,11 @@ const USER_AGENT =
 // Known Lake Country stations — match by street number + first significant word of street.
 // lat/lng are approximate (≤ 500m). Refine here if any "X.X km away" reading looks off
 // on the live site; they are mirrored into the rendered station JSON.
+//
+// Deliberately excluded: card-lock / fleet-only stations (e.g. AFD Petroleum at 350
+// Carion Rd, Kelowna). Those require a commercial access card so they're not useful
+// to public drivers; they'll keep appearing as "unmatched" in scraper logs and that's
+// the correct outcome — don't add them when expanding to Kelowna / Vernon.
 const STATIONS = [
   { id: "canco",     name: "Canco Woodsdale",        number: "11470", streetKey: "BOTTOM",  address: "11470 Bottom Wood Lake Rd", lat: 50.0760, lng: -119.3995 },
   { id: "petrocan",  name: "Petro-Canada · 7-Eleven", number: "9724",  streetKey: "97",      address: "9724 BC-97",                 lat: 50.0432, lng: -119.4093 },
