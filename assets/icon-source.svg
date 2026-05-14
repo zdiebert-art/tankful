@@ -1,7 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <defs>
-    <!-- Deep indigo → violet brand gradient. Tuned for contrast against
-         the light home-screen shelves of iOS/Android. -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%"   stop-color="#1E3A8A"/>
       <stop offset="55%"  stop-color="#4F46E5"/>
@@ -10,14 +8,13 @@
   </defs>
   <!-- Full-bleed gradient backdrop; the OS rounds the corners for us. -->
   <rect width="512" height="512" fill="url(#bg)"/>
-  <!-- White brand mark, scaled to ~72% of canvas (centered within the
-       maskable safe zone). Geometry pulled verbatim from the supplied
-       Illustrator export — same path data as assets/brand/mark.svg.
-       Eye fill is `none` so the gradient shows through the iris. -->
-  <g transform="translate(3 95) scale(0.85)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M471.12,209.85s-15.02,131.54-147.22,151.52c-102.71,15.52-184.81-54.5-198.46-144.83-13.65-90.33,44.67-184.01,146.45-199.39,131.37-19.85,185.29,103.72,185.29,103.72" stroke-width="30"/>
-    <path d="M196.19,273.26s30.74,51.08,102.92,51.08,103.41-51.08,103.41-51.08" stroke-width="19"/>
-    <line x1="465.47" y1="163.95" x2="362.71" y2="179.47" stroke-width="33"/>
-    <circle cx="269.95" cy="191.65" r="46.81" stroke-width="27" fill="none"/>
+  <!-- White mark, centered. Scale 0.78 keeps the mark comfortably inside
+       the maskable safe zone (≈80% of canvas). Eye fill is "none" so the
+       gradient shows through the iris. -->
+  <g transform="translate(104 92) scale(0.78)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M367.7,231.92s-15.02,131.54-147.22,151.52c-102.71,15.52-184.81-54.5-198.46-144.83C8.38,148.28,66.69,54.6,168.47,39.23c131.37-19.85,185.29,103.72,185.29,103.72" stroke-width="30"/>
+    <path d="M104.54,309.97s38.46,45.55,109.73,34.1c71.27-11.46,93.99-66.85,93.99-66.85" stroke-width="19"/>
+    <line x1="314.33" y1="195.51" x2="235.69" y2="207.39" stroke-width="40"/>
+    <circle cx="143.99" cy="222.79" r="46.81" stroke-width="34" fill="none"/>
   </g>
 </svg>

@@ -1,47 +1,43 @@
 /* ============================================
    TANKFUL — Service Worker
-   - Caches the app shell (HTML, CSS, JS, icons) so the dashboard
-     loads instantly and works offline once installed.
-   - Network-first for the scraped data files (lake-country-prices /
-     lake-country-history) so users always see the freshest cron run
-     when they have a connection, but fall back to the cached copy
-     when offline.
-   - Cache-first for everything else (the shell, fonts, ApexCharts).
+   Strategy:
+   - Network-first for the app shell (HTML, CSS, JS) so updates roll
+     out the moment the user has a connection. Cache is the offline
+     fallback only.
+   - Network-first for /data/* (cron-committed prices JSON) so the
+     dashboard always reflects the freshest run.
+   - Cache-first for binary assets (icons, station-logos, favicon)
+     since they rarely change and benefit from instant loads.
+   On every deploy, bump VERSION (or have CI bump it for you) — the
+   activate step purges old caches and claims open tabs, then posts a
+   message to clients so the page can reload itself.
    ============================================ */
 
-const VERSION = 'v1';
+// Auto-bumped by .github/workflows/bump-sw-version.yml on every push that
+// touches the shell. The string between the markers is replaced with the
+// short commit SHA; manual edits there will be overwritten by CI.
+const VERSION = 'v2-/*VERSION*/';
 const CACHE_NAME = `tankful-${VERSION}`;
 
-const SHELL_ASSETS = [
+// Files we want to pre-warm on install so the dashboard's first frame is
+// instant on offline reloads. Network-first means these get refreshed
+// every visit when online — the pre-cache is just an offline backstop.
+const SHELL_PRECACHE = [
   '/',
   '/index.html',
-  '/cheatsheet.html',
   '/manifest.webmanifest',
   '/css/styles.css',
-  '/css/print.css',
-  '/js/config.js',
-  '/js/holidays.js',
-  '/js/location.js',
-  '/js/mock-data.js',
-  '/js/live-data.js',
-  '/js/score.js',
-  '/js/chart-config.js',
   '/js/app.js',
   '/assets/favicon.svg',
-  '/assets/icons/icon-192.png',
-  '/assets/icons/icon-512.png',
-  '/assets/icons/apple-touch-icon.png'
+  '/assets/icons/icon-192.png'
 ];
 
 // ---------- install: warm up the shell cache ----------
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) =>
-      // addAll fails atomically if any single asset 404s, which would block
-      // updates indefinitely. Add each asset individually and swallow errors
-      // — anything that misses will be fetched fresh on first request.
       Promise.all(
-        SHELL_ASSETS.map((url) =>
+        SHELL_PRECACHE.map((url) =>
           cache.add(url).catch((err) => {
             console.warn('[sw] skip caching', url, err && err.message);
           })
@@ -49,66 +45,93 @@ self.addEventListener('install', (event) => {
       )
     )
   );
-  // Activate the new worker immediately rather than waiting for tabs to close.
+  // Activate immediately — paired with the page-side controllerchange
+  // listener this means updates apply without users having to close the tab.
   self.skipWaiting();
 });
 
-// ---------- activate: prune old cache versions ----------
+// ---------- activate: prune old cache versions, claim open clients ----------
 self.addEventListener('activate', (event) => {
-  event.waitUntil(
-    caches.keys().then((keys) =>
-      Promise.all(
-        keys
-          .filter((k) => k.startsWith('tankful-') && k !== CACHE_NAME)
-          .map((k) => caches.delete(k))
-      )
-    ).then(() => self.clients.claim())
-  );
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(
+      keys
+        .filter((k) => k.startsWith('tankful-') && k !== CACHE_NAME)
+        .map((k) => caches.delete(k))
+    );
+    await self.clients.claim();
+    // Tell every open client that a fresh SW is now in charge so the page
+    // can do a one-time reload to pick up the new shell.
+    const clients = await self.clients.matchAll({ includeUncontrolled: true });
+    clients.forEach((c) => c.postMessage({ type: 'sw-updated', version: VERSION }));
+  })());
 });
 
-// ---------- fetch: routing strategy ----------
+// ---------- helpers ----------
+const STATIC_BINARY_PREFIXES = ['/assets/icons/', '/assets/station-logos/'];
+function isStaticBinary(pathname) {
+  if (STATIC_BINARY_PREFIXES.some((p) => pathname.startsWith(p))) return true;
+  return /\.(png|jpe?g|webp|ico|gif|woff2?|ttf|otf)$/i.test(pathname);
+}
+
+// Network-first: fetch, cache on success, fall back to cache on failure.
+async function networkFirst(req) {
+  try {
+    const res = await fetch(req);
+    if (res && res.status === 200 && (res.type === 'basic' || res.type === 'cors')) {
+      const copy = res.clone();
+      caches.open(CACHE_NAME).then((c) => c.put(req, copy)).catch(() => {});
+    }
+    return res;
+  } catch (e) {
+    const cached = await caches.match(req);
+    if (cached) return cached;
+    throw e;
+  }
+}
+
+// Cache-first: serve cache, otherwise fetch + cache.
+async function cacheFirst(req) {
+  const cached = await caches.match(req);
+  if (cached) return cached;
+  const res = await fetch(req);
+  if (res && res.status === 200 && (res.type === 'basic' || res.type === 'cors')) {
+    const copy = res.clone();
+    caches.open(CACHE_NAME).then((c) => c.put(req, copy)).catch(() => {});
+  }
+  return res;
+}
+
+// ---------- fetch: pick the strategy ----------
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET') return;
 
   const url = new URL(req.url);
 
-  // Same-origin /data/* — always try the network so the dashboard reflects
-  // the latest cron commit; fall back to cache if offline.
-  if (url.origin === self.location.origin && url.pathname.startsWith('/data/')) {
-    event.respondWith(
-      fetch(req)
-        .then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE_NAME).then((c) => c.put(req, copy)).catch(() => {});
-          return res;
-        })
-        .catch(() => caches.match(req))
-    );
+  // Only handle same-origin and a small list of CDN allowlists.
+  const isSameOrigin = url.origin === self.location.origin;
+  const isCdn =
+    url.host === 'fonts.googleapis.com' ||
+    url.host === 'fonts.gstatic.com' ||
+    url.host === 'cdn.jsdelivr.net';
+  if (!isSameOrigin && !isCdn) return;
+
+  // /data/* — always fresh
+  if (isSameOrigin && url.pathname.startsWith('/data/')) {
+    event.respondWith(networkFirst(req));
     return;
   }
-
-  // Everything else (shell, fonts, ApexCharts CDN): cache-first with a
-  // network fallback that warms the cache for next time.
-  event.respondWith(
-    caches.match(req).then(
-      (cached) =>
-        cached ||
-        fetch(req)
-          .then((res) => {
-            // Only cache successful, same-origin or CORS-OK responses.
-            if (res && res.status === 200 && (res.type === 'basic' || res.type === 'cors')) {
-              const copy = res.clone();
-              caches.open(CACHE_NAME).then((c) => c.put(req, copy)).catch(() => {});
-            }
-            return res;
-          })
-          .catch(() => cached)
-    )
-  );
+  // Binary assets (icons, fonts) — cache-first
+  if (isStaticBinary(url.pathname)) {
+    event.respondWith(cacheFirst(req));
+    return;
+  }
+  // Everything else (HTML, CSS, JS, CDN libs) — network-first
+  event.respondWith(networkFirst(req));
 });
 
-// ---------- message: allow the page to trigger an immediate update ----------
+// ---------- message: let the page force-activate the next SW ----------
 self.addEventListener('message', (event) => {
   if (event.data === 'skipWaiting') self.skipWaiting();
 });
@@ -116,7 +139,7 @@ self.addEventListener('message', (event) => {
 // ---------- push: fetch fresh data + show notification ----------
 // The Worker sends empty pushes (no encrypted payload) — we pull the
 // current prices JSON here so the notification text reflects whatever
-// the cron just committed, not whatever was scored when the push fired.
+// the cron just committed.
 self.addEventListener('push', (event) => {
   event.waitUntil((async () => {
     let title = 'Tankful';
@@ -126,8 +149,6 @@ self.addEventListener('push', (event) => {
       if (res.ok) {
         const data = await res.json();
         if (Array.isArray(data.stations) && data.stations.length) {
-          // Find the absolute cheapest pump-posted price (we don't have card
-          // overlays in the JSON, just posted prices).
           const sorted = data.stations.slice().sort((a, b) => a.price - b.price);
           const top = sorted[0];
           const market = data.marketAverage;
@@ -141,9 +162,7 @@ self.addEventListener('push', (event) => {
           }
         }
       }
-    } catch (e) {
-      // Fall through to generic message.
-    }
+    } catch (e) { /* fall through to generic */ }
     await self.registration.showNotification(title, {
       body,
       icon: '/assets/icons/icon-192.png',

@@ -1,0 +1,62 @@
+name: Bump SW cache version
+
+# Auto-stamps sw.js with the current commit SHA on every push that touches
+# the shell, so deploys roll out without users having to clear cache. The
+# matching page-side handler in js/pwa.js auto-reloads once when the new
+# SW takes control.
+#
+# paths-ignore skips data refreshes, build tooling, source artwork, and
+# docs — none of those affect what the client ships, so no need to
+# invalidate the cache for them.
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/**'
+      - 'tools/**'
+      - 'scrape/**'
+      - 'cloudflare/**'
+      - 'IMAGES/**'
+      - '**.md'
+      - 'tankFul-*.svg'
+      - 'tankFul-*.pdf'
+      - 'tankFul-*.ai'
+      - 'BUILD-NOTES.md'
+      - 'README.md'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bump-sw
+  cancel-in-progress: false
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stamp sw.js with commit SHA
+        run: |
+          SHORT_SHA=$(git rev-parse --short HEAD)
+          # Replace whatever's between 'v2-' and the closing quote on the
+          # VERSION line. Works whether it's the placeholder /*VERSION*/
+          # or a previous short-SHA stamp.
+          sed -i "s/const VERSION = 'v2-[^']*';/const VERSION = 'v2-${SHORT_SHA}';/" sw.js
+          echo "sw.js diff:"
+          git --no-pager diff sw.js || true
+
+      - name: Commit + push if changed
+        run: |
+          if git diff --quiet sw.js; then
+            echo "No change — sw.js already stamped with current SHA."
+            exit 0
+          fi
+          git config user.name  "tankful-bot"
+          git config user.email "tankful-bot@users.noreply.github.com"
+          git add sw.js
+          git commit -m "chore(sw): bump cache version [skip ci]"
+          git push
