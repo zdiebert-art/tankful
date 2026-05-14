@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-13T21:27:12.180Z",
+  "fetchedAt": "2026-05-14T03:31:57.561Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 198.3,
+  "marketAverage": 198,
   "stationCount": 7,
   "stations": [
     {
@@ -13,7 +13,7 @@
       "lng": -119.3995,
       "price": 195.9,
       "reportedBy": "Owner",
-      "reportedAgo": "26 Minutes Ago",
+      "reportedAgo": "8 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -24,7 +24,7 @@
       "lng": -119.4093,
       "price": 203.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -35,7 +35,7 @@
       "lng": -119.4007,
       "price": 197.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -44,9 +44,9 @@
       "address": "11751 BC-97",
       "lat": 50.0918,
       "lng": -119.385,
-      "price": 193.9,
+      "price": 191.9,
       "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "12 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -68,7 +68,7 @@
       "lng": -119.4108,
       "price": 203.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -79,7 +79,7 @@
       "lng": -119.4115,
       "price": 203.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     }
   ],
