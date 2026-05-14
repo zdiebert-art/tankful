@@ -379,6 +379,7 @@
   const STATION_OVERLAY = {
     'canco':     { mockId: 'canco-woodsdale', brand: 'Canco',        cstore: 'One Stop', discount: { type: 'card', amount: 2.0, label: 'with Canco card' } },
     'petrocan':  { mockId: 'petro-711',       brand: 'Petro-Canada', cstore: '7-Eleven', discount: null },
+    'petrocan-n':{ mockId: null,              brand: 'Petro-Canada', cstore: null,       discount: null },
     'supersave': { mockId: 'supersave-lc',    brand: 'Super Save',   cstore: null,       discount: null },
     'husky':     { mockId: 'husky-97',        brand: 'Husky',        cstore: 'CO-OP',    discount: null },
     'parkway':   { mockId: null,              brand: 'Parkway',      cstore: null,         discount: null, logoBrand: 'Shell' },

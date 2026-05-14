@@ -31,6 +31,7 @@ const USER_AGENT =
 const STATIONS = [
   { id: "canco",     name: "Canco Woodsdale",        number: "11470", streetKey: "BOTTOM",  address: "11470 Bottom Wood Lake Rd", lat: 50.0760, lng: -119.3995 },
   { id: "petrocan",  name: "Petro-Canada · 7-Eleven", number: "9724",  streetKey: "97",      address: "9724 BC-97",                 lat: 50.0432, lng: -119.4093 },
+  { id: "petrocan-n", name: "Petro-Canada North",     number: "9855",  streetKey: "97",      address: "9855 BC-97 N",               lat: 50.0479, lng: -119.4078 },
   { id: "husky",     name: "Husky Hwy 97",           number: "10550", streetKey: "97",      address: "10550 BC-97",                lat: 50.0599, lng: -119.4007 },
   { id: "supersave", name: "Super Save Lake Country", number: "11751", streetKey: "97",      address: "11751 BC-97",                lat: 50.0918, lng: -119.3850 },
   { id: "parkway",   name: "Parkway (Shell)",        number: "11891", streetKey: "97",      address: "11891 BC-97",                lat: 50.0930, lng: -119.3835 },
