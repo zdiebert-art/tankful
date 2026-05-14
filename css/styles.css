@@ -355,7 +355,21 @@ body[data-state="wait"] {
 }
 
 .brand-icon svg { width: 38px; height: 38px; }
-.brand-text { font-weight: 800; }
+/* Inline SVG wordmark ("TankFul" in Europa Grotesk SH Bold, outlined as
+   paths from the supplied Illustrator export). Fill uses currentColor
+   and the rule below points that at var(--text), the same per-state
+   verdict color that drives the .brand-icon chip background — so the
+   header chip + name read as one unit in every score state. */
+.brand-text {
+  height: 30px;
+  width: auto;
+  display: block;
+  color: var(--text);
+  transition: color 0.4s ease;
+}
+@media (min-width: 600px) {
+  .brand-text { height: 34px; }
+}
 
 .location {
   display: flex;
