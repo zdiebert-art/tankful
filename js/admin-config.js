@@ -34,7 +34,7 @@ const TANKFUL_ADMIN_CONFIG = {
 
   // Cloudflare Account ID (find in Cloudflare dashboard right sidebar).
   // Needed alongside the API token to call the Analytics GraphQL API.
-  cloudflareAccountId: "REPLACE_WITH_CF_ACCOUNT_ID",
+  cloudflareAccountId: "22eee49f964f5538a7280e890be467e5",
 
   // localStorage keys used to cache user-supplied tokens between sessions.
   // Cleared on sign-out.
