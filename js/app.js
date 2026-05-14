@@ -381,7 +381,7 @@
     'petrocan':  { mockId: 'petro-711',       brand: 'Petro-Canada', cstore: '7-Eleven', discount: null },
     'supersave': { mockId: 'supersave-lc',    brand: 'Super Save',   cstore: null,       discount: null },
     'husky':     { mockId: 'husky-97',        brand: 'Husky',        cstore: 'CO-OP',    discount: null },
-    'parkway':   { mockId: null,              brand: 'Parkway',      cstore: null,         discount: null },
+    'parkway':   { mockId: null,              brand: 'Parkway',      cstore: null,         discount: null, logoBrand: 'Shell' },
     'shell-lc':  { mockId: null,              brand: 'Shell',        cstore: null,         discount: null },
     'chevron':   { mockId: null,              brand: 'Chevron',      cstore: 'On the Run', discount: null }
   };
@@ -411,6 +411,7 @@
         name: s.name,
         brand: overlay.brand || s.name,
         cstore: overlay.cstore || null,
+        logoBrand: overlay.logoBrand || null,
         area: 'Lake Country',
         address: formatStationAddress(s.address),
         // Raw address (no "Highway 97" rewrite) for Maps deep-links — Apple
@@ -1067,7 +1068,7 @@
           <a class="station-link" href="${href}" target="_blank" rel="noopener" aria-label="Get directions to ${s.name}">
             <div class="station-info">
               <div class="station-name-row">
-                ${stationLogoFor(s.brand) ? `<img class="station-logo" src="${stationLogoFor(s.brand)}" alt="" aria-hidden="true">` : ''}
+                ${stationLogoFor(s.logoBrand || s.brand) ? `<img class="station-logo" src="${stationLogoFor(s.logoBrand || s.brand)}" alt="" aria-hidden="true">` : ''}
                 <span class="station-name">
                   <span class="station-brand">${s.brand || s.name}</span>${s.cstore ? `<span class="station-cstore"> &amp; ${s.cstore}</span>` : ''}
                 </span>
