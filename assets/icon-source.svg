@@ -1,16 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#1E3A8A"/>
-      <stop offset="55%"  stop-color="#4F46E5"/>
-      <stop offset="100%" stop-color="#7E22CE"/>
-    </linearGradient>
-  </defs>
-  <!-- Full-bleed gradient backdrop; the OS rounds the corners for us. -->
-  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- Full-bleed black backdrop; the OS rounds the corners for us. -->
+  <rect width="512" height="512" fill="#000000"/>
   <!-- White mark, centered. Scale 0.78 keeps the mark comfortably inside
        the maskable safe zone (≈80% of canvas). Eye fill is "none" so the
-       gradient shows through the iris. -->
+       backdrop shows through the iris. -->
   <g transform="translate(104 92) scale(0.78)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
     <path d="M367.7,231.92s-15.02,131.54-147.22,151.52c-102.71,15.52-184.81-54.5-198.46-144.83C8.38,148.28,66.69,54.6,168.47,39.23c131.37-19.85,185.29,103.72,185.29,103.72" stroke-width="30"/>
     <path d="M104.54,309.97s38.46,45.55,109.73,34.1c71.27-11.46,93.99-66.85,93.99-66.85" stroke-width="19"/>

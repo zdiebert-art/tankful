@@ -1,15 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#1E3A8A"/>
-      <stop offset="55%"  stop-color="#4F46E5"/>
-      <stop offset="100%" stop-color="#7E22CE"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="12" fill="url(#g)"/>
-  <!-- Same mark geometry as the app icon, scaled to fit the 64×64 favicon
-       with margin. Scale 0.115 + translate centers the mark inside the
-       rounded square. -->
+  <rect width="64" height="64" rx="12" fill="#000000"/>
+  <!-- White mark, centered. Scale + translate matches the app icon so the
+       favicon and the PWA icon read as the same artwork at small sizes. -->
   <g transform="translate(9 8) scale(0.115)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
     <path d="M367.7,231.92s-15.02,131.54-147.22,151.52c-102.71,15.52-184.81-54.5-198.46-144.83C8.38,148.28,66.69,54.6,168.47,39.23c131.37-19.85,185.29,103.72,185.29,103.72" stroke-width="30"/>
     <path d="M104.54,309.97s38.46,45.55,109.73,34.1c71.27-11.46,93.99-66.85,93.99-66.85" stroke-width="19"/>

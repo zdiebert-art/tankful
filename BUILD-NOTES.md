@@ -154,9 +154,10 @@ wordmark in the header also use `var(--text)` so they shift together when
 the score state changes. Cards keep light-glass backgrounds → internal card
 text reads dark.
 
-App icon stays on its own deep-indigo → violet gradient (`#1E3A8A → #4F46E5
-→ #7E22CE`) regardless of state — that's the brand identity, not the in-app
-mood.
+App icon stays on its own solid-black backdrop with a white mark, regardless
+of in-app score state. PWA splash (`background_color` / `theme_color` in
+the manifest) matches the icon at `#000000` so the splash → home-icon
+transition is coherent.
 
 ---
 

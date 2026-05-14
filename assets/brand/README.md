@@ -41,8 +41,8 @@ npm run brand
 
 ### App icons (`assets/icons/*.png`)
 
-App-icon variants generated from `assets/icon-source.svg` (deep indigo →
-violet gradient + white mark) via `tools/generate-icons.mjs`. Sizes match
+App-icon variants generated from `assets/icon-source.svg` (solid black
+backdrop + white mark) via `tools/generate-icons.mjs`. Sizes match
 manifest + Apple touch + favicon requirements:
 
 - `icon-192.png`, `icon-512.png`, `icon-512-maskable.png` (PWA manifest)
@@ -53,19 +53,21 @@ To re-export: `cd tools && npm run icons`.
 
 ### Browser favicon (`assets/favicon.svg`)
 
-Same gradient + white mark, sized for tab use (64×64 viewBox).
+Same black backdrop + white mark, sized for tab use (64×64 viewBox).
 
 ## Color tokens
 
 | Token | Value | Where it shows up |
 |---|---|---|
-| brand-blue-deep   | `#1E3A8A` | First gradient stop (top-left of app icon) |
-| brand-indigo      | `#4F46E5` | Mid gradient stop |
-| brand-violet      | `#7E22CE` | Last gradient stop (bottom-right of app icon) |
+| brand-black       | `#000000` | App icon + favicon backdrop, PWA splash |
 | brand-white       | `#FFFFFF` | Mark stroke on dark surfaces |
 | brand-near-black  | `#010101` | Mark stroke on light surfaces (from source SVG) |
+| brand-blue-deep   | `#1E3A8A` | Retained for marketing assets only (`mark-gradient.svg`) |
+| brand-indigo      | `#4F46E5` | Retained for marketing assets only |
+| brand-violet      | `#7E22CE` | Retained for marketing assets only |
 
-Gradient angle: `135deg` (top-left → bottom-right).
+Marketing-gradient angle (where the indigo→violet ramp is still in use):
+`135deg` (top-left → bottom-right).
 
 ## Fonts
 
