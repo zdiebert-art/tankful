@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-14T22:40:49.780Z",
+  "fetchedAt": "2026-05-15T04:09:23.579Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 194,
+  "marketAverage": 195.3,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 187.9,
+      "price": 197.9,
       "reportedBy": "Owner",
-      "reportedAgo": "25 Minutes Ago",
+      "reportedAgo": "7 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "Sledmonkey74",
-      "reportedAgo": "1 Minute Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "Buddy_p8yngfxt",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
