@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-15T15:30:07.677Z",
+  "fetchedAt": "2026-05-15T17:48:41.612Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 194.8,
+  "marketAverage": 194.2,
   "stationCount": 7,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 187.9,
+      "price": 183.9,
       "reportedBy": "Owner",
-      "reportedAgo": "58 Minutes Ago",
+      "reportedAgo": "2 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "sammy2297",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "spitfire1500",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "spitfire1500",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "sammy2297",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "spitfire1500",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "Buddy_p8yngfxt",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "spitfire1500",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
