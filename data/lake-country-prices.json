@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-15T19:47:55.217Z",
+  "fetchedAt": "2026-05-15T21:15:36.282Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 193,
+  "marketAverage": 190.5,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 183.9,
       "reportedBy": "Owner",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "dwray4",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 197.9,
-      "reportedBy": "spitfire1500",
-      "reportedAgo": "1 Hour Ago",
+      "price": 191.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "54 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "16 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "dwray4",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -100,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 197.9,
-      "reportedBy": "spitfire1500",
-      "reportedAgo": "1 Hour Ago",
+      "price": 191.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "54 Minutes Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 197.9,
-      "reportedBy": "spitfire1500",
-      "reportedAgo": "3 Hours Ago",
+      "price": 191.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "53 Minutes Ago",
       "trust": "user"
     }
   ],
