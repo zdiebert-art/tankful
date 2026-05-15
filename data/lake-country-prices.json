@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-15T21:15:36.282Z",
+  "fetchedAt": "2026-05-15T23:04:33.637Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 190.5,
+  "marketAverage": 189,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 183.9,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "dwray4",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "54 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "price": 189.9,
+      "reportedBy": "Buddy_pk8neubk",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "dwray4",
-      "reportedAgo": "2 Hours Ago",
+      "price": 181.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "54 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "53 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
