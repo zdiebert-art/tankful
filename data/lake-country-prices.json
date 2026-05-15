@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-05-15T04:09:23.579Z",
+  "fetchedAt": "2026-05-15T15:30:07.677Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 195.3,
-  "stationCount": 8,
+  "marketAverage": 194.8,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 197.9,
+      "price": 187.9,
       "reportedBy": "Owner",
-      "reportedAgo": "7 Minutes Ago",
+      "reportedAgo": "58 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "7 Hours Ago",
+      "reportedBy": "sammy2297",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 191.9,
-      "reportedBy": "Sledmonkey74",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,23 +86,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
-    },
-    {
-      "id": "parkway",
-      "name": "Parkway (Shell)",
-      "address": "11891 BC-97",
-      "lat": 50.093,
-      "lng": -119.3835,
-      "zone": null,
-      "fuelBrand": "Parkway",
-      "cstoreBrand": null,
-      "logoBrand": "Shell",
-      "discount": null,
-      "price": 188.9,
-      "reportedBy": "torino17",
-      "reportedAgo": "2 Days Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -117,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "7 Hours Ago",
+      "reportedBy": "sammy2297",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,12 +118,12 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "Buddy_p8yngfxt",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
