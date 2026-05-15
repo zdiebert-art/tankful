@@ -636,8 +636,11 @@ const TANKFUL_Admin_Views = (() => {
   // Traffic tab — Cloudflare Web Analytics.
   // ============================================
   async function renderTraffic(panel) {
-    if (!Auth().getCloudflareToken()) {
-      panel.innerHTML = errorBox("Cloudflare API token not set.", "Add one in the Setup tab — needs the 'Account Analytics: Read' permission.");
+    if (!CF().isConfigured()) {
+      panel.innerHTML = errorBox(
+        "Analytics worker not configured.",
+        "The browser can't query Cloudflare's Analytics API directly — it needs a tiny proxy worker. See <a href='cloudflare/ANALYTICS-WORKER-SETUP.md' target='_blank'>ANALYTICS-WORKER-SETUP.md</a> for click-by-click deploy steps, then paste the worker URL into <code>js/admin-config.js</code>."
+      );
       return;
     }
     loading(panel, "Loading traffic data…");
@@ -720,7 +723,7 @@ const TANKFUL_Admin_Views = (() => {
   // ============================================
   function renderSetup(panel) {
     const gh = Auth().getGithubToken();
-    const cf = Auth().getCloudflareToken();
+    const workerConfigured = !!cfg.analyticsWorkerUrl;
 
     panel.innerHTML = `
       <p class="admin-mute">Paste credentials below — they're stored in this browser only (localStorage). See <a href="ADMIN-SETUP.md" target="_blank">ADMIN-SETUP.md</a> for the full walkthrough.</p>
@@ -738,17 +741,12 @@ const TANKFUL_Admin_Views = (() => {
         <span id="ghStatus" class="admin-mute">${gh ? "✓ token saved" : "no token"}</span>
       </div>
 
-      <h2 class="admin-section-title">Cloudflare API Token</h2>
-      <p>Token with <strong>Account → Account Analytics: Read</strong>. Create at
-        <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">Cloudflare → Profile → API Tokens</a>.</p>
-      <div class="admin-field">
-        <label>Token</label>
-        <input id="setup-cf" type="password" placeholder="${cf ? "(token saved — paste a new one to replace)" : ""}"/>
-      </div>
+      <h2 class="admin-section-title">Analytics proxy worker</h2>
+      <p>Cloudflare blocks direct browser calls to its Analytics API (CORS), so we deploy a tiny Worker that holds the API token server-side. The Worker URL goes in <code>js/admin-config.js → analyticsWorkerUrl</code>.</p>
+      <p class="admin-mute">Setup walkthrough: <a href="cloudflare/ANALYTICS-WORKER-SETUP.md" target="_blank">ANALYTICS-WORKER-SETUP.md</a></p>
       <div class="admin-toolbar">
-        <button class="admin-btn admin-btn--primary" data-action="save-cf">Save Cloudflare token</button>
-        ${cf ? `<button class="admin-btn" data-action="clear-cf">Clear</button>` : ""}
-        <span id="cfStatus" class="admin-mute">${cf ? "✓ token saved" : "no token"}</span>
+        <button class="admin-btn" data-action="test-worker" ${workerConfigured ? "" : "disabled"}>Test worker connection</button>
+        <span id="workerStatus" class="admin-mute">${workerConfigured ? `Configured: <code>${escapeHtml(cfg.analyticsWorkerUrl)}</code>` : "not configured"}</span>
       </div>
 
       <h2 class="admin-section-title">External setup status</h2>
@@ -763,7 +761,7 @@ const TANKFUL_Admin_Views = (() => {
           Cloudflare Account ID configured
         </li>
         <li class="${gh ? "done" : "todo"}">GitHub PAT saved (this browser)</li>
-        <li class="${cf ? "done" : "todo"}">Cloudflare API token saved (this browser)</li>
+        <li class="${workerConfigured ? "done" : "todo"}">Analytics proxy worker deployed + URL set in admin-config.js</li>
       </ul>
     `;
 
@@ -787,17 +785,17 @@ const TANKFUL_Admin_Views = (() => {
           toast(`✓ Authed as ${u.login}`, "good");
         } catch (err) { toast(err.message, "error"); }
       }
-      if (a === "save-cf") {
-        const v = document.getElementById("setup-cf").value.trim();
-        if (!v) return toast("Paste a token first.", "error");
-        Auth().setCloudflareToken(v);
-        toast("Saved.", "good");
-        renderSetup(panel);
-      }
-      if (a === "clear-cf") {
-        Auth().setCloudflareToken(null);
-        toast("Cleared.", "info");
-        renderSetup(panel);
+      if (a === "test-worker") {
+        try {
+          const h = await CF().health();
+          const env = h.env || {};
+          const missing = Object.entries(env).filter(([_, v]) => !v).map(([k]) => k);
+          if (missing.length) {
+            toast(`Worker reachable but missing env vars: ${missing.join(", ")}`, "error");
+          } else {
+            toast("✓ Worker reachable and configured.", "good");
+          }
+        } catch (err) { toast(err.message, "error"); }
       }
     });
   }

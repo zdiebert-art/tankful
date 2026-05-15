@@ -36,6 +36,13 @@ const TANKFUL_ADMIN_CONFIG = {
   // Needed alongside the API token to call the Analytics GraphQL API.
   cloudflareAccountId: "22eee49f964f5538a7280e890be467e5",
 
+  // URL of the analytics proxy worker — Cloudflare's GraphQL API doesn't
+  // allow direct browser calls (CORS), so we deploy a tiny worker that
+  // holds the API token server-side and forwards requests. See
+  // cloudflare/ANALYTICS-WORKER-SETUP.md for the setup walkthrough.
+  // Empty string = Traffic tab shows "Setup required" instead of trying.
+  analyticsWorkerUrl: "",
+
   // localStorage keys used to cache user-supplied tokens between sessions.
   // Cleared on sign-out.
   storageKeys: {

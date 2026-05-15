@@ -1,0 +1,15 @@
+# Wrangler config for the analytics proxy worker.
+# Use this if you want to deploy via the CLI: `wrangler deploy --config analytics-wrangler.toml`
+# Click-paste alternative (no CLI install): see ANALYTICS-WORKER-SETUP.md.
+
+name = "tankful-analytics-proxy"
+main = "analytics-worker.js"
+compatibility_date = "2026-05-01"
+
+# Plain env vars — safe to commit. Replace with your values if you fork.
+[vars]
+CF_ACCOUNT_ID = "22eee49f964f5538a7280e890be467e5"
+CF_SITE_TAG   = "a1f0f3dc281b40798a05c72982c95ea9"
+
+# CF_API_TOKEN is a SECRET — never put it in this file. Set it after deploy:
+#   wrangler secret put CF_API_TOKEN
