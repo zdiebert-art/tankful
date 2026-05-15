@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-15T17:48:41.612Z",
+  "fetchedAt": "2026-05-15T19:47:55.217Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 194.2,
+  "marketAverage": 193,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 183.9,
       "reportedBy": "Owner",
-      "reportedAgo": "2 Minutes Ago",
+      "reportedAgo": "46 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,8 +36,8 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 197.9,
-      "reportedBy": "spitfire1500",
+      "price": 191.9,
+      "reportedBy": "dwray4",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "14 Hours Ago",
       "trust": "stale"
     },
     {
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "price": 189.9,
+      "reportedBy": "dwray4",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "spitfire1500",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     }
   ],
