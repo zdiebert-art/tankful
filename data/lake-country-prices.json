@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-16T22:00:00.037Z",
+  "fetchedAt": "2026-05-16T23:04:56.543Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 187,
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "12 Minutes Ago",
+      "reportedAgo": "4 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 189.5,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 183.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
