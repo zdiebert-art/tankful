@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-16T18:03:26.251Z",
+  "fetchedAt": "2026-05-16T21:06:59.800Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 187.9,
+  "marketAverage": 187,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "2 Minutes Ago",
+      "reportedAgo": "35 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "dwray4",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "price": 197.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "20 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "21 Hours Ago",
-      "trust": "stale"
+      "price": 189.5,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "20 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "Buddy_pk8neubk",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "price": 183.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "30 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -85,9 +85,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 177.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "30 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -100,10 +100,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "21 Hours Ago",
-      "trust": "stale"
+      "price": 189.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "20 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -116,10 +116,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "21 Hours Ago",
-      "trust": "stale"
+      "price": 189.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "20 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
