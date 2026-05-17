@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-05-17T16:08:24.593Z",
+  "fetchedAt": "2026-05-17T18:15:05.248Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 184.2,
-  "stationCount": 7,
+  "marketAverage": 185,
+  "stationCount": 8,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "52 Minutes Ago",
+      "reportedAgo": "14 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,7 +37,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 183.9,
-      "reportedBy": "beavermang",
+      "reportedBy": "YukonMichael",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 183.9,
       "reportedBy": "beavermang",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 183.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "YukonMichael",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,10 +84,26 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 177.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "price": 179.9,
+      "reportedBy": "YukonMichael",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
+    },
+    {
+      "id": "parkway",
+      "name": "Parkway (Shell)",
+      "address": "11891 BC-97",
+      "lat": 50.093,
+      "lng": -119.3835,
+      "zone": null,
+      "fuelBrand": "Parkway",
+      "cstoreBrand": null,
+      "logoBrand": "Shell",
+      "discount": null,
+      "price": 188.9,
+      "reportedBy": "YukonMichael",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -101,7 +117,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "beavermang",
+      "reportedBy": "YukonMichael",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -117,13 +133,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "beavermang",
+      "reportedBy": "YukonMichael",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
+    "parsedCount": 9,
     "unmatched": [
       {
         "number": "350",
