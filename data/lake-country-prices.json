@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-17T14:32:08.345Z",
+  "fetchedAt": "2026-05-17T16:08:24.593Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 187,
+  "marketAverage": 184.2,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "31 Minutes Ago",
+      "reportedAgo": "52 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 197.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "price": 183.9,
+      "reportedBy": "beavermang",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.5,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "price": 183.9,
+      "reportedBy": "beavermang",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 183.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "19 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -101,9 +101,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "Dave_9",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "beavermang",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "Dave_9",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "beavermang",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
