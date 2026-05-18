@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-18T16:30:18.863Z",
+  "fetchedAt": "2026-05-18T19:02:05.753Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 182.7,
+  "marketAverage": 179.9,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "15 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,9 +36,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 183.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "9 Hours Ago",
+      "price": 181.9,
+      "reportedBy": "camgrey1979",
+      "reportedAgo": "18 Minutes Ago",
       "trust": "user"
     },
     {
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 183.9,
-      "reportedBy": "beavermang",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 181.9,
+      "reportedBy": "camgrey1979",
+      "reportedAgo": "17 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 183.9,
-      "reportedBy": "YukonMichael",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "price": 173.9,
+      "reportedBy": "camgrey1979",
+      "reportedAgo": "15 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -85,9 +85,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 177.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "camgrey1979",
+      "reportedAgo": "14 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "torino17",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -116,10 +116,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "YukonMichael",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "price": 181.9,
+      "reportedBy": "camgrey1979",
+      "reportedAgo": "18 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 183.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "camgrey1979",
+      "reportedAgo": "18 Minutes Ago",
       "trust": "user"
     }
   ],
