@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-18T04:18:36.209Z",
+  "fetchedAt": "2026-05-18T16:30:18.863Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 183.4,
+  "marketAverage": 182.7,
   "stationCount": 8,
   "stations": [
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 183.9,
-      "reportedBy": "YukonMichael",
-      "reportedAgo": "11 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 183.9,
       "reportedBy": "beavermang",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 183.9,
       "reportedBy": "YukonMichael",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "18 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "torino17",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "YukonMichael",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -132,9 +132,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "YukonMichael",
-      "reportedAgo": "11 Hours Ago",
+      "price": 183.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
