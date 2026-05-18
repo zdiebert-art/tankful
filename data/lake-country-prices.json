@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-18T20:36:11.108Z",
+  "fetchedAt": "2026-05-18T22:16:02.253Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 180.1,
+  "marketAverage": 179.4,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "35 Minutes Ago",
+      "reportedAgo": "33 Seconds Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 181.9,
-      "reportedBy": "kendrabergs",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedBy": "tommyz40",
+      "reportedAgo": "39 Minutes Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 181.9,
-      "reportedBy": "kendrabergs",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedBy": "tommyz40",
+      "reportedAgo": "39 Minutes Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 173.9,
-      "reportedBy": "kendrabergs",
-      "reportedAgo": "45 Minutes Ago",
+      "reportedBy": "tommyz40",
+      "reportedAgo": "38 Minutes Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 179.5,
-      "reportedBy": "kendrabergs",
-      "reportedAgo": "43 Minutes Ago",
+      "price": 173.9,
+      "reportedBy": "tommyz40",
+      "reportedAgo": "36 Minutes Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 177.9,
-      "reportedBy": "kendrabergs",
-      "reportedAgo": "43 Minutes Ago",
+      "reportedBy": "tommyz40",
+      "reportedAgo": "34 Minutes Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 181.9,
-      "reportedBy": "kendrabergs",
-      "reportedAgo": "47 Minutes Ago",
+      "reportedBy": "tommyz40",
+      "reportedAgo": "39 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 183.9,
-      "reportedBy": "kendrabergs",
-      "reportedAgo": "48 Minutes Ago",
+      "reportedBy": "tommyz40",
+      "reportedAgo": "39 Minutes Ago",
       "trust": "user"
     }
   ],
