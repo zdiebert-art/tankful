@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-19T19:19:21.386Z",
+  "fetchedAt": "2026-05-19T21:31:42.364Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 179.2,
+  "marketAverage": 179.4,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedAgo": "30 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 181.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 173.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 173.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 171.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "4 Hours Ago",
+      "price": 173.9,
+      "reportedBy": "Tom_McNeil",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 173.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "Jaxorama",
+      "reportedAgo": "1 Minute Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 199.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "Jaxorama",
+      "reportedAgo": "1 Minute Ago",
       "trust": "user"
     }
   ],
