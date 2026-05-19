@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-19T21:31:42.364Z",
+  "fetchedAt": "2026-05-19T23:21:54.507Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 179.4,
+  "marketAverage": 179.2,
   "stationCount": 8,
   "stations": [
     {
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 179.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "30 Minutes Ago",
-      "trust": "owner"
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "15 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 173.9,
-      "reportedBy": "Tom_McNeil",
-      "reportedAgo": "1 Hour Ago",
+      "price": 171.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "15 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "Jaxorama",
-      "reportedAgo": "1 Minute Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "Jaxorama",
-      "reportedAgo": "1 Minute Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
