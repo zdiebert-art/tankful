@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-05-20T22:05:53.113Z",
+  "fetchedAt": "2026-05-21T00:16:42.941Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 199.6,
-  "stationCount": 7,
+  "marketAverage": 196.9,
+  "stationCount": 8,
   "stations": [
     {
       "id": "canco",
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 199.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "12 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "1 Minute Ago",
+      "trust": "owner"
     },
     {
       "id": "petrocan",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 199.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "dastrix10",
+      "reportedAgo": "52 Minutes Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 199.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "dastrix10",
+      "reportedAgo": "53 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,23 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
+      "trust": "user"
+    },
+    {
+      "id": "parkway",
+      "name": "Parkway (Shell)",
+      "address": "11891 BC-97",
+      "lat": 50.093,
+      "lng": -119.3835,
+      "zone": null,
+      "fuelBrand": "Parkway",
+      "cstoreBrand": null,
+      "logoBrand": "Shell",
+      "discount": null,
+      "price": 177.9,
+      "reportedBy": "cmorice91",
+      "reportedAgo": "4 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +118,7 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,12 +134,12 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
+    "parsedCount": 9,
     "unmatched": [
       {
         "number": "350",
