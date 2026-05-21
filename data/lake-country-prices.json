@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-21T05:18:10.919Z",
+  "fetchedAt": "2026-05-21T16:22:17.269Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 196.9,
+  "marketAverage": 196.7,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 199.9,
       "reportedBy": "Owner",
-      "reportedAgo": "17 Minutes Ago",
+      "reportedAgo": "21 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Minutes Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "dastrix10",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 197.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "11 Hours Ago",
+      "price": 195.9,
+      "reportedBy": "Buddy_3vh90fkw",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 177.9,
-      "reportedBy": "cmorice91",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "torino17",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Minutes Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     }
   ],
