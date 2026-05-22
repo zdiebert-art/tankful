@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-22T20:12:09.891Z",
+  "fetchedAt": "2026-05-22T22:24:02.346Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 194.5,
@@ -22,7 +22,7 @@
       },
       "price": 192.9,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "23 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "bnn202",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "MarcVocht",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "bnn202",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "Buddy_jea4fbry",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "OliviaH2O",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
