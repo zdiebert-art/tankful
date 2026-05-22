@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-22T18:00:18.753Z",
+  "fetchedAt": "2026-05-22T20:12:09.891Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 195.7,
+  "marketAverage": 194.5,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 196.9,
+      "price": 192.9,
       "reportedBy": "Owner",
-      "reportedAgo": "44 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "bnn202",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 199.9,
-      "reportedBy": "bnn202",
-      "reportedAgo": "21 Hours Ago",
-      "trust": "stale"
+      "price": 196.9,
+      "reportedBy": "MarcVocht",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "bnn202",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 194.9,
-      "reportedBy": "roughneck4life",
-      "reportedAgo": "2 Hours Ago",
+      "price": 192.9,
+      "reportedBy": "Buddy_jea4fbry",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "OliviaH2O",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "OliviaH2O",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     }
   ],
