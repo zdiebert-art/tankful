@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-23T20:21:12.710Z",
+  "fetchedAt": "2026-05-23T22:10:29.352Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 193.5,
+  "marketAverage": 193.3,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 192.9,
       "reportedBy": "Owner",
-      "reportedAgo": "5 Minutes Ago",
+      "reportedAgo": "38 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 197.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "price": 196.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "19 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "20 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "zeiberman13",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -85,9 +85,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 194.9,
-      "reportedBy": "zeiberman13",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "17 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -101,9 +101,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 177.9,
-      "reportedBy": "latchfords",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "Buddy_1ga52wgu",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "zeiberman13",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "20 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
