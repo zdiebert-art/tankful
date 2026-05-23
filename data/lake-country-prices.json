@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-05-23T18:17:03.178Z",
+  "fetchedAt": "2026-05-23T20:21:12.710Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 194.3,
-  "stationCount": 8,
+  "marketAverage": 193.5,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 192.9,
       "reportedBy": "Owner",
-      "reportedAgo": "16 Minutes Ago",
+      "reportedAgo": "5 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "15 Hours Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "zeiberman13",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 194.9,
       "reportedBy": "zeiberman13",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,28 +118,12 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "zeiberman13",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
-    },
-    {
-      "id": "chevron",
-      "name": "Chevron Lake Country",
-      "address": "9450 BC-97",
-      "lat": 50.0395,
-      "lng": -119.4115,
-      "zone": null,
-      "fuelBrand": "Chevron",
-      "cstoreBrand": "On the Run",
-      "logoBrand": null,
-      "discount": null,
-      "price": 199.9,
-      "reportedBy": "OliviaH2O",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
