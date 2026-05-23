@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-23T04:49:07.094Z",
+  "fetchedAt": "2026-05-23T14:44:12.719Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 194.3,
@@ -22,7 +22,7 @@
       },
       "price": 192.9,
       "reportedBy": "Owner",
-      "reportedAgo": "33 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "zeiberman13",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "zeiberman13",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "zeiberman13",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 194.9,
       "reportedBy": "zeiberman13",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "zeiberman13",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
