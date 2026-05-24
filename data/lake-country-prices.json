@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-23T23:09:44.399Z",
+  "fetchedAt": "2026-05-24T04:11:04.360Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 193.3,
+  "marketAverage": 193.2,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 192.9,
       "reportedBy": "Owner",
-      "reportedAgo": "37 Minutes Ago",
+      "reportedAgo": "55 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "Buddy_7528rpfr",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "Buddy_7528rpfr",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "zeiberman13",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "dc180",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 194.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "price": 194,
+      "reportedBy": "Buddy_7528rpfr",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "Buddy_1ga52wgu",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "dc180",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
