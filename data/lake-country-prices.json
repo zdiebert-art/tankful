@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-05-24T04:11:04.360Z",
+  "fetchedAt": "2026-05-24T14:34:44.973Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 193.2,
-  "stationCount": 7,
+  "marketAverage": 193.7,
+  "stationCount": 8,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 192.9,
       "reportedBy": "Owner",
-      "reportedAgo": "55 Minutes Ago",
+      "reportedAgo": "19 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "Buddy_7528rpfr",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "6 Minutes Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "Buddy_7528rpfr",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "Sandy2772",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 194,
       "reportedBy": "Buddy_7528rpfr",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "Buddy_1ga52wgu",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "18 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -117,13 +117,29 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "Sandy2772",
+      "reportedAgo": "8 Hours Ago",
+      "trust": "user"
+    },
+    {
+      "id": "chevron",
+      "name": "Chevron Lake Country",
+      "address": "9450 BC-97",
+      "lat": 50.0395,
+      "lng": -119.4115,
+      "zone": null,
+      "fuelBrand": "Chevron",
+      "cstoreBrand": "On the Run",
+      "logoBrand": null,
+      "discount": null,
+      "price": 196.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "6 Minutes Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
+    "parsedCount": 9,
     "unmatched": [
       {
         "number": "350",
