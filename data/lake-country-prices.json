@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-24T22:02:48.555Z",
+  "fetchedAt": "2026-05-24T23:22:16.431Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 193.7,
+  "marketAverage": 192.5,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 192.9,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "wyndsom",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "wyndsom",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "Sandy2772",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 194,
-      "reportedBy": "Buddy_7528rpfr",
-      "reportedAgo": "21 Hours Ago",
-      "trust": "stale"
+      "price": 184.9,
+      "reportedBy": "dc180",
+      "reportedAgo": "48 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "wyndsom",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "wyndsom",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     }
   ],
