@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-25T17:57:11.480Z",
+  "fetchedAt": "2026-05-25T23:20:52.903Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 186,
+  "marketAverage": 184.7,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 178.6,
+      "price": 176.6,
       "reportedBy": "Owner",
-      "reportedAgo": "41 Minutes Ago",
+      "reportedAgo": "20 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "zeiberman13",
-      "reportedAgo": "44 Minutes Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "zeiberman13",
-      "reportedAgo": "44 Minutes Ago",
+      "reportedBy": "Buddy_19fxm7xn",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "zeiberman13",
-      "reportedAgo": "41 Minutes Ago",
+      "price": 178.6,
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "1959chevyguy",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
@@ -144,7 +144,7 @@
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 181.9
+        "price": 177.9
       }
     ]
   }
