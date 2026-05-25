@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-25T04:22:49.319Z",
+  "fetchedAt": "2026-05-25T15:58:08.312Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 191.8,
+  "marketAverage": 187,
   "stationCount": 8,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 186.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "49 Minutes Ago",
-      "trust": "owner"
+      "price": 186.6,
+      "reportedBy": "Buddy_gf7u2wu6",
+      "reportedAgo": "38 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -36,9 +36,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 196.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
+      "price": 186.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "2 Minutes Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 196.9,
-      "reportedBy": "wyndsom",
-      "reportedAgo": "8 Hours Ago",
+      "price": 186.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "2 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "Sandy2772",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 184.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
+      "price": 186.9,
+      "reportedBy": "Buddy_gf7u2wu6",
+      "reportedAgo": "37 Minutes Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 177.9,
-      "reportedBy": "latchfords",
-      "reportedAgo": "12 Hours Ago",
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 196.9,
-      "reportedBy": "wyndsom",
-      "reportedAgo": "8 Hours Ago",
+      "price": 186.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "2 Minutes Ago",
       "trust": "user"
     },
     {
@@ -132,9 +132,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 196.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
+      "price": 186.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "3 Minutes Ago",
       "trust": "user"
     }
   ],
