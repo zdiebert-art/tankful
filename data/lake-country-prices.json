@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-26T04:09:42.383Z",
+  "fetchedAt": "2026-05-26T16:49:24.503Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 183.2,
+  "marketAverage": 183.5,
   "stationCount": 8,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 176.6,
-      "reportedBy": "bowengal",
-      "reportedAgo": "41 Minutes Ago",
-      "trust": "user"
+      "price": 186.9,
+      "reportedBy": "Owner",
+      "reportedAgo": "48 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "petrocan",
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "40 Minutes Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 176.6,
-      "reportedBy": "bowengal",
-      "reportedAgo": "40 Minutes Ago",
-      "trust": "user"
+      "price": 178.9,
+      "reportedBy": "suzimom123",
+      "reportedAgo": "1 Second Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -68,9 +68,9 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 196.9,
-      "reportedBy": "Sandy2772",
-      "reportedAgo": "1 Day Ago",
+      "price": 186.9,
+      "reportedBy": "suzimom123",
+      "reportedAgo": "52 Seconds Ago",
       "trust": "stale"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 176.6,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "37 Minutes Ago",
       "trust": "user"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 177.9,
-      "reportedBy": "1959chevyguy",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "36 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "40 Minutes Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "40 Minutes Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
