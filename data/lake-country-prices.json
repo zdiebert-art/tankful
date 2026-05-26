@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-26T16:49:24.503Z",
+  "fetchedAt": "2026-05-26T19:35:47.684Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 183.5,
+  "marketAverage": 184,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 186.9,
       "reportedBy": "Owner",
-      "reportedAgo": "48 Minutes Ago",
+      "reportedAgo": "3 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "22 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "suzimom123",
-      "reportedAgo": "1 Second Ago",
-      "trust": "stale"
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "suzimom123",
-      "reportedAgo": "52 Seconds Ago",
-      "trust": "stale"
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 176.6,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "37 Minutes Ago",
+      "price": 178.6,
+      "reportedBy": "denno545",
+      "reportedAgo": "22 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "36 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Buddy_mpgb9038",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -132,10 +132,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "price": 188.9,
+      "reportedBy": "Buddy_mpgb9038",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
