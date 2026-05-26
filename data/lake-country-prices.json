@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-25T23:20:52.903Z",
+  "fetchedAt": "2026-05-26T04:09:42.383Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 184.7,
+  "marketAverage": 183.2,
   "stationCount": 8,
   "stations": [
     {
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 176.6,
-      "reportedBy": "Owner",
-      "reportedAgo": "20 Minutes Ago",
-      "trust": "owner"
+      "reportedBy": "bowengal",
+      "reportedAgo": "41 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "bowengal",
+      "reportedAgo": "40 Minutes Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "4 Hours Ago",
+      "price": 176.6,
+      "reportedBy": "bowengal",
+      "reportedAgo": "40 Minutes Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 178.6,
-      "reportedBy": "1959chevyguy",
-      "reportedAgo": "1 Hour Ago",
+      "price": 176.6,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "1959chevyguy",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "1959chevyguy",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "bowengal",
+      "reportedAgo": "40 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "1959chevyguy",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "bowengal",
+      "reportedAgo": "40 Minutes Ago",
       "trust": "user"
     }
   ],
