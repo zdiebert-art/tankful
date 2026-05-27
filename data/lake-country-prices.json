@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-27T19:40:21.162Z",
+  "fetchedAt": "2026-05-27T22:09:49.561Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 185.8,
+  "marketAverage": 184.8,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 186.9,
       "reportedBy": "Owner",
-      "reportedAgo": "53 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "jillybean2222",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "33 Minutes Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "Buddy_zz0b477r",
-      "reportedAgo": "4 Hours Ago",
+      "price": 178.9,
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "33 Minutes Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "Buddy_zz0b477r",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "35 Minutes Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "Buddy_zz0b477r",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "36 Minutes Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "Buddy_zz0b477r",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "33 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "Buddy_zz0b477r",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "32 Minutes Ago",
       "trust": "user"
     }
   ],
