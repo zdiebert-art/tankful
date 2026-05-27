@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-26T23:19:22.819Z",
+  "fetchedAt": "2026-05-27T16:41:13.445Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 182.7,
+  "marketAverage": 185.8,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 186.9,
       "reportedBy": "Owner",
-      "reportedAgo": "3 Minutes Ago",
+      "reportedAgo": "10 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "Buddy_zz0b477r",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 178.9,
-      "reportedBy": "suzimom123",
-      "reportedAgo": "3 Hours Ago",
+      "price": 186.9,
+      "reportedBy": "Buddy_zz0b477r",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "bnn202",
-      "reportedAgo": "36 Minutes Ago",
+      "reportedBy": "Buddy_zz0b477r",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 176.6,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "1 Hour Ago",
+      "price": 186.9,
+      "reportedBy": "Buddy_zz0b477r",
+      "reportedAgo": "59 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "1 Day Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 178.9,
-      "reportedBy": "junebug_711",
-      "reportedAgo": "9 Minutes Ago",
+      "price": 186.9,
+      "reportedBy": "Buddy_zz0b477r",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -132,9 +132,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 188.9,
-      "reportedBy": "suzimom123",
-      "reportedAgo": "3 Hours Ago",
+      "price": 186.9,
+      "reportedBy": "Buddy_zz0b477r",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
