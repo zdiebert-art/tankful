@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-28T05:26:07.466Z",
+  "fetchedAt": "2026-05-28T17:11:13.366Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 183.3,
+  "marketAverage": 184.5,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 186.9,
       "reportedBy": "Owner",
-      "reportedAgo": "10 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "owner"
     },
     {
@@ -36,9 +36,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 178.9,
-      "reportedBy": "Buddy_d8n8g772",
-      "reportedAgo": "2 Hours Ago",
+      "price": 186.9,
+      "reportedBy": "fw2550",
+      "reportedAgo": "44 Minutes Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "cqndjtgfp6",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "18 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "jeeper1992",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 174.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "5 Hours Ago",
+      "price": 176.9,
+      "reportedBy": "fw2550",
+      "reportedAgo": "44 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "2 Days Ago",
       "trust": "stale"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "Buddy_d8n8g772",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "fw2550",
+      "reportedAgo": "44 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "Buddy_d8n8g772",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "fw2550",
+      "reportedAgo": "45 Minutes Ago",
       "trust": "user"
     }
   ],
