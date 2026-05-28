@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-28T00:04:45.135Z",
+  "fetchedAt": "2026-05-28T05:26:07.466Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 182,
+  "marketAverage": 183.3,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 176.9,
+      "price": 186.9,
       "reportedBy": "Owner",
-      "reportedAgo": "3 Minutes Ago",
+      "reportedAgo": "10 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "Buddy_d8n8g772",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "cqndjtgfp6",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "jeeper1992",
-      "reportedAgo": "35 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "11 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "Buddy_d8n8g772",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,19 +133,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "Buddy_d8n8g772",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 177.9
-      }
-    ]
+    "parsedCount": 8,
+    "unmatched": []
   }
 }
