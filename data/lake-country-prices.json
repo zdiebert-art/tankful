@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-29T04:22:43.037Z",
+  "fetchedAt": "2026-05-29T16:49:44.153Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 182,
+  "marketAverage": 180.9,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 176.9,
       "reportedBy": "Owner",
-      "reportedAgo": "50 Minutes Ago",
+      "reportedAgo": "3 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "fw2550",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "1 Day Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "bnn202",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "18 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -100,10 +100,10 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 177.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Days Ago",
-      "trust": "stale"
+      "price": 175.9,
+      "reportedBy": "torino17",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "fw2550",
-      "reportedAgo": "11 Hours Ago",
+      "price": 179.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "fw2550",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "1 Day Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
