@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-29T16:49:44.153Z",
+  "fetchedAt": "2026-05-29T19:43:59.104Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 180.9,
@@ -22,7 +22,7 @@
       },
       "price": 176.9,
       "reportedBy": "Owner",
-      "reportedAgo": "3 Minutes Ago",
+      "reportedAgo": "28 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "bnn202",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "19 Hours Ago",
       "trust": "stale"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "torino17",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
