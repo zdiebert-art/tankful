@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-29T19:43:59.104Z",
+  "fetchedAt": "2026-05-29T21:58:27.103Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 180.9,
+  "marketAverage": 175.2,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 176.9,
+      "price": 170.5,
       "reportedBy": "Owner",
-      "reportedAgo": "28 Minutes Ago",
+      "reportedAgo": "42 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "fw2550",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 178.9,
+      "reportedBy": "Buddy_19fxm7xn",
+      "reportedAgo": "24 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "cqndjtgfp6",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 172.9,
+      "reportedBy": "Buddy_19fxm7xn",
+      "reportedAgo": "24 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 178.9,
-      "reportedBy": "bnn202",
-      "reportedAgo": "21 Hours Ago",
-      "trust": "stale"
+      "price": 172.9,
+      "reportedBy": "Buddy_19fxm7xn",
+      "reportedAgo": "22 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 174.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "price": 172.9,
+      "reportedBy": "Buddy_19fxm7xn",
+      "reportedAgo": "20 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "torino17",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "8 Hours Ago",
+      "price": 178.9,
+      "reportedBy": "Buddy_19fxm7xn",
+      "reportedAgo": "24 Minutes Ago",
       "trust": "user"
     },
     {
@@ -132,10 +132,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "fw2550",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 178.9,
+      "reportedBy": "Buddy_19fxm7xn",
+      "reportedAgo": "24 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
