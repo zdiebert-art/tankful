@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-29T21:58:27.103Z",
+  "fetchedAt": "2026-05-29T23:25:11.653Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 175.2,
+  "marketAverage": 175,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 170.5,
       "reportedBy": "Owner",
-      "reportedAgo": "42 Minutes Ago",
+      "reportedAgo": "52 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "24 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "24 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "22 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 172.9,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "20 Minutes Ago",
+      "price": 170.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "56 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "torino17",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "24 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "24 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
