@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-29T23:25:36.121Z",
+  "fetchedAt": "2026-05-30T04:02:52.614Z",
   "region": "kelowna",
   "source": "gasbuddy.com",
-  "marketAverage": 175.6,
+  "marketAverage": 174.1,
   "stationCount": 37,
   "stations": [
     {
@@ -17,9 +17,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 170.5,
-      "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "owner"
+      "reportedBy": "clinton_wood",
+      "reportedAgo": "49 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-harvey-1575",
@@ -32,8 +32,8 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 172.9,
-      "reportedBy": "Buddy_19fxm7xn",
+      "price": 170.9,
+      "reportedBy": "susanackerman88",
       "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
@@ -48,8 +48,8 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 172.9,
-      "reportedBy": "Buddy_19fxm7xn",
+      "price": 170.9,
+      "reportedBy": "susanackerman88",
       "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
@@ -64,8 +64,8 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 172.9,
-      "reportedBy": "Buddy_19fxm7xn",
+      "price": 170.9,
+      "reportedBy": "susanackerman88",
       "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
@@ -82,7 +82,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "54 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -97,8 +97,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 165.9,
-      "reportedBy": "Santa_Tom",
-      "reportedAgo": "55 Minutes Ago",
+      "reportedBy": "Buddy_bgmzmmrj",
+      "reportedAgo": "50 Minutes Ago",
       "trust": "user"
     },
     {
@@ -113,8 +113,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "ltodter",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "civic08si",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -129,8 +129,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 170.9,
-      "reportedBy": "Buddy_054xy6pp",
-      "reportedAgo": "51 Minutes Ago",
+      "reportedBy": "susanackerman88",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -145,8 +145,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 170.5,
-      "reportedBy": "ltodter",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "susanackerman88",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -162,7 +162,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "mercedes_driver",
-      "reportedAgo": "51 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -177,8 +177,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 172.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "55 Minutes Ago",
+      "reportedBy": "civic08si",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -194,8 +194,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "markharries",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "kelowna-gordon-3135",
@@ -210,7 +210,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "55 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -225,9 +225,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 170.5,
-      "reportedBy": "SSieben",
-      "reportedAgo": "55 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "28 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "kelowna-lakeshore-3950",
@@ -242,7 +242,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "crhebert",
-      "reportedAgo": "28 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -256,9 +256,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 171.9,
-      "reportedBy": "crhebert",
-      "reportedAgo": "29 Minutes Ago",
+      "price": 170.9,
+      "reportedBy": "civic08si",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -273,8 +273,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 170.5,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "bchabfan",
+      "reportedAgo": "10 Minutes Ago",
       "trust": "user"
     },
     {
@@ -290,7 +290,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "richlem",
-      "reportedAgo": "31 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -320,10 +320,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "54 Minutes Ago",
-      "trust": "owner"
+      "price": 168.5,
+      "reportedBy": "Buddy_cccarx06",
+      "reportedAgo": "41 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-bc33e-1799",
@@ -338,7 +338,7 @@
       "discount": null,
       "price": 170.5,
       "reportedBy": "Owner",
-      "reportedAgo": "52 Minutes Ago",
+      "reportedAgo": "29 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -368,9 +368,9 @@
       "cstoreBrand": "GOmarket",
       "logoBrand": null,
       "discount": null,
-      "price": 172.5,
-      "reportedBy": "sierraslt",
-      "reportedAgo": "7 Hours Ago",
+      "price": 170.5,
+      "reportedBy": "JoeyRood",
+      "reportedAgo": "48 Minutes Ago",
       "trust": "user"
     },
     {
@@ -384,9 +384,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 172.5,
-      "reportedBy": "sierraslt",
-      "reportedAgo": "7 Hours Ago",
+      "price": 170.5,
+      "reportedBy": "JoeyRood",
+      "reportedAgo": "48 Minutes Ago",
       "trust": "user"
     },
     {
@@ -402,7 +402,7 @@
       "discount": null,
       "price": 170.5,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "47 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -418,7 +418,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "Ookamishinkishi",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -434,7 +434,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "Ziggy4412",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -448,9 +448,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "ramjet649",
-      "reportedAgo": "6 Hours Ago",
+      "price": 172.9,
+      "reportedBy": "susanackerman88",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -466,7 +466,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "ramjet649",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -480,9 +480,9 @@
       "cstoreBrand": "Smart Stop 24/7",
       "logoBrand": null,
       "discount": null,
-      "price": 184.9,
-      "reportedBy": "BWRTERRY",
-      "reportedAgo": "5 Hours Ago",
+      "price": 170.9,
+      "reportedBy": "susanackerman88",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -496,9 +496,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "BWRTERRY",
-      "reportedAgo": "5 Hours Ago",
+      "price": 172.9,
+      "reportedBy": "Brocolea",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -528,9 +528,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 172.5,
-      "reportedBy": "AuntYoohoo",
-      "reportedAgo": "6 Hours Ago",
+      "price": 170.5,
+      "reportedBy": "Brocolea",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -562,7 +562,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "Hoserguy",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -577,9 +577,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 170.5,
-      "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "owner"
+      "reportedBy": "Buddy_bgmzmmrj",
+      "reportedAgo": "49 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-innovation-1708",
@@ -594,7 +594,7 @@
       "discount": null,
       "price": 170.5,
       "reportedBy": "Owner",
-      "reportedAgo": "9 Minutes Ago",
+      "reportedAgo": "51 Minutes Ago",
       "trust": "owner"
     }
   ],
