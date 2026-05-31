@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-05-31T00:05:53.394Z",
+  "fetchedAt": "2026-05-31T05:31:48.733Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 173.9,
+  "marketAverage": 173.2,
   "stationCount": 8,
   "stations": [
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 172.9,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 172.9,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 170.9,
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 168.5,
-      "reportedBy": "dc180",
-      "reportedAgo": "48 Minutes Ago",
+      "price": 170.5,
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 175.9,
-      "reportedBy": "torino17",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -116,10 +116,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 178.9,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 172.9,
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,9 +133,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 172.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
