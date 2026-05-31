@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-30T22:15:05.941Z",
+  "fetchedAt": "2026-05-31T00:05:53.394Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 173.9,
@@ -22,7 +22,7 @@
       },
       "price": 170.5,
       "reportedBy": "Owner",
-      "reportedAgo": "28 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "owner"
     },
     {
@@ -85,9 +85,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 168.5,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "22 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "dc180",
+      "reportedAgo": "48 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     }
   ],
