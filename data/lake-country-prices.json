@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-31T18:10:31.360Z",
+  "fetchedAt": "2026-05-31T20:22:06.927Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 172.9,
@@ -22,7 +22,7 @@
       },
       "price": 170.5,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "Buddy_8t2n3p60",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 170.5,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     }
   ],
