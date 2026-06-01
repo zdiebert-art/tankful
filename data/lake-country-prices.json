@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-01T00:21:25.929Z",
+  "fetchedAt": "2026-06-01T06:12:48.332Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 172.7,
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 170.5,
-      "reportedBy": "Owner",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "owner"
+      "price": 168.9,
+      "reportedBy": "Budds_69",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "adeline18",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 168.5,
-      "reportedBy": "dc180",
-      "reportedAgo": "25 Minutes Ago",
+      "price": 170.5,
+      "reportedBy": "SamGarg007",
+      "reportedAgo": "30 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "adeline18",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "adeline18",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     }
   ],
