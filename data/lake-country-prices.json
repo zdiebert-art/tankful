@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-01T06:12:48.332Z",
+  "fetchedAt": "2026-06-01T18:53:14.609Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 172.7,
+  "marketAverage": 170.9,
   "stationCount": 8,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 168.9,
-      "reportedBy": "Budds_69",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "price": 168.5,
+      "reportedBy": "Owner",
+      "reportedAgo": "52 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "petrocan",
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 178.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 170.9,
+      "reportedBy": "DataFeed",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 170.9,
-      "reportedBy": "adeline18",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedBy": "Buddy_19fxm7xn",
+      "reportedAgo": "7 Seconds Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 165.9,
+      "reportedBy": "Buddy_19fxm7xn",
+      "reportedAgo": "1 Minute Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 170.5,
-      "reportedBy": "SamGarg007",
-      "reportedAgo": "30 Minutes Ago",
+      "price": 170.9,
+      "reportedBy": "Buddy_19fxm7xn",
+      "reportedAgo": "3 Minutes Ago",
       "trust": "user"
     },
     {
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "adeline18",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "20 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -132,20 +132,14 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 172.9,
-      "reportedBy": "adeline18",
-      "reportedAgo": "7 Hours Ago",
+      "price": 170.9,
+      "reportedBy": "pflynn78",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 175.9
-      }
-    ]
+    "parsedCount": 8,
+    "unmatched": []
   }
 }
