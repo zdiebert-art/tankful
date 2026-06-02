@@ -646,33 +646,48 @@
       }));
   }
 
-  function bucketWeekly(samples, weeks) {
+  // Helper: which Monday does this Date sit in?
+  function weekKey(d) {
+    const day = d.getDay();
+    const diffToMonday = (day === 0 ? -6 : 1 - day);
+    const monday = new Date(d.getFullYear(), d.getMonth(), d.getDate() + diffToMonday);
+    return `${monday.getFullYear()}-${String(monday.getMonth()+1).padStart(2,'0')}-${String(monday.getDate()).padStart(2,'0')}`;
+  }
+
+  // Year view: produce a full N-week skeleton so the X-axis always
+  // spans the requested period, even when we only have a few weeks of
+  // real data. Weeks with no samples get `price: null` (the chart
+  // treats them as "tracking hadn't started yet" and draws a washed
+  // dashed line in their place — see chart-config.js).
+  function bucketWeeklyPadded(samples, weeks) {
     const now = new Date();
-    const cutoff = now.getTime() - (weeks * 7 * 86400000);
-    const buckets = new Map(); // ISO-week key → [prices]
 
-    function weekKey(d) {
-      // Monday-of-week as YYYY-MM-DD, treated as the bucket label.
-      const day = d.getDay();
-      const diffToMonday = (day === 0 ? -6 : 1 - day);
-      const monday = new Date(d.getFullYear(), d.getMonth(), d.getDate() + diffToMonday);
-      return `${monday.getFullYear()}-${String(monday.getMonth()+1).padStart(2,'0')}-${String(monday.getDate()).padStart(2,'0')}`;
-    }
-
+    const realByWeek = new Map();
     for (const s of samples) {
       const t = Date.parse(s.at);
-      if (!Number.isFinite(t) || t < cutoff) continue;
+      if (!Number.isFinite(t)) continue;
       const k = weekKey(new Date(t));
-      const arr = buckets.get(k) || [];
+      const arr = realByWeek.get(k) || [];
       arr.push(s.marketAverage);
-      buckets.set(k, arr);
+      realByWeek.set(k, arr);
     }
-    return Array.from(buckets.entries())
-      .sort((a, b) => a[0].localeCompare(b[0]))
-      .map(([date, prices]) => ({
-        date,
-        price: Math.round((prices.reduce((a,b)=>a+b,0) / prices.length) * 10) / 10
-      }));
+
+    const out = [];
+    for (let i = weeks - 1; i >= 0; i--) {
+      const target = new Date(now.getTime() - i * 7 * 86400000);
+      const k = weekKey(target);
+      const arr = realByWeek.get(k);
+      out.push({
+        date: k,
+        price: arr ? Math.round((arr.reduce((a,b)=>a+b,0) / arr.length) * 10) / 10 : null,
+      });
+    }
+    return out;
+  }
+
+  // Kept for compat with anything that only wants weeks with real data.
+  function bucketWeekly(samples, weeks) {
+    return bucketWeeklyPadded(samples, weeks).filter(b => b.price !== null);
   }
 
   // Returns a new history object { 7, 30, 365 } if we have enough live samples
@@ -685,7 +700,7 @@
     return {
       7:   bucketDaily(rawSamples, 7),
       30:  thirty,
-      365: bucketWeekly(rawSamples, 52)
+      365: bucketWeeklyPadded(rawSamples, 52)  // null entries for pre-tracking weeks
     };
   }
 

@@ -1600,6 +1600,30 @@ body[data-state="wait"] {
   font-size: 0.7rem !important;
 }
 
+/* Custom tooltip body for the price-history chart — used so the
+   "no data yet" placeholder line doesn't show a misleading number. */
+.apex-tooltip-custom {
+  padding: 8px 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+  color: var(--text);
+  min-width: 120px;
+}
+.apex-tooltip-custom .tt-date {
+  font-weight: 600;
+  font-size: 0.72rem;
+  color: var(--text-soft);
+  margin-bottom: 4px;
+}
+.apex-tooltip-custom .tt-value {
+  font-size: 0.95rem;
+}
+.apex-tooltip-custom .tt-empty {
+  font-style: italic;
+  color: var(--text-soft);
+  opacity: 0.85;
+}
+
 /* Card reorder feature parked — see js/card-reorder.js and the data-card-id
    attributes in index.html. CSS styles intentionally removed; revive by
    re-enabling the script tag in index.html and restoring the .card-reorder

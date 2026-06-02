@@ -34,7 +34,33 @@ const TANKFUL_Chart = (() => {
     const colors = getThemeColors();
     // Data is just y-values — categories array provides the x-axis labels.
     // (Previously passed {x, y} objects but ApexCharts was using x.date as the label.)
-    const data = history.map(h => h.price);
+    const realData = history.map(h => (h.price == null ? null : h.price));
+
+    // Find the first real (non-null) data point. Everything before it is
+    // the "pre-tracking" period and gets the washed dashed line.
+    let firstRealIdx = -1;
+    for (let i = 0; i < history.length; i++) {
+      if (history[i] && history[i].price != null) { firstRealIdx = i; break; }
+    }
+    const hasPlaceholder = firstRealIdx > 0;
+
+    // Placeholder series: flat at the first real price from index 0 to
+    // firstRealIdx (inclusive) so the dashed line visually meets the
+    // real-data line at the start of tracking.
+    let placeholderData = null;
+    if (hasPlaceholder) {
+      const firstRealPrice = history[firstRealIdx].price;
+      placeholderData = history.map((h, i) => (i <= firstRealIdx ? firstRealPrice : null));
+    }
+
+    const series = hasPlaceholder
+      ? [
+          { name: 'Market price', type: 'area', data: realData },
+          { name: 'Tracking not yet started', type: 'line', data: placeholderData },
+        ]
+      : [
+          { name: 'Market price', type: 'area', data: realData },
+        ];
 
     const options = {
       chart: {
@@ -53,17 +79,21 @@ const TANKFUL_Chart = (() => {
         sparkline: { enabled: false },
         background: 'transparent'
       },
-      series: [{
-        name: 'Kelowna ¢/L',
-        data
-      }],
+      series,
       stroke: {
         curve: 'smooth',
-        width: 3,
-        colors: [colors.c4]
+        // Per-series width + dash. Real line solid+thick, placeholder
+        // line thinner and dashed for the "no data" look.
+        width:     hasPlaceholder ? [3, 2]            : 3,
+        dashArray: hasPlaceholder ? [0, 7]            : 0,
+        colors:    hasPlaceholder ? [colors.c4, 'rgba(0,0,0,0.28)'] : [colors.c4]
       },
       fill: {
-        type: 'gradient',
+        // Real series gets the gradient fill; the placeholder line has
+        // no fill (type: line on its series block already handles that,
+        // but we set opacity 0 here too as a belt-and-suspenders).
+        type:    hasPlaceholder ? ['gradient', 'solid'] : 'gradient',
+        opacity: hasPlaceholder ? [1, 0] : 1,
         gradient: {
           shadeIntensity: 1,
           opacityFrom: 0.55,
@@ -118,23 +148,25 @@ const TANKFUL_Chart = (() => {
         forceNiceScale: true
       },
       tooltip: {
-        x: {
-          formatter: (_, opts) => {
-            const idx = opts.dataPointIndex;
-            const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-            const weekdays = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-            const parts = history[idx].date.split('-').map(Number);
-            const dateObj = new Date(parts[0], parts[1] - 1, parts[2]);
-            const wd = weekdays[dateObj.getDay()];
-            const mn = months[parts[1] - 1];
-            const yr = rangeDays === 365 ? `, ${parts[0]}` : '';
-            return `${wd}, ${mn} ${parts[2]}${yr}`;
+        // Custom tooltip so the placeholder ("Tracking not yet started")
+        // series doesn't lie about a real number — when the underlying
+        // real-data point is null, we say "not tracked yet" instead.
+        custom: ({ dataPointIndex }) => {
+          const item = history[dataPointIndex];
+          if (!item) return '';
+          const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+          const weekdays = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+          const parts = item.date.split('-').map(Number);
+          const dateObj = new Date(parts[0], parts[1] - 1, parts[2]);
+          const wd = weekdays[dateObj.getDay()];
+          const mn = months[parts[1] - 1];
+          const yr = rangeDays === 365 ? `, ${parts[0]}` : '';
+          const dateLabel = `${wd}, ${mn} ${parts[2]}${yr}`;
+          if (item.price == null) {
+            return `<div class="apex-tooltip-custom"><div class="tt-date">${dateLabel}</div><div class="tt-empty">Not tracked yet</div></div>`;
           }
+          return `<div class="apex-tooltip-custom"><div class="tt-date">${dateLabel}</div><div class="tt-value"><strong>${item.price.toFixed(1)}</strong> ¢/L</div></div>`;
         },
-        y: {
-          formatter: (v) => `${v.toFixed(1)} ¢/L`
-        },
-        marker: { show: false },
         style: { fontFamily: 'Poppins, sans-serif' }
       }
     };
@@ -146,17 +178,24 @@ const TANKFUL_Chart = (() => {
       chartInstance.render();
     }
 
-    // Update legend
-    const prices = history.map(h => h.price);
-    const lo = Math.min(...prices);
-    const hi = Math.max(...prices);
+    // Update legend — only real (non-null) prices count; the washed
+    // placeholder line isn't actual history and shouldn't move the
+    // low/avg/high readouts.
+    const prices = history.map(h => h.price).filter(p => p != null);
     const legendEl = document.getElementById('chartLegend');
     if (legendEl) {
-      legendEl.innerHTML = `
-        <span class="low">Low ${lo.toFixed(1)}¢</span>
-        <span>Avg ${(prices.reduce((s, p) => s + p, 0) / prices.length).toFixed(1)}¢</span>
-        <span class="high">High ${hi.toFixed(1)}¢</span>
-      `;
+      if (prices.length === 0) {
+        legendEl.innerHTML = `<span class="admin-mute">Tracking hasn't started in this window yet.</span>`;
+      } else {
+        const lo = Math.min(...prices);
+        const hi = Math.max(...prices);
+        const avg = prices.reduce((s, p) => s + p, 0) / prices.length;
+        legendEl.innerHTML = `
+          <span class="low">Low ${lo.toFixed(1)}¢</span>
+          <span>Avg ${avg.toFixed(1)}¢</span>
+          <span class="high">High ${hi.toFixed(1)}¢</span>
+        `;
+      }
     }
   }
 
