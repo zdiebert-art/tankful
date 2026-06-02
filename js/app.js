@@ -450,6 +450,67 @@
     return Math.round(50 + clamped * 50);
   }
 
+  // ============================================
+  // Price-vs-history signal — the most direct fill/wait evidence we have.
+  // Compares today's market average to the last 30 days of price samples
+  // and returns:
+  //   - value: 0..100 (100 = at/below 30d low, 0 = at/above 30d high)
+  //   - contrib: -25..+25 signed contribution for the score
+  //   - detail: human-readable label for the indicator chip
+  //   - pending: true if we don't have enough history yet (<3 samples)
+  //
+  // Math: percentile-rank of current price within the 30-day distribution
+  // (more robust to outliers than a simple min/max position). Contribution
+  // is dampened when the range is tight — if all 30 days are within 4¢ of
+  // each other, "near the low" isn't really meaningful.
+  // ============================================
+  function priceRangeSignal(currentPrice, samples) {
+    if (!Number.isFinite(currentPrice)) {
+      return { value: 50, contrib: 0, detail: 'No current price', pending: true };
+    }
+    if (!Array.isArray(samples) || samples.length === 0) {
+      return { value: 50, contrib: 0, detail: 'Waiting for history', pending: true };
+    }
+    const cutoff = Date.now() - 30 * 86400000;
+    const prices = samples
+      .filter(s => Number.isFinite(s.marketAverage) && Date.parse(s.at) >= cutoff)
+      .map(s => s.marketAverage)
+      .sort((a, b) => a - b);
+    if (prices.length < 3) {
+      return { value: 50, contrib: 0, detail: 'Less than 3 samples in last 30 days', pending: true };
+    }
+    const min = prices[0];
+    const max = prices[prices.length - 1];
+
+    // Percentile: how many samples are strictly cheaper than today's price?
+    let cheaperCount = 0;
+    for (const p of prices) { if (p < currentPrice) cheaperCount++; }
+    const percentile = cheaperCount / prices.length;  // 0 = current is cheapest, 1 = current is priciest
+    const value = Math.round((1 - Math.max(0, Math.min(1, percentile))) * 100);
+
+    // Dampen the contribution when the recent range is tight. At 8+¢ swing
+    // we use the full ±25; at <2¢ swing we essentially ignore the signal.
+    const rangeWidth = max - min;
+    const dampener = Math.max(0, Math.min(1, (rangeWidth - 1) / 7));
+    const contrib = Math.round((value - 50) * 0.5 * dampener);
+
+    const bucketText =
+      value >= 85 ? 'near recent low — strong fill'
+      : value >= 65 ? 'below recent average'
+      : value >= 35 ? 'near recent average'
+      : value >= 15 ? 'above recent average'
+      : 'near recent high — hold if you can';
+
+    return {
+      value,
+      contrib,
+      detail: `Today ${currentPrice.toFixed(1)}¢ · 30d range ${min.toFixed(1)}–${max.toFixed(1)}¢ · ${bucketText}`,
+      trend: bucketText,
+      pending: false,
+      min, max, percentile,
+    };
+  }
+
   // The day-of-week pattern in BC: prices typically jump Wed-Fri before the
   // weekend, settle Sun-Tue. Early-week is a "fill bias" (it's about to
   // climb), Fri afternoon onwards is "wait" (you've already been priced).
@@ -538,6 +599,20 @@
 
     if (live.stations && live.stations.success) {
       applyLiveStations(state, live.stations, regionMeta);
+    }
+
+    // Price-vs-history indicator — runs once both station prices (for the
+    // current market average) and history (for the 30-day range) have
+    // landed. Most direct fill/wait signal we have: today vs the last 30d.
+    if (state.components && state.components.range) {
+      const samples = (live.history && live.history.success) ? live.history.samples : [];
+      const signal = priceRangeSignal(state.marketPrice, samples);
+      const c = state.components.range;
+      c.value   = signal.value;
+      c.detail  = signal.detail;
+      c.trend   = signal.pending ? 'Needs history' : signal.trend;
+      c.impact  = 0;            // syncIndicatorImpacts fills this in once the verdict runs
+      c.pending = signal.pending;
     }
 
     if (live.anySuccess) {
@@ -663,7 +738,30 @@
       }
     }
 
-    // SIGNAL 1: Active long weekend / stat ahead → fill bias
+    // SIGNAL 1: Price-vs-30-day-history — the most direct fill/wait
+    // signal. If today's market average is at the recent low, that's a
+    // strong fill even if forward indicators (RBOB etc.) are mixed; if
+    // today is at the recent high, hold off regardless of those signals.
+    // Strength is boosted so this beats most other signals for the
+    // verdict subline when the contribution is large.
+    const rangeComp = state.components.range;
+    if (rangeComp && !rangeComp.pending && typeof rangeComp.value === 'number') {
+      const contrib = Math.round((rangeComp.value - 50) * 0.5); // ±25 max
+      if (contrib !== 0) {
+        push('range', '30-Day Position', contrib,
+          rangeComp.detail || '',
+          { icon: 'range',
+            strength: Math.abs(contrib) + 4,
+            subline: Math.abs(contrib) >= 15
+              ? (contrib > 0
+                  ? `Today's market price is near the recent low — strong fill signal regardless of forward indicators.`
+                  : `Today's market price is near the recent high — pump pressure is already in. Hold off if you can.`)
+              : undefined
+          });
+      }
+    }
+
+    // SIGNAL 2: Active long weekend / stat ahead → fill bias
     const activeMod = (state.modifiers || []).find(m => m.active);
     if (activeMod) {
       push('holiday', activeMod.name, +Math.round(activeMod.impact),
@@ -771,7 +869,7 @@
   // so each chip's "+X" badge reflects what it actually contributed, not the
   // legacy mock value * weight calculation.
   function syncIndicatorImpacts(state, breakdown) {
-    const keyMap = { rbob: 'rbob', wti: 'wti', fx: 'fx', dow: 'dow' };
+    const keyMap = { rbob: 'rbob', wti: 'wti', fx: 'fx', dow: 'dow', range: 'range' };
     const byKey = {};
     breakdown.forEach((b) => { byKey[b.key] = b.contrib; });
     Object.entries(keyMap).forEach(([compKey, breakKey]) => {

@@ -215,10 +215,13 @@ transition is coherent.
   of cron-committed samples. Until then the chart shows the mock arrays
   with a "Sample data — real history accumulating" badge. After ~3 days
   it auto-switches to real data with no code change needed.
-- **`cycleAge` + `30-Day Position` indicators are "pending"** — they need
-  the history pipeline to mature (~7 days for cycle, ~30 days for range).
-  Currently rendered dim with "Needs history" label. Once data exists,
-  wire them into `applyLiveData()`.
+- **`cycleAge` indicator is still "pending"** — it needs a notion of
+  "days since the last price reset" that we haven't built yet. The
+  `30-Day Position` indicator is now LIVE (wired in `applyLiveData` via
+  `priceRangeSignal` against `live.history.samples`) and contributes
+  up to ±25 to the score — the strongest single signal in the
+  algorithm. The 30d position dominates the verdict subline when its
+  contribution magnitude is ≥15.
 - **Score formula is heuristic** — tuned with general BC market intuition,
   not real Lake Country historical data. Worth revisiting after a few
   months of real history to validate the weights (currently: holiday +8
