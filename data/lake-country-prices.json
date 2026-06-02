@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-02T17:36:56.431Z",
+  "fetchedAt": "2026-06-02T21:06:16.917Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 172.5,
+  "marketAverage": 176.2,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 162.5,
+      "price": 178.9,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "50 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 165.9,
-      "reportedBy": "jbattistel",
-      "reportedAgo": "31 Minutes Ago",
+      "reportedBy": "camgrey79",
+      "reportedAgo": "57 Minutes Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "jbattistel",
-      "reportedAgo": "32 Minutes Ago",
+      "reportedBy": "camgrey79",
+      "reportedAgo": "57 Minutes Ago",
       "trust": "user"
     },
     {
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 165.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "price": 178.9,
+      "reportedBy": "camgrey79",
+      "reportedAgo": "58 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "jbattistel",
-      "reportedAgo": "32 Minutes Ago",
+      "reportedBy": "camgrey79",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 169.9,
       "reportedBy": "torino17",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "jbattistel",
-      "reportedAgo": "31 Minutes Ago",
+      "reportedBy": "camgrey79",
+      "reportedAgo": "57 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "jbattistel",
-      "reportedAgo": "31 Minutes Ago",
+      "reportedBy": "camgrey79",
+      "reportedAgo": "56 Minutes Ago",
       "trust": "user"
     }
   ],
