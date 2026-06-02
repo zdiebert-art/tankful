@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-01T22:27:00.177Z",
+  "fetchedAt": "2026-06-02T00:26:31.522Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 169.2,
+  "marketAverage": 168.9,
   "stationCount": 8,
   "stations": [
     {
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 162.5,
-      "reportedBy": "Owner",
-      "reportedAgo": "11 Minutes Ago",
-      "trust": "owner"
+      "reportedBy": "blasko1",
+      "reportedAgo": "21 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 163.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
+      "price": 160.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "20 Minutes Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
   ],
