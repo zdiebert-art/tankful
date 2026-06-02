@@ -1,7 +1,17 @@
 {
   "region": "lake-country",
-  "updatedAt": "2026-05-14T22:40:49.780Z",
+  "updatedAt": "2026-06-02T06:00:12.204Z",
   "samples": [
+    {
+      "at": "2026-05-12T21:05:47.271Z",
+      "marketAverage": 201.2,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-13T16:37:13.362Z",
+      "marketAverage": 200.3,
+      "stationCount": 7
+    },
     {
       "at": "2026-05-13T18:46:34.222Z",
       "marketAverage": 199.5,
@@ -18,14 +28,549 @@
       "stationCount": 7
     },
     {
+      "at": "2026-05-13T21:27:12.180Z",
+      "marketAverage": 198.3,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-14T03:31:57.561Z",
+      "marketAverage": 198,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-14T06:47:41.959Z",
+      "marketAverage": 198,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-14T10:17:52.260Z",
+      "marketAverage": 198,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-14T14:14:11.235Z",
+      "marketAverage": 198,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-14T17:51:28.097Z",
+      "marketAverage": 195.5,
+      "stationCount": 7
+    },
+    {
       "at": "2026-05-14T19:53:00.549Z",
       "marketAverage": 194.3,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-14T21:11:30.795Z",
+      "marketAverage": 194,
       "stationCount": 8
     },
     {
       "at": "2026-05-14T22:40:49.780Z",
       "marketAverage": 194,
       "stationCount": 8
+    },
+    {
+      "at": "2026-05-15T04:09:23.579Z",
+      "marketAverage": 195.3,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-15T15:30:07.677Z",
+      "marketAverage": 194.8,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-15T17:48:41.612Z",
+      "marketAverage": 194.2,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-15T19:47:55.217Z",
+      "marketAverage": 193,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-15T21:15:36.282Z",
+      "marketAverage": 190.5,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-15T23:04:33.637Z",
+      "marketAverage": 189,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-16T04:34:54.024Z",
+      "marketAverage": 188.5,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-16T16:03:21.756Z",
+      "marketAverage": 187.9,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-16T18:03:26.251Z",
+      "marketAverage": 187.9,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-16T21:06:59.800Z",
+      "marketAverage": 187,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-16T22:00:00.037Z",
+      "marketAverage": 187,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-16T23:04:56.543Z",
+      "marketAverage": 187,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-17T00:13:48.413Z",
+      "marketAverage": 187,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-17T04:59:47.729Z",
+      "marketAverage": 187,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-17T14:32:08.345Z",
+      "marketAverage": 187,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-17T16:08:24.593Z",
+      "marketAverage": 184.2,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-17T18:15:05.248Z",
+      "marketAverage": 185,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-17T20:14:48.288Z",
+      "marketAverage": 185,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-17T22:13:32.988Z",
+      "marketAverage": 184.8,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-17T23:09:14.473Z",
+      "marketAverage": 184.8,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-18T04:18:36.209Z",
+      "marketAverage": 183.4,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-18T16:30:18.863Z",
+      "marketAverage": 182.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-18T19:02:05.753Z",
+      "marketAverage": 179.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-18T20:36:11.108Z",
+      "marketAverage": 180.1,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-18T22:16:02.253Z",
+      "marketAverage": 179.4,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-19T00:23:13.747Z",
+      "marketAverage": 178.2,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-19T05:15:40.933Z",
+      "marketAverage": 178.2,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-19T16:29:34.863Z",
+      "marketAverage": 176.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-19T19:19:21.386Z",
+      "marketAverage": 179.2,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-19T21:31:42.364Z",
+      "marketAverage": 179.4,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-19T23:21:54.507Z",
+      "marketAverage": 179.2,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-20T04:16:29.291Z",
+      "marketAverage": 178.2,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-20T16:43:22.629Z",
+      "marketAverage": 191.2,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-20T19:36:27.886Z",
+      "marketAverage": 196.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-20T22:05:53.113Z",
+      "marketAverage": 199.6,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-21T00:16:42.941Z",
+      "marketAverage": 196.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-21T05:18:10.919Z",
+      "marketAverage": 196.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-21T16:22:17.269Z",
+      "marketAverage": 196.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-21T19:04:50.086Z",
+      "marketAverage": 196.2,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-21T21:50:05.185Z",
+      "marketAverage": 196.4,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-21T23:08:47.535Z",
+      "marketAverage": 196,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-22T04:14:06.851Z",
+      "marketAverage": 195.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-22T15:53:15.211Z",
+      "marketAverage": 195.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-22T18:00:18.753Z",
+      "marketAverage": 195.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-22T20:12:09.891Z",
+      "marketAverage": 194.5,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-22T22:24:02.346Z",
+      "marketAverage": 194.5,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-23T04:49:07.094Z",
+      "marketAverage": 194.3,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-23T14:44:12.719Z",
+      "marketAverage": 194.3,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-23T16:13:22.730Z",
+      "marketAverage": 194.3,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-23T18:17:03.178Z",
+      "marketAverage": 194.3,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-23T20:21:12.710Z",
+      "marketAverage": 193.5,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-23T22:10:29.352Z",
+      "marketAverage": 193.3,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-23T23:09:44.399Z",
+      "marketAverage": 193.3,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-24T04:11:04.360Z",
+      "marketAverage": 193.2,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-05-24T14:34:44.973Z",
+      "marketAverage": 193.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-24T16:17:24.088Z",
+      "marketAverage": 193.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-24T18:08:32.671Z",
+      "marketAverage": 193.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-24T20:19:31.323Z",
+      "marketAverage": 193.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-24T22:02:48.555Z",
+      "marketAverage": 193.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-24T23:22:16.431Z",
+      "marketAverage": 192.5,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-25T04:22:49.319Z",
+      "marketAverage": 191.8,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-25T15:58:08.312Z",
+      "marketAverage": 187,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-25T17:57:11.480Z",
+      "marketAverage": 186,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-25T23:20:52.903Z",
+      "marketAverage": 184.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-26T04:09:42.383Z",
+      "marketAverage": 183.2,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-26T16:49:24.503Z",
+      "marketAverage": 183.5,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-26T19:35:47.684Z",
+      "marketAverage": 184,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-26T21:55:21.481Z",
+      "marketAverage": 184,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-26T23:19:22.819Z",
+      "marketAverage": 182.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-27T16:41:13.445Z",
+      "marketAverage": 185.8,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-27T19:40:21.162Z",
+      "marketAverage": 185.8,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-27T22:09:49.561Z",
+      "marketAverage": 184.8,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-28T00:04:45.135Z",
+      "marketAverage": 182,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-28T05:26:07.466Z",
+      "marketAverage": 183.3,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-28T17:11:13.366Z",
+      "marketAverage": 184.5,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-28T19:52:10.603Z",
+      "marketAverage": 184.5,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-28T22:12:51.836Z",
+      "marketAverage": 183.5,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-29T04:22:43.037Z",
+      "marketAverage": 182,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-29T16:49:44.153Z",
+      "marketAverage": 180.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-29T19:43:59.104Z",
+      "marketAverage": 180.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-29T21:58:27.103Z",
+      "marketAverage": 175.2,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-29T23:25:11.653Z",
+      "marketAverage": 175,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-30T04:02:28.312Z",
+      "marketAverage": 174.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-30T14:49:50.144Z",
+      "marketAverage": 173.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-30T16:11:22.355Z",
+      "marketAverage": 173.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-30T18:13:34.701Z",
+      "marketAverage": 173.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-30T20:22:05.282Z",
+      "marketAverage": 173.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-30T22:15:05.941Z",
+      "marketAverage": 173.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-31T00:05:53.394Z",
+      "marketAverage": 173.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-31T05:31:48.733Z",
+      "marketAverage": 173.2,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-31T16:20:05.918Z",
+      "marketAverage": 172.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-31T18:10:31.360Z",
+      "marketAverage": 172.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-31T20:22:06.927Z",
+      "marketAverage": 172.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-05-31T22:09:30.341Z",
+      "marketAverage": 172.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-06-01T00:21:25.929Z",
+      "marketAverage": 172.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-06-01T06:12:48.332Z",
+      "marketAverage": 172.7,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-06-01T18:53:14.609Z",
+      "marketAverage": 170.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-06-01T22:27:00.177Z",
+      "marketAverage": 169.2,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-06-02T00:26:31.522Z",
+      "marketAverage": 168.9,
+      "stationCount": 8
+    },
+    {
+      "at": "2026-06-02T06:00:12.204Z",
+      "marketAverage": 166.4,
+      "stationCount": 7
     }
   ]
 }

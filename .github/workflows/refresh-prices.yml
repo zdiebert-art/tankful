@@ -54,10 +54,12 @@ jobs:
           git config user.name  "tankful-bot"
           git config user.email "tankful-bot@users.noreply.github.com"
 
-          # Stage every prices/history file plus the manifest. The scraper
-          # always rewrites the manifest, but the prices/history files only
-          # change when something was actually scraped.
-          git add data/*-prices.json data/regions.json 2>/dev/null || true
+          # Stage every prices file, every history file, and the manifest.
+          # The scraper always rewrites the manifest, but prices/history
+          # only change when something was actually scraped. (The history
+          # files were silently dropped by an earlier version of this step
+          # — fixed Jun 2 2026 — so the chart was stuck on mock data.)
+          git add data/*-prices.json data/*-history.json data/regions.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "No price changes — skipping commit."
