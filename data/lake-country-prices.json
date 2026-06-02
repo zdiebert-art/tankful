@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-02T00:26:31.522Z",
+  "fetchedAt": "2026-06-02T06:00:12.204Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 168.9,
-  "stationCount": 8,
+  "marketAverage": 166.4,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 162.5,
-      "reportedBy": "blasko1",
-      "reportedAgo": "21 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "44 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "petrocan",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 170.9,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "5 Hours Ago",
+      "price": 165.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 165.9,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,24 +86,8 @@
       "discount": null,
       "price": 160.9,
       "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "20 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
-    },
-    {
-      "id": "parkway",
-      "name": "Parkway (Shell)",
-      "address": "11891 BC-97",
-      "lat": 50.093,
-      "lng": -119.3835,
-      "zone": null,
-      "fuelBrand": "Parkway",
-      "cstoreBrand": null,
-      "logoBrand": "Shell",
-      "discount": null,
-      "price": 175.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -117,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 172.9,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -132,14 +116,14 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "Buddy_19fxm7xn",
-      "reportedAgo": "5 Hours Ago",
+      "price": 165.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
