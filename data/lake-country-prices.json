@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-03T22:02:31.014Z",
+  "fetchedAt": "2026-06-03T23:54:15.396Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 177,
+  "marketAverage": 176.8,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 178.9,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Minute Ago",
+      "reportedAgo": "38 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "ctwhitts1",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 178.9,
-      "reportedBy": "bevgreen100558",
-      "reportedAgo": "2 Hours Ago",
+      "price": 176.9,
+      "reportedBy": "bigmuddy44s",
+      "reportedAgo": "57 Minutes Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 176.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "ctwhitts1",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "Buddy_3vh90fkw",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "ctwhitts1",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "ctwhitts1",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
