@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-03T18:08:51.064Z",
+  "fetchedAt": "2026-06-03T22:02:31.014Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 174.9,
+  "marketAverage": 177,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 178.9,
       "reportedBy": "Owner",
-      "reportedAgo": "53 Minutes Ago",
+      "reportedAgo": "1 Minute Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 165.9,
-      "reportedBy": "cqndjtgfp6",
-      "reportedAgo": "14 Hours Ago",
-      "trust": "stale"
+      "price": 178.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "camgrey79",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "bevgreen100558",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 176.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Minute Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "2 Minutes Ago",
+      "price": 174.9,
+      "reportedBy": "Buddy_3vh90fkw",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "fw2550",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,9 +133,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "fw2550",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
