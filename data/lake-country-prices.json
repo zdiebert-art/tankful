@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-03T23:54:15.396Z",
+  "fetchedAt": "2026-06-04T04:47:18.890Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 176.8,
+  "marketAverage": 175.8,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 178.9,
       "reportedBy": "Owner",
-      "reportedAgo": "38 Minutes Ago",
+      "reportedAgo": "59 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,9 +36,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 178.9,
-      "reportedBy": "ctwhitts1",
-      "reportedAgo": "1 Hour Ago",
+      "price": 176.9,
+      "reportedBy": "Fletcher1972",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 176.9,
       "reportedBy": "bigmuddy44s",
-      "reportedAgo": "57 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 176.9,
       "reportedBy": "ctwhitts1",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 174.9,
-      "reportedBy": "Buddy_3vh90fkw",
-      "reportedAgo": "4 Hours Ago",
+      "price": 168.9,
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "ctwhitts1",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "ctwhitts1",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
