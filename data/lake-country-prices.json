@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-04T21:49:48.426Z",
+  "fetchedAt": "2026-06-04T23:23:11.913Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 174.2,
-  "stationCount": 8,
+  "marketAverage": 174.5,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 170.9,
       "reportedBy": "Owner",
-      "reportedAgo": "34 Minutes Ago",
+      "reportedAgo": "50 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 176.9,
       "reportedBy": "annemariedep",
-      "reportedAgo": "51 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 176.9,
       "reportedBy": "annemariedep",
-      "reportedAgo": "50 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "annemariedep",
-      "reportedAgo": "48 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,26 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "annemariedep",
-      "reportedAgo": "46 Minutes Ago",
+      "price": 168.9,
+      "reportedBy": "Millenium2ko",
+      "reportedAgo": "39 Minutes Ago",
       "trust": "user"
-    },
-    {
-      "id": "parkway",
-      "name": "Parkway (Shell)",
-      "address": "11891 BC-97",
-      "lat": 50.093,
-      "lng": -119.3835,
-      "zone": null,
-      "fuelBrand": "Parkway",
-      "cstoreBrand": null,
-      "logoBrand": "Shell",
-      "discount": null,
-      "price": 169.9,
-      "reportedBy": "torino17",
-      "reportedAgo": "2 Days Ago",
-      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,7 +102,7 @@
       "discount": null,
       "price": 176.9,
       "reportedBy": "annemariedep",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,12 +118,12 @@
       "discount": null,
       "price": 176.9,
       "reportedBy": "annemariedep",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
