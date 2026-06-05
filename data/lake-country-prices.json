@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-04T23:23:11.913Z",
+  "fetchedAt": "2026-06-05T04:28:20.335Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 174.5,
+  "marketAverage": 173.5,
   "stationCount": 7,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 170.9,
+      "price": 165.9,
       "reportedBy": "Owner",
-      "reportedAgo": "50 Minutes Ago",
+      "reportedAgo": "40 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 176.9,
-      "reportedBy": "annemariedep",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 176.9,
       "reportedBy": "annemariedep",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "annemariedep",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 168.9,
-      "reportedBy": "Millenium2ko",
-      "reportedAgo": "39 Minutes Ago",
+      "price": 166.9,
+      "reportedBy": "rdire23",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 176.9,
       "reportedBy": "annemariedep",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 176.9,
       "reportedBy": "annemariedep",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     }
   ],
