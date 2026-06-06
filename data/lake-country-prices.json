@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-06T16:21:33.356Z",
+  "fetchedAt": "2026-06-06T18:23:55.464Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 172.5,
+  "marketAverage": 172,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 163.9,
       "reportedBy": "Owner",
-      "reportedAgo": "20 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 176.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 173.9,
+      "reportedBy": "DataFeed",
+      "reportedAgo": "57 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
