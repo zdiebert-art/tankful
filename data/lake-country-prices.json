@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-08T06:03:37.089Z",
+  "fetchedAt": "2026-06-08T17:05:17.038Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 164.2,
+  "marketAverage": 163,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 161.9,
       "reportedBy": "Owner",
-      "reportedAgo": "31 Minutes Ago",
+      "reportedAgo": "18 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "bloody0514",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "Buddy_yt1j9jhw",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 159.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "16 Minutes Ago",
       "trust": "user"
     },
     {
@@ -100,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 169.9,
-      "reportedBy": "foordfun",
-      "reportedAgo": "10 Hours Ago",
+      "price": 160.9,
+      "reportedBy": "torino17",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "bloody0514",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "bloody0514",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
