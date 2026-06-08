@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-08T19:28:48.016Z",
+  "fetchedAt": "2026-06-08T21:56:32.729Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 161,
+  "marketAverage": 160.8,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 161.9,
+      "price": 159.9,
       "reportedBy": "Owner",
-      "reportedAgo": "13 Minutes Ago",
+      "reportedAgo": "41 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 161.9,
-      "reportedBy": "suzimom123",
-      "reportedAgo": "52 Minutes Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "19 Minutes Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "suzimom123",
-      "reportedAgo": "52 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 159.9,
       "reportedBy": "luckey4me",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 157.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "26 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 160.9,
       "reportedBy": "torino17",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "suzimom123",
-      "reportedAgo": "53 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "suzimom123",
-      "reportedAgo": "53 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     }
   ],
@@ -144,7 +144,7 @@
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 167.9
+        "price": 158.9
       }
     ]
   }
