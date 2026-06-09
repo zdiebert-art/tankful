@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-09T19:33:09.151Z",
+  "fetchedAt": "2026-06-09T23:28:28.797Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 178.8,
+  "marketAverage": 181.9,
   "stationCount": 8,
   "stations": [
     {
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 184.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "31 Minutes Ago",
-      "trust": "owner"
+      "reportedBy": "dastrix10",
+      "reportedAgo": "9 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "btfbcoa",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "nlhanson",
+      "reportedAgo": "45 Minutes Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "btfbcoa",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "nlhanson",
+      "reportedAgo": "45 Minutes Ago",
       "trust": "user"
     },
     {
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 159.9,
-      "reportedBy": "luckey4me",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 184.9,
+      "reportedBy": "nlhanson",
+      "reportedAgo": "47 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "btfbcoa",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "nlhanson",
+      "reportedAgo": "49 Minutes Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "btfbcoa",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "nlhanson",
+      "reportedAgo": "44 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "btfbcoa",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "nlhanson",
+      "reportedAgo": "44 Minutes Ago",
       "trust": "user"
     }
   ],
