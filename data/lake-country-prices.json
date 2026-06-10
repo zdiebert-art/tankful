@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-10T19:42:01.467Z",
+  "fetchedAt": "2026-06-10T22:09:44.641Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 181.4,
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 182.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "55 Minutes Ago",
-      "trust": "owner"
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "47 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "46 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "blasko1",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "46 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "blasko1",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "46 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -85,9 +85,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 182.9,
-      "reportedBy": "blasko1",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "47 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 160.9,
       "reportedBy": "jpbeddow",
-      "reportedAgo": "18 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "blasko1",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "meekoferg207",
+      "reportedAgo": "14 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,9 +133,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "blasko1",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "meekoferg207",
+      "reportedAgo": "14 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
