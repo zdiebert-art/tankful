@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-10T22:09:44.641Z",
+  "fetchedAt": "2026-06-11T00:27:28.693Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 181.4,
+  "marketAverage": 180.9,
   "stationCount": 8,
   "stations": [
     {
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 182.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "47 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "40 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "petrocan",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedBy": "Stevelda",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedBy": "Stevelda",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedBy": "Stevelda",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 182.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "47 Minutes Ago",
+      "price": 178.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "17 Minutes Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 160.9,
-      "reportedBy": "jpbeddow",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "purapower",
+      "reportedAgo": "14 Minutes Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "meekoferg207",
-      "reportedAgo": "14 Minutes Ago",
+      "reportedBy": "Stevelda",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -133,19 +133,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "meekoferg207",
-      "reportedAgo": "14 Minutes Ago",
+      "reportedBy": "Stevelda",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 158.9
-      }
-    ]
+    "parsedCount": 8,
+    "unmatched": []
   }
 }
