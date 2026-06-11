@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-11T00:27:28.693Z",
+  "fetchedAt": "2026-06-11T06:03:43.530Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 180.9,
+  "marketAverage": 180,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 182.9,
+      "price": 173.9,
       "reportedBy": "Owner",
-      "reportedAgo": "40 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "Stevelda",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "mikegreen05",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "Stevelda",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "mikegreen05",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "Stevelda",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "mikegreen05",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 178.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "17 Minutes Ago",
+      "price": 180.9,
+      "reportedBy": "cherbear39",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 160.9,
-      "reportedBy": "purapower",
-      "reportedAgo": "14 Minutes Ago",
+      "reportedBy": "mikegreen05",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "Stevelda",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "mikegreen05",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "Stevelda",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "mikegreen05",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
