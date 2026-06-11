@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-11T17:10:05.333Z",
+  "fetchedAt": "2026-06-11T19:53:06.059Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 182.8,
+  "marketAverage": 181.9,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 173.9,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 180.9,
+      "price": 173.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "32 Minutes Ago",
+      "reportedAgo": "37 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "torino17",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "mikegreen05",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "jerryppelletier",
+      "reportedAgo": "27 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,9 +133,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 184.9,
-      "reportedBy": "mikegreen05",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "jerryppelletier",
+      "reportedAgo": "27 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
