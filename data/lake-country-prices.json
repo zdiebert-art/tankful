@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-12T00:34:56.368Z",
+  "fetchedAt": "2026-06-12T06:02:52.126Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 181.9,
+  "marketAverage": 181.7,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 173.9,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "13 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -84,8 +84,8 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 173.9,
-      "reportedBy": "sukhveerkaur687",
+      "price": 171.9,
+      "reportedBy": "Jaskaran_brar",
       "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "torino17",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "SamGarg007",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "jerryppelletier",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     }
   ],
