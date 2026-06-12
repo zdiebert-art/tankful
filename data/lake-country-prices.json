@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-12T19:17:00.907Z",
+  "fetchedAt": "2026-06-12T22:04:59.796Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 181.2,
+  "marketAverage": 179.9,
   "stationCount": 8,
   "stations": [
     {
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 171.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "1 Minute Ago",
-      "trust": "owner"
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "7 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -36,9 +36,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 184.9,
-      "reportedBy": "DataFeed",
-      "reportedAgo": "2 Hours Ago",
+      "price": 182.9,
+      "reportedBy": "Buddy_xkmzq159",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 184.9,
-      "reportedBy": "mikegreen05",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 182.9,
+      "reportedBy": "bigmuddy44s",
+      "reportedAgo": "54 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 184.9,
-      "reportedBy": "mikegreen05",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 176.9,
+      "reportedBy": "Buddy_xkmzq159",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,8 +84,8 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 171.9,
-      "reportedBy": "sukhveerkaur687",
+      "price": 173.9,
+      "reportedBy": "Buddy_xkmzq159",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "SamGarg007",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 182.9,
-      "reportedBy": "rhoffuel",
-      "reportedAgo": "29 Minutes Ago",
+      "reportedBy": "wyndsom",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
