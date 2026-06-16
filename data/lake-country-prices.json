@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-16T05:03:45.156Z",
+  "fetchedAt": "2026-06-16T18:10:44.537Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 170.7,
+  "marketAverage": 174.5,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 169.9,
+      "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "31 Minutes Ago",
+      "reportedAgo": "38 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -68,9 +68,9 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "camgrey79",
-      "reportedAgo": "6 Hours Ago",
+      "price": 179.9,
+      "reportedBy": "blasko1",
+      "reportedAgo": "59 Minutes Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 165.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "54 Minutes Ago",
+      "price": 177.9,
+      "reportedBy": "blasko1",
+      "reportedAgo": "59 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "zekotinad",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
