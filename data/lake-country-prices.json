@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-16T18:10:44.537Z",
+  "fetchedAt": "2026-06-16T21:43:55.063Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 174.5,
+  "marketAverage": 176.5,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "38 Minutes Ago",
+      "reportedAgo": "32 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 172.9,
-      "reportedBy": "camgrey79",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "price": 179.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "8 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "camgrey79",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "price": 179.9,
+      "reportedBy": "Buddy_f4qq6wg2",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "blasko1",
-      "reportedAgo": "59 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "blasko1",
-      "reportedAgo": "59 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "zekotinad",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     }
   ],
