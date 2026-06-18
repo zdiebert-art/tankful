@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-06-18T19:44:02.357Z",
+  "fetchedAt": "2026-06-18T22:26:32.988Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 176.8,
-  "stationCount": 7,
+  "marketAverage": 176.7,
+  "stationCount": 8,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 172.9,
       "reportedBy": "Owner",
-      "reportedAgo": "34 Minutes Ago",
+      "reportedAgo": "11 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "22 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "camgrey79",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -53,9 +53,25 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "22 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "camgrey79",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
+    },
+    {
+      "id": "husky",
+      "name": "Husky Hwy 97",
+      "address": "10550 BC-97",
+      "lat": 50.0599,
+      "lng": -119.4007,
+      "zone": null,
+      "fuelBrand": "Husky",
+      "cstoreBrand": "CO-OP",
+      "logoBrand": null,
+      "discount": null,
+      "price": 174.9,
+      "reportedBy": "camgrey79",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -68,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 173.9,
-      "reportedBy": "Buddy_be4y5qgg",
-      "reportedAgo": "4 Hours Ago",
+      "price": 174.9,
+      "reportedBy": "camgrey79",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -101,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "kelownarefal",
-      "reportedAgo": "22 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "camgrey79",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -117,18 +133,18 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "camgrey79",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
+    "parsedCount": 9,
     "unmatched": [
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 168.9
+        "price": 172.9
       }
     ]
   }
