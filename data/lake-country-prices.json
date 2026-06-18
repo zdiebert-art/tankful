@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-18T06:11:46.233Z",
+  "fetchedAt": "2026-06-18T16:40:53.803Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 177.8,
@@ -22,7 +22,7 @@
       },
       "price": 177.9,
       "reportedBy": "Owner",
-      "reportedAgo": "58 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "owner"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 173.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "6 Hours Ago",
+      "reportedBy": "Buddy_be4y5qgg",
+      "reportedAgo": "59 Minutes Ago",
       "trust": "user"
     },
     {
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "kelownarefal",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "kelownarefal",
-      "reportedAgo": "8 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     }
   ],
