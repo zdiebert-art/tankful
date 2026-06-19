@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-19T07:27:25.331Z",
+  "fetchedAt": "2026-06-19T16:21:45.866Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 176.2,
+  "marketAverage": 175.5,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 172.9,
       "reportedBy": "Owner",
-      "reportedAgo": "38 Minutes Ago",
+      "reportedAgo": "16 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "SamGarg007",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "camgrey79",
-      "reportedAgo": "10 Hours Ago",
+      "price": 174.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
