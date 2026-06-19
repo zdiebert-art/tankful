@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-19T19:14:16.564Z",
+  "fetchedAt": "2026-06-19T20:45:51.098Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 174.9,
+  "marketAverage": 173.7,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 172.9,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "50 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "price": 174.9,
+      "reportedBy": "SSieben",
+      "reportedAgo": "43 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "camgrey79",
-      "reportedAgo": "22 Hours Ago",
-      "trust": "stale"
+      "price": 174.9,
+      "reportedBy": "SSieben",
+      "reportedAgo": "43 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "SamGarg007",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "16 Hours Ago",
       "trust": "stale"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "TbayBoo",
-      "reportedAgo": "36 Minutes Ago",
+      "reportedBy": "SSieben",
+      "reportedAgo": "43 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "TbayBoo",
-      "reportedAgo": "36 Minutes Ago",
+      "reportedBy": "SSieben",
+      "reportedAgo": "43 Minutes Ago",
       "trust": "user"
     }
   ],
