@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-19T20:45:51.098Z",
+  "fetchedAt": "2026-06-19T22:11:25.742Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 173.7,
+  "marketAverage": 173.2,
   "stationCount": 8,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 172.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "50 Minutes Ago",
-      "trust": "owner"
+      "price": 168.9,
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "15 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "43 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "43 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "SamGarg007",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "43 Minutes Ago",
+      "reportedBy": "Zoominin",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "43 Minutes Ago",
+      "reportedBy": "Zoominin",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
