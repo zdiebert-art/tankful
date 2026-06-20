@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-19T22:11:25.742Z",
+  "fetchedAt": "2026-06-20T00:16:45.343Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 173.2,
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 168.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "15 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "17 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -85,9 +85,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 170.9,
-      "reportedBy": "SamGarg007",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "rtperformance21",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "camgrey79",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "Zoominin",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "Zoominin",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     }
   ],
