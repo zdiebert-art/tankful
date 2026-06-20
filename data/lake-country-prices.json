@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-20T00:16:45.343Z",
+  "fetchedAt": "2026-06-20T05:28:24.671Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 173.2,
+  "marketAverage": 171.4,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 168.9,
+      "price": 164.9,
       "reportedBy": "Owner",
-      "reportedAgo": "17 Minutes Ago",
+      "reportedAgo": "10 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "rtperformance21",
-      "reportedAgo": "2 Hours Ago",
+      "price": 166.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 174.9,
-      "reportedBy": "Zoominin",
-      "reportedAgo": "3 Hours Ago",
+      "price": 168.9,
+      "reportedBy": "denno545",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "Zoominin",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     }
   ],
