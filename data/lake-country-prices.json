@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-20T17:42:08.558Z",
+  "fetchedAt": "2026-06-20T19:50:36.845Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 168.8,
+  "marketAverage": 167.8,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 164.9,
       "reportedBy": "Owner",
-      "reportedAgo": "4 Minutes Ago",
+      "reportedAgo": "11 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "SamanthaDM",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedBy": "ctwhitts1",
+      "reportedAgo": "12 Seconds Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 168.9,
-      "reportedBy": "Buddy_8t2n3p60",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "user"
+      "reportedBy": "ctwhitts1",
+      "reportedAgo": "33 Seconds Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -68,9 +68,9 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 168.9,
-      "reportedBy": "SamanthaDM",
-      "reportedAgo": "4 Hours Ago",
+      "price": 166.9,
+      "reportedBy": "ctwhitts1",
+      "reportedAgo": "1 Minute Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "torino17",
-      "reportedAgo": "1 Minute Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 168.9,
-      "reportedBy": "SamanthaDM",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "AuntYoohoo",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -132,9 +132,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 174.9,
-      "reportedBy": "SamanthaDM",
-      "reportedAgo": "4 Hours Ago",
+      "price": 168.9,
+      "reportedBy": "AuntYoohoo",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
