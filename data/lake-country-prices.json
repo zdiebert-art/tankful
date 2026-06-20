@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-20T05:28:24.671Z",
+  "fetchedAt": "2026-06-20T17:42:08.558Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 171.4,
+  "marketAverage": 168.8,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 164.9,
       "reportedBy": "Owner",
-      "reportedAgo": "10 Minutes Ago",
+      "reportedAgo": "4 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "9 Hours Ago",
+      "reportedBy": "SamanthaDM",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 174.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "9 Hours Ago",
+      "price": 168.9,
+      "reportedBy": "Buddy_8t2n3p60",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 174.9,
-      "reportedBy": "camgrey79",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 168.9,
+      "reportedBy": "SamanthaDM",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 166.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "4 Hours Ago",
+      "price": 164.9,
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -100,10 +100,10 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "camgrey79",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 163.9,
+      "reportedBy": "torino17",
+      "reportedAgo": "1 Minute Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 168.9,
-      "reportedBy": "denno545",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "SamanthaDM",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "Zoominin",
-      "reportedAgo": "8 Hours Ago",
+      "reportedBy": "SamanthaDM",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
