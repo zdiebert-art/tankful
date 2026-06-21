@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-21T21:23:49.484Z",
+  "fetchedAt": "2026-06-21T23:23:21.316Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 167.5,
+  "marketAverage": 168,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 164.9,
       "reportedBy": "Owner",
-      "reportedAgo": "30 Minutes Ago",
+      "reportedAgo": "25 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 162.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "price": 166.9,
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "40 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
