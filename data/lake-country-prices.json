@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-21T15:19:20.531Z",
+  "fetchedAt": "2026-06-21T20:04:00.322Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 167.5,
@@ -22,7 +22,7 @@
       },
       "price": 164.9,
       "reportedBy": "Owner",
-      "reportedAgo": "5 Minutes Ago",
+      "reportedAgo": "10 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "ctwhitts1",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 168.9,
       "reportedBy": "ctwhitts1",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "ctwhitts1",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "torino17",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 168.9,
       "reportedBy": "AuntYoohoo",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 168.9,
       "reportedBy": "AuntYoohoo",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     }
   ],
