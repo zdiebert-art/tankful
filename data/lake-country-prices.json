@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-22T17:44:12.726Z",
+  "fetchedAt": "2026-06-22T21:07:37.167Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 163,
+  "marketAverage": 161.8,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 152.9,
       "reportedBy": "Owner",
-      "reportedAgo": "9 Minutes Ago",
+      "reportedAgo": "28 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 166.9,
-      "reportedBy": "KarmicDreams",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Lesba",
+      "reportedAgo": "45 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "KarmicDreams",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 166.9,
-      "reportedBy": "bnn202",
-      "reportedAgo": "14 Hours Ago",
-      "trust": "stale"
+      "price": 154.9,
+      "reportedBy": "Lesba",
+      "reportedAgo": "43 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 152.9,
-      "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "1 Hour Ago",
+      "price": 154.9,
+      "reportedBy": "Lesba",
+      "reportedAgo": "41 Minutes Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 163.9,
-      "reportedBy": "nvsyzn6shx",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "snowpiler",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 166.9,
-      "reportedBy": "KarmicDreams",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Lesba",
+      "reportedAgo": "46 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,13 +133,19 @@
       "logoBrand": null,
       "discount": null,
       "price": 166.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Lesba",
+      "reportedAgo": "46 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
-    "unmatched": []
+    "parsedCount": 9,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 163.9
+      }
+    ]
   }
 }
