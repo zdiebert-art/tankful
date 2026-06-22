@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-22T21:07:37.167Z",
+  "fetchedAt": "2026-06-22T22:54:34.914Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 161.8,
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 152.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "28 Minutes Ago",
-      "trust": "owner"
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "52 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 166.9,
-      "reportedBy": "Lesba",
-      "reportedAgo": "45 Minutes Ago",
+      "reportedBy": "federico2011",
+      "reportedAgo": "5 Minutes Ago",
       "trust": "user"
     },
     {
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 166.9,
-      "reportedBy": "KarmicDreams",
-      "reportedAgo": "21 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "federico2011",
+      "reportedAgo": "5 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 154.9,
-      "reportedBy": "Lesba",
-      "reportedAgo": "43 Minutes Ago",
+      "reportedBy": "federico2011",
+      "reportedAgo": "3 Minutes Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 154.9,
-      "reportedBy": "Lesba",
-      "reportedAgo": "41 Minutes Ago",
+      "reportedBy": "federico2011",
+      "reportedAgo": "1 Minute Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "snowpiler",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 166.9,
-      "reportedBy": "Lesba",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedBy": "federico2011",
+      "reportedAgo": "5 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 166.9,
-      "reportedBy": "Lesba",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedBy": "federico2011",
+      "reportedAgo": "5 Minutes Ago",
       "trust": "user"
     }
   ],
