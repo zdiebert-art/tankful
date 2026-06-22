@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-21T23:23:21.316Z",
+  "fetchedAt": "2026-06-22T05:13:16.832Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 168,
+  "marketAverage": 166,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 164.9,
       "reportedBy": "Owner",
-      "reportedAgo": "25 Minutes Ago",
+      "reportedAgo": "57 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 174.9,
-      "reportedBy": "ctwhitts1",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 166.9,
+      "reportedBy": "KarmicDreams",
+      "reportedAgo": "5 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 168.9,
-      "reportedBy": "ctwhitts1",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 166.9,
+      "reportedBy": "KarmicDreams",
+      "reportedAgo": "5 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 166.9,
-      "reportedBy": "ctwhitts1",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "bnn202",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 166.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "40 Minutes Ago",
+      "price": 164.9,
+      "reportedBy": "dc180",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,10 +116,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 168.9,
-      "reportedBy": "AuntYoohoo",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 166.9,
+      "reportedBy": "KarmicDreams",
+      "reportedAgo": "5 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -132,20 +132,14 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 168.9,
-      "reportedBy": "AuntYoohoo",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 166.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 172.9
-      }
-    ]
+    "parsedCount": 8,
+    "unmatched": []
   }
 }
