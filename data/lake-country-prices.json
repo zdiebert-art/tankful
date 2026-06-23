@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-23T00:25:38.129Z",
+  "fetchedAt": "2026-06-23T05:15:25.887Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 161.5,
+  "marketAverage": 165.3,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 152.9,
+      "price": 182.9,
       "reportedBy": "Owner",
-      "reportedAgo": "26 Minutes Ago",
+      "reportedAgo": "41 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 154.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 152.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "31 Minutes Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "snowpiler",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
