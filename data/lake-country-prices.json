@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-23T05:15:25.887Z",
+  "fetchedAt": "2026-06-23T15:55:42.371Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 165.3,
+  "marketAverage": 169.3,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 182.9,
       "reportedBy": "Owner",
-      "reportedAgo": "41 Minutes Ago",
+      "reportedAgo": "2 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 154.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 152.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "snowpiler",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 166.9,
-      "reportedBy": "federico2011",
-      "reportedAgo": "6 Hours Ago",
+      "price": 182.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "55 Minutes Ago",
       "trust": "user"
     },
     {
@@ -132,9 +132,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 166.9,
-      "reportedBy": "federico2011",
-      "reportedAgo": "6 Hours Ago",
+      "price": 182.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "55 Minutes Ago",
       "trust": "user"
     }
   ],
