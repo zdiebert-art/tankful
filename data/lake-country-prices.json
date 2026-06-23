@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-22T22:54:34.914Z",
+  "fetchedAt": "2026-06-23T00:25:38.129Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 161.8,
+  "marketAverage": 161.5,
   "stationCount": 8,
   "stations": [
     {
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 152.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "52 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "26 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "5 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "5 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 154.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "3 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 154.9,
-      "reportedBy": "federico2011",
-      "reportedAgo": "1 Minute Ago",
+      "price": 152.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "31 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "snowpiler",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "5 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "5 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
