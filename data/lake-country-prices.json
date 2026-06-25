@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-25T00:19:20.179Z",
+  "fetchedAt": "2026-06-25T05:13:08.652Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 180.2,
+  "marketAverage": 180.4,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 182.9,
       "reportedBy": "Owner",
-      "reportedAgo": "19 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 182.9,
-      "reportedBy": "federico2011",
-      "reportedAgo": "7 Hours Ago",
+      "reportedBy": "Buddy_d8n8g772",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 180.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "27 Minutes Ago",
+      "price": 182.9,
+      "reportedBy": "Maxpie_Roadtrip",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 182.9,
-      "reportedBy": "federico2011",
-      "reportedAgo": "7 Hours Ago",
+      "reportedBy": "Maxpie_Roadtrip",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 182.9,
-      "reportedBy": "Buddy_75mwcrkm",
-      "reportedAgo": "6 Hours Ago",
+      "reportedBy": "Maxpie_Roadtrip",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
