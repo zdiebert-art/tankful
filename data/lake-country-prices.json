@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-24T22:34:33.187Z",
+  "fetchedAt": "2026-06-25T00:19:20.179Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 180.4,
+  "marketAverage": 180.2,
   "stationCount": 8,
   "stations": [
     {
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 182.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "38 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "19 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 182.9,
-      "reportedBy": "federico2011",
-      "reportedAgo": "5 Hours Ago",
+      "price": 180.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "27 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "federico2011",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,18 +134,12 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "Buddy_75mwcrkm",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 163.9
-      }
-    ]
+    "parsedCount": 8,
+    "unmatched": []
   }
 }
