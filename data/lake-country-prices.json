@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-25T23:26:31.962Z",
+  "fetchedAt": "2026-06-26T04:13:46.432Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 177,
+  "marketAverage": 172.4,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 182.9,
+      "price": 169.9,
       "reportedBy": "Owner",
-      "reportedAgo": "39 Minutes Ago",
+      "reportedAgo": "36 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 182.9,
-      "reportedBy": "zekotinad",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "ironrich2",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -52,8 +52,8 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 182.9,
-      "reportedBy": "dolap",
+      "price": 169.9,
+      "reportedBy": "ironrich2",
       "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 169.9,
-      "reportedBy": "cote11",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "ironrich2",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 167.9,
-      "reportedBy": "Buddy_3vh90fkw",
-      "reportedAgo": "4 Hours Ago",
+      "price": 169.9,
+      "reportedBy": "Buddy_rgw1bvg4",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 163.9,
-      "reportedBy": "latchfords",
-      "reportedAgo": "7 Hours Ago",
+      "reportedBy": "Buddy_k2zf2bq0",
+      "reportedAgo": "31 Minutes Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 182.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "3 Hours Ago",
+      "price": 169.9,
+      "reportedBy": "Buddy_2kc9t66b",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -133,7 +133,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 182.9,
-      "reportedBy": "materialgirl75",
+      "reportedBy": "ironrich2",
       "reportedAgo": "3 Hours Ago",
       "trust": "user"
     }
