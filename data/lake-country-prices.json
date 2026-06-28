@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T16:25:42.742Z",
+  "fetchedAt": "2026-06-28T18:17:00.323Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 167.9,
@@ -22,7 +22,7 @@
       },
       "price": 165.9,
       "reportedBy": "Owner",
-      "reportedAgo": "24 Minutes Ago",
+      "reportedAgo": "9 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 169.9,
       "reportedBy": "0dar0",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 169.9,
-      "reportedBy": "SamGarg007",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "dolap",
+      "reportedAgo": "5 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "SamGarg007",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "torino17",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 169.9,
-      "reportedBy": "0dar0",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "dolap",
+      "reportedAgo": "5 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,9 +133,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 169.9,
-      "reportedBy": "0dar0",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "dolap",
+      "reportedAgo": "6 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
