@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-30T15:43:28.119Z",
+  "fetchedAt": "2026-06-30T18:08:45.383Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 166.3,
+  "marketAverage": 171,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 165.9,
       "reportedBy": "Owner",
-      "reportedAgo": "14 Minutes Ago",
+      "reportedAgo": "33 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 169.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 169.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "price": 181.9,
+      "reportedBy": "CrewTransport25",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 144.9,
       "reportedBy": "beavermang",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 163.9,
-      "reportedBy": "zekotinad",
-      "reportedAgo": "1 Day Ago",
+      "price": 177.9,
+      "reportedBy": "Dhadda",
+      "reportedAgo": "49 Seconds Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -132,9 +132,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 169.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "10 Hours Ago",
+      "price": 181.9,
+      "reportedBy": "CrewTransport25",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
