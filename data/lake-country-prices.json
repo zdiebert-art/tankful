@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-06-30T21:05:29.625Z",
+  "fetchedAt": "2026-06-30T22:27:36.299Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 175.4,
+  "marketAverage": 176.9,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 165.9,
       "reportedBy": "Owner",
-      "reportedAgo": "27 Minutes Ago",
+      "reportedAgo": "46 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 169.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "price": 181.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "20 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "CrewTransport25",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "Buddy_ky4ve1zx",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "Dhadda",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 181.9,
-      "reportedBy": "peeka764",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "20 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 181.9,
-      "reportedBy": "peeka764",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "21 Minutes Ago",
       "trust": "user"
     }
   ],
