@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-01T00:14:51.086Z",
+  "fetchedAt": "2026-07-01T05:31:30.372Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 175.4,
+  "marketAverage": 174.9,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 165.9,
       "reportedBy": "Owner",
-      "reportedAgo": "31 Minutes Ago",
+      "reportedAgo": "34 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 181.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 181.9,
-      "reportedBy": "CrewTransport25",
-      "reportedAgo": "7 Hours Ago",
+      "price": 179.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "billjellis",
-      "reportedAgo": "16 Minutes Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 165.9,
-      "reportedBy": "billjellis",
-      "reportedAgo": "14 Minutes Ago",
+      "price": 163.9,
+      "reportedBy": "SAILYboi",
+      "reportedAgo": "19 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "zekotinad",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "2 Days Ago",
       "trust": "stale"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 181.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "2 Minutes Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 181.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "2 Minutes Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
   ],
