@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-01T20:54:27.656Z",
+  "fetchedAt": "2026-07-01T22:27:21.812Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 175.9,
+  "marketAverage": 174.2,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 165.9,
       "reportedBy": "Owner",
-      "reportedAgo": "27 Minutes Ago",
+      "reportedAgo": "59 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SamGarg007",
-      "reportedAgo": "31 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 177.9,
-      "reportedBy": "SamGarg007",
-      "reportedAgo": "32 Minutes Ago",
+      "price": 163.9,
+      "reportedBy": "am7174",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 163.9,
-      "reportedBy": "zekotinad",
-      "reportedAgo": "2 Days Ago",
-      "trust": "stale"
+      "reportedBy": "torino17",
+      "reportedAgo": "12 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
