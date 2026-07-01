@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-01T18:04:17.893Z",
+  "fetchedAt": "2026-07-01T20:54:27.656Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 176.2,
+  "marketAverage": 175.9,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 179.9,
+      "price": 165.9,
       "reportedBy": "Owner",
-      "reportedAgo": "44 Minutes Ago",
+      "reportedAgo": "27 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,7 +37,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SMAC_72",
+      "reportedBy": "SambucasMom",
       "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "SamGarg007",
+      "reportedAgo": "31 Minutes Ago",
       "trust": "user"
     },
     {
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "SambucasMom",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 163.9,
-      "reportedBy": "SAILYboi",
-      "reportedAgo": "12 Hours Ago",
+      "price": 177.9,
+      "reportedBy": "SamGarg007",
+      "reportedAgo": "32 Minutes Ago",
       "trust": "user"
     },
     {
@@ -116,10 +116,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 181.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "price": 179.9,
+      "reportedBy": "SambucasMom",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,7 +133,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SMAC_72",
+      "reportedBy": "SambucasMom",
       "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
