@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-02T05:03:01.413Z",
+  "fetchedAt": "2026-07-02T15:33:00.391Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 174.2,
@@ -22,7 +22,7 @@
       },
       "price": 165.9,
       "reportedBy": "Owner",
-      "reportedAgo": "20 Minutes Ago",
+      "reportedAgo": "23 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SambucasMom",
-      "reportedAgo": "10 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SamGarg007",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SambucasMom",
-      "reportedAgo": "10 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 163.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "SamGarg007",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "torino17",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -117,7 +117,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "tannerfriesen",
+      "reportedBy": "materialgirl75",
       "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "tannerfriesen",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     }
   ],
