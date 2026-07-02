@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-01T22:27:21.812Z",
+  "fetchedAt": "2026-07-02T00:17:16.396Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 174.2,
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 165.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "59 Minutes Ago",
-      "trust": "owner"
+      "reportedBy": "nicoconfort",
+      "reportedAgo": "50 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SamGarg007",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "torino17",
-      "reportedAgo": "12 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SambucasMom",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "tannerfriesen",
+      "reportedAgo": "4 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SambucasMom",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "tannerfriesen",
+      "reportedAgo": "4 Minutes Ago",
       "trust": "user"
     }
   ],
