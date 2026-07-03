@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-02T23:25:46.873Z",
+  "fetchedAt": "2026-07-03T03:48:58.502Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 174.2,
@@ -22,7 +22,7 @@
       },
       "price": 165.9,
       "reportedBy": "Owner",
-      "reportedAgo": "36 Minutes Ago",
+      "reportedAgo": "27 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "cynthia609",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "JCAnders93",
+      "reportedAgo": "16 Minutes Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "cynthia609",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "vickyf22",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "cynthia609",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "adeline18",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "Buddy_y3vugxuk",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "zekotinad",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "cynthia609",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "JCAnders93",
+      "reportedAgo": "16 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "cynthia609",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "vickyf22",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
