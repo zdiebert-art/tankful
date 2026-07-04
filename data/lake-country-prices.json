@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-04T03:42:52.019Z",
+  "fetchedAt": "2026-07-04T14:42:01.688Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 172.4,
@@ -22,8 +22,8 @@
       },
       "price": 165.9,
       "reportedBy": "hankthecrank23",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "11 Minutes Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 165.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "12 Minutes Ago",
+      "reportedBy": "thatblueokta",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "carpetdoor",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "thatblueokta",
+      "reportedAgo": "9 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "12 Minutes Ago",
+      "reportedBy": "thatblueokta",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "12 Minutes Ago",
+      "reportedBy": "thatblueokta",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     }
   ],
