@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-07-04T16:19:13.828Z",
+  "fetchedAt": "2026-07-04T18:07:04.564Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 170.7,
-  "stationCount": 8,
+  "marketAverage": 171,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 165.9,
       "reportedBy": "hankthecrank23",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedBy": "SambucasMom",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 165.9,
-      "reportedBy": "thatblueokta",
-      "reportedAgo": "11 Hours Ago",
+      "reportedBy": "HBEnterprises",
+      "reportedAgo": "33 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "thatblueokta",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -84,26 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 163.9,
+      "price": 159.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
-    },
-    {
-      "id": "parkway",
-      "name": "Parkway (Shell)",
-      "address": "11891 BC-97",
-      "lat": 50.093,
-      "lng": -119.3835,
-      "zone": null,
-      "fuelBrand": "Parkway",
-      "cstoreBrand": null,
-      "logoBrand": "Shell",
-      "discount": null,
-      "price": 163.9,
-      "reportedBy": "zekotinad",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedAgo": "3 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -117,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 165.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedBy": "HBEnterprises",
+      "reportedAgo": "33 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,13 +117,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedBy": "HBEnterprises",
+      "reportedAgo": "33 Minutes Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
