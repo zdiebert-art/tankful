@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-07-04T18:07:04.564Z",
+  "fetchedAt": "2026-07-04T20:20:55.184Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 171,
-  "stationCount": 7,
+  "marketAverage": 167.9,
+  "stationCount": 8,
   "stations": [
     {
       "id": "canco",
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 165.9,
-      "reportedBy": "hankthecrank23",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "droynon",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SambucasMom",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "foordfun",
+      "reportedAgo": "58 Minutes Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 165.9,
-      "reportedBy": "HBEnterprises",
-      "reportedAgo": "33 Minutes Ago",
+      "reportedBy": "wyndsom",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "thatblueokta",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "price": 161.9,
+      "reportedBy": "foordfun",
+      "reportedAgo": "57 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -86,7 +86,23 @@
       "discount": null,
       "price": 159.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "3 Minutes Ago",
+      "reportedAgo": "38 Minutes Ago",
+      "trust": "user"
+    },
+    {
+      "id": "parkway",
+      "name": "Parkway (Shell)",
+      "address": "11891 BC-97",
+      "lat": 50.093,
+      "lng": -119.3835,
+      "zone": null,
+      "fuelBrand": "Parkway",
+      "cstoreBrand": null,
+      "logoBrand": "Shell",
+      "discount": null,
+      "price": 163.9,
+      "reportedBy": "foordfun",
+      "reportedAgo": "54 Minutes Ago",
       "trust": "user"
     },
     {
@@ -101,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 165.9,
-      "reportedBy": "HBEnterprises",
-      "reportedAgo": "33 Minutes Ago",
+      "reportedBy": "Buddy_mwerq88c",
+      "reportedAgo": "40 Minutes Ago",
       "trust": "user"
     },
     {
@@ -117,13 +133,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "HBEnterprises",
-      "reportedAgo": "33 Minutes Ago",
+      "reportedBy": "Buddy_mwerq88c",
+      "reportedAgo": "40 Minutes Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
+    "parsedCount": 9,
     "unmatched": [
       {
         "number": "350",
