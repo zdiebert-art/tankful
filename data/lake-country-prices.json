@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-03T23:18:35.683Z",
+  "fetchedAt": "2026-07-04T03:42:52.019Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 174.2,
+  "marketAverage": 172.4,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 165.9,
       "reportedBy": "hankthecrank23",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "JCAnders93",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "11 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "vickyf22",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "price": 165.9,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "12 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "carpetdoor",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "Chucker9802",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "12 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "Chucker9802",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "12 Minutes Ago",
       "trust": "user"
     }
   ],
