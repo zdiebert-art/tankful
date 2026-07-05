@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-05T20:20:18.188Z",
+  "fetchedAt": "2026-07-05T22:16:18.734Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 167.2,
+  "marketAverage": 166.7,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 161.9,
       "reportedBy": "OKGasBuddyF150",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 161.9,
-      "reportedBy": "SambucasMom",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Rustykam",
+      "reportedAgo": "57 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 161.9,
-      "reportedBy": "Buddy_gaexrezx",
-      "reportedAgo": "38 Minutes Ago",
+      "reportedBy": "SHcat234",
+      "reportedAgo": "54 Minutes Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -116,10 +116,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 165.9,
-      "reportedBy": "SambucasMom",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "price": 161.9,
+      "reportedBy": "SHcat234",
+      "reportedAgo": "56 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "Buddy_gaexrezx",
-      "reportedAgo": "33 Minutes Ago",
+      "reportedBy": "SHcat234",
+      "reportedAgo": "56 Minutes Ago",
       "trust": "user"
     }
   ],
