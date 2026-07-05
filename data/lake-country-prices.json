@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-05T05:01:48.751Z",
+  "fetchedAt": "2026-07-05T14:52:08.570Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 167.2,
@@ -22,7 +22,7 @@
       },
       "price": 161.9,
       "reportedBy": "OKGasBuddyF150",
-      "reportedAgo": "41 Minutes Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "foordfun",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
