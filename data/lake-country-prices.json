@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-05T00:06:44.167Z",
+  "fetchedAt": "2026-07-05T05:01:48.751Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 167.9,
+  "marketAverage": 167.2,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 165.9,
-      "reportedBy": "droynon",
-      "reportedAgo": "5 Hours Ago",
+      "price": 161.9,
+      "reportedBy": "OKGasBuddyF150",
+      "reportedAgo": "41 Minutes Ago",
       "trust": "user"
     },
     {
@@ -37,7 +37,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "foordfun",
+      "reportedBy": "SambucasMom",
       "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 165.9,
-      "reportedBy": "wyndsom",
-      "reportedAgo": "5 Hours Ago",
+      "price": 161.9,
+      "reportedBy": "SambucasMom",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 161.9,
-      "reportedBy": "barai",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "SambucasMom",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 159.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "16 Minutes Ago",
+      "price": 161.9,
+      "reportedBy": "SambucasMom",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "foordfun",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,7 +117,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 165.9,
-      "reportedBy": "Buddy_mwerq88c",
+      "reportedBy": "SambucasMom",
       "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
@@ -133,7 +133,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "Buddy_mwerq88c",
+      "reportedBy": "SambucasMom",
       "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
