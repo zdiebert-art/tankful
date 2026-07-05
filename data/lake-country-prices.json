@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-05T16:16:37.724Z",
+  "fetchedAt": "2026-07-05T18:19:44.228Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 167.2,
@@ -22,8 +22,8 @@
       },
       "price": 161.9,
       "reportedBy": "OKGasBuddyF150",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "foordfun",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     }
   ],
