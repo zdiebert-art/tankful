@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-04T20:20:55.184Z",
+  "fetchedAt": "2026-07-05T00:06:44.167Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 167.9,
@@ -22,7 +22,7 @@
       },
       "price": 165.9,
       "reportedBy": "droynon",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "foordfun",
-      "reportedAgo": "58 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "wyndsom",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 161.9,
-      "reportedBy": "foordfun",
-      "reportedAgo": "57 Minutes Ago",
+      "reportedBy": "barai",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 159.9,
-      "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "38 Minutes Ago",
+      "reportedBy": "dc180",
+      "reportedAgo": "16 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "foordfun",
-      "reportedAgo": "54 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "Buddy_mwerq88c",
-      "reportedAgo": "40 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "Buddy_mwerq88c",
-      "reportedAgo": "40 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
