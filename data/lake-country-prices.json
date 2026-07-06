@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-06T05:25:05.980Z",
+  "fetchedAt": "2026-07-06T16:31:45.660Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 166.7,
+  "marketAverage": 161.9,
   "stationCount": 8,
   "stations": [
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "SambucasMom",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 161.9,
+      "reportedBy": "nlhanson",
+      "reportedAgo": "8 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "dc180",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "dc180",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 161.9,
-      "reportedBy": "SambucasMom",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 159.9,
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "Shaded_Dude",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 161.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -132,9 +132,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "SHcat234",
-      "reportedAgo": "8 Hours Ago",
+      "price": 161.9,
+      "reportedBy": "nlhanson",
+      "reportedAgo": "8 Minutes Ago",
       "trust": "user"
     }
   ],
