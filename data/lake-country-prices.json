@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-05T22:16:18.734Z",
+  "fetchedAt": "2026-07-06T05:25:05.980Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 166.7,
@@ -22,7 +22,7 @@
       },
       "price": 161.9,
       "reportedBy": "OKGasBuddyF150",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 161.9,
-      "reportedBy": "Rustykam",
-      "reportedAgo": "57 Minutes Ago",
+      "reportedBy": "dc180",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 161.9,
-      "reportedBy": "SHcat234",
-      "reportedAgo": "54 Minutes Ago",
+      "reportedBy": "dc180",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 163.9,
-      "reportedBy": "foordfun",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "Shaded_Dude",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 161.9,
-      "reportedBy": "SHcat234",
-      "reportedAgo": "56 Minutes Ago",
+      "reportedBy": "dc180",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,18 +134,12 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SHcat234",
-      "reportedAgo": "56 Minutes Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 162.9
-      }
-    ]
+    "parsedCount": 8,
+    "unmatched": []
   }
 }
