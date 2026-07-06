@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-06T16:31:45.660Z",
+  "fetchedAt": "2026-07-06T20:59:22.487Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 161.9,
+  "marketAverage": 164.2,
   "stationCount": 8,
   "stations": [
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "nlhanson",
-      "reportedAgo": "8 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "dc180",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 161.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "FunkyFriendAlex",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 159.9,
-      "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "am7174",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 163.9,
-      "reportedBy": "Shaded_Dude",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "torino17",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 161.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "4 Hours Ago",
+      "price": 179.9,
+      "reportedBy": "nlhanson",
+      "reportedAgo": "11 Minutes Ago",
       "trust": "user"
     },
     {
@@ -134,12 +134,18 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "nlhanson",
-      "reportedAgo": "8 Minutes Ago",
+      "reportedAgo": "11 Minutes Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
-    "unmatched": []
+    "parsedCount": 9,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 160.9
+      }
+    ]
   }
 }
