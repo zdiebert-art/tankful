@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-07T00:17:23.328Z",
+  "fetchedAt": "2026-07-07T04:57:44.284Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 164.2,
+  "marketAverage": 166.4,
   "stationCount": 8,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 161.9,
-      "reportedBy": "OKGasBuddyF150",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 179.9,
+      "reportedBy": "Buddy_k2zf2bq0",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "nlhanson",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "FunkyFriendAlex",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 159.9,
-      "reportedBy": "Buddy_j44tjyfd",
-      "reportedAgo": "18 Minutes Ago",
+      "reportedBy": "Buddy_k2zf2bq0",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "torino17",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "nlhanson",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "BCFella",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
