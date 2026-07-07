@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-07T18:10:57.624Z",
+  "fetchedAt": "2026-07-07T21:00:48.729Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 173.2,
+  "marketAverage": 175.7,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "21 Minutes Ago",
+      "reportedAgo": "5 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "robrocks13",
-      "reportedAgo": "38 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 161.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 161.9,
-      "reportedBy": "FunkyFriendAlex",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "price": 179.9,
+      "reportedBy": "SambucasMom",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 177.9,
-      "reportedBy": "Buddy_be4y5qgg",
-      "reportedAgo": "2 Hours Ago",
+      "price": 179.9,
+      "reportedBy": "SambucasMom",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "Shaded_Dude",
-      "reportedAgo": "20 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "nlhanson",
-      "reportedAgo": "21 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "SambucasMom",
+      "reportedAgo": "35 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "robrocks13",
-      "reportedAgo": "38 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     }
   ],
