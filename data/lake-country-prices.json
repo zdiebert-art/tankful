@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-07T22:28:25.593Z",
+  "fetchedAt": "2026-07-08T00:13:32.972Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 175.6,
+  "marketAverage": 170.9,
   "stationCount": 8,
   "stations": [
     {
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 161.8,
-      "reportedBy": "hankthecrank23",
-      "reportedAgo": "22 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "4 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "petrocan",
@@ -36,9 +36,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "robrocks13",
-      "reportedAgo": "4 Hours Ago",
+      "price": 161.9,
+      "reportedBy": "bowengal",
+      "reportedAgo": "50 Minutes Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "katk3",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "SambucasMom",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "hankthecrank23",
-      "reportedAgo": "22 Minutes Ago",
+      "price": 159.8,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "32 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "Shaded_Dude",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "SambucasMom",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "bowengal",
+      "reportedAgo": "50 Minutes Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "robrocks13",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
