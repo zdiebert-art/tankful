@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-09T16:07:05.781Z",
+  "fetchedAt": "2026-07-09T18:53:25.535Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 178.2,
+  "marketAverage": 177,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 172.9,
       "reportedBy": "Owner",
-      "reportedAgo": "9 Hours Ago",
+      "reportedAgo": "20 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "Buddy_tp6tc0fg",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "price": 175.9,
+      "reportedBy": "billjellis",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 172.9,
-      "reportedBy": "Buddy_3vh90fkw",
-      "reportedAgo": "9 Minutes Ago",
+      "reportedBy": "billjellis",
+      "reportedAgo": "55 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "aaron5204",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -116,10 +116,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 174.9,
+      "reportedBy": "billjellis",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,9 +133,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "robrocks13",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "billjellis",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
@@ -144,7 +144,7 @@
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 160.9
+        "price": 171.9
       }
     ]
   }
