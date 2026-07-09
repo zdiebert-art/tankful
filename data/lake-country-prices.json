@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-07-09T18:53:25.535Z",
+  "fetchedAt": "2026-07-09T21:03:08.000Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 177,
-  "stationCount": 8,
+  "marketAverage": 176.6,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 172.9,
       "reportedBy": "Owner",
-      "reportedAgo": "20 Minutes Ago",
+      "reportedAgo": "27 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "billjellis",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -58,22 +58,6 @@
       "trust": "stale"
     },
     {
-      "id": "husky",
-      "name": "Husky Hwy 97",
-      "address": "10550 BC-97",
-      "lat": 50.0599,
-      "lng": -119.4007,
-      "zone": null,
-      "fuelBrand": "Husky",
-      "cstoreBrand": "CO-OP",
-      "logoBrand": null,
-      "discount": null,
-      "price": 179.9,
-      "reportedBy": "SambucasMom",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
-    },
-    {
       "id": "supersave",
       "name": "Super Save Lake Country",
       "address": "11751 BC-97",
@@ -86,7 +70,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "billjellis",
-      "reportedAgo": "55 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +86,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "aaron5204",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +102,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "billjellis",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,12 +118,12 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "billjellis",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
