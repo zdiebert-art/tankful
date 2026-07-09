@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-08T23:25:17.837Z",
+  "fetchedAt": "2026-07-09T03:59:17.211Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 179.2,
+  "marketAverage": 178.2,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 179.9,
+      "price": 172.9,
       "reportedBy": "Owner",
-      "reportedAgo": "38 Minutes Ago",
+      "reportedAgo": "45 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "Buddy_tp6tc0fg",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 173.9,
+      "price": 172.9,
       "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "aaron5204",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
