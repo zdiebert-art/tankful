@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-09T22:30:09.270Z",
+  "fetchedAt": "2026-07-10T00:21:03.654Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 176.6,
+  "marketAverage": 175.6,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 172.9,
       "reportedBy": "Owner",
-      "reportedAgo": "28 Minutes Ago",
+      "reportedAgo": "15 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,24 +38,24 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "billjellis",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
-      "id": "petrocan-n",
-      "name": "Petro-Canada North",
-      "address": "9855 BC-97 N",
-      "lat": 50.0479,
-      "lng": -119.4078,
+      "id": "husky",
+      "name": "Husky Hwy 97",
+      "address": "10550 BC-97",
+      "lat": 50.0599,
+      "lng": -119.4007,
       "zone": null,
-      "fuelBrand": "Petro-Canada",
-      "cstoreBrand": null,
+      "fuelBrand": "Husky",
+      "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "katk3",
-      "reportedAgo": "2 Days Ago",
-      "trust": "stale"
+      "price": 174.9,
+      "reportedBy": "visitor",
+      "reportedAgo": "41 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 172.9,
-      "reportedBy": "billjellis",
-      "reportedAgo": "4 Hours Ago",
+      "price": 170.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "12 Minutes Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "billjellis",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "shushantt29",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "billjellis",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
