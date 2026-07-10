@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-10T05:09:50.429Z",
+  "fetchedAt": "2026-07-10T17:58:32.677Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 175.7,
+  "marketAverage": 174.4,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 172.9,
+      "price": 167.9,
       "reportedBy": "Owner",
-      "reportedAgo": "20 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 175.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "18 Minutes Ago",
+      "reportedBy": "SHcat234",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 175.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "18 Minutes Ago",
+      "reportedBy": "SHcat234",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 174.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "3 Hours Ago",
+      "price": 172.9,
+      "reportedBy": "SHcat234",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "5 Hours Ago",
+      "price": 167.9,
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "billjellis",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "1 Day Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
