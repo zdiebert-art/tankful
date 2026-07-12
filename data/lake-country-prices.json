@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-12T00:08:27.136Z",
+  "fetchedAt": "2026-07-12T04:39:33.522Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 169.3,
+  "marketAverage": 169.5,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 167.9,
       "reportedBy": "LiniSatana",
-      "reportedAgo": "24 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "35 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 165.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "34 Minutes Ago",
+      "price": 167.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "torino17",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "7 Seconds Ago",
-      "trust": "stale"
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -134,18 +134,12 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "21 Seconds Ago",
-      "trust": "stale"
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 171.9
-      }
-    ]
+    "parsedCount": 8,
+    "unmatched": []
   }
 }
