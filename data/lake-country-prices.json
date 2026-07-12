@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-12T18:03:26.843Z",
+  "fetchedAt": "2026-07-12T20:12:38.761Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 168.7,
+  "marketAverage": 168.3,
   "stationCount": 8,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 167.9,
-      "reportedBy": "LiniSatana",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
+      "price": 164.9,
+      "reportedBy": "pflynn78",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 167.9,
-      "reportedBy": "iamcool82",
-      "reportedAgo": "2 Minutes Ago",
+      "reportedBy": "Sanman888",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 167.9,
-      "reportedBy": "iamcool82",
-      "reportedAgo": "2 Minutes Ago",
+      "reportedBy": "Sanman888",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 167.9,
-      "reportedBy": "iamcool82",
-      "reportedAgo": "4 Minutes Ago",
+      "reportedBy": "Sanman888",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Sanman888",
-      "reportedAgo": "1 Minute Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 167.9,
-      "reportedBy": "iamcool82",
-      "reportedAgo": "1 Minute Ago",
+      "reportedBy": "Sanman888",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 167.9,
-      "reportedBy": "iamcool82",
-      "reportedAgo": "1 Minute Ago",
+      "reportedBy": "Sanman888",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
