@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-12T20:12:38.761Z",
+  "fetchedAt": "2026-07-12T22:05:55.513Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 168.3,
+  "marketAverage": 167.7,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 164.9,
       "reportedBy": "pflynn78",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Sanman888",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Sanman888",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Sanman888",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 167.9,
-      "reportedBy": "Sanman888",
-      "reportedAgo": "1 Hour Ago",
+      "price": 162.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "8 Minutes Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Sanman888",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Sanman888",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
