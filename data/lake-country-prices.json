@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-13T19:53:16.499Z",
+  "fetchedAt": "2026-07-13T21:09:25.826Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 166.8,
@@ -22,7 +22,7 @@
       },
       "price": 164.9,
       "reportedBy": "DaMama55",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "dwadebaker",
-      "reportedAgo": "41 Seconds Ago",
-      "trust": "stale"
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "ddgm03",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "dc180",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "surfer44",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,12 +118,18 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "dwadebaker",
-      "reportedAgo": "2 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
-    "unmatched": []
+    "parsedCount": 8,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 163.9
+      }
+    ]
   }
 }
