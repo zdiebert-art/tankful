@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-07-13T00:16:12.795Z",
+  "fetchedAt": "2026-07-13T04:41:07.358Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 167.7,
-  "stationCount": 8,
+  "marketAverage": 166.8,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 164.9,
       "reportedBy": "pflynn78",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Sanman888",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "ddgm03",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Sanman888",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,24 +86,8 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "dc180",
-      "reportedAgo": "20 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
-    },
-    {
-      "id": "parkway",
-      "name": "Parkway (Shell)",
-      "address": "11891 BC-97",
-      "lat": 50.093,
-      "lng": -119.3835,
-      "zone": null,
-      "fuelBrand": "Parkway",
-      "cstoreBrand": null,
-      "logoBrand": "Shell",
-      "discount": null,
-      "price": 173.9,
-      "reportedBy": "torino17",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,7 +102,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Sanman888",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,13 +117,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 167.9,
-      "reportedBy": "Sanman888",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "1 Minute Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
+    "parsedCount": 7,
     "unmatched": []
   }
 }
