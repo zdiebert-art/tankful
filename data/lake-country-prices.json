@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-14T00:05:47.936Z",
+  "fetchedAt": "2026-07-14T04:14:05.027Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 166.8,
+  "marketAverage": 167,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 164.9,
       "reportedBy": "Owner",
-      "reportedAgo": "3 Minutes Ago",
+      "reportedAgo": "2 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,7 +37,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 167.9,
-      "reportedBy": "dwadebaker",
+      "reportedBy": "rx7racerca",
       "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
@@ -85,9 +85,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 162.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "bigmuddy44s",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "surfer44",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 167.9,
-      "reportedBy": "dwadebaker",
-      "reportedAgo": "4 Hours Ago",
+      "price": 169.9,
+      "reportedBy": "mschmidt2893",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
