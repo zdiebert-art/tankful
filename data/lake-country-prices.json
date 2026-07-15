@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-07-14T23:56:48.581Z",
+  "fetchedAt": "2026-07-15T03:32:00.648Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 180.2,
-  "stationCount": 6,
+  "marketAverage": 182.3,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 167.9,
       "reportedBy": "Owner",
-      "reportedAgo": "47 Minutes Ago",
+      "reportedAgo": "36 Seconds Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "Buddy_e2m68r44",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,9 +68,25 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 165.9,
-      "reportedBy": "hankthecrank23",
-      "reportedAgo": "1 Hour Ago",
+      "price": 186.9,
+      "reportedBy": "bemme",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
+    },
+    {
+      "id": "parkway",
+      "name": "Parkway (Shell)",
+      "address": "11891 BC-97",
+      "lat": 50.093,
+      "lng": -119.3835,
+      "zone": null,
+      "fuelBrand": "Parkway",
+      "cstoreBrand": null,
+      "logoBrand": "Shell",
+      "discount": null,
+      "price": 173.9,
+      "reportedBy": "bemme",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +102,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "Buddy_e2m68r44",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,12 +118,12 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "Buddy_e2m68r44",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
