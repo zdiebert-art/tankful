@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-16T15:15:32.928Z",
+  "fetchedAt": "2026-07-16T17:30:58.348Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 185,
+  "marketAverage": 182.5,
   "stationCount": 7,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 186.9,
+      "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "10 Minutes Ago",
+      "reportedAgo": "41 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "15 Hours Ago",
       "trust": "stale"
     },
     {
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "price": 184.9,
+      "reportedBy": "Buddy_feqqvutm",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -68,10 +68,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "bemme",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 177.9,
+      "reportedBy": "Buddy_3vh90fkw",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "torino17",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "15 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "15 Hours Ago",
       "trust": "stale"
     }
   ],
