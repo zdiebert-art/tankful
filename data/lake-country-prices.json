@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-16T04:20:59.950Z",
+  "fetchedAt": "2026-07-16T15:15:32.928Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 185,
@@ -22,7 +22,7 @@
       },
       "price": 186.9,
       "reportedBy": "Owner",
-      "reportedAgo": "33 Minutes Ago",
+      "reportedAgo": "10 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "torino17",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -118,18 +118,12 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 163.9
-      }
-    ]
+    "parsedCount": 7,
+    "unmatched": []
   }
 }
