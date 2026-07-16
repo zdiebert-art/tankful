@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-07-16T19:20:51.608Z",
+  "fetchedAt": "2026-07-16T21:15:05.897Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 183,
-  "stationCount": 7,
+  "marketAverage": 182.4,
+  "stationCount": 8,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "17 Minutes Ago",
+      "reportedAgo": "9 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "lena85lin",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,25 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "lena85lin",
-      "reportedAgo": "1 Hour Ago",
+      "price": 184.9,
+      "reportedBy": "leeh32",
+      "reportedAgo": "10 Minutes Ago",
+      "trust": "user"
+    },
+    {
+      "id": "husky",
+      "name": "Husky Hwy 97",
+      "address": "10550 BC-97",
+      "lat": 50.0599,
+      "lng": -119.4007,
+      "zone": null,
+      "fuelBrand": "Husky",
+      "cstoreBrand": "CO-OP",
+      "logoBrand": null,
+      "discount": null,
+      "price": 179.9,
+      "reportedBy": "leeh32",
+      "reportedAgo": "10 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +86,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "lena85lin",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +118,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "lena85lin",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,12 +134,18 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "lena85lin",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
-    "unmatched": []
+    "parsedCount": 9,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 176.9
+      }
+    ]
   }
 }
