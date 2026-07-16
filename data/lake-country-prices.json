@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-16T17:30:58.348Z",
+  "fetchedAt": "2026-07-16T19:20:51.608Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 182.5,
+  "marketAverage": 183,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "41 Minutes Ago",
+      "reportedAgo": "17 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "lena85lin",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 184.9,
-      "reportedBy": "Buddy_feqqvutm",
-      "reportedAgo": "2 Hours Ago",
+      "price": 186.9,
+      "reportedBy": "lena85lin",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -68,8 +68,8 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 177.9,
-      "reportedBy": "Buddy_3vh90fkw",
+      "price": 179.9,
+      "reportedBy": "lena85lin",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "torino17",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "lena85lin",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "lena85lin",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
