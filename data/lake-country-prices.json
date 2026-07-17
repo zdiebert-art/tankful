@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-17T03:21:38.791Z",
+  "fetchedAt": "2026-07-17T14:54:06.186Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 181.8,
+  "marketAverage": 180.9,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 174.9,
       "reportedBy": "Owner",
-      "reportedAgo": "53 Minutes Ago",
+      "reportedAgo": "50 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 184.9,
-      "reportedBy": "tommyz40",
-      "reportedAgo": "2 Hours Ago",
+      "price": 177.9,
+      "reportedBy": "Buddy_feqqvutm",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "leeh32",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "lena85lin",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "20 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "lena85lin",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "lena85lin",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
