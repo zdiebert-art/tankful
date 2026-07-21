@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-21T15:09:22.338Z",
+  "fetchedAt": "2026-07-21T17:39:37.577Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 176.2,
@@ -22,7 +22,7 @@
       },
       "price": 167.9,
       "reportedBy": "Owner",
-      "reportedAgo": "12 Hours Ago",
+      "reportedAgo": "15 Hours Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "Buddy_wj83q856",
-      "reportedAgo": "57 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "Buddy_wj83q856",
-      "reportedAgo": "57 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 167.9,
-      "reportedBy": "mikegreen05",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "Buddy_ez6fmk1r",
+      "reportedAgo": "13 Minutes Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "am7174",
-      "reportedAgo": "40 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 157.9,
       "reportedBy": "torino17",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "16 Hours Ago",
       "trust": "stale"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Buddy_wj83q856",
-      "reportedAgo": "57 Minutes Ago",
+      "reportedBy": "bowengal",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Buddy_wj83q856",
-      "reportedAgo": "57 Minutes Ago",
+      "reportedBy": "bowengal",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
