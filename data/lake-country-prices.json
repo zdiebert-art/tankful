@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-22T17:30:49.832Z",
+  "fetchedAt": "2026-07-22T19:38:28.207Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 182.2,
+  "marketAverage": 184.7,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 187.9,
       "reportedBy": "piper21615",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -37,7 +37,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "msgill103",
+      "reportedBy": "Buddy_bwrf733f",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "msgill103",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "gassguzzler123",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 167.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 167.9,
-      "reportedBy": "msgill103",
-      "reportedAgo": "1 Hour Ago",
+      "price": 187.9,
+      "reportedBy": "am7174",
+      "reportedAgo": "5 Minutes Ago",
       "trust": "user"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 157.9,
-      "reportedBy": "cmorice91",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "blasko1",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -117,7 +117,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "msgill103",
+      "reportedBy": "Spyder7760",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -133,7 +133,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "msgill103",
+      "reportedBy": "Spyder7760",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
