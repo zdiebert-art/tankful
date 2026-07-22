@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-22T15:18:56.584Z",
+  "fetchedAt": "2026-07-22T17:30:49.832Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 179.4,
+  "marketAverage": 182.2,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 165.9,
-      "reportedBy": "Valeriejhealey",
-      "reportedAgo": "9 Hours Ago",
+      "price": 187.9,
+      "reportedBy": "piper21615",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -37,7 +37,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Arvinder01",
+      "reportedBy": "msgill103",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -53,7 +53,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Arvinder01",
+      "reportedBy": "msgill103",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 167.9,
-      "reportedBy": "Valeriejhealey",
-      "reportedAgo": "9 Hours Ago",
+      "reportedBy": "msgill103",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 167.9,
-      "reportedBy": "Valeriejhealey",
-      "reportedAgo": "9 Hours Ago",
+      "reportedBy": "msgill103",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 157.9,
       "reportedBy": "cmorice91",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "15 Hours Ago",
       "trust": "stale"
     },
     {
@@ -117,7 +117,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Arvinder01",
+      "reportedBy": "msgill103",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -133,7 +133,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Arvinder01",
+      "reportedBy": "msgill103",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
