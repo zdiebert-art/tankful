@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-07-23T17:44:01.964Z",
+  "fetchedAt": "2026-07-23T19:35:56.151Z",
   "region": "kelowna",
   "source": "gasbuddy.com",
-  "marketAverage": 189.9,
-  "stationCount": 27,
+  "marketAverage": 189.6,
+  "stationCount": 35,
   "stations": [
     {
       "id": "kelowna-ethel-1189",
@@ -18,7 +18,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -34,7 +34,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -50,7 +50,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -66,22 +66,6 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "Madwic",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
-    },
-    {
-      "id": "kelowna-springfield-2189",
-      "name": "Shell · Circle K",
-      "address": "2189 Springfield Rd",
-      "lat": null,
-      "lng": null,
-      "zone": "downtown",
-      "fuelBrand": "Shell",
-      "cstoreBrand": "Circle K",
-      "logoBrand": null,
-      "discount": null,
-      "price": 193.9,
-      "reportedBy": "msgill103",
       "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
@@ -97,8 +81,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 162.9,
-      "reportedBy": "fw2550",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "sueonyeo",
+      "reportedAgo": "29 Minutes Ago",
       "trust": "user"
     },
     {
@@ -113,8 +97,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "thetizz",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "Buddy_5f9ageq2",
+      "reportedAgo": "48 Minutes Ago",
       "trust": "user"
     },
     {
@@ -130,7 +114,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "Madwic",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -145,8 +129,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "Madwic",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "thetizz",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -162,7 +146,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -178,7 +162,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "Buddy_j7q9evmu",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -194,7 +178,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -209,9 +193,57 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "jerryppelletier",
-      "reportedAgo": "1 Day Ago",
+      "reportedBy": "Buddy_5f9ageq2",
+      "reportedAgo": "56 Minutes Ago",
+      "trust": "user"
+    },
+    {
+      "id": "kelowna-gordon-3802",
+      "name": "Canco · One Stop",
+      "address": "3802 Gordon Dr",
+      "lat": null,
+      "lng": null,
+      "zone": "mission",
+      "fuelBrand": "Canco",
+      "cstoreBrand": "One Stop",
+      "logoBrand": null,
+      "discount": null,
+      "price": 189.9,
+      "reportedBy": "kelownarefal",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
+    },
+    {
+      "id": "kelowna-lakeshore-3950",
+      "name": "Petro-Canada",
+      "address": "3950 Lakeshore Dr",
+      "lat": null,
+      "lng": null,
+      "zone": "mission",
+      "fuelBrand": "Petro-Canada",
+      "cstoreBrand": null,
+      "logoBrand": null,
+      "discount": null,
+      "price": 187.9,
+      "reportedBy": "dmg91",
+      "reportedAgo": "15 Hours Ago",
       "trust": "stale"
+    },
+    {
+      "id": "kelowna-lakeshore-3968",
+      "name": "Esso · 7-Eleven",
+      "address": "3968 Lakeshore Dr",
+      "lat": null,
+      "lng": null,
+      "zone": "mission",
+      "fuelBrand": "Esso",
+      "cstoreBrand": "7-Eleven",
+      "logoBrand": null,
+      "discount": null,
+      "price": 187.9,
+      "reportedBy": "DataFeed",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-glenmore-395",
@@ -226,8 +258,24 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "Buddy_43xbujrd",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
+    },
+    {
+      "id": "kelowna-bc33w-1155",
+      "name": "Shell",
+      "address": "1155 BC-33 W",
+      "lat": null,
+      "lng": null,
+      "zone": "rutland",
+      "fuelBrand": "Shell",
+      "cstoreBrand": null,
+      "logoBrand": null,
+      "discount": null,
+      "price": 193.9,
+      "reportedBy": "msgill103",
+      "reportedAgo": "8 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-bc33e-125",
@@ -242,7 +290,39 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "Buddy_6vdaremn",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
+    },
+    {
+      "id": "kelowna-bc33w-1435",
+      "name": "Super Save",
+      "address": "1435 BC-33 W",
+      "lat": null,
+      "lng": null,
+      "zone": "rutland",
+      "fuelBrand": "Super Save",
+      "cstoreBrand": null,
+      "logoBrand": null,
+      "discount": null,
+      "price": 187.9,
+      "reportedBy": "Owner",
       "reportedAgo": "4 Minutes Ago",
+      "trust": "owner"
+    },
+    {
+      "id": "kelowna-bc33e-1799",
+      "name": "Canco · One Stop",
+      "address": "1799 BC-33 E",
+      "lat": null,
+      "lng": null,
+      "zone": "rutland",
+      "fuelBrand": "Canco",
+      "cstoreBrand": "One Stop",
+      "logoBrand": null,
+      "discount": null,
+      "price": 189.9,
+      "reportedBy": "LiniSatana",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -258,7 +338,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "jerryppelletier",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -274,7 +354,39 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "Kelowna365",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
+      "trust": "user"
+    },
+    {
+      "id": "kelowna-bc33w-365",
+      "name": "Petro-Canada",
+      "address": "365 BC-33 W",
+      "lat": null,
+      "lng": null,
+      "zone": "rutland",
+      "fuelBrand": "Petro-Canada",
+      "cstoreBrand": null,
+      "logoBrand": null,
+      "discount": null,
+      "price": 187.9,
+      "reportedBy": "Kelowna365",
+      "reportedAgo": "5 Hours Ago",
+      "trust": "user"
+    },
+    {
+      "id": "kelowna-bc33w-720",
+      "name": "Canco · One Stop",
+      "address": "720 BC-33 W",
+      "lat": null,
+      "lng": null,
+      "zone": "rutland",
+      "fuelBrand": "Canco",
+      "cstoreBrand": "One Stop",
+      "logoBrand": null,
+      "discount": null,
+      "price": 189.9,
+      "reportedBy": "msgill103",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -290,7 +402,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -306,7 +418,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "Ziggy4412",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -322,7 +434,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "Madwic",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -338,7 +450,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -353,8 +465,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 187.9,
-      "reportedBy": "msgill103",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "BWRTERRY",
+      "reportedAgo": "27 Minutes Ago",
       "trust": "user"
     },
     {
@@ -370,7 +482,23 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
+      "trust": "user"
+    },
+    {
+      "id": "kelowna-bc97n-2693",
+      "name": "Petro-Canada",
+      "address": "2693 BC-97 N",
+      "lat": null,
+      "lng": null,
+      "zone": "rutland-north",
+      "fuelBrand": "Petro-Canada",
+      "cstoreBrand": null,
+      "logoBrand": null,
+      "discount": null,
+      "price": 189.9,
+      "reportedBy": "AuntYoohoo",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -386,7 +514,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "kingrules",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "19 Hours Ago",
       "trust": "stale"
     },
     {
@@ -402,7 +530,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "Buddy_bwrf733f",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -418,7 +546,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "jerryppelletier",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -434,21 +562,46 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "jerryppelletier",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 39,
+    "parsedCount": 52,
     "unmatched": [
+      {
+        "number": "4125",
+        "street": "Spiers Rd",
+        "price": 189.9
+      },
+      {
+        "number": "1192",
+        "street": "Industrial Rd",
+        "price": 193.9
+      },
+      {
+        "number": "2220",
+        "street": "Boucherie Rd",
+        "price": 189.8
+      },
       {
         "number": "525",
         "street": "BC-97 S",
         "price": 193.9
       },
       {
-        "number": "2220",
-        "street": "Boucherie Rd",
+        "number": "2097",
+        "street": "Old Okanagan Hwy",
+        "price": 191.9
+      },
+      {
+        "number": "1721",
+        "street": "Ross Rd",
+        "price": 193.9
+      },
+      {
+        "number": "3020",
+        "street": "Louie Dr",
         "price": 193.9
       },
       {
@@ -465,31 +618,6 @@
         "number": "10550",
         "street": "BC-97",
         "price": 185.9
-      },
-      {
-        "number": "11891",
-        "street": "BC-97",
-        "price": 157.9
-      },
-      {
-        "number": "11751",
-        "street": "BC-97",
-        "price": 189.9
-      },
-      {
-        "number": "9855",
-        "street": "BC-97 N",
-        "price": 193.9
-      },
-      {
-        "number": "9724",
-        "street": "BC-97",
-        "price": 193.9
-      },
-      {
-        "number": "9531",
-        "street": "BC-97",
-        "price": 193.9
       }
     ]
   }
