@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-24T18:23:17.552Z",
+  "fetchedAt": "2026-07-24T20:25:28.908Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 186.7,
+  "marketAverage": 185.2,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 189.9,
+      "price": 183.9,
       "reportedBy": "Owner",
-      "reportedAgo": "15 Minutes Ago",
+      "reportedAgo": "46 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,9 +36,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 193.9,
-      "reportedBy": "TbayBoo",
-      "reportedAgo": "8 Minutes Ago",
+      "price": 187.9,
+      "reportedBy": "mpajela",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -53,7 +53,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 187.9,
-      "reportedBy": "shelleyclosesc",
+      "reportedBy": "mpajela",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "micheleapril",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,7 +85,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 185.9,
-      "reportedBy": "Stocks10",
+      "reportedBy": "mpajela",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -117,7 +117,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Stocks10",
+      "reportedBy": "mpajela",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "TbayBoo",
-      "reportedAgo": "8 Minutes Ago",
+      "reportedBy": "mpajela",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
