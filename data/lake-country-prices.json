@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-25T20:24:38.512Z",
+  "fetchedAt": "2026-07-25T22:04:15.180Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 185,
+  "marketAverage": 184.5,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 181.9,
+      "price": 177.9,
       "reportedBy": "Owner",
-      "reportedAgo": "55 Minutes Ago",
+      "reportedAgo": "34 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "Buddy_xkmzq159",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 185.9,
       "reportedBy": "Buddy_xkmzq159",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "lbpacificwest",
-      "reportedAgo": "50 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 180.9,
       "reportedBy": "torino17",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 185.9,
       "reportedBy": "lbpacificwest",
-      "reportedAgo": "51 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "Buddy_xkmzq159",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
