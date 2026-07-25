@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-25T18:08:06.117Z",
+  "fetchedAt": "2026-07-25T20:24:38.512Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 185.3,
+  "marketAverage": 185,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 181.9,
       "reportedBy": "Owner",
-      "reportedAgo": "40 Minutes Ago",
+      "reportedAgo": "55 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 187.9,
-      "reportedBy": "reanders54",
-      "reportedAgo": "8 Minutes Ago",
+      "reportedBy": "Buddy_xkmzq159",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -53,7 +53,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 185.9,
-      "reportedBy": "msgill103",
+      "reportedBy": "Buddy_xkmzq159",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 181.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
+      "price": 179.9,
+      "reportedBy": "lbpacificwest",
+      "reportedAgo": "50 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 180.9,
       "reportedBy": "torino17",
-      "reportedAgo": "21 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 185.9,
-      "reportedBy": "reanders54",
-      "reportedAgo": "8 Minutes Ago",
+      "reportedBy": "lbpacificwest",
+      "reportedAgo": "51 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,19 +133,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 187.9,
-      "reportedBy": "reanders54",
-      "reportedAgo": "9 Minutes Ago",
+      "reportedBy": "Buddy_xkmzq159",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 186.9
-      }
-    ]
+    "parsedCount": 8,
+    "unmatched": []
   }
 }
