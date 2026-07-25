@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-24T22:20:33.578Z",
+  "fetchedAt": "2026-07-25T00:21:37.626Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 185.2,
+  "marketAverage": 184.2,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 183.9,
       "reportedBy": "Owner",
-      "reportedAgo": "39 Minutes Ago",
+      "reportedAgo": "38 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,9 +36,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 187.9,
+      "price": 185.9,
       "reportedBy": "mpajela",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 187.9,
-      "reportedBy": "mpajela",
-      "reportedAgo": "3 Hours Ago",
+      "price": 185.9,
+      "reportedBy": "Buddy_feqqvutm",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "micheleapril",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 185.9,
-      "reportedBy": "mpajela",
-      "reportedAgo": "3 Hours Ago",
+      "price": 181.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "19 Minutes Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "mpajela",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "mpajela",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
   ],
