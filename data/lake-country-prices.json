@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-26T22:15:36.833Z",
+  "fetchedAt": "2026-07-27T00:09:48.006Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 183.9,
+  "marketAverage": 183.2,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 175.9,
       "reportedBy": "Owner",
-      "reportedAgo": "2 Minutes Ago",
+      "reportedAgo": "54 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "bigmuddy44s",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "cherodd",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "briancan40",
-      "reportedAgo": "44 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "briancan40",
-      "reportedAgo": "44 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 175.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "10 Minutes Ago",
+      "reportedBy": "SamGarg007",
+      "reportedAgo": "15 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 205.9,
       "reportedBy": "MiniPhred",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -132,9 +132,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 185.9,
-      "reportedBy": "MiniPhred",
-      "reportedAgo": "3 Hours Ago",
+      "price": 179.9,
+      "reportedBy": "cherodd",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
