@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-27T00:09:48.006Z",
+  "fetchedAt": "2026-07-27T04:53:17.953Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 183.2,
+  "marketAverage": 182.7,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 175.9,
       "reportedBy": "Owner",
-      "reportedAgo": "54 Minutes Ago",
+      "reportedAgo": "29 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "cherodd",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "briancan40",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "briancan40",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 175.9,
-      "reportedBy": "SamGarg007",
-      "reportedAgo": "15 Minutes Ago",
+      "price": 173.9,
+      "reportedBy": "Balans",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 205.9,
       "reportedBy": "MiniPhred",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "6 Hours Ago",
+      "price": 177.9,
+      "reportedBy": "billjellis",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -133,7 +133,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 179.9,
-      "reportedBy": "cherodd",
+      "reportedBy": "billjellis",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
