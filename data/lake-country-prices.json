@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-28T17:52:59.123Z",
+  "fetchedAt": "2026-07-28T19:47:10.998Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 186.7,
+  "marketAverage": 191.2,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 173.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -36,9 +36,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 177.9,
+      "price": 196.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "11 Hours Ago",
+      "reportedAgo": "19 Minutes Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "troy_yyc",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 171.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 205.9,
       "reportedBy": "MiniPhred",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "2 Days Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -132,10 +132,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "price": 196.9,
+      "reportedBy": "roughneck4life",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
