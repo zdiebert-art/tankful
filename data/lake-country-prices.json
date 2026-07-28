@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-07-28T21:16:59.126Z",
+  "fetchedAt": "2026-07-28T23:16:12.681Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 194.3,
-  "stationCount": 8,
+  "marketAverage": 192.9,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 173.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,24 +54,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "troy_yyc",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
-    },
-    {
-      "id": "husky",
-      "name": "Husky Hwy 97",
-      "address": "10550 BC-97",
-      "lat": 50.0599,
-      "lng": -119.4007,
-      "zone": null,
-      "fuelBrand": "Husky",
-      "cstoreBrand": "CO-OP",
-      "logoBrand": null,
-      "discount": null,
-      "price": 189.9,
-      "reportedBy": "briancan40",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -85,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "denno545",
-      "reportedAgo": "59 Minutes Ago",
+      "reportedBy": "Buddy_y3vugxuk",
+      "reportedAgo": "54 Minutes Ago",
       "trust": "user"
     },
     {
@@ -100,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 205.9,
-      "reportedBy": "MiniPhred",
-      "reportedAgo": "2 Days Ago",
-      "trust": "stale"
+      "price": 191.9,
+      "reportedBy": "torino17",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -118,7 +102,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "denno545",
-      "reportedAgo": "57 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,12 +118,12 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "roughneck4life",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
