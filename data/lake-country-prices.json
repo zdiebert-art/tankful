@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-28T02:59:10.675Z",
+  "fetchedAt": "2026-07-28T15:25:24.872Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 184.3,
+  "marketAverage": 186.7,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 173.9,
       "reportedBy": "Owner",
-      "reportedAgo": "30 Minutes Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 177.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "17 Minutes Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "17 Minutes Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 171.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 177.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "17 Minutes Ago",
+      "price": 196.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "16 Minutes Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     }
   ],
