@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-28T15:25:24.872Z",
+  "fetchedAt": "2026-07-28T17:52:59.123Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 186.7,
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 173.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "owner"
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "9 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "12 Hours Ago",
+      "reportedBy": "troy_yyc",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 171.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "9 Hours Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "msgill103",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 179.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
