@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-29T15:13:49.838Z",
+  "fetchedAt": "2026-07-29T17:24:11.000Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 195.9,
+  "marketAverage": 196.5,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 196.9,
       "reportedBy": "david29murray",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "troy_yyc",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 194.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "torino17",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "price": 195.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "denno545",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "roughneck4life",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Buddy_4ejpp7ja",
+      "reportedAgo": "37 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
