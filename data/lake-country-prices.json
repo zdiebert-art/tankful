@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-29T03:17:40.431Z",
+  "fetchedAt": "2026-07-29T15:13:49.838Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 195.9,
@@ -22,8 +22,8 @@
       },
       "price": 196.9,
       "reportedBy": "david29murray",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan",
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "troy_yyc",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 194.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "torino17",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "denno545",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "18 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "roughneck4life",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "20 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
