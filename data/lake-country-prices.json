@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-30T15:15:00.674Z",
+  "fetchedAt": "2026-07-30T17:51:32.140Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 195.8,
@@ -22,8 +22,8 @@
       },
       "price": 194.9,
       "reportedBy": "adamnstewart",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "btfbcoa",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "btfbcoa",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 194.9,
-      "reportedBy": "ctwhitts1",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "msgill103",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 192.9,
-      "reportedBy": "SamGarg007",
-      "reportedAgo": "12 Hours Ago",
+      "reportedBy": "msgill103",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 195.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "msgill103",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "btfbcoa",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "Buddy_ycgfu7wz",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "msgill103",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
