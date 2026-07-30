@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-30T02:46:20.143Z",
+  "fetchedAt": "2026-07-30T05:48:50.472Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 195.8,
@@ -21,8 +21,8 @@
         "label": "with Canco card"
       },
       "price": 194.9,
-      "reportedBy": "Buddy_4e0d4je7",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "adamnstewart",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "btfbcoa",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "btfbcoa",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 194.9,
       "reportedBy": "ctwhitts1",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "SamGarg007",
-      "reportedAgo": "13 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "btfbcoa",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "btfbcoa",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     }
   ],
