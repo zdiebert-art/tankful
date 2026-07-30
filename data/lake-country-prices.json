@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-07-29T23:14:57.112Z",
+  "fetchedAt": "2026-07-30T02:46:20.143Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 196.3,
+  "marketAverage": 195.8,
   "stationCount": 8,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 196.9,
-      "reportedBy": "david29murray",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "price": 194.9,
+      "reportedBy": "Buddy_4e0d4je7",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "btfbcoa",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "btfbcoa",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 194.9,
       "reportedBy": "ctwhitts1",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 194.9,
-      "reportedBy": "btfbcoa",
-      "reportedAgo": "4 Hours Ago",
+      "price": 192.9,
+      "reportedBy": "SamGarg007",
+      "reportedAgo": "13 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "btfbcoa",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "btfbcoa",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     }
   ],
