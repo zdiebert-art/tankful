@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-01T14:45:16.753Z",
+  "fetchedAt": "2026-08-01T16:07:09.503Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 193.9,
@@ -22,7 +22,7 @@
       },
       "price": 191.9,
       "reportedBy": "samulmeheden",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "16 Hours Ago",
       "trust": "stale"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "tommyz40",
-      "reportedAgo": "11 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "28 Minutes Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "11 Hours Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "bigdaddy0106",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "lorrod",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "msgill103",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "2 Days Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "11 Hours Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "tommyz40",
-      "reportedAgo": "11 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "27 Minutes Ago",
       "trust": "user"
     }
   ],
