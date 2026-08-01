@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-08-01T20:16:33.335Z",
+  "fetchedAt": "2026-08-01T22:12:53.885Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 193.9,
-  "stationCount": 8,
+  "marketAverage": 193.6,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 191.9,
       "reportedBy": "samulmeheden",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "reportedAgo": "43 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -86,23 +86,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "lorrod",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
-    },
-    {
-      "id": "parkway",
-      "name": "Parkway (Shell)",
-      "address": "11891 BC-97",
-      "lat": 50.093,
-      "lng": -119.3835,
-      "zone": null,
-      "fuelBrand": "Parkway",
-      "cstoreBrand": null,
-      "logoBrand": "Shell",
-      "discount": null,
-      "price": 195.9,
-      "reportedBy": "msgill103",
-      "reportedAgo": "2 Days Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,8 +102,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "reportedAgo": "43 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,13 +117,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "tommyz40",
+      "reportedAgo": "43 Minutes Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
