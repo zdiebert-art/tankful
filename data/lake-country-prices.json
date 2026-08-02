@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-02T20:25:36.783Z",
+  "fetchedAt": "2026-08-02T22:12:18.541Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 192.8,
+  "marketAverage": 192.2,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 190.9,
       "reportedBy": "Owner",
-      "reportedAgo": "29 Minutes Ago",
+      "reportedAgo": "12 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "Hycuts",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Buddy_vammkzyq",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Hycuts",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "Buddy_k2zf2bq0",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "Buddy_dc3faejk",
-      "reportedAgo": "57 Minutes Ago",
+      "price": 187.9,
+      "reportedBy": "dc180",
+      "reportedAgo": "19 Minutes Ago",
       "trust": "user"
     },
     {
@@ -117,7 +117,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Buddy_wu4911rt",
+      "reportedBy": "Hycuts",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
