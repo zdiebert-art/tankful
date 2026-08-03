@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-08-02T23:06:26.219Z",
+  "fetchedAt": "2026-08-03T15:59:02.444Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 192,
-  "stationCount": 7,
+  "marketAverage": 191.3,
+  "stationCount": 8,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 189.9,
       "reportedBy": "Owner",
-      "reportedAgo": "23 Minutes Ago",
+      "reportedAgo": "53 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Hycuts",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "Hycuts",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "Buddy_k2zf2bq0",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "20 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -85,9 +85,25 @@
       "logoBrand": null,
       "discount": null,
       "price": 187.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
+    },
+    {
+      "id": "parkway",
+      "name": "Parkway (Shell)",
+      "address": "11891 BC-97",
+      "lat": 50.093,
+      "lng": -119.3835,
+      "zone": null,
+      "fuelBrand": "Parkway",
+      "cstoreBrand": null,
+      "logoBrand": "Shell",
+      "discount": null,
+      "price": 191.9,
+      "reportedBy": "latchfords",
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -100,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 193.9,
-      "reportedBy": "Hycuts",
-      "reportedAgo": "2 Hours Ago",
+      "price": 190.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,14 +132,14 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 193.9,
-      "reportedBy": "Hycuts",
-      "reportedAgo": "2 Hours Ago",
+      "price": 190.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
+    "parsedCount": 8,
     "unmatched": []
   }
 }
