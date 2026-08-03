@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-03T15:59:02.444Z",
+  "fetchedAt": "2026-08-03T19:52:14.766Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 191.3,
@@ -22,7 +22,7 @@
       },
       "price": 189.9,
       "reportedBy": "Owner",
-      "reportedAgo": "53 Minutes Ago",
+      "reportedAgo": "34 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "Hycuts",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "Buddy_k2zf2bq0",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 187.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "10 Hours Ago",
+      "reportedBy": "SamGarg007",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
