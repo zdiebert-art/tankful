@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-04T05:59:34.678Z",
+  "fetchedAt": "2026-08-04T15:30:55.223Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 191.5,
+  "marketAverage": 191.3,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 189.9,
       "reportedBy": "Owner",
-      "reportedAgo": "24 Minutes Ago",
+      "reportedAgo": "25 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "camper2031951",
-      "reportedAgo": "9 Hours Ago",
+      "price": 187.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "19 Minutes Ago",
       "trust": "user"
     },
     {
