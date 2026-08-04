@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-03T23:07:45.985Z",
+  "fetchedAt": "2026-08-04T02:58:33.197Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 191.5,
@@ -22,7 +22,7 @@
       },
       "price": 189.9,
       "reportedBy": "Owner",
-      "reportedAgo": "42 Minutes Ago",
+      "reportedAgo": "25 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "camper2031951",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     }
   ],
