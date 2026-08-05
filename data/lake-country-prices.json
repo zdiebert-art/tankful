@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T05:51:27.197Z",
+  "fetchedAt": "2026-08-05T15:22:06.607Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 190.7,
@@ -22,7 +22,7 @@
       },
       "price": 189.9,
       "reportedBy": "Owner",
-      "reportedAgo": "21 Minutes Ago",
+      "reportedAgo": "16 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "ShawnSDG",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -68,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 190.9,
-      "reportedBy": "Buddy_k2zf2bq0",
-      "reportedAgo": "2 Days Ago",
-      "trust": "stale"
+      "price": 189.9,
+      "reportedBy": "visitor",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 185.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
+      "price": 187.9,
+      "reportedBy": "Buddy_kdcaerdz",
+      "reportedAgo": "22 Minutes Ago",
       "trust": "user"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 191.9,
-      "reportedBy": "latchfords",
-      "reportedAgo": "2 Days Ago",
-      "trust": "stale"
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 190.9,
-      "reportedBy": "SamGarg007",
-      "reportedAgo": "2 Hours Ago",
+      "price": 189.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "ShawnSDG",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     }
   ],
