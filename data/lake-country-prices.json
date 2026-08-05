@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-05T21:23:11.223Z",
+  "fetchedAt": "2026-08-05T23:15:23.912Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 189.5,
+  "marketAverage": 189.4,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 187.9,
       "reportedBy": "Owner",
-      "reportedAgo": "58 Minutes Ago",
+      "reportedAgo": "47 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "Buddy_fjmjv1aw",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "17 Minutes Ago",
+      "price": 188.9,
+      "reportedBy": "tomwiser",
+      "reportedAgo": "13 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "VanIsleRover",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "VanIsleRover",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "kellyl1971",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "kellyl1971",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "tomwiser",
+      "reportedAgo": "14 Minutes Ago",
       "trust": "user"
     }
   ],
