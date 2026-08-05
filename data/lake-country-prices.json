@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-04T23:18:54.955Z",
+  "fetchedAt": "2026-08-05T05:51:27.197Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 190.9,
+  "marketAverage": 190.7,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 189.9,
       "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "21 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,7 +37,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 190.9,
-      "reportedBy": "ShawnSDG",
+      "reportedBy": "rx7racerca",
       "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "ShawnSDG",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 187.9,
+      "price": 185.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "2 Days Ago",
       "trust": "stale"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 190.9,
-      "reportedBy": "ShawnSDG",
-      "reportedAgo": "6 Hours Ago",
+      "reportedBy": "SamGarg007",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "ShawnSDG",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
