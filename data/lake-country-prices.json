@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-05T15:22:06.607Z",
+  "fetchedAt": "2026-08-05T17:53:56.060Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 190.7,
+  "marketAverage": 189.5,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 189.9,
+      "price": 187.9,
       "reportedBy": "Owner",
-      "reportedAgo": "16 Minutes Ago",
+      "reportedAgo": "36 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 190.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "price": 189.9,
+      "reportedBy": "Buddy_fjmjv1aw",
+      "reportedAgo": "6 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 193.9,
-      "reportedBy": "ShawnSDG",
-      "reportedAgo": "22 Hours Ago",
-      "trust": "stale"
+      "price": 189.9,
+      "reportedBy": "VanIsleRover",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -68,9 +68,9 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "visitor",
-      "reportedAgo": "1 Hour Ago",
+      "price": 188.9,
+      "reportedBy": "VanIsleRover",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 187.9,
-      "reportedBy": "Buddy_kdcaerdz",
-      "reportedAgo": "22 Minutes Ago",
+      "reportedBy": "VanIsleRover",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "VanIsleRover",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -132,10 +132,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 190.9,
-      "reportedBy": "ShawnSDG",
-      "reportedAgo": "22 Hours Ago",
-      "trust": "stale"
+      "price": 189.9,
+      "reportedBy": "VanIsleRover",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
