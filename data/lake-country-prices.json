@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T06:05:22.644Z",
+  "fetchedAt": "2026-08-06T15:21:34.879Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 189.3,
@@ -22,7 +22,7 @@
       },
       "price": 187.9,
       "reportedBy": "Owner",
-      "reportedAgo": "25 Minutes Ago",
+      "reportedAgo": "16 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "Buddy_fjmjv1aw",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "Buddy_feqqvutm",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "VanIsleRover",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "tomwiser",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "kellyl1971",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "tomwiser",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
