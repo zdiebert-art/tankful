@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-08-07T03:56:02.077Z",
+  "fetchedAt": "2026-08-07T14:17:10.500Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 188.7,
-  "stationCount": 8,
+  "marketAverage": 187.9,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 187.9,
       "reportedBy": "Owner",
-      "reportedAgo": "38 Minutes Ago",
+      "reportedAgo": "13 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -36,9 +36,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 188.9,
-      "reportedBy": "camper2031951",
-      "reportedAgo": "8 Hours Ago",
+      "price": 187.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "camper2031951",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "18 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "Buddy_j9pej5n2",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -86,23 +86,7 @@
       "discount": null,
       "price": 185.9,
       "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
-    },
-    {
-      "id": "parkway",
-      "name": "Parkway (Shell)",
-      "address": "11891 BC-97",
-      "lat": 50.093,
-      "lng": -119.3835,
-      "zone": null,
-      "fuelBrand": "Parkway",
-      "cstoreBrand": null,
-      "logoBrand": "Shell",
-      "discount": null,
-      "price": 191.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "14 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,8 +102,8 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "Buddy_j9pej5n2",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -132,14 +116,14 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 188.9,
-      "reportedBy": "Buddy_j9pej5n2",
-      "reportedAgo": "3 Hours Ago",
+      "price": 187.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
