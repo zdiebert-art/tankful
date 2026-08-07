@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-07T22:49:25.154Z",
+  "fetchedAt": "2026-08-07T23:43:12.377Z",
   "region": "kelowna",
   "source": "gasbuddy.com",
-  "marketAverage": 183.6,
+  "marketAverage": 182.9,
   "stationCount": 36,
   "stations": [
     {
@@ -18,7 +18,7 @@
       "discount": null,
       "price": 175.4,
       "reportedBy": "Owner",
-      "reportedAgo": "33 Minutes Ago",
+      "reportedAgo": "27 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -50,7 +50,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "11 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -66,7 +66,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "11 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -82,7 +82,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "Saitama16",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -97,8 +97,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 172.9,
-      "reportedBy": "BCBud64",
-      "reportedAgo": "23 Minutes Ago",
+      "reportedBy": "Shorty435",
+      "reportedAgo": "6 Minutes Ago",
       "trust": "user"
     },
     {
@@ -114,7 +114,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "4 Minutes Ago",
+      "reportedAgo": "58 Minutes Ago",
       "trust": "user"
     },
     {
@@ -130,7 +130,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "7 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -146,7 +146,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "7 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -162,7 +162,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "Buddy_3yq0y7wj",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -176,9 +176,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 187.9,
+      "price": 175.9,
       "reportedBy": "kelownarefal",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "27 Minutes Ago",
       "trust": "user"
     },
     {
@@ -194,7 +194,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "markharries",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -210,7 +210,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "DataFeed",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -226,7 +226,7 @@
       "discount": null,
       "price": 175.4,
       "reportedBy": "Texican40",
-      "reportedAgo": "5 Minutes Ago",
+      "reportedAgo": "59 Minutes Ago",
       "trust": "user"
     },
     {
@@ -274,7 +274,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "mimorena13",
-      "reportedAgo": "13 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -290,7 +290,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "Jaxorama",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -305,9 +305,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 187.9,
-      "reportedBy": "Kelowna365",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "BWRTERRY",
+      "reportedAgo": "19 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-bc33w-1435",
@@ -320,9 +320,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 173.9,
+      "price": 173.4,
       "reportedBy": "Owner",
-      "reportedAgo": "17 Minutes Ago",
+      "reportedAgo": "7 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -338,7 +338,7 @@
       "discount": null,
       "price": 175.4,
       "reportedBy": "Owner",
-      "reportedAgo": "15 Minutes Ago",
+      "reportedAgo": "9 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -369,8 +369,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 175.4,
-      "reportedBy": "tomwiser",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "BWRTERRY",
+      "reportedAgo": "18 Minutes Ago",
       "trust": "user"
     },
     {
@@ -385,9 +385,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "grand001",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "BWRTERRY",
+      "reportedAgo": "18 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-bc33w-720",
@@ -402,7 +402,7 @@
       "discount": null,
       "price": 175.4,
       "reportedBy": "Owner",
-      "reportedAgo": "9 Minutes Ago",
+      "reportedAgo": "1 Minute Ago",
       "trust": "owner"
     },
     {
@@ -417,8 +417,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "93Eunos",
-      "reportedAgo": "23 Minutes Ago",
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "31 Minutes Ago",
       "trust": "user"
     },
     {
@@ -433,8 +433,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "Ziggy4412",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "33 Minutes Ago",
       "trust": "user"
     },
     {
@@ -449,8 +449,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "93Eunos",
-      "reportedAgo": "14 Minutes Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "19 Minutes Ago",
       "trust": "user"
     },
     {
@@ -464,9 +464,9 @@
       "cstoreBrand": "Superstore",
       "logoBrand": null,
       "discount": null,
-      "price": 187.4,
-      "reportedBy": "ramjet649",
-      "reportedAgo": "6 Hours Ago",
+      "price": 175.4,
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "19 Minutes Ago",
       "trust": "user"
     },
     {
@@ -481,8 +481,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "NguyenKVN",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "20 Minutes Ago",
       "trust": "user"
     },
     {
@@ -498,7 +498,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "14 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -513,8 +513,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "93Eunos",
-      "reportedAgo": "19 Minutes Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "28 Minutes Ago",
       "trust": "user"
     },
     {
@@ -529,8 +529,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 175.9,
-      "reportedBy": "93Eunos",
-      "reportedAgo": "22 Minutes Ago",
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "31 Minutes Ago",
       "trust": "user"
     },
     {
@@ -545,8 +545,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "93Eunos",
-      "reportedAgo": "22 Minutes Ago",
+      "reportedBy": "SMAC_72",
+      "reportedAgo": "32 Minutes Ago",
       "trust": "user"
     },
     {
@@ -562,7 +562,7 @@
       "discount": null,
       "price": 175.4,
       "reportedBy": "Owner",
-      "reportedAgo": "33 Minutes Ago",
+      "reportedAgo": "27 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -578,12 +578,12 @@
       "discount": null,
       "price": 175.4,
       "reportedBy": "Owner",
-      "reportedAgo": "33 Minutes Ago",
+      "reportedAgo": "27 Minutes Ago",
       "trust": "owner"
     }
   ],
   "diagnostics": {
-    "parsedCount": 52,
+    "parsedCount": 51,
     "unmatched": [
       {
         "number": "525",
