@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-08T21:36:10.724Z",
+  "fetchedAt": "2026-08-08T22:37:28.675Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 179,
+  "marketAverage": 178.8,
   "stationCount": 8,
   "stations": [
     {
@@ -20,9 +20,9 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 175.9,
+      "price": 174.9,
       "reportedBy": "Owner",
-      "reportedAgo": "22 Minutes Ago",
+      "reportedAgo": "58 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "livdunstan1",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 175.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "3 Hours Ago",
+      "price": 174.9,
+      "reportedBy": "mmiinnddeenn",
+      "reportedAgo": "9 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "weezy300",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "weezy300",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     }
   ],
