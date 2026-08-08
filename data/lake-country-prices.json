@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-08T03:41:23.969Z",
+  "fetchedAt": "2026-08-08T14:01:25.807Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 183.5,
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 175.9,
-      "reportedBy": "eboorer",
-      "reportedAgo": "50 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "59 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "petrocan",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 187.9,
-      "reportedBy": "dancer2016",
-      "reportedAgo": "9 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 173.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "visitor",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
