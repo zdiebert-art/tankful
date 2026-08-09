@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-09T17:43:42.091Z",
+  "fetchedAt": "2026-08-09T19:00:50.524Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 176.9,
+  "marketAverage": 176.7,
   "stationCount": 8,
   "stations": [
     {
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 174.9,
-      "reportedBy": "Owner",
+      "reportedBy": "rx7racerca",
       "reportedAgo": "36 Minutes Ago",
-      "trust": "owner"
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 175.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "price": 174.9,
+      "reportedBy": "LucyElla",
+      "reportedAgo": "42 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "mmiinnddeenn",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "LucyElla",
+      "reportedAgo": "43 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "weezy300",
-      "reportedAgo": "22 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "LucyElla",
+      "reportedAgo": "45 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 171.9,
-      "reportedBy": "Buddy_be4y5qgg",
-      "reportedAgo": "38 Minutes Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "37 Minutes Ago",
       "trust": "user"
     },
     {
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "LucyElla",
+      "reportedAgo": "42 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -132,10 +132,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 175.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "price": 174.9,
+      "reportedBy": "LucyElla",
+      "reportedAgo": "42 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
