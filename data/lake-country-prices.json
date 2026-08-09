@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-09T02:12:05.163Z",
+  "fetchedAt": "2026-08-09T14:44:57.346Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 177,
@@ -22,7 +22,7 @@
       },
       "price": 174.9,
       "reportedBy": "Owner",
-      "reportedAgo": "24 Minutes Ago",
+      "reportedAgo": "41 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "10 Minutes Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "mmiinnddeenn",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "weezy300",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "dc180",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "9 Minutes Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "10 Minutes Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     }
   ],
