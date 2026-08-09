@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-09T20:49:25.491Z",
+  "fetchedAt": "2026-08-09T21:38:19.338Z",
   "region": "kelowna",
   "source": "gasbuddy.com",
-  "marketAverage": 175,
+  "marketAverage": 174.7,
   "stationCount": 36,
   "stations": [
     {
@@ -18,7 +18,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "Owner",
-      "reportedAgo": "37 Minutes Ago",
+      "reportedAgo": "26 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -34,8 +34,8 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "LucyElla",
-      "reportedAgo": "26 Seconds Ago",
-      "trust": "stale"
+      "reportedAgo": "49 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-harvey-1890",
@@ -48,10 +48,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 177.9,
-      "reportedBy": "TimmyTutome",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 174.9,
+      "reportedBy": "LucyElla",
+      "reportedAgo": "47 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-harvey-1901",
@@ -64,10 +64,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 177.9,
-      "reportedBy": "mmiinnddeenn",
-      "reportedAgo": "21 Hours Ago",
-      "trust": "stale"
+      "price": 174.9,
+      "reportedBy": "LucyElla",
+      "reportedAgo": "48 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-springfield-2189",
@@ -82,7 +82,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "ash6886m",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -97,9 +97,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 169.9,
-      "reportedBy": "netsek43",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "33 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "kelowna-harvey-375",
@@ -129,8 +129,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 174.9,
-      "reportedBy": "LucyElla",
-      "reportedAgo": "3 Minutes Ago",
+      "reportedBy": "jimmyksy",
+      "reportedAgo": "44 Minutes Ago",
       "trust": "user"
     },
     {
@@ -146,7 +146,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "LucyElla",
-      "reportedAgo": "2 Minutes Ago",
+      "reportedAgo": "51 Minutes Ago",
       "trust": "user"
     },
     {
@@ -178,7 +178,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "yogi3399",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -194,7 +194,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "markharries",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -210,7 +210,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "yogi3399",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -226,7 +226,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "Owner",
-      "reportedAgo": "39 Minutes Ago",
+      "reportedAgo": "26 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -242,7 +242,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "HanginWithMyDog",
-      "reportedAgo": "25 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -258,7 +258,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "dmg91",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -274,7 +274,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "GKL97",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -290,7 +290,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "Buddy_360ec3c3",
-      "reportedAgo": "10 Minutes Ago",
+      "reportedAgo": "59 Minutes Ago",
       "trust": "user"
     },
     {
@@ -306,7 +306,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "shanatch",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -322,7 +322,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "Owner",
-      "reportedAgo": "16 Minutes Ago",
+      "reportedAgo": "5 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -338,7 +338,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "Owner",
-      "reportedAgo": "15 Minutes Ago",
+      "reportedAgo": "2 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -370,7 +370,7 @@
       "discount": null,
       "price": 174.4,
       "reportedBy": "tommyz40",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "19 Hours Ago",
       "trust": "stale"
     },
     {
@@ -386,7 +386,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "Buddy_feqqvutm",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -402,7 +402,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "Owner",
-      "reportedAgo": "59 Minutes Ago",
+      "reportedAgo": "48 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -418,7 +418,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "lag33",
-      "reportedAgo": "10 Minutes Ago",
+      "reportedAgo": "59 Minutes Ago",
       "trust": "user"
     },
     {
@@ -434,7 +434,7 @@
       "discount": null,
       "price": 175.9,
       "reportedBy": "lewtube",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -450,7 +450,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "mmiinnddeenn",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -466,7 +466,7 @@
       "discount": null,
       "price": 173.4,
       "reportedBy": "titan9colt",
-      "reportedAgo": "23 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -482,7 +482,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "BWRTERRY",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -498,7 +498,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "LucyElla",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -512,9 +512,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 173.9,
-      "reportedBy": "LucyElla",
-      "reportedAgo": "2 Hours Ago",
+      "price": 173.4,
+      "reportedBy": "Meow5111",
+      "reportedAgo": "23 Minutes Ago",
       "trust": "user"
     },
     {
@@ -530,7 +530,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "32 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -544,10 +544,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 175.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 174.9,
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "37 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-airport-5538",
@@ -561,9 +561,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 173.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "37 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "24 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "kelowna-innovation-1708",
@@ -577,9 +577,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 173.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "37 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "24 Minutes Ago",
+      "trust": "owner"
     }
   ],
   "diagnostics": {
