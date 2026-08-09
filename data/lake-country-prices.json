@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-08T23:35:43.725Z",
+  "fetchedAt": "2026-08-09T02:12:05.163Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 178.8,
+  "marketAverage": 177,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 174.9,
       "reportedBy": "Owner",
-      "reportedAgo": "56 Minutes Ago",
+      "reportedAgo": "24 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 175.9,
-      "reportedBy": "livdunstan1",
-      "reportedAgo": "6 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "10 Minutes Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "mmiinnddeenn",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 174.9,
       "reportedBy": "weezy300",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 173.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
+      "price": 172.9,
+      "reportedBy": "dc180",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 175.9,
-      "reportedBy": "weezy300",
-      "reportedAgo": "3 Hours Ago",
+      "price": 174.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "9 Minutes Ago",
       "trust": "user"
     },
     {
@@ -132,10 +132,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 187.9,
-      "reportedBy": "93Eunos",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 175.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "10 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
