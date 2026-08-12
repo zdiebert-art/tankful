@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-12T19:16:44.377Z",
+  "fetchedAt": "2026-08-12T20:59:19.325Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 187.5,
@@ -22,7 +22,7 @@
       },
       "price": 186.9,
       "reportedBy": "Owner",
-      "reportedAgo": "29 Minutes Ago",
+      "reportedAgo": "53 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "LucyElla",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Hartwell888",
+      "reportedAgo": "4 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "LucyElla",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Madwic",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "LucyElla",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "Buddy_u6nm1cjw",
-      "reportedAgo": "33 Minutes Ago",
+      "reportedBy": "SamGarg007",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "7 Hours Ago",
+      "reportedBy": "Madwic",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -133,9 +133,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "LucyElla",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Madwic",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
