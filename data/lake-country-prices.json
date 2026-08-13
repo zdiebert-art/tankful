@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-12T23:52:22.360Z",
+  "fetchedAt": "2026-08-13T02:28:15.502Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 186.7,
+  "marketAverage": 185.5,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "Owner",
-      "reportedAgo": "36 Minutes Ago",
+      "reportedAgo": "10 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "Hartwell888",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "Madwic",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "SamGarg007",
-      "reportedAgo": "3 Hours Ago",
+      "price": 177.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "Madwic",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "Buddy_xfhprcmz",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "Madwic",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
