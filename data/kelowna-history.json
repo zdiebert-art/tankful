@@ -1,6 +1,6 @@
 {
   "region": "kelowna",
-  "updatedAt": "2026-08-13T23:03:13.300Z",
+  "updatedAt": "2026-08-13T23:56:25.247Z",
   "samples": [
     {
       "at": "2026-05-14T12:00:00.000Z",
@@ -1301,6 +1301,11 @@
       "at": "2026-08-13T23:03:13.300Z",
       "marketAverage": 181.4,
       "stationCount": 35
+    },
+    {
+      "at": "2026-08-13T23:56:25.247Z",
+      "marketAverage": 181.2,
+      "stationCount": 34
     }
   ]
 }
