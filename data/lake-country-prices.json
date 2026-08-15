@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-15T20:36:19.144Z",
+  "fetchedAt": "2026-08-15T23:25:08.834Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 177.8,
+  "marketAverage": 177.3,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 178.9,
       "reportedBy": "Owner",
-      "reportedAgo": "24 Minutes Ago",
+      "reportedAgo": "7 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "buddy_lee_jeans",
-      "reportedAgo": "40 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "buddy_lee_jeans",
-      "reportedAgo": "40 Minutes Ago",
+      "reportedBy": "mommatolola",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 178.9,
-      "reportedBy": "buddy_lee_jeans",
-      "reportedAgo": "42 Minutes Ago",
+      "price": 177.9,
+      "reportedBy": "mommatolola",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 178.9,
-      "reportedBy": "buddy_lee_jeans",
-      "reportedAgo": "43 Minutes Ago",
+      "price": 175.8,
+      "reportedBy": "dc180",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "buddy_lee_jeans",
-      "reportedAgo": "40 Minutes Ago",
+      "reportedBy": "mommatolola",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "buddy_lee_jeans",
-      "reportedAgo": "39 Minutes Ago",
+      "reportedBy": "mommatolola",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
