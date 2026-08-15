@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-15T01:33:17.849Z",
+  "fetchedAt": "2026-08-15T03:05:41.450Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 177.9,
+  "marketAverage": 177.5,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 178.9,
       "reportedBy": "Owner",
-      "reportedAgo": "7 Minutes Ago",
+      "reportedAgo": "37 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "15 Hours Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "leeh32",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "15 Hours Ago",
       "trust": "stale"
     },
     {
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 179.9,
-      "reportedBy": "Buddy_x88hf1qf",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 176.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "53 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "15 Hours Ago",
       "trust": "stale"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "leeh32",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     }
   ],
