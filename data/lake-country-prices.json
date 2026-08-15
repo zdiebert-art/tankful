@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-15T19:33:45.640Z",
+  "fetchedAt": "2026-08-15T20:36:19.144Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 177.5,
+  "marketAverage": 177.8,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 178.9,
       "reportedBy": "Owner",
-      "reportedAgo": "22 Minutes Ago",
+      "reportedAgo": "24 Minutes Ago",
       "trust": "owner"
     },
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "buddy_lee_jeans",
+      "reportedAgo": "40 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "buddy_lee_jeans",
+      "reportedAgo": "40 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "mikegreen05",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "buddy_lee_jeans",
+      "reportedAgo": "42 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 176.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "price": 178.9,
+      "reportedBy": "buddy_lee_jeans",
+      "reportedAgo": "43 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "mikegreen05",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "buddy_lee_jeans",
+      "reportedAgo": "40 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -133,19 +133,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 178.9,
-      "reportedBy": "leeh32",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "buddy_lee_jeans",
+      "reportedAgo": "39 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 178.9
-      }
-    ]
+    "parsedCount": 8,
+    "unmatched": []
   }
 }
