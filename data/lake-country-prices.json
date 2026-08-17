@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-17T15:31:28.672Z",
+  "fetchedAt": "2026-08-17T16:35:58.371Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 177,
@@ -22,7 +22,7 @@
       },
       "price": 178.9,
       "reportedBy": "Owner",
-      "reportedAgo": "10 Hours Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "owner"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "neorellana1958",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 169.9,
-      "reportedBy": "torino17",
-      "reportedAgo": "21 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "latchfords",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "jaspals4575",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "neorellana1958",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     }
   ],
