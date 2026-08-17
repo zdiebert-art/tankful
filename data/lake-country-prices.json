@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-17T19:44:39.754Z",
+  "fetchedAt": "2026-08-17T20:41:25.752Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 177,
@@ -22,7 +22,7 @@
       },
       "price": 178.9,
       "reportedBy": "Owner",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "16 Hours Ago",
       "trust": "owner"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 169.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "jaspals4575",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -139,7 +139,13 @@
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
-    "unmatched": []
+    "parsedCount": 9,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 174.9
+      }
+    ]
   }
 }
