@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-18T22:32:18.067Z",
+  "fetchedAt": "2026-08-18T23:32:16.539Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 186.5,
+  "marketAverage": 190.9,
   "stationCount": 8,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 178.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "1 Day Ago",
-      "trust": "owner"
+      "price": 193.9,
+      "reportedBy": "DebsterMcGee",
+      "reportedAgo": "22 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "22 Minutes Ago",
+      "reportedAgo": "6 Minutes Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 173.9,
-      "reportedBy": "ente2305",
-      "reportedAgo": "4 Hours Ago",
+      "price": 193.9,
+      "reportedBy": "Buddy_yje4wzwr",
+      "reportedAgo": "43 Minutes Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "Buddy_y9kee7ga",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "21 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "21 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
