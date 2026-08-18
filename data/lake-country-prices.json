@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-08-17T23:30:54.865Z",
+  "fetchedAt": "2026-08-18T03:10:56.431Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 176.5,
-  "stationCount": 6,
+  "marketAverage": 176.7,
+  "stationCount": 5,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 178.9,
       "reportedBy": "Owner",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "owner"
     },
     {
@@ -42,22 +42,6 @@
       "trust": "stale"
     },
     {
-      "id": "supersave",
-      "name": "Super Save Lake Country",
-      "address": "11751 BC-97",
-      "lat": 50.0918,
-      "lng": -119.385,
-      "zone": null,
-      "fuelBrand": "Super Save",
-      "cstoreBrand": null,
-      "logoBrand": null,
-      "discount": null,
-      "price": 175.8,
-      "reportedBy": "Buddy_b3662bu6",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
-    },
-    {
       "id": "parkway",
       "name": "Parkway (Shell)",
       "address": "11891 BC-97",
@@ -70,7 +54,7 @@
       "discount": null,
       "price": 169.9,
       "reportedBy": "nanannjen",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -107,7 +91,7 @@
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
+    "parsedCount": 6,
     "unmatched": [
       {
         "number": "350",
