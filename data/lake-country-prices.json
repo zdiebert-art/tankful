@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-18T18:47:28.272Z",
+  "fetchedAt": "2026-08-18T19:43:09.938Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 184,
+  "marketAverage": 186.5,
   "stationCount": 8,
   "stations": [
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "ente2305",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 173.9,
       "reportedBy": "ente2305",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 173.9,
-      "reportedBy": "Dufort",
-      "reportedAgo": "2 Hours Ago",
+      "price": 193.9,
+      "reportedBy": "Buddy_y9kee7ga",
+      "reportedAgo": "8 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 169.9,
       "reportedBy": "nanannjen",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "ente2305",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "ente2305",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
