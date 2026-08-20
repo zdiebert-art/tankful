@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-20T03:04:15.706Z",
+  "fetchedAt": "2026-08-20T13:59:29.503Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 191.8,
+  "marketAverage": 192,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 190.9,
       "reportedBy": "Buddy_ekkknj08",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "nlhanson",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "babybug51",
+      "reportedAgo": "8 Minutes Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "nlhanson",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "babybug51",
+      "reportedAgo": "8 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "nlhanson",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "am7174",
-      "reportedAgo": "6 Hours Ago",
+      "price": 193.9,
+      "reportedBy": "babybug51",
+      "reportedAgo": "9 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "torino17",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "nlhanson",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "babybug51",
+      "reportedAgo": "7 Minutes Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "nlhanson",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "babybug51",
+      "reportedAgo": "7 Minutes Ago",
       "trust": "user"
     }
   ],
