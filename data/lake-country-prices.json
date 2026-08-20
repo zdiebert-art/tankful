@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-20T13:59:29.503Z",
+  "fetchedAt": "2026-08-20T14:53:27.245Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 192,
@@ -22,8 +22,8 @@
       },
       "price": 190.9,
       "reportedBy": "Buddy_ekkknj08",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "babybug51",
-      "reportedAgo": "8 Minutes Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "26 Minutes Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "babybug51",
-      "reportedAgo": "8 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "nlhanson",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "16 Hours Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "babybug51",
-      "reportedAgo": "9 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "torino17",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "babybug51",
-      "reportedAgo": "7 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "babybug51",
-      "reportedAgo": "7 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
