@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-21T03:16:23.088Z",
+  "fetchedAt": "2026-08-21T13:59:08.519Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 190.8,
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "11 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "22 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "nlhanson",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "10 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 183.9,
       "reportedBy": "am7174",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Buddy_kdcaerdz",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "kbfluffyliss",
-      "reportedAgo": "8 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     }
   ],
