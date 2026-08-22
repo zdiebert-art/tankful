@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-22T19:32:35.441Z",
+  "fetchedAt": "2026-08-22T20:39:17.135Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 185.2,
@@ -50,7 +50,7 @@
       "discount": null,
       "price": 169.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "26 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -82,8 +82,8 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -98,7 +98,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "callowaycorv",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
