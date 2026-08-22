@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-22T16:30:28.674Z",
+  "fetchedAt": "2026-08-22T18:37:43.307Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 185.4,
+  "marketAverage": 185.6,
   "stationCount": 6,
   "stations": [
     {
@@ -48,9 +48,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 170.9,
-      "reportedBy": "callowaycorv",
-      "reportedAgo": "2 Hours Ago",
+      "price": 171.9,
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "21 Minutes Ago",
       "trust": "user"
     },
     {
@@ -82,7 +82,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "9 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -98,7 +98,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "callowaycorv",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
