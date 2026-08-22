@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-08-22T15:31:35.557Z",
+  "fetchedAt": "2026-08-22T16:30:28.674Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 186.6,
-  "stationCount": 7,
+  "marketAverage": 185.4,
+  "stationCount": 6,
   "stations": [
     {
       "id": "petrocan",
@@ -14,22 +14,6 @@
       "zone": null,
       "fuelBrand": "Petro-Canada",
       "cstoreBrand": "7-Eleven",
-      "logoBrand": null,
-      "discount": null,
-      "price": 193.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
-    },
-    {
-      "id": "petrocan-n",
-      "name": "Petro-Canada North",
-      "address": "9855 BC-97 N",
-      "lat": 50.0479,
-      "lng": -119.4078,
-      "zone": null,
-      "fuelBrand": "Petro-Canada",
-      "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
@@ -66,7 +50,7 @@
       "discount": null,
       "price": 170.9,
       "reportedBy": "callowaycorv",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -98,7 +82,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -114,12 +98,12 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "callowaycorv",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
+    "parsedCount": 7,
     "unmatched": [
       {
         "number": "350",
