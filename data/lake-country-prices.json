@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-23T16:42:57.013Z",
+  "fetchedAt": "2026-08-23T17:28:07.502Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 177.6,
+  "marketAverage": 176.2,
   "stationCount": 6,
   "stations": [
     {
@@ -16,10 +16,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 177.9,
-      "reportedBy": "TTT_Nat4",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "price": 172.9,
+      "reportedBy": "daniellefshr12",
+      "reportedAgo": "31 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -33,9 +33,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 172.9,
-      "reportedBy": "TTT_Nat4",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "daniellefshr12",
+      "reportedAgo": "32 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -50,7 +50,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "TTT_Nat4",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -64,9 +64,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 169.9,
-      "reportedBy": "callowaycorv",
-      "reportedAgo": "30 Minutes Ago",
+      "price": 171.9,
+      "reportedBy": "daniellefshr12",
+      "reportedAgo": "34 Minutes Ago",
       "trust": "user"
     },
     {
@@ -80,10 +80,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 177.9,
-      "reportedBy": "ssssss9",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "price": 172.9,
+      "reportedBy": "daniellefshr12",
+      "reportedAgo": "31 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
