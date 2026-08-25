@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-25T15:53:59.396Z",
+  "fetchedAt": "2026-08-25T16:43:22.494Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 167.9,
+  "marketAverage": 174.6,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 158.9,
       "reportedBy": "Buddy_kp8728ty",
-      "reportedAgo": "10 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 172.9,
-      "reportedBy": "jgagnon866",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 158.9,
+      "reportedBy": "Bert53",
+      "reportedAgo": "33 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 156.9,
-      "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "1 Hour Ago",
+      "price": 182.9,
+      "reportedBy": "Bert53",
+      "reportedAgo": "36 Minutes Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -100,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 158.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "4 Hours Ago",
+      "price": 193.9,
+      "reportedBy": "Bert53",
+      "reportedAgo": "32 Minutes Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 172.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     }
   ],
