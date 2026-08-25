@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-25T17:40:52.847Z",
+  "fetchedAt": "2026-08-25T18:53:24.320Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 174.6,
+  "marketAverage": 180.2,
   "stationCount": 7,
   "stations": [
     {
@@ -22,8 +22,8 @@
       },
       "price": 158.9,
       "reportedBy": "Buddy_kp8728ty",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan",
@@ -36,9 +36,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 158.9,
-      "reportedBy": "Bert53",
-      "reportedAgo": "1 Hour Ago",
+      "price": 182.9,
+      "reportedBy": "JettaSet",
+      "reportedAgo": "38 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "Bert53",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Bert53",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "JettaSet",
+      "reportedAgo": "37 Minutes Ago",
       "trust": "user"
     },
     {
@@ -116,10 +116,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 172.9,
-      "reportedBy": "bowengal",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "price": 187.9,
+      "reportedBy": "JettaSet",
+      "reportedAgo": "37 Minutes Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
