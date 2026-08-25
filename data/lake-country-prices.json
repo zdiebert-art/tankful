@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-08-25T19:42:51.710Z",
+  "fetchedAt": "2026-08-25T20:39:08.550Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 184.8,
-  "stationCount": 7,
+  "marketAverage": 181.5,
+  "stationCount": 8,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 180.9,
       "reportedBy": "shancdn",
-      "reportedAgo": "34 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "JettaSet",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,23 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "shancdn",
-      "reportedAgo": "29 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
+    },
+    {
+      "id": "husky",
+      "name": "Husky Hwy 97",
+      "address": "10550 BC-97",
+      "lat": 50.0599,
+      "lng": -119.4007,
+      "zone": null,
+      "fuelBrand": "Husky",
+      "cstoreBrand": "CO-OP",
+      "logoBrand": null,
+      "discount": null,
+      "price": 158.9,
+      "reportedBy": "Buddy_q4zgqn0n",
+      "reportedAgo": "37 Minutes Ago",
       "trust": "user"
     },
     {
@@ -69,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 182.9,
-      "reportedBy": "Bert53",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "SamGarg007",
+      "reportedAgo": "6 Minutes Ago",
       "trust": "user"
     },
     {
@@ -86,7 +102,7 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "latchfords",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +118,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "JettaSet",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,12 +134,12 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "JettaSet",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
+    "parsedCount": 9,
     "unmatched": [
       {
         "number": "350",
