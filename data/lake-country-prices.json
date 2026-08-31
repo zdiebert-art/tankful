@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-31T05:02:13.114Z",
+  "fetchedAt": "2026-08-31T23:42:11.299Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 161.3,
+  "marketAverage": 155.6,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 159.9,
       "reportedBy": "DanMacTR",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -36,8 +36,8 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 163.9,
-      "reportedBy": "93Eunos",
+      "price": 154.9,
+      "reportedBy": "PentictonGirl",
       "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 154.9,
       "reportedBy": "shaeyd",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "1 Day Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 152.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "5 Hours Ago",
+      "price": 149.9,
+      "reportedBy": "Grannywim",
+      "reportedAgo": "18 Minutes Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 169.9,
-      "reportedBy": "adeline18",
-      "reportedAgo": "8 Hours Ago",
+      "price": 159.9,
+      "reportedBy": "denno545",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -100,8 +100,8 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 163.9,
-      "reportedBy": "bemme",
+      "price": 154.9,
+      "reportedBy": "PentictonGirl",
       "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
@@ -116,8 +116,8 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 163.9,
-      "reportedBy": "shaeyd",
+      "price": 154.9,
+      "reportedBy": "PentictonGirl",
       "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
@@ -128,7 +128,7 @@
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 179.9
+        "price": 159.9
       }
     ]
   }
