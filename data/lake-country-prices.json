@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-31T23:42:11.299Z",
+  "fetchedAt": "2026-09-01T04:31:25.299Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 155.6,
+  "marketAverage": 154.5,
   "stationCount": 7,
   "stations": [
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 154.9,
       "reportedBy": "PentictonGirl",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 149.9,
-      "reportedBy": "Grannywim",
-      "reportedAgo": "18 Minutes Ago",
+      "reportedBy": "oiler713",
+      "reportedAgo": "29 Minutes Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 159.9,
-      "reportedBy": "denno545",
-      "reportedAgo": "3 Hours Ago",
+      "price": 151.9,
+      "reportedBy": "torino17",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 154.9,
       "reportedBy": "PentictonGirl",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 154.9,
       "reportedBy": "PentictonGirl",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     }
   ],
