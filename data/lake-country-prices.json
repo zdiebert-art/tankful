@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-09-01T04:31:25.299Z",
+  "fetchedAt": "2026-09-01T21:02:24.673Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 154.5,
-  "stationCount": 7,
+  "marketAverage": 172.3,
+  "stationCount": 8,
   "stations": [
     {
       "id": "canco",
@@ -22,8 +22,24 @@
       },
       "price": 159.9,
       "reportedBy": "DanMacTR",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "2 Days Ago",
       "trust": "stale"
+    },
+    {
+      "id": "petrocan",
+      "name": "Petro-Canada · 7-Eleven",
+      "address": "9724 BC-97",
+      "lat": 50.0432,
+      "lng": -119.4093,
+      "zone": null,
+      "fuelBrand": "Petro-Canada",
+      "cstoreBrand": "7-Eleven",
+      "logoBrand": null,
+      "discount": null,
+      "price": 177.9,
+      "reportedBy": "93Eunos",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -36,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 154.9,
-      "reportedBy": "PentictonGirl",
-      "reportedAgo": "10 Hours Ago",
+      "price": 177.9,
+      "reportedBy": "Buddy_0tgbtqfq",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -52,10 +68,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 154.9,
-      "reportedBy": "shaeyd",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 177.9,
+      "reportedBy": "93Eunos",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -68,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 149.9,
-      "reportedBy": "oiler713",
-      "reportedAgo": "29 Minutes Ago",
+      "price": 175.9,
+      "reportedBy": "Auddi10",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -85,8 +101,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 151.9,
-      "reportedBy": "torino17",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "Buddy_80brrk7f",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -100,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 154.9,
-      "reportedBy": "PentictonGirl",
-      "reportedAgo": "10 Hours Ago",
+      "price": 178.9,
+      "reportedBy": "93Eunos",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,19 +132,19 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 154.9,
-      "reportedBy": "PentictonGirl",
-      "reportedAgo": "10 Hours Ago",
+      "price": 177.9,
+      "reportedBy": "93Eunos",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
+    "parsedCount": 9,
     "unmatched": [
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 159.9
+        "price": 171.9
       }
     ]
   }
