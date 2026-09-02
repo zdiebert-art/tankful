@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-01T21:02:24.673Z",
+  "fetchedAt": "2026-09-02T17:12:57.723Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 172.3,
+  "marketAverage": 174.5,
   "stationCount": 8,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 159.9,
-      "reportedBy": "DanMacTR",
-      "reportedAgo": "2 Days Ago",
-      "trust": "stale"
+      "price": 177.9,
+      "reportedBy": "Buddy_z604wz2n",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "22 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 177.9,
-      "reportedBy": "Buddy_0tgbtqfq",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedBy": "paulkellybc",
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "22 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -85,7 +85,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 175.9,
-      "reportedBy": "Auddi10",
+      "reportedBy": "am7174",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 151.9,
       "reportedBy": "Buddy_80brrk7f",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 178.9,
       "reportedBy": "93Eunos",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "22 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -133,9 +133,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 177.9,
-      "reportedBy": "93Eunos",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedBy": "Buddy_p8yngfxt",
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
@@ -144,7 +144,7 @@
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 171.9
+        "price": 159.9
       }
     ]
   }
