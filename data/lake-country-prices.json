@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-03T19:57:52.447Z",
+  "fetchedAt": "2026-09-03T22:30:48.446Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 170.3,
+  "marketAverage": 172,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 171.9,
       "reportedBy": "#12#_Thriftyme",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "timegas",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 171.9,
-      "reportedBy": "#12#_Thriftyme",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "hankthecrank23",
+      "reportedAgo": "48 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "timegas",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -100,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 151.9,
-      "reportedBy": "chopper501",
-      "reportedAgo": "16 Minutes Ago",
+      "price": 165.9,
+      "reportedBy": "torino17",
+      "reportedAgo": "43 Minutes Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 171.9,
-      "reportedBy": "#12#_Thriftyme",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "nlhanson",
+      "reportedAgo": "39 Minutes Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 171.9,
       "reportedBy": "nlhanson",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "39 Minutes Ago",
       "trust": "user"
     }
   ],
