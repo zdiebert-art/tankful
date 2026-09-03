@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-02T23:15:57.943Z",
+  "fetchedAt": "2026-09-03T04:02:00.210Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 173.8,
+  "marketAverage": 174,
   "stationCount": 8,
   "stations": [
     {
@@ -22,8 +22,8 @@
       },
       "price": 177.9,
       "reportedBy": "Buddy_z604wz2n",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 169.9,
-      "reportedBy": "am7174",
-      "reportedAgo": "1 Hour Ago",
+      "price": 171.9,
+      "reportedBy": "Buddy_km989yzd",
+      "reportedAgo": "52 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 151.9,
       "reportedBy": "Buddy_t788ew5j",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "Buddy_p8yngfxt",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     }
   ],
