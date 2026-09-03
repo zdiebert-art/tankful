@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-03T17:04:43.498Z",
+  "fetchedAt": "2026-09-03T19:57:52.447Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 170.9,
+  "marketAverage": 170.3,
   "stationCount": 8,
   "stations": [
     {
@@ -21,7 +21,7 @@
         "label": "with Canco card"
       },
       "price": 171.9,
-      "reportedBy": "Buddy_z604wz2n",
+      "reportedBy": "#12#_Thriftyme",
       "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "timegas",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,7 +53,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 171.9,
-      "reportedBy": "Buddy_z604wz2n",
+      "reportedBy": "#12#_Thriftyme",
       "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "timegas",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 171.9,
-      "reportedBy": "#12#_anitabaird",
-      "reportedAgo": "58 Minutes Ago",
+      "price": 166.9,
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 151.9,
-      "reportedBy": "Buddy_t788ew5j",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "chopper501",
+      "reportedAgo": "16 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 171.9,
-      "reportedBy": "timegas",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "#12#_Thriftyme",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,7 +133,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 171.9,
-      "reportedBy": "timegas",
+      "reportedBy": "nlhanson",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
@@ -144,7 +144,7 @@
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 159.9
+        "price": 170.9
       }
     ]
   }
