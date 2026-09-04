@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-04T05:40:50.099Z",
+  "fetchedAt": "2026-09-04T16:49:42.438Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 171.3,
+  "marketAverage": 170.9,
   "stationCount": 8,
   "stations": [
     {
@@ -22,8 +22,8 @@
       },
       "price": 168.9,
       "reportedBy": "Buddy_z604wz2n",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "timegas",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 171.9,
-      "reportedBy": "hankthecrank23",
-      "reportedAgo": "7 Hours Ago",
+      "price": 168.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 177.9,
       "reportedBy": "timegas",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 166.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "12 Hours Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -100,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 165.9,
-      "reportedBy": "torino17",
-      "reportedAgo": "7 Hours Ago",
+      "price": 168.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 171.9,
-      "reportedBy": "nlhanson",
-      "reportedAgo": "7 Hours Ago",
+      "price": 168.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,7 +133,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 168.9,
-      "reportedBy": "rx7racerca",
+      "reportedBy": "Luvs2drive3",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
