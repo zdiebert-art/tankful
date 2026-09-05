@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-05T16:05:43.388Z",
+  "fetchedAt": "2026-09-05T18:07:46.587Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 165.2,
+  "marketAverage": 164.5,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 159.9,
       "reportedBy": "bowengal",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "fw2550",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 168.9,
       "reportedBy": "fw2550",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "adeline18",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 159.9,
-      "reportedBy": "lorrod",
-      "reportedAgo": "34 Minutes Ago",
+      "price": 157.9,
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "8 Minutes Ago",
       "trust": "user"
     },
     {
@@ -100,10 +100,10 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 168.9,
-      "reportedBy": "lorrod",
-      "reportedAgo": "34 Minutes Ago",
-      "trust": "user"
+      "price": 165.9,
+      "reportedBy": "denno545",
+      "reportedAgo": "39 Seconds Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 168.9,
       "reportedBy": "fw2550",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 168.9,
       "reportedBy": "fw2550",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     }
   ],
