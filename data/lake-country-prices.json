@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-06T16:10:48.636Z",
+  "fetchedAt": "2026-09-06T19:04:22.260Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 162.3,
+  "marketAverage": 161.2,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 159.9,
       "reportedBy": "CanAzBabe",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 162.9,
-      "reportedBy": "fw2550",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 156.9,
+      "reportedBy": "Buddy_aayyjbak",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "16 Hours Ago",
       "trust": "stale"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 157.9,
+      "price": 154.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "denno545",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "16 Hours Ago",
       "trust": "stale"
     }
   ],
