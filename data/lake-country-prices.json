@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-06T04:01:02.431Z",
+  "fetchedAt": "2026-09-06T16:10:48.636Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 162.3,
@@ -22,8 +22,8 @@
       },
       "price": 159.9,
       "reportedBy": "CanAzBabe",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "20 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 157.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "denno545",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "22 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -134,8 +134,8 @@
       "discount": null,
       "price": 162.9,
       "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
