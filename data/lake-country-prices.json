@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-07T18:19:15.647Z",
+  "fetchedAt": "2026-09-07T21:56:39.921Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 157.5,
+  "marketAverage": 157.2,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 154.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 156.9,
       "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 156.9,
-      "reportedBy": "foordfun",
-      "reportedAgo": "47 Minutes Ago",
+      "reportedBy": "arlenejohnston",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 153.9,
       "reportedBy": "foordfun",
-      "reportedAgo": "48 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 154.9,
+      "price": 151.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "31 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "torino17",
-      "reportedAgo": "43 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 156.9,
       "reportedBy": "foordfun",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,7 +134,7 @@
       "discount": null,
       "price": 159.9,
       "reportedBy": "foordfun",
-      "reportedAgo": "46 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
