@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-06T23:48:33.438Z",
+  "fetchedAt": "2026-09-07T04:01:56.724Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 158.5,
+  "marketAverage": 157.9,
   "stationCount": 8,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 159.9,
-      "reportedBy": "CanAzBabe",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 154.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 156.9,
       "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 156.9,
       "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "7 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 156.9,
-      "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "8 Minutes Ago",
+      "reportedBy": "theLazySoap",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 154.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "1 Minute Ago",
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 156.9,
       "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "6 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 159.9,
-      "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "5 Minutes Ago",
+      "reportedBy": "mtnrydr",
+      "reportedAgo": "24 Minutes Ago",
       "trust": "user"
     }
   ],
