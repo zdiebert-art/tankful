@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-08T17:16:10.650Z",
+  "fetchedAt": "2026-09-08T21:05:17.719Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 157,
+  "marketAverage": 156.7,
   "stationCount": 8,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 153.9,
       "reportedBy": "habs31",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -52,10 +52,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 156.9,
-      "reportedBy": "arlenejohnston",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "price": 153.9,
+      "reportedBy": "billjellis",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -69,9 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 153.9,
-      "reportedBy": "foordfun",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "billjellis",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 151.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "44 Seconds Ago",
-      "trust": "stale"
+      "reportedAgo": "26 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "1959chevyguy",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 156.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -134,12 +134,18 @@
       "discount": null,
       "price": 159.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
-    "unmatched": []
+    "parsedCount": 9,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 161.9
+      }
+    ]
   }
 }
