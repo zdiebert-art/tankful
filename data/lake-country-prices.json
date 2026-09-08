@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-08T05:45:51.737Z",
+  "fetchedAt": "2026-09-08T17:16:10.650Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 157,
@@ -22,8 +22,8 @@
       },
       "price": 153.9,
       "reportedBy": "habs31",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 156.9,
       "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 156.9,
       "reportedBy": "arlenejohnston",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "20 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 153.9,
       "reportedBy": "foordfun",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -85,9 +85,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 151.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "18 Minutes Ago",
-      "trust": "user"
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "44 Seconds Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -101,8 +101,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 165.9,
-      "reportedBy": "torino17",
-      "reportedAgo": "12 Hours Ago",
+      "reportedBy": "1959chevyguy",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 156.9,
-      "reportedBy": "foordfun",
-      "reportedAgo": "12 Hours Ago",
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -133,7 +133,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 159.9,
-      "reportedBy": "mtnrydr",
+      "reportedBy": "materialgirl75",
       "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
