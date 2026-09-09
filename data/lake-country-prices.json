@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-09T17:06:44.571Z",
+  "fetchedAt": "2026-09-09T20:56:02.670Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 180.6,
+  "marketAverage": 180.5,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 189.9,
       "reportedBy": "Buddy_ter5jefe",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 188.8,
       "reportedBy": "Buddy_80brrk7f",
-      "reportedAgo": "39 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 153.9,
       "reportedBy": "billjellis",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "26 Minutes Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 188.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "TbayBoo",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "5 Hours Ago",
+      "price": 188.9,
+      "reportedBy": "TbayBoo",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     }
   ],
