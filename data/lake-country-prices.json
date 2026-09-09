@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-09T20:56:02.670Z",
+  "fetchedAt": "2026-09-09T23:13:44.602Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 180.5,
@@ -22,7 +22,7 @@
       },
       "price": 189.9,
       "reportedBy": "Buddy_ter5jefe",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 188.8,
       "reportedBy": "Buddy_80brrk7f",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "hankthecrank23",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -85,9 +85,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 165.9,
-      "reportedBy": "1959chevyguy",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "ShutYour5Hole",
+      "reportedAgo": "24 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "TbayBoo",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "TbayBoo",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
   ],
