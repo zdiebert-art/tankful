@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-09-09T04:04:19.652Z",
+  "fetchedAt": "2026-09-09T17:06:44.571Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 156.7,
-  "stationCount": 8,
+  "marketAverage": 180.6,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -20,26 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 153.9,
-      "reportedBy": "habs31",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
-    },
-    {
-      "id": "petrocan",
-      "name": "Petro-Canada · 7-Eleven",
-      "address": "9724 BC-97",
-      "lat": 50.0432,
-      "lng": -119.4093,
-      "zone": null,
-      "fuelBrand": "Petro-Canada",
-      "cstoreBrand": "7-Eleven",
-      "logoBrand": null,
-      "discount": null,
-      "price": 156.9,
-      "reportedBy": "Buddy_aayyjbak",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 189.9,
+      "reportedBy": "Buddy_ter5jefe",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -52,9 +36,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 153.9,
-      "reportedBy": "billjellis",
-      "reportedAgo": "10 Hours Ago",
+      "price": 188.8,
+      "reportedBy": "Buddy_80brrk7f",
+      "reportedAgo": "39 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,8 +54,8 @@
       "discount": null,
       "price": 153.9,
       "reportedBy": "billjellis",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -84,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 151.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "34 Minutes Ago",
+      "price": 186.9,
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "26 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,7 +86,7 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "1959chevyguy",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -116,10 +100,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 156.9,
+      "price": 188.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "reportedAgo": "5 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -132,14 +116,14 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 159.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "35 Minutes Ago",
+      "price": 189.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 9,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
