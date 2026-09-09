@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-08T23:29:12.705Z",
+  "fetchedAt": "2026-09-09T04:04:19.652Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 156.9,
+  "marketAverage": 156.7,
   "stationCount": 8,
   "stations": [
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 153.9,
       "reportedBy": "billjellis",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 153.9,
       "reportedBy": "billjellis",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 153.9,
-      "reportedBy": "grtday",
-      "reportedAgo": "1 Hour Ago",
+      "price": 151.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "34 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "1959chevyguy",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 156.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -133,8 +133,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 159.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "11 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "35 Minutes Ago",
       "trust": "user"
     }
   ],
