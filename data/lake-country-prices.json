@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-11T17:09:42.182Z",
+  "fetchedAt": "2026-09-11T19:38:02.570Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 185.5,
+  "marketAverage": 185.2,
   "stationCount": 7,
   "stations": [
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 188.8,
-      "reportedBy": "EricJohnston4",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "spitfire1500",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "EricJohnston4",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "15 Hours Ago",
       "trust": "stale"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
+      "price": 184.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "Buddy_1ga52wgu",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 188.9,
-      "reportedBy": "EricJohnston4",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "TbayBoo",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 188.9,
-      "reportedBy": "Stocks10",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "TbayBoo",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
