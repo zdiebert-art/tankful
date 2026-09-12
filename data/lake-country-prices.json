@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-12T16:16:21.978Z",
+  "fetchedAt": "2026-09-12T19:10:07.456Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 184.5,
+  "marketAverage": 184.3,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 186.9,
       "reportedBy": "Buddy_2z9gr3vt",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 188.8,
       "reportedBy": "spitfire1500",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "spitfire1500",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 184.9,
-      "reportedBy": "Revykiwi",
-      "reportedAgo": "43 Minutes Ago",
+      "price": 183.9,
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "6 Minutes Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 165.9,
       "reportedBy": "Buddy_1ga52wgu",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "2 Days Ago",
       "trust": "stale"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "adeline18",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "adeline18",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     }
   ],
