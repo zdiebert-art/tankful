@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T00:47:28.431Z",
+  "fetchedAt": "2026-09-13T05:53:33.663Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 184.3,
@@ -22,7 +22,7 @@
       },
       "price": 186.9,
       "reportedBy": "Buddy_2z9gr3vt",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 183.9,
       "reportedBy": "dc180",
-      "reportedAgo": "53 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
