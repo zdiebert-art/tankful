@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-09-13T22:26:19.193Z",
+  "fetchedAt": "2026-09-14T01:02:05.517Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 186.3,
-  "stationCount": 5,
+  "marketAverage": 186.7,
+  "stationCount": 6,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 186.9,
       "reportedBy": "spitfire1500",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -36,8 +36,8 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "spitfire1500",
+      "price": 185.9,
+      "reportedBy": "neorellana1958",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -52,9 +52,25 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 183.9,
-      "reportedBy": "nvsyzn6shx",
-      "reportedAgo": "43 Minutes Ago",
+      "price": 185.9,
+      "reportedBy": "srhuffmann",
+      "reportedAgo": "26 Minutes Ago",
+      "trust": "user"
+    },
+    {
+      "id": "parkway",
+      "name": "Parkway (Shell)",
+      "address": "11891 BC-97",
+      "lat": 50.093,
+      "lng": -119.3835,
+      "zone": null,
+      "fuelBrand": "Parkway",
+      "cstoreBrand": null,
+      "logoBrand": "Shell",
+      "discount": null,
+      "price": 188.9,
+      "reportedBy": "bigmuddy44s",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -68,8 +84,8 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "spitfire1500",
+      "price": 185.9,
+      "reportedBy": "neorellana1958",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -85,13 +101,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "spitfire1500",
+      "reportedBy": "neorellana1958",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 6,
+    "parsedCount": 7,
     "unmatched": [
       {
         "number": "350",
