@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-17T05:59:52.587Z",
+  "fetchedAt": "2026-09-17T17:39:01.938Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 195,
+  "marketAverage": 194.5,
   "stationCount": 7,
   "stations": [
     {
@@ -21,8 +21,8 @@
         "label": "with Canco card"
       },
       "price": 196.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "8 Hours Ago",
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "21 Minutes Ago",
       "trust": "user"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "22 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "18 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 194.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "6 Hours Ago",
+      "price": 192.9,
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "21 Minutes Ago",
       "trust": "user"
     },
     {
@@ -85,9 +85,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 181.9,
-      "reportedBy": "lutc2",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "cmorice91",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -101,7 +101,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 198.9,
-      "reportedBy": "Spyder7760",
+      "reportedBy": "materialgirl75",
       "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
@@ -116,8 +116,8 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 198.9,
-      "reportedBy": "Spyder7760",
+      "price": 196.9,
+      "reportedBy": "materialgirl75",
       "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
