@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-18T00:13:30.295Z",
+  "fetchedAt": "2026-09-18T05:49:40.229Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 194.5,
+  "marketAverage": 194.2,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 196.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 192.9,
-      "reportedBy": "am7174",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "SAILYboi",
+      "reportedAgo": "27 Minutes Ago",
       "trust": "user"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "cmorice91",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -100,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 198.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "12 Hours Ago",
+      "price": 196.9,
+      "reportedBy": "EdnaBill",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "12 Hours Ago",
+      "reportedBy": "theLazySoap",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
   ],
