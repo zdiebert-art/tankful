@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-09-19T16:19:48.982Z",
+  "fetchedAt": "2026-09-19T19:25:26.234Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 192.5,
-  "stationCount": 5,
+  "marketAverage": 192.2,
+  "stationCount": 6,
   "stations": [
     {
       "id": "canco",
@@ -22,8 +22,24 @@
       },
       "price": 194.9,
       "reportedBy": "hankthecrank23",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
+    },
+    {
+      "id": "husky",
+      "name": "Husky Hwy 97",
+      "address": "10550 BC-97",
+      "lat": 50.0599,
+      "lng": -119.4007,
+      "zone": null,
+      "fuelBrand": "Husky",
+      "cstoreBrand": "CO-OP",
+      "logoBrand": null,
+      "discount": null,
+      "price": 193.9,
+      "reportedBy": "Buddy_0d8xckaz",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -38,7 +54,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,9 +69,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 181.9,
-      "reportedBy": "kitmee",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Buddy_b1tp6ndc",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -68,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 196.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "12 Hours Ago",
+      "price": 193.9,
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,13 +101,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 196.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "12 Hours Ago",
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 6,
+    "parsedCount": 7,
     "unmatched": [
       {
         "number": "350",
