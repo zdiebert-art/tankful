@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T07:14:57.209Z",
+  "fetchedAt": "2026-09-19T16:19:48.982Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 192.5,
@@ -22,8 +22,8 @@
       },
       "price": 194.9,
       "reportedBy": "hankthecrank23",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "18 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 191.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "7 Hours Ago",
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "kitmee",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     }
   ],
