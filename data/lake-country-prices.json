@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-19T19:25:26.234Z",
+  "fetchedAt": "2026-09-19T22:24:30.805Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 192.2,
+  "marketAverage": 193.4,
   "stationCount": 6,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 194.9,
       "reportedBy": "hankthecrank23",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "Buddy_0d8xckaz",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,8 +68,8 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 181.9,
-      "reportedBy": "Buddy_b1tp6ndc",
+      "price": 188.9,
+      "reportedBy": "torino17",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
