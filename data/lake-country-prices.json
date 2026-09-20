@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-09-19T22:24:30.805Z",
+  "fetchedAt": "2026-09-20T00:56:27.185Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 193.4,
-  "stationCount": 6,
+  "marketAverage": 193.5,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -26,6 +26,22 @@
       "trust": "stale"
     },
     {
+      "id": "petrocan-n",
+      "name": "Petro-Canada North",
+      "address": "9855 BC-97 N",
+      "lat": 50.0479,
+      "lng": -119.4078,
+      "zone": null,
+      "fuelBrand": "Petro-Canada",
+      "cstoreBrand": null,
+      "logoBrand": null,
+      "discount": null,
+      "price": 193.9,
+      "reportedBy": "Buddy_bepjtv42",
+      "reportedAgo": "52 Minutes Ago",
+      "trust": "user"
+    },
+    {
       "id": "husky",
       "name": "Husky Hwy 97",
       "address": "10550 BC-97",
@@ -38,7 +54,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "Buddy_0d8xckaz",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 191.9,
-      "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "8 Hours Ago",
+      "reportedBy": "dc180",
+      "reportedAgo": "52 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +86,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "torino17",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "kellyn1924",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,12 +118,12 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
