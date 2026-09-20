@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-20T00:56:27.185Z",
+  "fetchedAt": "2026-09-20T16:57:27.656Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 193.5,
+  "marketAverage": 193.8,
   "stationCount": 7,
   "stations": [
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Buddy_bepjtv42",
-      "reportedAgo": "52 Minutes Ago",
+      "reportedBy": "elcheapokelowna",
+      "reportedAgo": "21 Minutes Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Buddy_0d8xckaz",
-      "reportedAgo": "7 Hours Ago",
+      "reportedBy": "elcheapokelowna",
+      "reportedAgo": "21 Minutes Ago",
       "trust": "user"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "52 Minutes Ago",
+      "price": 193.9,
+      "reportedBy": "elcheapokelowna",
+      "reportedAgo": "21 Minutes Ago",
       "trust": "user"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "torino17",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "20 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -101,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "kellyn1924",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "elcheapokelowna",
+      "reportedAgo": "20 Minutes Ago",
       "trust": "user"
     },
     {
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 196.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
