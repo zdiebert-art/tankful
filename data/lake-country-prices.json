@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-21T06:11:35.951Z",
+  "fetchedAt": "2026-09-21T18:43:54.816Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 192.7,
+  "marketAverage": 192.6,
   "stationCount": 6,
   "stations": [
     {
@@ -18,8 +18,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "yzbuddy",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -34,8 +34,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "bans",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -48,9 +48,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "1 Hour Ago",
+      "price": 190.9,
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "31 Minutes Ago",
       "trust": "user"
     },
     {
@@ -66,8 +66,8 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "nvsyzn6shx",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -82,8 +82,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "yzbuddy",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -98,8 +98,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
