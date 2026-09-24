@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-23T05:42:29.506Z",
+  "fetchedAt": "2026-09-24T00:21:22.575Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 206.4,
+  "marketAverage": 209.6,
   "stationCount": 6,
   "stations": [
     {
@@ -22,8 +22,8 @@
       },
       "price": 209.9,
       "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "1 Day Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 209.9,
       "reportedBy": "nklea",
-      "reportedAgo": "57 Minutes Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 209.9,
-      "reportedBy": "nklea",
-      "reportedAgo": "1 Hour Ago",
+      "price": 207.9,
+      "reportedBy": "otterlover96",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 188.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Hours Ago",
+      "price": 209.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "30 Minutes Ago",
       "trust": "user"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 209.9,
       "reportedBy": "nklea",
-      "reportedAgo": "57 Minutes Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -101,19 +101,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 209.9,
-      "reportedBy": "nklea",
-      "reportedAgo": "57 Minutes Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 190.9
-      }
-    ]
+    "parsedCount": 6,
+    "unmatched": []
   }
 }
