@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-24T17:50:36.414Z",
+  "fetchedAt": "2026-09-24T21:30:46.106Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 209.4,
+  "marketAverage": 209.6,
   "stationCount": 6,
   "stations": [
     {
@@ -36,9 +36,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 209.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "11 Hours Ago",
+      "price": 208.9,
+      "reportedBy": "Buddy_gu1qpmpf",
+      "reportedAgo": "37 Minutes Ago",
       "trust": "user"
     },
     {
@@ -52,8 +52,8 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 206.9,
-      "reportedBy": "am7174",
+      "price": 208.9,
+      "reportedBy": "denno545",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 209.9,
       "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -102,12 +102,18 @@
       "discount": null,
       "price": 209.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
-    "parsedCount": 6,
-    "unmatched": []
+    "parsedCount": 7,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 205.9
+      }
+    ]
   }
 }
