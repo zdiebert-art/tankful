@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-25T00:26:57.448Z",
+  "fetchedAt": "2026-09-25T06:07:33.650Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 206.1,
+  "marketAverage": 207.9,
   "stationCount": 6,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 199.9,
       "reportedBy": "TravioliRavioli",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 208.9,
       "reportedBy": "Buddy_gu1qpmpf",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 197.9,
-      "reportedBy": "am7174",
-      "reportedAgo": "2 Hours Ago",
+      "price": 208.9,
+      "reportedBy": "denno545",
+      "reportedAgo": "25 Minutes Ago",
       "trust": "user"
     },
     {
@@ -85,9 +85,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 209.9,
-      "reportedBy": "nklea",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "denno545",
+      "reportedAgo": "27 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 209.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     }
   ],
