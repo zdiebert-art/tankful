@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-27T01:22:10.883Z",
+  "fetchedAt": "2026-09-27T07:54:22.657Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 198.6,
+  "marketAverage": 197.9,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 193.9,
       "reportedBy": "otterlover96",
-      "reportedAgo": "15 Minutes Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 199.9,
-      "reportedBy": "BMWer",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "price": 194.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "5 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 194.9,
       "reportedBy": "dc180",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "dc180",
-      "reportedAgo": "7 Minutes Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 199.9,
-      "reportedBy": "momstaxi7",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 199.9,
-      "reportedBy": "momstaxi7",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
   ],
