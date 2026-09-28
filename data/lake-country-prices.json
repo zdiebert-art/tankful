@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-28T00:35:05.339Z",
+  "fetchedAt": "2026-09-28T06:33:20.591Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 193,
+  "marketAverage": 192.6,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 192.9,
       "reportedBy": "Buddy_2z9gr3vt",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -36,9 +36,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 194.9,
-      "reportedBy": "CanAzBabe",
-      "reportedAgo": "5 Hours Ago",
+      "price": 192.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "29 Minutes Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "CanAzBabe",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "dc180",
-      "reportedAgo": "42 Minutes Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,8 +84,8 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "Buddy_b1tp6ndc",
+      "price": 190.9,
+      "reportedBy": "denno545",
       "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 194.9,
       "reportedBy": "CanAzBabe",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 194.9,
-      "reportedBy": "CanAzBabe",
-      "reportedAgo": "5 Hours Ago",
+      "price": 192.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "29 Minutes Ago",
       "trust": "user"
     }
   ],
