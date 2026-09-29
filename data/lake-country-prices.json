@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T01:03:18.372Z",
+  "fetchedAt": "2026-09-29T06:45:42.998Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 191.8,
@@ -22,7 +22,7 @@
       },
       "price": 192.9,
       "reportedBy": "hankthecrank23",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "texanadia",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,7 +69,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 187.9,
-      "reportedBy": "hankthecrank23",
+      "reportedBy": "rx7racerca",
       "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "denno545",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     }
   ],
@@ -128,7 +128,7 @@
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 191.9
+        "price": 205.9
       }
     ]
   }
