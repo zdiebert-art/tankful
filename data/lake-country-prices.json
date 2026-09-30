@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-30T18:25:45.500Z",
+  "fetchedAt": "2026-09-30T23:01:31.706Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 189,
+  "marketAverage": 188.8,
   "stationCount": 7,
   "stations": [
     {
@@ -21,8 +21,8 @@
         "label": "with Canco card"
       },
       "price": 188.9,
-      "reportedBy": "hankthecrank23",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "stevesaucier988",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -36,10 +36,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "price": 187.9,
+      "reportedBy": "Wombat_ua",
+      "reportedAgo": "59 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "spitfire1500",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 186.9,
-      "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "1 Hour Ago",
+      "price": 185.9,
+      "reportedBy": "mikegreen05",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,8 +84,8 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 188.9,
-      "reportedBy": "rx7racerca",
+      "price": 189.9,
+      "reportedBy": "mikegreen05",
       "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     }
   ],
