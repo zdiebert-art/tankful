@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-01T18:52:42.030Z",
+  "fetchedAt": "2026-10-01T23:09:08.982Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 187.8,
-  "stationCount": 7,
+  "marketAverage": 186.9,
+  "stationCount": 5,
   "stations": [
     {
       "id": "canco",
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 188.9,
-      "reportedBy": "Buddy_36jggqp8",
-      "reportedAgo": "19 Hours Ago",
-      "trust": "stale"
+      "price": 187.9,
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -38,22 +38,6 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "Wombat_ua",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
-    },
-    {
-      "id": "husky",
-      "name": "Husky Hwy 97",
-      "address": "10550 BC-97",
-      "lat": 50.0599,
-      "lng": -119.4007,
-      "zone": null,
-      "fuelBrand": "Husky",
-      "cstoreBrand": "CO-OP",
-      "logoBrand": null,
-      "discount": null,
-      "price": 188.9,
-      "reportedBy": "spitfire1500",
       "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
@@ -70,7 +54,7 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "am7174",
-      "reportedAgo": "37 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,24 +70,8 @@
       "discount": null,
       "price": 185.9,
       "reportedBy": "Buddy_yygz535e",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
-    },
-    {
-      "id": "shell-lc",
-      "name": "Shell Lake Country",
-      "address": "9531 BC-97",
-      "lat": 50.0407,
-      "lng": -119.4108,
-      "zone": null,
-      "fuelBrand": "Shell",
-      "cstoreBrand": null,
-      "logoBrand": null,
-      "discount": null,
-      "price": 189.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -118,12 +86,18 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "htk9grjzmt",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
-    "unmatched": []
+    "parsedCount": 6,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 184.9
+      }
+    ]
   }
 }
