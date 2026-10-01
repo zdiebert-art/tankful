@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-30T23:01:31.706Z",
+  "fetchedAt": "2026-10-01T01:58:23.807Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 188.8,
@@ -21,8 +21,8 @@
         "label": "with Canco card"
       },
       "price": 188.9,
-      "reportedBy": "stevesaucier988",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "Buddy_36jggqp8",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "Wombat_ua",
-      "reportedAgo": "59 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,7 +69,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 185.9,
-      "reportedBy": "mikegreen05",
+      "reportedBy": "Buddy_36jggqp8",
       "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -123,13 +123,7 @@
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 205.9
-      }
-    ]
+    "parsedCount": 7,
+    "unmatched": []
   }
 }
