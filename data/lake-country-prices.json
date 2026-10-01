@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-01T08:46:15.622Z",
+  "fetchedAt": "2026-10-01T18:52:42.030Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 188.8,
+  "marketAverage": 187.8,
   "stationCount": 7,
   "stations": [
     {
@@ -22,8 +22,8 @@
       },
       "price": 188.9,
       "reportedBy": "Buddy_36jggqp8",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "Wombat_ua",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "20 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 185.9,
-      "reportedBy": "Buddy_36jggqp8",
-      "reportedAgo": "9 Hours Ago",
+      "price": 184.9,
+      "reportedBy": "am7174",
+      "reportedAgo": "37 Minutes Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "mikegreen05",
-      "reportedAgo": "12 Hours Ago",
+      "price": 185.9,
+      "reportedBy": "Buddy_yygz535e",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -116,10 +116,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 187.9,
+      "reportedBy": "htk9grjzmt",
+      "reportedAgo": "9 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
