@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-01T23:09:08.982Z",
+  "fetchedAt": "2026-10-02T05:00:31.243Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 186.9,
-  "stationCount": 5,
+  "marketAverage": 186.6,
+  "stationCount": 6,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 187.9,
       "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -52,8 +52,8 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 184.9,
-      "reportedBy": "am7174",
+      "price": 183.9,
+      "reportedBy": "Jaskaran_brar",
       "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
@@ -70,7 +70,23 @@
       "discount": null,
       "price": 185.9,
       "reportedBy": "Buddy_yygz535e",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
+      "trust": "user"
+    },
+    {
+      "id": "shell-lc",
+      "name": "Shell Lake Country",
+      "address": "9531 BC-97",
+      "lat": 50.0407,
+      "lng": -119.4108,
+      "zone": null,
+      "fuelBrand": "Shell",
+      "cstoreBrand": null,
+      "logoBrand": null,
+      "discount": null,
+      "price": 187.9,
+      "reportedBy": "blasko1",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,14 +100,14 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 187.9,
-      "reportedBy": "htk9grjzmt",
-      "reportedAgo": "14 Hours Ago",
-      "trust": "stale"
+      "price": 185.9,
+      "reportedBy": "blasko1",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 6,
+    "parsedCount": 7,
     "unmatched": [
       {
         "number": "350",
