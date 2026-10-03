@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-03T17:08:56.886Z",
+  "fetchedAt": "2026-10-03T20:51:53.410Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 184.5,
@@ -22,8 +22,8 @@
       },
       "price": 184.9,
       "reportedBy": "dc180",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 180.9,
       "reportedBy": "am7174",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 185.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "11 Hours Ago",
+      "reportedBy": "Buddy_yygz535e",
+      "reportedAgo": "17 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -118,18 +118,12 @@
       "discount": null,
       "price": 184.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 184.9
-      }
-    ]
+    "parsedCount": 7,
+    "unmatched": []
   }
 }
