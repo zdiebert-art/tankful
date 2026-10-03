@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-02T23:05:36.795Z",
+  "fetchedAt": "2026-10-03T01:58:53.251Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 185.2,
-  "stationCount": 6,
+  "marketAverage": 184.9,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 184.9,
       "reportedBy": "junebug_711",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -36,8 +36,24 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 185.9,
-      "reportedBy": "FRENCHMUSTANG",
+      "price": 184.9,
+      "reportedBy": "tommyz40",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
+    },
+    {
+      "id": "husky",
+      "name": "Husky Hwy 97",
+      "address": "10550 BC-97",
+      "lat": 50.0599,
+      "lng": -119.4007,
+      "zone": null,
+      "fuelBrand": "Husky",
+      "cstoreBrand": "CO-OP",
+      "logoBrand": null,
+      "discount": null,
+      "price": 184.9,
+      "reportedBy": "tommyz40",
       "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
@@ -53,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 182.9,
-      "reportedBy": "am7174",
-      "reportedAgo": "5 Minutes Ago",
+      "reportedBy": "dc180",
+      "reportedAgo": "42 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +86,7 @@
       "discount": null,
       "price": 185.9,
       "reportedBy": "Buddy_yygz535e",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 185.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "11 Hours Ago",
+      "price": 184.9,
+      "reportedBy": "tommyz40",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,12 +118,12 @@
       "discount": null,
       "price": 185.9,
       "reportedBy": "junebug_711",
-      "reportedAgo": "5 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
