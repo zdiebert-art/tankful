@@ -1,10 +1,26 @@
 {
-  "fetchedAt": "2026-10-05T06:51:52.007Z",
+  "fetchedAt": "2026-10-05T21:19:11.401Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 180.9,
-  "stationCount": 2,
+  "marketAverage": 181.9,
+  "stationCount": 5,
   "stations": [
+    {
+      "id": "petrocan-n",
+      "name": "Petro-Canada North",
+      "address": "9855 BC-97 N",
+      "lat": 50.0479,
+      "lng": -119.4078,
+      "zone": null,
+      "fuelBrand": "Petro-Canada",
+      "cstoreBrand": null,
+      "logoBrand": null,
+      "discount": null,
+      "price": 182.9,
+      "reportedBy": "Lesba",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
+    },
     {
       "id": "supersave",
       "name": "Super Save Lake Country",
@@ -16,9 +32,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 180.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "6 Hours Ago",
+      "price": 179.9,
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "34 Minutes Ago",
       "trust": "user"
     },
     {
@@ -34,12 +50,50 @@
       "discount": null,
       "price": 180.9,
       "reportedBy": "dc180",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
+    },
+    {
+      "id": "shell-lc",
+      "name": "Shell Lake Country",
+      "address": "9531 BC-97",
+      "lat": 50.0407,
+      "lng": -119.4108,
+      "zone": null,
+      "fuelBrand": "Shell",
+      "cstoreBrand": null,
+      "logoBrand": null,
+      "discount": null,
+      "price": 182.9,
+      "reportedBy": "Lesba",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
+    },
+    {
+      "id": "chevron",
+      "name": "Chevron Lake Country",
+      "address": "9450 BC-97",
+      "lat": 50.0395,
+      "lng": -119.4115,
+      "zone": null,
+      "fuelBrand": "Chevron",
+      "cstoreBrand": "On the Run",
+      "logoBrand": null,
+      "discount": null,
+      "price": 182.9,
+      "reportedBy": "Lesba",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 2,
-    "unmatched": []
+    "parsedCount": 6,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 179.9
+      }
+    ]
   }
 }
