@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-06T02:13:10.174Z",
+  "fetchedAt": "2026-10-06T10:06:24.899Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 182.2,
@@ -22,7 +22,7 @@
       },
       "price": 179.9,
       "reportedBy": "zepandpep",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "Lesba",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "zepandpep",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "zepandpep",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     }
   ],
