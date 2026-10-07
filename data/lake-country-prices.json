@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-07T10:13:00.452Z",
+  "fetchedAt": "2026-10-07T19:26:56.572Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 193.8,
+  "marketAverage": 196,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 197.9,
       "reportedBy": "Buddy_b8ayxvtw",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "22 Hours Ago",
       "trust": "stale"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "MarcVocht",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -52,10 +52,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 181.9,
+      "price": 197.9,
       "reportedBy": "MarcVocht",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "14 Hours Ago",
-      "trust": "stale"
+      "reportedAgo": "36 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -85,9 +85,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 181.9,
-      "reportedBy": "zepandpep",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "Buddy_ter5jefe",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -101,9 +101,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 202.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "MarcVocht",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "MarcVocht",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
