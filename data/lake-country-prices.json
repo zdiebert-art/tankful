@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-08T00:17:08.143Z",
+  "fetchedAt": "2026-10-08T07:18:27.570Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 195.3,
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 197.9,
-      "reportedBy": "Buddy_b8ayxvtw",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "pbo7",
+      "reportedAgo": "6 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "MarcVocht",
-      "reportedAgo": "7 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "MarcVocht",
-      "reportedAgo": "6 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 195.9,
-      "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "pbo7",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "Buddy_ter5jefe",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -101,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
