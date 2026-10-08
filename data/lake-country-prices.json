@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-07T19:26:56.572Z",
+  "fetchedAt": "2026-10-08T00:17:08.143Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 196,
+  "marketAverage": 195.3,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 197.9,
       "reportedBy": "Buddy_b8ayxvtw",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "MarcVocht",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "MarcVocht",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "36 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 181.9,
       "reportedBy": "Buddy_ter5jefe",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -100,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 202.9,
-      "reportedBy": "MarcVocht",
-      "reportedAgo": "2 Hours Ago",
+      "price": 197.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -117,19 +117,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 197.9,
-      "reportedBy": "MarcVocht",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 179.9
-      }
-    ]
+    "parsedCount": 7,
+    "unmatched": []
   }
 }
