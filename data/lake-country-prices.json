@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-09T00:22:19.889Z",
+  "fetchedAt": "2026-10-09T07:28:17.781Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 195.3,
@@ -22,7 +22,7 @@
       },
       "price": 197.9,
       "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "suzimom123",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 197.9,
       "reportedBy": "suzimom123",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
