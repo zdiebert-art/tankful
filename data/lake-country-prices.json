@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-10T05:19:29.933Z",
+  "fetchedAt": "2026-10-10T17:55:22.556Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 191.4,
+  "marketAverage": 193.1,
   "stationCount": 6,
   "stations": [
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "Buddy_k3n1znph",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 180.9,
       "reportedBy": "Buddy_gjz5w6pb",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 187.9,
-      "reportedBy": "denno545",
-      "reportedAgo": "2 Hours Ago",
+      "price": 197.9,
+      "reportedBy": "Tucker415",
+      "reportedAgo": "18 Minutes Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "denno545",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
