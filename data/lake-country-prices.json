@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-11T00:56:59.930Z",
+  "fetchedAt": "2026-10-11T18:01:59.158Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 194,
+  "marketAverage": 192.3,
   "stationCount": 7,
   "stations": [
     {
@@ -36,9 +36,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 197.9,
-      "reportedBy": "texanadia",
-      "reportedAgo": "3 Hours Ago",
+      "price": 193.9,
+      "reportedBy": "misstaniadoll",
+      "reportedAgo": "24 Minutes Ago",
       "trust": "user"
     },
     {
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "CandyCotton",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 191.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "am7174",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 180.9,
       "reportedBy": "CandyCotton",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -100,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 197.9,
-      "reportedBy": "texanadia",
-      "reportedAgo": "3 Hours Ago",
+      "price": 193.9,
+      "reportedBy": "misstaniadoll",
+      "reportedAgo": "24 Minutes Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 197.9,
-      "reportedBy": "texanadia",
-      "reportedAgo": "3 Hours Ago",
+      "price": 193.9,
+      "reportedBy": "misstaniadoll",
+      "reportedAgo": "24 Minutes Ago",
       "trust": "user"
     }
   ],
