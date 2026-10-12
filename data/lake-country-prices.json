@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-12T01:06:36.508Z",
+  "fetchedAt": "2026-10-12T09:01:40.782Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 191.2,
+  "marketAverage": 191.5,
   "stationCount": 7,
   "stations": [
     {
@@ -21,8 +21,8 @@
         "label": "with Canco card"
       },
       "price": 191.9,
-      "reportedBy": "dailydriving",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "Brock_Samson",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "dailydriving",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "borouck",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Buddy_xr41c6mz",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "borouck",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "1 Hour Ago",
+      "price": 191.9,
+      "reportedBy": "borouck",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "borouck",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "borouck",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
