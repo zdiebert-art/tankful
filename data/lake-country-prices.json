@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-12T09:01:40.782Z",
+  "fetchedAt": "2026-10-12T21:40:27.315Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 191.5,
+  "marketAverage": 190.9,
   "stationCount": 7,
   "stations": [
     {
@@ -22,8 +22,8 @@
       },
       "price": 191.9,
       "reportedBy": "Brock_Samson",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "20 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "borouck",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "borouck",
-      "reportedAgo": "6 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 191.9,
-      "reportedBy": "borouck",
-      "reportedAgo": "6 Hours Ago",
+      "price": 187.9,
+      "reportedBy": "adeline18",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 180.9,
       "reportedBy": "CandyCotton",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "2 Days Ago",
       "trust": "stale"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "borouck",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "borouck",
-      "reportedAgo": "6 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     }
   ],
