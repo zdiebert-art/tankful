@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T10:19:58.977Z",
+  "fetchedAt": "2026-10-13T20:00:22.884Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 190.9,
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 187.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "9 Hours Ago",
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -85,9 +85,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 180.9,
-      "reportedBy": "CandyCotton",
-      "reportedAgo": "2 Days Ago",
-      "trust": "stale"
+      "reportedBy": "Doban5",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     }
   ],
@@ -128,7 +128,7 @@
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 194.9
+        "price": 186.9
       }
     ]
   }
