@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-14T04:22:25.068Z",
+  "fetchedAt": "2026-10-14T18:05:17.490Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 188.7,
-  "stationCount": 6,
+  "marketAverage": 189.7,
+  "stationCount": 5,
   "stations": [
     {
       "id": "canco",
@@ -22,23 +22,7 @@
       },
       "price": 189.9,
       "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
-    },
-    {
-      "id": "husky",
-      "name": "Husky Hwy 97",
-      "address": "10550 BC-97",
-      "lat": 50.0599,
-      "lng": -119.4007,
-      "zone": null,
-      "fuelBrand": "Husky",
-      "cstoreBrand": "CO-OP",
-      "logoBrand": null,
-      "discount": null,
-      "price": 193.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +38,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "9 Hours Ago",
+      "reportedAgo": "8 Minutes Ago",
       "trust": "user"
     },
     {
@@ -69,8 +53,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 180.9,
-      "reportedBy": "Doban5",
-      "reportedAgo": "12 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Hours Ago",
+      "price": 199.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -101,13 +85,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "3 Hours Ago",
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
+    "parsedCount": 6,
     "unmatched": [
       {
         "number": "350",
