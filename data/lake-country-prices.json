@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-15T00:30:34.216Z",
+  "fetchedAt": "2026-10-15T21:17:17.753Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 194.9,
-  "stationCount": 5,
+  "marketAverage": 197.2,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,39 @@
       },
       "price": 199.9,
       "reportedBy": "blasko1",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "22 Hours Ago",
+      "trust": "stale"
+    },
+    {
+      "id": "petrocan-n",
+      "name": "Petro-Canada North",
+      "address": "9855 BC-97 N",
+      "lat": 50.0479,
+      "lng": -119.4078,
+      "zone": null,
+      "fuelBrand": "Petro-Canada",
+      "cstoreBrand": null,
+      "logoBrand": null,
+      "discount": null,
+      "price": 199.9,
+      "reportedBy": "skstesharpener",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
+    },
+    {
+      "id": "husky",
+      "name": "Husky Hwy 97",
+      "address": "10550 BC-97",
+      "lat": 50.0599,
+      "lng": -119.4007,
+      "zone": null,
+      "fuelBrand": "Husky",
+      "cstoreBrand": "CO-OP",
+      "logoBrand": null,
+      "discount": null,
+      "price": 195.9,
+      "reportedBy": "skstesharpener",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -37,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Jaskaran_brar",
-      "reportedAgo": "22 Minutes Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -54,8 +86,8 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "tarsen70",
-      "reportedAgo": "2 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "22 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -69,7 +101,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 199.9,
-      "reportedBy": "Ter99",
+      "reportedBy": "skstesharpener",
       "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
@@ -84,19 +116,19 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "12 Hours Ago",
+      "price": 199.9,
+      "reportedBy": "skstesharpener",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 6,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 186.9
+        "price": 194.9
       }
     ]
   }
