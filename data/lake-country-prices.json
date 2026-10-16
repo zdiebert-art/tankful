@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-16T05:47:16.605Z",
+  "fetchedAt": "2026-10-16T17:25:18.163Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 193.8,
+  "marketAverage": 194,
   "stationCount": 7,
   "stations": [
     {
@@ -22,8 +22,8 @@
       },
       "price": 195.9,
       "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -36,9 +36,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 199.9,
-      "reportedBy": "skstesharpener",
-      "reportedAgo": "12 Hours Ago",
+      "price": 195.9,
+      "reportedBy": "tommyz40",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 195.9,
-      "reportedBy": "skstesharpener",
-      "reportedAgo": "12 Hours Ago",
+      "reportedBy": "tommyz40",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 193.9,
-      "reportedBy": "Mach2003a",
-      "reportedAgo": "7 Hours Ago",
+      "reportedBy": "tommyz40",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 180.9,
       "reportedBy": "denno545",
-      "reportedAgo": "48 Minutes Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "skstesharpener",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "1 Day Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -116,9 +116,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "denno545",
-      "reportedAgo": "43 Minutes Ago",
+      "price": 195.9,
+      "reportedBy": "tommyz40",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
