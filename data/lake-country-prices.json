@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T20:48:38.552Z",
+  "fetchedAt": "2026-10-16T23:22:50.360Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 193.5,
@@ -21,9 +21,9 @@
         "label": "with Canco card"
       },
       "price": 195.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "22 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "rodlsterling",
+      "reportedAgo": "39 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 180.9,
       "reportedBy": "denno545",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "18 Hours Ago",
       "trust": "stale"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "TbayBoo",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "TbayBoo",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
   ],
