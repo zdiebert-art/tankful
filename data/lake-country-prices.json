@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-16T00:22:26.443Z",
+  "fetchedAt": "2026-10-16T05:47:16.605Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 196.6,
+  "marketAverage": 193.8,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 195.9,
       "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "skstesharpener",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 195.9,
       "reportedBy": "skstesharpener",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "Mach2003a",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 190.9,
-      "reportedBy": "tarsen70",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 180.9,
+      "reportedBy": "denno545",
+      "reportedAgo": "48 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 199.9,
       "reportedBy": "skstesharpener",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 199.9,
-      "reportedBy": "skstesharpener",
-      "reportedAgo": "7 Hours Ago",
+      "price": 189.9,
+      "reportedBy": "denno545",
+      "reportedAgo": "43 Minutes Ago",
       "trust": "user"
     }
   ],
