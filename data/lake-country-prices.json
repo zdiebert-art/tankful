@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-17T19:14:08.438Z",
+  "fetchedAt": "2026-10-17T22:07:26.120Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 192.2,
+  "marketAverage": 191.6,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 195.9,
       "reportedBy": "rodlsterling",
-      "reportedAgo": "20 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "smarti_bear",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "smarti_bear",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "7 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 192.9,
-      "reportedBy": "smarti_bear",
-      "reportedAgo": "4 Hours Ago",
+      "price": 190.9,
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -100,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 194.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "18 Minutes Ago",
+      "price": 192.9,
+      "reportedBy": "buddy_shell8888",
+      "reportedAgo": "13 Minutes Ago",
       "trust": "user"
     },
     {
@@ -118,18 +118,12 @@
       "discount": null,
       "price": 194.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "18 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 194.9
-      }
-    ]
+    "parsedCount": 7,
+    "unmatched": []
   }
 }
