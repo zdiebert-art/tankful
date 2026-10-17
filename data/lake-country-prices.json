@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T16:22:51.467Z",
+  "fetchedAt": "2026-10-17T19:14:08.438Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 192.2,
@@ -22,7 +22,7 @@
       },
       "price": 195.9,
       "reportedBy": "rodlsterling",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "smarti_bear",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "smarti_bear",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "smarti_bear",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 194.9,
-      "reportedBy": "smarti_bear",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "18 Minutes Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 194.9,
-      "reportedBy": "smarti_bear",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "18 Minutes Ago",
       "trust": "user"
     }
   ],
