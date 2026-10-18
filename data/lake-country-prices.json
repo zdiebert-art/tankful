@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-18T05:43:25.107Z",
+  "fetchedAt": "2026-10-18T16:32:26.731Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 191.2,
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "mikegreen05",
-      "reportedAgo": "6 Hours Ago",
+      "reportedBy": "sukhveerkaur687",
+      "reportedAgo": "13 Minutes Ago",
       "trust": "user"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 185.9,
       "reportedBy": "torino17",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "15 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "6 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 194.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
