@@ -1,10 +1,30 @@
 {
-  "fetchedAt": "2026-10-19T01:00:58.113Z",
+  "fetchedAt": "2026-10-19T06:04:59.112Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 189.7,
-  "stationCount": 6,
+  "marketAverage": 189.6,
+  "stationCount": 7,
   "stations": [
+    {
+      "id": "canco",
+      "name": "Canco Woodsdale",
+      "address": "11470 Bottom Wood Lake Rd",
+      "lat": 50.076,
+      "lng": -119.3995,
+      "zone": null,
+      "fuelBrand": "Canco",
+      "cstoreBrand": "One Stop",
+      "logoBrand": null,
+      "discount": {
+        "type": "card",
+        "amount": 2,
+        "label": "with Canco card"
+      },
+      "price": 188.9,
+      "reportedBy": "droynon",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
+    },
     {
       "id": "petrocan-n",
       "name": "Petro-Canada North",
@@ -50,7 +70,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "dc180",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -66,7 +86,7 @@
       "discount": null,
       "price": 185.9,
       "reportedBy": "torino17",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -82,7 +102,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "buddy_shell8888",
-      "reportedAgo": "12 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -103,7 +123,7 @@
     }
   ],
   "diagnostics": {
-    "parsedCount": 6,
+    "parsedCount": 7,
     "unmatched": []
   }
 }
