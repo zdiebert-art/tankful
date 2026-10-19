@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-19T19:21:40.531Z",
+  "fetchedAt": "2026-10-19T23:31:46.955Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 187.9,
-  "stationCount": 7,
+  "marketAverage": 187.4,
+  "stationCount": 6,
   "stations": [
     {
       "id": "canco",
@@ -22,23 +22,7 @@
       },
       "price": 188.9,
       "reportedBy": "droynon",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
-    },
-    {
-      "id": "petrocan-n",
-      "name": "Petro-Canada North",
-      "address": "9855 BC-97 N",
-      "lat": 50.0479,
-      "lng": -119.4078,
-      "zone": null,
-      "fuelBrand": "Petro-Canada",
-      "cstoreBrand": null,
-      "logoBrand": null,
-      "discount": null,
-      "price": 190.9,
-      "reportedBy": "mikegreen05",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "19 Hours Ago",
       "trust": "stale"
     },
     {
@@ -53,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 182.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "34 Minutes Ago",
+      "reportedBy": "elcheapokelowna",
+      "reportedAgo": "13 Minutes Ago",
       "trust": "user"
     },
     {
@@ -70,7 +54,7 @@
       "discount": null,
       "price": 186.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "34 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +86,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,12 +102,18 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "7 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
     "parsedCount": 7,
-    "unmatched": []
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 185.9
+      }
+    ]
   }
 }
