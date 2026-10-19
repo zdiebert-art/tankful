@@ -1,30 +1,10 @@
 {
-  "fetchedAt": "2026-10-18T22:29:15.055Z",
+  "fetchedAt": "2026-10-19T01:00:58.113Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 191.2,
-  "stationCount": 7,
+  "marketAverage": 189.7,
+  "stationCount": 6,
   "stations": [
-    {
-      "id": "canco",
-      "name": "Canco Woodsdale",
-      "address": "11470 Bottom Wood Lake Rd",
-      "lat": 50.076,
-      "lng": -119.3995,
-      "zone": null,
-      "fuelBrand": "Canco",
-      "cstoreBrand": "One Stop",
-      "logoBrand": null,
-      "discount": {
-        "type": "card",
-        "amount": 2,
-        "label": "with Canco card"
-      },
-      "price": 195.9,
-      "reportedBy": "rodlsterling",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
-    },
     {
       "id": "petrocan-n",
       "name": "Petro-Canada North",
@@ -38,7 +18,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +34,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "mikegreen05",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -69,8 +49,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.9,
-      "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "dc180",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -86,7 +66,7 @@
       "discount": null,
       "price": 185.9,
       "reportedBy": "torino17",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -100,10 +80,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 192.9,
-      "reportedBy": "mikegreen05",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "price": 188.9,
+      "reportedBy": "buddy_shell8888",
+      "reportedAgo": "12 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -123,7 +103,7 @@
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
+    "parsedCount": 6,
     "unmatched": []
   }
 }
