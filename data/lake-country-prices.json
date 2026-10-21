@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-21T05:54:33.141Z",
+  "fetchedAt": "2026-10-21T17:58:33.326Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 192.1,
+  "marketAverage": 195.3,
   "stationCount": 5,
   "stations": [
     {
@@ -18,8 +18,8 @@
       "discount": null,
       "price": 198.9,
       "reportedBy": "mk4dubber",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -34,8 +34,8 @@
       "discount": null,
       "price": 182.9,
       "reportedBy": "nadiabsb",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -48,9 +48,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 180.8,
-      "reportedBy": "conshort22",
-      "reportedAgo": "47 Minutes Ago",
+      "price": 196.9,
+      "reportedBy": "am7174",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -66,7 +66,7 @@
       "discount": null,
       "price": 198.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "18 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -82,8 +82,8 @@
       "discount": null,
       "price": 198.9,
       "reportedBy": "mk4dubber",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
