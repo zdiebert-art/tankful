@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-22T06:04:59.642Z",
+  "fetchedAt": "2026-10-22T21:30:28.470Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 197.1,
+  "marketAverage": 196.2,
   "stationCount": 6,
   "stations": [
     {
@@ -22,8 +22,8 @@
       },
       "price": 193.9,
       "reportedBy": "Buddy_rfc33j9t",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -36,10 +36,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 198.9,
-      "reportedBy": "mk4dubber",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 195.9,
+      "reportedBy": "bans",
+      "reportedAgo": "8 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 195.9,
-      "reportedBy": "conshort22",
-      "reportedAgo": "9 Hours Ago",
+      "reportedBy": "bans",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 195.9,
-      "reportedBy": "conshort22",
-      "reportedAgo": "9 Hours Ago",
+      "price": 193.9,
+      "reportedBy": "am7174",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 198.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedAgo": "9 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -101,9 +101,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 198.9,
-      "reportedBy": "mk4dubber",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "9 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
@@ -112,7 +112,7 @@
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 185.9
+        "price": 192.9
       }
     ]
   }
