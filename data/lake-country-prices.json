@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-23T05:58:59.510Z",
+  "fetchedAt": "2026-10-23T21:23:30.103Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 195.7,
-  "stationCount": 6,
+  "marketAverage": 195.6,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,8 +22,8 @@
       },
       "price": 193.9,
       "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -36,10 +36,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 195.9,
-      "reportedBy": "bans",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "price": 200.9,
+      "reportedBy": "LoriReich",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -52,10 +52,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 195.9,
-      "reportedBy": "bans",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "price": 193.9,
+      "reportedBy": "LoriReich",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -68,10 +68,26 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 193.9,
-      "reportedBy": "am7174",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "price": 197.9,
+      "reportedBy": "LoriReich",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
+    },
+    {
+      "id": "parkway",
+      "name": "Parkway (Shell)",
+      "address": "11891 BC-97",
+      "lat": 50.093,
+      "lng": -119.3835,
+      "zone": null,
+      "fuelBrand": "Parkway",
+      "cstoreBrand": null,
+      "logoBrand": "Shell",
+      "discount": null,
+      "price": 180.9,
+      "reportedBy": "torino17",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -84,10 +100,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 198.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "18 Hours Ago",
-      "trust": "stale"
+      "price": 200.9,
+      "reportedBy": "LoriReich",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -100,14 +116,14 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 195.9,
-      "reportedBy": "parm123",
-      "reportedAgo": "6 Hours Ago",
+      "price": 200.7,
+      "reportedBy": "LoriReich",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
