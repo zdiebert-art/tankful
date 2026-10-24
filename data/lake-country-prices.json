@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-24T19:32:22.256Z",
+  "fetchedAt": "2026-10-24T22:21:21.617Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 194.4,
@@ -22,7 +22,7 @@
       },
       "price": 191.9,
       "reportedBy": "callowaycorv",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 200.9,
       "reportedBy": "LoriReich",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "17 Hours Ago",
       "trust": "stale"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 191.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "51 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 180.9,
       "reportedBy": "callowaycorv",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 200.9,
       "reportedBy": "LoriReich",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -118,12 +118,18 @@
       "discount": null,
       "price": 200.7,
       "reportedBy": "LoriReich",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
-    "unmatched": []
+    "parsedCount": 8,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 192.9
+      }
+    ]
   }
 }
