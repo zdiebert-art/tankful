@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-25T17:05:54.553Z",
+  "fetchedAt": "2026-10-25T19:36:52.625Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 192.6,
+  "marketAverage": 191.6,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 190.9,
       "reportedBy": "dc180",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "13 Hours Ago",
+      "reportedAgo": "16 Hours Ago",
       "trust": "stale"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "35 Minutes Ago",
       "trust": "user"
     },
     {
@@ -85,9 +85,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 180.9,
-      "reportedBy": "pflynn78",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Dtayled",
+      "reportedAgo": "33 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -100,10 +100,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 200.9,
-      "reportedBy": "LoriReich",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 193.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -117,9 +117,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 200.7,
-      "reportedBy": "LoriReich",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
