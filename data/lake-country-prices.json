@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-25T22:31:09.768Z",
+  "fetchedAt": "2026-10-26T01:10:10.683Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 191.6,
+  "marketAverage": 192.9,
   "stationCount": 7,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 190.9,
       "reportedBy": "dc180",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 192.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,9 +84,9 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 180.9,
-      "reportedBy": "Dtayled",
-      "reportedAgo": "3 Hours Ago",
+      "price": 189.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 193.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -118,7 +118,7 @@
       "discount": null,
       "price": 200.7,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
