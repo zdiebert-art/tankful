@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-28T09:28:52.137Z",
+  "fetchedAt": "2026-10-28T18:49:25.108Z",
   "region": "kelowna",
   "source": "gasbuddy.com",
-  "marketAverage": 189.8,
+  "marketAverage": 188.9,
   "stationCount": 36,
   "stations": [
     {
@@ -16,9 +16,9 @@
       "cstoreBrand": "One Stop",
       "logoBrand": null,
       "discount": null,
-      "price": 189.4,
-      "reportedBy": "orison",
-      "reportedAgo": "9 Hours Ago",
+      "price": 185.9,
+      "reportedBy": "grand001",
+      "reportedAgo": "8 Minutes Ago",
       "trust": "user"
     },
     {
@@ -32,9 +32,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "susanackerman88",
-      "reportedAgo": "11 Hours Ago",
+      "price": 185.9,
+      "reportedBy": "grand001",
+      "reportedAgo": "7 Minutes Ago",
       "trust": "user"
     },
     {
@@ -50,7 +50,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "hankthecrank23",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -66,8 +66,8 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "susanackerman88",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "20 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "kelowna-springfield-2189",
@@ -82,7 +82,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -96,10 +96,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 185.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "owner"
+      "price": 183.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "30 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-harvey-375",
@@ -114,7 +114,7 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "susanackerman88",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -129,8 +129,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "wyndsom",
-      "reportedAgo": "9 Hours Ago",
+      "reportedBy": "hankthecrank23",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -144,9 +144,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.4,
-      "reportedBy": "wyndsom",
-      "reportedAgo": "9 Hours Ago",
+      "price": 188.4,
+      "reportedBy": "hankthecrank23",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -176,10 +176,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 190.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "15 Hours Ago",
-      "trust": "stale"
+      "price": 189.9,
+      "reportedBy": "kelownarefal",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-gordon-2315",
@@ -192,10 +192,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 190.9,
-      "reportedBy": "TbayBoo",
-      "reportedAgo": "14 Hours Ago",
-      "trust": "stale"
+      "price": 189.9,
+      "reportedBy": "SSieben",
+      "reportedAgo": "28 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-gordon-3135",
@@ -208,9 +208,9 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
+      "price": 187.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "30 Minutes Ago",
       "trust": "user"
     },
     {
@@ -224,9 +224,9 @@
       "cstoreBrand": "One Stop",
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
+      "price": 187.9,
       "reportedBy": "SSieben",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "32 Minutes Ago",
       "trust": "user"
     },
     {
@@ -240,10 +240,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.4,
-      "reportedBy": "Buddy_rwbgw9p7",
-      "reportedAgo": "14 Hours Ago",
-      "trust": "stale"
+      "price": 185.9,
+      "reportedBy": "kxndlls",
+      "reportedAgo": "29 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-lakeshore-3968",
@@ -256,10 +256,10 @@
       "cstoreBrand": "7-Eleven",
       "logoBrand": null,
       "discount": null,
-      "price": 190.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 188.9,
+      "reportedBy": "DataFeed",
+      "reportedAgo": "8 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-glenmore-395",
@@ -272,10 +272,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 190.4,
-      "reportedBy": "stevesaucier988",
-      "reportedAgo": "14 Hours Ago",
-      "trust": "stale"
+      "price": 189.4,
+      "reportedBy": "Buddy_feqqvutm",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-bc33w-1155",
@@ -305,8 +305,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "10 Hours Ago",
+      "reportedBy": "Kelowna365",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -321,9 +321,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 186.4,
-      "reportedBy": "Buddy_6fzzzkxb",
-      "reportedAgo": "7 Hours Ago",
-      "trust": "user"
+      "reportedBy": "Owner",
+      "reportedAgo": "17 Minutes Ago",
+      "trust": "owner"
     },
     {
       "id": "kelowna-bc33e-1799",
@@ -336,10 +336,10 @@
       "cstoreBrand": "One Stop",
       "logoBrand": null,
       "discount": null,
-      "price": 189.4,
-      "reportedBy": "Buddy_8h1wf9dx",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "price": 187.9,
+      "reportedBy": "paulajackson464",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-rutland-2115",
@@ -354,7 +354,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -368,9 +368,9 @@
       "cstoreBrand": "GOmarket",
       "logoBrand": null,
       "discount": null,
-      "price": 189.4,
-      "reportedBy": "Buddy_feqqvutm",
-      "reportedAgo": "2 Hours Ago",
+      "price": 186.4,
+      "reportedBy": "Kelowna365",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -384,9 +384,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.4,
-      "reportedBy": "paulkellybc",
-      "reportedAgo": "7 Hours Ago",
+      "price": 188.4,
+      "reportedBy": "Kelowna365",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -402,7 +402,7 @@
       "discount": null,
       "price": 189.4,
       "reportedBy": "Buddy_feqqvutm",
-      "reportedAgo": "2 Hours Ago",
+      "reportedAgo": "11 Hours Ago",
       "trust": "user"
     },
     {
@@ -418,7 +418,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "cheapo7777",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -432,9 +432,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
+      "price": 188.9,
       "reportedBy": "Ziggy4412",
-      "reportedAgo": "12 Hours Ago",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -449,9 +449,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 190.9,
-      "reportedBy": "SSieben",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-underhill-1849",
@@ -464,10 +464,10 @@
       "cstoreBrand": "Superstore",
       "logoBrand": null,
       "discount": null,
-      "price": 188.4,
-      "reportedBy": "SSieben",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "price": 187.9,
+      "reportedBy": "CoffeeluvrSB",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-bc97n-2380",
@@ -480,9 +480,9 @@
       "cstoreBrand": "Smart Stop 24/7",
       "logoBrand": null,
       "discount": null,
-      "price": 190.9,
-      "reportedBy": "Ricoj324",
-      "reportedAgo": "10 Hours Ago",
+      "price": 189.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -498,8 +498,8 @@
       "discount": null,
       "price": 190.9,
       "reportedBy": "susanackerman88",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "kelowna-bc97n-2693",
@@ -514,8 +514,8 @@
       "discount": null,
       "price": 188.4,
       "reportedBy": "Buddy_feqqvutm",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "kelowna-sexsmith-3491",
@@ -530,7 +530,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "15 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -546,7 +546,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "16 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -560,10 +560,10 @@
       "cstoreBrand": "One Stop",
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "Owner",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "owner"
+      "price": 187.9,
+      "reportedBy": "Badger100",
+      "reportedAgo": "16 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "kelowna-innovation-1708",
@@ -576,7 +576,7 @@
       "cstoreBrand": "One Stop",
       "logoBrand": null,
       "discount": null,
-      "price": 189.4,
+      "price": 187.9,
       "reportedBy": "Owner",
       "reportedAgo": "1 Hour Ago",
       "trust": "owner"
@@ -593,7 +593,7 @@
       {
         "number": "2220",
         "street": "Boucherie Rd",
-        "price": 190.9
+        "price": 189.9
       },
       {
         "number": "1192",
@@ -603,7 +603,7 @@
       {
         "number": "2097",
         "street": "Old Okanagan Hwy",
-        "price": 185.9
+        "price": 183.9
       },
       {
         "number": "1721",
