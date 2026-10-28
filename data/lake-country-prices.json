@@ -1,10 +1,30 @@
 {
-  "fetchedAt": "2026-10-28T18:49:00.335Z",
+  "fetchedAt": "2026-10-28T23:02:37.071Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 188.2,
+  "marketAverage": 188.1,
   "stationCount": 6,
   "stations": [
+    {
+      "id": "canco",
+      "name": "Canco Woodsdale",
+      "address": "11470 Bottom Wood Lake Rd",
+      "lat": 50.076,
+      "lng": -119.3995,
+      "zone": null,
+      "fuelBrand": "Canco",
+      "cstoreBrand": "One Stop",
+      "logoBrand": null,
+      "discount": {
+        "type": "card",
+        "amount": 2,
+        "label": "with Canco card"
+      },
+      "price": 189.9,
+      "reportedBy": "Lizard_Warrior",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
+    },
     {
       "id": "petrocan-n",
       "name": "Petro-Canada North",
@@ -22,22 +42,6 @@
       "trust": "stale"
     },
     {
-      "id": "husky",
-      "name": "Husky Hwy 97",
-      "address": "10550 BC-97",
-      "lat": 50.0599,
-      "lng": -119.4007,
-      "zone": null,
-      "fuelBrand": "Husky",
-      "cstoreBrand": "CO-OP",
-      "logoBrand": null,
-      "discount": null,
-      "price": 190.9,
-      "reportedBy": "Buddy_rn7g621u",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
-    },
-    {
       "id": "supersave",
       "name": "Super Save Lake Country",
       "address": "11751 BC-97",
@@ -50,7 +54,7 @@
       "discount": null,
       "price": 187.9,
       "reportedBy": "am7174",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -66,7 +70,7 @@
       "discount": null,
       "price": 180.9,
       "reportedBy": "adventure22",
-      "reportedAgo": "22 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -82,7 +86,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "kik01",
-      "reportedAgo": "41 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -98,18 +102,12 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "kik01",
-      "reportedAgo": "42 Minutes Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 186.9
-      }
-    ]
+    "parsedCount": 6,
+    "unmatched": []
   }
 }
