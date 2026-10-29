@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-29T19:03:30.629Z",
+  "fetchedAt": "2026-10-29T23:13:34.457Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 187.2,
+  "marketAverage": 187.4,
   "stationCount": 6,
   "stations": [
     {
@@ -22,7 +22,7 @@
       },
       "price": 189.9,
       "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -36,9 +36,25 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "KelownaGuy",
-      "reportedAgo": "2 Days Ago",
+      "price": 185.9,
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "2 Minutes Ago",
+      "trust": "user"
+    },
+    {
+      "id": "husky",
+      "name": "Husky Hwy 97",
+      "address": "10550 BC-97",
+      "lat": 50.0599,
+      "lng": -119.4007,
+      "zone": null,
+      "fuelBrand": "Husky",
+      "cstoreBrand": "CO-OP",
+      "logoBrand": null,
+      "discount": null,
+      "price": 185.9,
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "59 Seconds Ago",
       "trust": "stale"
     },
     {
@@ -54,24 +70,8 @@
       "discount": null,
       "price": 183.9,
       "reportedBy": "am7174",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
-    },
-    {
-      "id": "parkway",
-      "name": "Parkway (Shell)",
-      "address": "11891 BC-97",
-      "lat": 50.093,
-      "lng": -119.3835,
-      "zone": null,
-      "fuelBrand": "Parkway",
-      "cstoreBrand": null,
-      "logoBrand": "Shell",
-      "discount": null,
-      "price": 180.9,
-      "reportedBy": "adventure22",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 188.9,
       "reportedBy": "buddy_shell8888",
-      "reportedAgo": "19 Hours Ago",
+      "reportedAgo": "23 Hours Ago",
       "trust": "stale"
     },
     {
@@ -102,12 +102,18 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "rx7racerca",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
       "trust": "stale"
     }
   ],
   "diagnostics": {
-    "parsedCount": 6,
-    "unmatched": []
+    "parsedCount": 7,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 182.9
+      }
+    ]
   }
 }
