@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-28T23:02:37.071Z",
+  "fetchedAt": "2026-10-29T19:03:30.629Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 188.1,
+  "marketAverage": 187.2,
   "stationCount": 6,
   "stations": [
     {
@@ -22,8 +22,8 @@
       },
       "price": 189.9,
       "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "1 Hour Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -38,7 +38,7 @@
       "discount": null,
       "price": 189.9,
       "reportedBy": "KelownaGuy",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "2 Days Ago",
       "trust": "stale"
     },
     {
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 187.9,
+      "price": 183.9,
       "reportedBy": "am7174",
-      "reportedAgo": "8 Hours Ago",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 189.9,
-      "reportedBy": "kik01",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "price": 188.9,
+      "reportedBy": "buddy_shell8888",
+      "reportedAgo": "19 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -101,9 +101,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 189.9,
-      "reportedBy": "kik01",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "17 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
