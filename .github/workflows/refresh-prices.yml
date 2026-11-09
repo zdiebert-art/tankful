@@ -17,7 +17,12 @@ concurrency:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    # Pinned to 22.04 instead of ubuntu-latest. The 24.04 runner renamed
+    # several apt packages (libasound2 → libasound2t64, …) and anything
+    # older than Playwright 1.52 fails the Install Chromium step instantly
+    # trying to apt-get the old names. 22.04 keeps us on known-good names
+    # until we bother refactoring away from `--with-deps`.
+    runs-on: ubuntu-22.04
     timeout-minutes: 15
 
     steps:
