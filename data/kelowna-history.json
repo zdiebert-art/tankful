@@ -1,6 +1,6 @@
 {
   "region": "kelowna",
-  "updatedAt": "2026-10-29T23:14:08.529Z",
+  "updatedAt": "2026-11-09T23:04:25.390Z",
   "samples": [
     {
       "at": "2026-05-14T12:00:00.000Z",
@@ -698,188 +698,58 @@
       "stationCount": 36
     },
     {
-      "at": "2026-09-30T01:58:42.429Z",
-      "marketAverage": 189.8,
-      "stationCount": 34
-    },
-    {
-      "at": "2026-09-30T08:24:41.601Z",
-      "marketAverage": 189.8,
+      "at": "2026-09-30T12:00:00.000Z",
+      "marketAverage": 189,
       "stationCount": 35
     },
     {
-      "at": "2026-09-30T18:26:11.594Z",
-      "marketAverage": 188.2,
+      "at": "2026-10-01T12:00:00.000Z",
+      "marketAverage": 187.4,
       "stationCount": 35
     },
     {
-      "at": "2026-09-30T23:01:57.066Z",
-      "marketAverage": 188.1,
-      "stationCount": 35
-    },
-    {
-      "at": "2026-10-01T01:58:48.297Z",
-      "marketAverage": 187.8,
-      "stationCount": 35
-    },
-    {
-      "at": "2026-10-01T08:46:40.855Z",
-      "marketAverage": 187.8,
-      "stationCount": 35
-    },
-    {
-      "at": "2026-10-01T18:53:06.238Z",
-      "marketAverage": 187.2,
-      "stationCount": 35
-    },
-    {
-      "at": "2026-10-01T23:09:36.284Z",
-      "marketAverage": 186.7,
-      "stationCount": 35
-    },
-    {
-      "at": "2026-10-02T05:00:55.189Z",
-      "marketAverage": 186.7,
+      "at": "2026-10-02T12:00:00.000Z",
+      "marketAverage": 186.1,
       "stationCount": 36
     },
     {
-      "at": "2026-10-02T23:06:04.431Z",
-      "marketAverage": 185.5,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-03T01:59:19.391Z",
-      "marketAverage": 185.2,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-03T08:01:10.932Z",
-      "marketAverage": 185.2,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-03T17:09:23.065Z",
+      "at": "2026-10-03T12:00:00.000Z",
       "marketAverage": 184.9,
       "stationCount": 36
     },
     {
-      "at": "2026-10-03T20:52:19.216Z",
-      "marketAverage": 184.7,
+      "at": "2026-10-04T12:00:00.000Z",
+      "marketAverage": 184,
       "stationCount": 36
     },
     {
-      "at": "2026-10-03T23:44:00.885Z",
-      "marketAverage": 184.6,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-04T05:20:38.614Z",
-      "marketAverage": 184.1,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-04T17:26:26.712Z",
-      "marketAverage": 184.1,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-04T21:19:24.316Z",
-      "marketAverage": 183.9,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-05T00:41:30.248Z",
-      "marketAverage": 183.9,
+      "at": "2026-10-05T12:00:00.000Z",
+      "marketAverage": 183.6,
       "stationCount": 35
     },
     {
-      "at": "2026-10-05T06:52:15.169Z",
-      "marketAverage": 183.7,
+      "at": "2026-10-06T12:00:00.000Z",
+      "marketAverage": 187.7,
       "stationCount": 35
     },
     {
-      "at": "2026-10-05T21:19:37.398Z",
-      "marketAverage": 183.3,
-      "stationCount": 35
-    },
-    {
-      "at": "2026-10-06T02:13:35.382Z",
-      "marketAverage": 182.8,
-      "stationCount": 35
-    },
-    {
-      "at": "2026-10-06T10:06:51.614Z",
-      "marketAverage": 185.5,
-      "stationCount": 34
-    },
-    {
-      "at": "2026-10-06T18:53:10.699Z",
-      "marketAverage": 194.9,
-      "stationCount": 35
-    },
-    {
-      "at": "2026-10-07T02:25:47.606Z",
-      "marketAverage": 200.7,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-07T10:13:31.238Z",
-      "marketAverage": 201.2,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-07T19:27:21.308Z",
-      "marketAverage": 200.7,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-08T00:17:34.365Z",
-      "marketAverage": 201.1,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-08T07:18:51.942Z",
+      "at": "2026-10-07T12:00:00.000Z",
       "marketAverage": 200.9,
       "stationCount": 36
     },
     {
-      "at": "2026-10-08T19:13:21.245Z",
-      "marketAverage": 199.4,
+      "at": "2026-10-08T12:00:00.000Z",
+      "marketAverage": 200.5,
       "stationCount": 36
     },
     {
-      "at": "2026-10-09T00:22:43.788Z",
-      "marketAverage": 198.9,
+      "at": "2026-10-09T12:00:00.000Z",
+      "marketAverage": 198.1,
       "stationCount": 36
     },
     {
-      "at": "2026-10-09T07:28:47.855Z",
-      "marketAverage": 198.4,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-09T18:51:46.130Z",
-      "marketAverage": 197.6,
-      "stationCount": 35
-    },
-    {
-      "at": "2026-10-09T23:08:01.359Z",
-      "marketAverage": 197.3,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-10T05:19:55.531Z",
-      "marketAverage": 196.6,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-10T17:55:46.848Z",
-      "marketAverage": 196.1,
-      "stationCount": 36
-    },
-    {
-      "at": "2026-10-10T21:26:14.660Z",
-      "marketAverage": 195.4,
+      "at": "2026-10-10T12:00:00.000Z",
+      "marketAverage": 196,
       "stationCount": 36
     },
     {
@@ -1206,6 +1076,11 @@
       "at": "2026-10-29T23:14:08.529Z",
       "marketAverage": 186.2,
       "stationCount": 35
+    },
+    {
+      "at": "2026-11-09T23:04:25.390Z",
+      "marketAverage": 159.1,
+      "stationCount": 36
     }
   ]
 }
