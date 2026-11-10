@@ -1,10 +1,30 @@
 {
-  "fetchedAt": "2026-11-10T04:37:08.945Z",
+  "fetchedAt": "2026-11-10T20:27:08.530Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 160.6,
-  "stationCount": 6,
+  "marketAverage": 157.6,
+  "stationCount": 7,
   "stations": [
+    {
+      "id": "canco",
+      "name": "Canco Woodsdale",
+      "address": "11470 Bottom Wood Lake Rd",
+      "lat": 50.076,
+      "lng": -119.3995,
+      "zone": null,
+      "fuelBrand": "Canco",
+      "cstoreBrand": "One Stop",
+      "logoBrand": null,
+      "discount": {
+        "type": "card",
+        "amount": 2,
+        "label": "with Canco card"
+      },
+      "price": 157.9,
+      "reportedBy": "visitor",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
+    },
     {
       "id": "petrocan-n",
       "name": "Petro-Canada North",
@@ -16,9 +36,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 159.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "9 Hours Ago",
+      "price": 157.9,
+      "reportedBy": "murboz65",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -34,8 +54,8 @@
       "discount": null,
       "price": 157.9,
       "reportedBy": "dc180",
-      "reportedAgo": "9 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "1 Day Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -48,10 +68,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 157.9,
-      "reportedBy": "am7174",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "price": 153.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -66,8 +86,8 @@
       "discount": null,
       "price": 159.9,
       "reportedBy": "denno545",
-      "reportedAgo": "12 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "1 Day Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -80,10 +100,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 163.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "price": 157.9,
+      "reportedBy": "murboz65",
+      "reportedAgo": "5 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -96,14 +116,14 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 163.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "price": 157.9,
+      "reportedBy": "murboz65",
+      "reportedAgo": "5 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
+    "parsedCount": 8,
     "unmatched": [
       {
         "number": "350",
