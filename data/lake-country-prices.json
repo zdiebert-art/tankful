@@ -1,30 +1,10 @@
 {
-  "fetchedAt": "2026-11-09T23:04:00.586Z",
+  "fetchedAt": "2026-11-10T04:37:08.945Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 160.8,
-  "stationCount": 7,
+  "marketAverage": 160.6,
+  "stationCount": 6,
   "stations": [
-    {
-      "id": "canco",
-      "name": "Canco Woodsdale",
-      "address": "11470 Bottom Wood Lake Rd",
-      "lat": 50.076,
-      "lng": -119.3995,
-      "zone": null,
-      "fuelBrand": "Canco",
-      "cstoreBrand": "One Stop",
-      "logoBrand": null,
-      "discount": {
-        "type": "card",
-        "amount": 2,
-        "label": "with Canco card"
-      },
-      "price": 161.9,
-      "reportedBy": "Buddy_k2zf2bq0",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
-    },
     {
       "id": "petrocan-n",
       "name": "Petro-Canada North",
@@ -38,7 +18,7 @@
       "discount": null,
       "price": 159.9,
       "reportedBy": "dc180",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -54,7 +34,7 @@
       "discount": null,
       "price": 157.9,
       "reportedBy": "dc180",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "9 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,8 +50,8 @@
       "discount": null,
       "price": 157.9,
       "reportedBy": "am7174",
-      "reportedAgo": "8 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "parkway",
@@ -86,7 +66,7 @@
       "discount": null,
       "price": 159.9,
       "reportedBy": "denno545",
-      "reportedAgo": "6 Hours Ago",
+      "reportedAgo": "12 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,8 +82,8 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -118,12 +98,12 @@
       "discount": null,
       "price": 163.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "11 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "16 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
+    "parsedCount": 7,
     "unmatched": [
       {
         "number": "350",
