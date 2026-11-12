@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-11-12T10:54:52.761Z",
+  "fetchedAt": "2026-11-12T20:50:49.694Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 155.9,
+  "marketAverage": 155.8,
   "stationCount": 7,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 157.9,
+      "price": 155.9,
       "reportedBy": "visitor",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 155.9,
-      "reportedBy": "l_polmear",
-      "reportedAgo": "6 Hours Ago",
+      "reportedBy": "porcelaindoll78",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 155.9,
-      "reportedBy": "murboz65",
-      "reportedAgo": "17 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "porcelaindoll78",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -68,10 +68,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 153.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "price": 155.9,
+      "reportedBy": "porcelaindoll78",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "parkway",
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 154.9,
       "reportedBy": "murboz65",
-      "reportedAgo": "17 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -101,9 +101,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 155.9,
-      "reportedBy": "buddy_shell8888",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "porcelaindoll78",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -116,10 +116,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 156.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "price": 155.9,
+      "reportedBy": "porcelaindoll78",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
@@ -128,7 +128,7 @@
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 157.9
+        "price": 153.9
       }
     ]
   }
