@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-11-14T23:03:19.788Z",
+  "fetchedAt": "2026-11-15T02:37:55.653Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 154.3,
-  "stationCount": 7,
+  "marketAverage": 154.2,
+  "stationCount": 6,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,7 @@
       },
       "price": 152.9,
       "reportedBy": "visitor",
-      "reportedAgo": "21 Minutes Ago",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -69,25 +69,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 150.9,
-      "reportedBy": "Lizard_Warrior",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
-    },
-    {
-      "id": "parkway",
-      "name": "Parkway (Shell)",
-      "address": "11891 BC-97",
-      "lat": 50.093,
-      "lng": -119.3835,
-      "zone": null,
-      "fuelBrand": "Parkway",
-      "cstoreBrand": null,
-      "logoBrand": "Shell",
-      "discount": null,
-      "price": 154.9,
-      "reportedBy": "murboz65",
-      "reportedAgo": "3 Days Ago",
-      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -102,7 +86,7 @@
       "discount": null,
       "price": 153.9,
       "reportedBy": "LoriReich",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -123,7 +107,7 @@
     }
   ],
   "diagnostics": {
-    "parsedCount": 8,
+    "parsedCount": 7,
     "unmatched": [
       {
         "number": "350",
