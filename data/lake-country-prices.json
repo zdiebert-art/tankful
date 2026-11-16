@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-11-16T05:58:43.271Z",
+  "fetchedAt": "2026-11-16T22:55:25.795Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 152.1,
-  "stationCount": 6,
+  "marketAverage": 151.5,
+  "stationCount": 7,
   "stations": [
     {
       "id": "canco",
@@ -22,7 +22,23 @@
       },
       "price": 150.9,
       "reportedBy": "dc180",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
+    },
+    {
+      "id": "petrocan-n",
+      "name": "Petro-Canada North",
+      "address": "9855 BC-97 N",
+      "lat": 50.0479,
+      "lng": -119.4078,
+      "zone": null,
+      "fuelBrand": "Petro-Canada",
+      "cstoreBrand": null,
+      "logoBrand": null,
+      "discount": null,
+      "price": 152.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -38,8 +54,8 @@
       "discount": null,
       "price": 152.9,
       "reportedBy": "dc180",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "21 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -52,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 147.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "4 Hours Ago",
+      "price": 149.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "3 Hours Ago",
       "trust": "user"
     },
     {
@@ -68,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 154.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "price": 146.9,
+      "reportedBy": "torino17",
+      "reportedAgo": "6 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -84,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 152.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "4 Hours Ago",
+      "price": 153.9,
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "44 Minutes Ago",
       "trust": "user"
     },
     {
@@ -101,13 +117,19 @@
       "logoBrand": null,
       "discount": null,
       "price": 152.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "materialgirl75",
+      "reportedAgo": "44 Minutes Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 6,
-    "unmatched": []
+    "parsedCount": 8,
+    "unmatched": [
+      {
+        "number": "350",
+        "street": "Carion Rd",
+        "price": 147.9
+      }
+    ]
   }
 }
