@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-11-16T00:01:14.115Z",
+  "fetchedAt": "2026-11-16T05:58:43.271Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 152.9,
+  "marketAverage": 152.1,
   "stationCount": 6,
   "stations": [
     {
@@ -21,8 +21,8 @@
         "label": "with Canco card"
       },
       "price": 150.9,
-      "reportedBy": "JMF68",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "dc180",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 152.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "14 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "dc180",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 152.9,
-      "reportedBy": "thatcar",
-      "reportedAgo": "2 Hours Ago",
+      "price": 147.9,
+      "reportedBy": "dc180",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 154.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "14 Hours Ago",
+      "reportedAgo": "20 Hours Ago",
       "trust": "stale"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 152.9,
-      "reportedBy": "buddy_shell8888",
-      "reportedAgo": "8 Hours Ago",
+      "reportedBy": "dc180",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 152.9,
-      "reportedBy": "smarti_bear",
-      "reportedAgo": "8 Hours Ago",
+      "reportedBy": "dc180",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     }
   ],
