@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-15T19:20:15.639Z",
+  "fetchedAt": "2026-11-16T00:01:14.115Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 152.9,
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 152.9,
-      "reportedBy": "visitor",
-      "reportedAgo": "20 Hours Ago",
-      "trust": "stale"
+      "price": 150.9,
+      "reportedBy": "JMF68",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 152.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -52,9 +52,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 150.9,
-      "reportedBy": "sukhveerkaur687",
-      "reportedAgo": "32 Minutes Ago",
+      "price": 152.9,
+      "reportedBy": "thatcar",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,8 +70,8 @@
       "discount": null,
       "price": 154.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "10 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "14 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 152.9,
       "reportedBy": "buddy_shell8888",
-      "reportedAgo": "3 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,18 +102,12 @@
       "discount": null,
       "price": 152.9,
       "reportedBy": "smarti_bear",
-      "reportedAgo": "4 Hours Ago",
+      "reportedAgo": "8 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 153.9
-      }
-    ]
+    "parsedCount": 6,
+    "unmatched": []
   }
 }
