@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-11-16T22:55:25.795Z",
+  "fetchedAt": "2026-11-17T21:47:04.322Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 151.5,
+  "marketAverage": 152.9,
   "stationCount": 7,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 150.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "21 Hours Ago",
-      "trust": "stale"
+      "price": 157.9,
+      "reportedBy": "visitor",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 152.9,
       "reportedBy": "Spyder7760",
-      "reportedAgo": "3 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "1 Day Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -54,7 +54,7 @@
       "discount": null,
       "price": 152.9,
       "reportedBy": "dc180",
-      "reportedAgo": "21 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 149.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "3 Hours Ago",
+      "price": 147.9,
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 146.9,
-      "reportedBy": "torino17",
-      "reportedAgo": "6 Hours Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -102,7 +102,7 @@
       "discount": null,
       "price": 153.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "44 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -116,9 +116,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 152.9,
+      "price": 157.9,
       "reportedBy": "materialgirl75",
-      "reportedAgo": "44 Minutes Ago",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
