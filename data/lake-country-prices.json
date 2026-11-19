@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-11-19T03:13:57.856Z",
+  "fetchedAt": "2026-11-19T21:19:44.453Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 151.3,
+  "marketAverage": 149.6,
   "stationCount": 7,
   "stations": [
     {
@@ -22,8 +22,8 @@
       },
       "price": 149.9,
       "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "5 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "23 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "petrocan-n",
@@ -36,10 +36,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 157.9,
-      "reportedBy": "kenbobbc",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 149.9,
+      "reportedBy": "ctwhitts1",
+      "reportedAgo": "12 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -52,10 +52,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 152.9,
-      "reportedBy": "kenbobbc",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 149.9,
+      "reportedBy": "ctwhitts1",
+      "reportedAgo": "13 Minutes Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 147.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "5 Hours Ago",
+      "reportedBy": "am7174",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -84,10 +84,10 @@
       "cstoreBrand": null,
       "logoBrand": "Shell",
       "discount": null,
-      "price": 146.9,
-      "reportedBy": "rx7racerca",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 149.9,
+      "reportedBy": "TravelBeauty",
+      "reportedAgo": "3 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -100,9 +100,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 153.9,
-      "reportedBy": "JMF68",
-      "reportedAgo": "27 Minutes Ago",
+      "price": 149.9,
+      "reportedBy": "buddy_shell8888",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 149.9,
-      "reportedBy": "JMF68",
-      "reportedAgo": "27 Minutes Ago",
+      "reportedBy": "rx7racerca",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     }
   ],
