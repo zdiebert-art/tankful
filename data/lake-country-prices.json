@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-11-21T10:56:13.030Z",
+  "fetchedAt": "2026-11-21T20:09:33.128Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 148.6,
+  "marketAverage": 148.2,
   "stationCount": 6,
   "stations": [
     {
@@ -16,10 +16,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 149.9,
-      "reportedBy": "tommyz40",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 148.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -49,7 +49,7 @@
       "logoBrand": null,
       "discount": null,
       "price": 145.9,
-      "reportedBy": "dc180",
+      "reportedBy": "am7174",
       "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
@@ -81,8 +81,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 148.9,
-      "reportedBy": "buddy_shell8888",
-      "reportedAgo": "12 Hours Ago",
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "4 Hours Ago",
       "trust": "user"
     },
     {
@@ -96,20 +96,14 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 149.9,
-      "reportedBy": "TbayBoo",
-      "reportedAgo": "16 Hours Ago",
-      "trust": "stale"
+      "price": 148.9,
+      "reportedBy": "Spyder7760",
+      "reportedAgo": "4 Hours Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 7,
-    "unmatched": [
-      {
-        "number": "350",
-        "street": "Carion Rd",
-        "price": 147.9
-      }
-    ]
+    "parsedCount": 6,
+    "unmatched": []
   }
 }
