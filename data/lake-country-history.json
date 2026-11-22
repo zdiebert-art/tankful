@@ -1,6 +1,6 @@
 {
   "region": "lake-country",
-  "updatedAt": "2026-11-22T00:26:37.437Z",
+  "updatedAt": "2026-11-22T07:58:29.670Z",
   "samples": [
     {
       "at": "2026-05-12T12:00:00.000Z",
@@ -823,12 +823,7 @@
       "stationCount": 6
     },
     {
-      "at": "2026-10-23T00:30:21.470Z",
-      "marketAverage": 195.7,
-      "stationCount": 6
-    },
-    {
-      "at": "2026-10-23T05:58:59.510Z",
+      "at": "2026-10-23T12:00:00.000Z",
       "marketAverage": 195.7,
       "stationCount": 6
     },
@@ -1089,6 +1084,11 @@
     },
     {
       "at": "2026-11-22T00:26:37.437Z",
+      "marketAverage": 147.9,
+      "stationCount": 7
+    },
+    {
+      "at": "2026-11-22T07:58:29.670Z",
       "marketAverage": 147.9,
       "stationCount": 7
     }

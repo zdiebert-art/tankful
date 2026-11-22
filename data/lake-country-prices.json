@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T00:26:37.437Z",
+  "fetchedAt": "2026-11-22T07:58:29.670Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 147.9,
@@ -21,8 +21,8 @@
         "label": "with Canco card"
       },
       "price": 147.9,
-      "reportedBy": "FRENCHMUSTANG",
-      "reportedAgo": "1 Hour Ago",
+      "reportedBy": "LoriReich",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -37,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 148.9,
-      "reportedBy": "foordfun",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "LoriReich",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -53,8 +53,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 148.9,
-      "reportedBy": "foordfun",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "LoriReich",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 144.9,
       "reportedBy": "dc180",
-      "reportedAgo": "16 Minutes Ago",
+      "reportedAgo": "5 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,7 +86,7 @@
       "discount": null,
       "price": 146.9,
       "reportedBy": "tommyz40",
-      "reportedAgo": "1 Day Ago",
+      "reportedAgo": "2 Days Ago",
       "trust": "stale"
     },
     {
@@ -101,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 148.9,
-      "reportedBy": "foordfun",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "LoriReich",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     },
     {
@@ -117,8 +117,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 148.9,
-      "reportedBy": "foordfun",
-      "reportedAgo": "2 Hours Ago",
+      "reportedBy": "LoriReich",
+      "reportedAgo": "6 Hours Ago",
       "trust": "user"
     }
   ],
