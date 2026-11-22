@@ -1,10 +1,30 @@
 {
-  "fetchedAt": "2026-11-21T20:09:33.128Z",
+  "fetchedAt": "2026-11-22T00:26:37.437Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 148.2,
-  "stationCount": 6,
+  "marketAverage": 147.9,
+  "stationCount": 7,
   "stations": [
+    {
+      "id": "canco",
+      "name": "Canco Woodsdale",
+      "address": "11470 Bottom Wood Lake Rd",
+      "lat": 50.076,
+      "lng": -119.3995,
+      "zone": null,
+      "fuelBrand": "Canco",
+      "cstoreBrand": "One Stop",
+      "logoBrand": null,
+      "discount": {
+        "type": "card",
+        "amount": 2,
+        "label": "with Canco card"
+      },
+      "price": 147.9,
+      "reportedBy": "FRENCHMUSTANG",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
+    },
     {
       "id": "petrocan-n",
       "name": "Petro-Canada North",
@@ -17,8 +37,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 148.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "foordfun",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -32,10 +52,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 149.9,
-      "reportedBy": "tommyz40",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 148.9,
+      "reportedBy": "foordfun",
+      "reportedAgo": "2 Hours Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -48,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 145.9,
-      "reportedBy": "am7174",
-      "reportedAgo": "4 Hours Ago",
+      "price": 144.9,
+      "reportedBy": "dc180",
+      "reportedAgo": "16 Minutes Ago",
       "trust": "user"
     },
     {
@@ -81,8 +101,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 148.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "foordfun",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     },
     {
@@ -97,13 +117,13 @@
       "logoBrand": null,
       "discount": null,
       "price": 148.9,
-      "reportedBy": "Spyder7760",
-      "reportedAgo": "4 Hours Ago",
+      "reportedBy": "foordfun",
+      "reportedAgo": "2 Hours Ago",
       "trust": "user"
     }
   ],
   "diagnostics": {
-    "parsedCount": 6,
+    "parsedCount": 7,
     "unmatched": []
   }
 }
