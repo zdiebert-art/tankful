@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T01:39:30.951Z",
+  "fetchedAt": "2026-11-23T10:40:36.577Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
   "marketAverage": 147.2,
@@ -22,7 +22,7 @@
       },
       "price": 147.9,
       "reportedBy": "LoriReich",
-      "reportedAgo": "23 Hours Ago",
+      "reportedAgo": "1 Day Ago",
       "trust": "stale"
     },
     {
@@ -38,8 +38,8 @@
       "discount": null,
       "price": 148.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "husky",
@@ -54,8 +54,8 @@
       "discount": null,
       "price": 147.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "supersave",
@@ -70,7 +70,7 @@
       "discount": null,
       "price": 141.9,
       "reportedBy": "dc180",
-      "reportedAgo": "1 Hour Ago",
+      "reportedAgo": "10 Hours Ago",
       "trust": "user"
     },
     {
@@ -86,8 +86,8 @@
       "discount": null,
       "price": 146.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "shell-lc",
@@ -102,8 +102,8 @@
       "discount": null,
       "price": 147.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     },
     {
       "id": "chevron",
@@ -118,8 +118,8 @@
       "discount": null,
       "price": 148.9,
       "reportedBy": "SMAC_72",
-      "reportedAgo": "4 Hours Ago",
-      "trust": "user"
+      "reportedAgo": "13 Hours Ago",
+      "trust": "stale"
     }
   ],
   "diagnostics": {
