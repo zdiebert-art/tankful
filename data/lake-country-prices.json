@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-11-23T10:40:36.577Z",
+  "fetchedAt": "2026-11-24T00:47:06.811Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 147.2,
+  "marketAverage": 146,
   "stationCount": 7,
   "stations": [
     {
@@ -20,10 +20,10 @@
         "amount": 2,
         "label": "with Canco card"
       },
-      "price": 147.9,
-      "reportedBy": "LoriReich",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "price": 143.9,
+      "reportedBy": "Buddy_h9gyneda",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "petrocan-n",
@@ -36,10 +36,10 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 148.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "price": 147.9,
+      "reportedBy": "vicki2502",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -53,9 +53,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 147.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "vicki2502",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -68,9 +68,9 @@
       "cstoreBrand": null,
       "logoBrand": null,
       "discount": null,
-      "price": 141.9,
-      "reportedBy": "dc180",
-      "reportedAgo": "10 Hours Ago",
+      "price": 139.9,
+      "reportedBy": "Jaskaran_brar",
+      "reportedAgo": "29 Minutes Ago",
       "trust": "user"
     },
     {
@@ -85,9 +85,9 @@
       "logoBrand": "Shell",
       "discount": null,
       "price": 146.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "Buddy_h9gyneda",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "shell-lc",
@@ -101,9 +101,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 147.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "reportedBy": "vicki2502",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "chevron",
@@ -116,10 +116,10 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 148.9,
-      "reportedBy": "SMAC_72",
-      "reportedAgo": "13 Hours Ago",
-      "trust": "stale"
+      "price": 147.9,
+      "reportedBy": "vicki2502",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     }
   ],
   "diagnostics": {
@@ -128,7 +128,7 @@
       {
         "number": "350",
         "street": "Carion Rd",
-        "price": 147.9
+        "price": 141.9
       }
     ]
   }
