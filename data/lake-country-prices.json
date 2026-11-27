@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-11-26T22:12:35.342Z",
+  "fetchedAt": "2026-11-27T05:06:21.971Z",
   "region": "lake-country",
   "source": "gasbuddy.com",
-  "marketAverage": 152.1,
+  "marketAverage": 149.2,
   "stationCount": 6,
   "stations": [
     {
@@ -37,9 +37,9 @@
       "logoBrand": null,
       "discount": null,
       "price": 147.9,
-      "reportedBy": "biffy62",
-      "reportedAgo": "1 Day Ago",
-      "trust": "stale"
+      "reportedBy": "tommyz40",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "husky",
@@ -52,10 +52,10 @@
       "cstoreBrand": "CO-OP",
       "logoBrand": null,
       "discount": null,
-      "price": 152.9,
-      "reportedBy": "Buddy_b0nbbv92",
-      "reportedAgo": "23 Hours Ago",
-      "trust": "stale"
+      "price": 147.9,
+      "reportedBy": "tommyz40",
+      "reportedAgo": "1 Hour Ago",
+      "trust": "user"
     },
     {
       "id": "supersave",
@@ -69,8 +69,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 143.9,
-      "reportedBy": "am7174",
-      "reportedAgo": "6 Hours Ago",
+      "reportedBy": "tommyz40",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -85,8 +85,8 @@
       "logoBrand": null,
       "discount": null,
       "price": 147.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "10 Hours Ago",
+      "reportedBy": "tommyz40",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     },
     {
@@ -100,9 +100,9 @@
       "cstoreBrand": "On the Run",
       "logoBrand": null,
       "discount": null,
-      "price": 159.9,
-      "reportedBy": "materialgirl75",
-      "reportedAgo": "10 Hours Ago",
+      "price": 147.9,
+      "reportedBy": "tommyz40",
+      "reportedAgo": "1 Hour Ago",
       "trust": "user"
     }
   ],
